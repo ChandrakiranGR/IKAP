@@ -44,11 +44,23 @@ def call_llm(system_prompt: str, user_prompt: str) -> str:
 
 
 def save_result(payload: dict) -> Path:
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    out_path = RESULTS_DIR / f"{ts}_{payload['technique']}.json"
-    out_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
-    return out_path
+    technique = payload["technique"]
+    latest_path = RESULTS_DIR / f"{technique}.json"
+    latest_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
+    return latest_path
+
+def export_markdown(payload: dict) -> Path:
+    md_path = RESULTS_DIR / f"{payload['technique']}.md"
+
+    content = f"# Technique: {payload['technique']}\n\n"
+    content += f"## Model\n{payload['model']}\n\n"
+    content += f"## User Query\n{payload['user_query']}\n\n"
+    content += "## Response\n\n"
+    content += payload["response"]
+
+    md_path.write_text(content, encoding="utf-8")
+    return md_path
 
 def run_experiment(experiment_module_name: str):
     module = importlib.import_module(f"experiments.{experiment_module_name}")
@@ -67,9 +79,16 @@ def run_experiment(experiment_module_name: str):
         "response": response,
     }
 
-    out_path = save_result(payload)
-    print(f"[✓] Saved: {out_path}")
+    # out_path = save_result(payload)
+    # print(f"[✓] Saved: {out_path}")
+    json_path = save_result(payload)
+    md_path = export_markdown(payload)
+
+    print(f"[✓] Saved JSON: {json_path}")
+    print(f"[✓] Saved Markdown: {md_path}")
+
 
 
 if __name__ == "__main__":
-    run_experiment("zero_shot")
+    for technique in ["zero_shot", "step_back"]:
+        run_experiment(technique)

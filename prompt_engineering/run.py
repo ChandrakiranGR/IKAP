@@ -79,13 +79,11 @@ def run_experiment(experiment_module_name: str):
         "response": response,
     }
 
-    # out_path = save_result(payload)
-    # print(f"[✓] Saved: {out_path}")
     json_path = save_result(payload)
     md_path = export_markdown(payload)
 
-    print(f"[✓] Saved JSON: {json_path}")
-    print(f"[✓] Saved Markdown: {md_path}")
+    print(f"Saved JSON: {json_path}")
+    print(f"Saved Markdown: {md_path}")
 
 
 

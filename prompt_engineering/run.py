@@ -50,6 +50,7 @@ def save_result(payload: dict) -> Path:
 
     return latest_path
 
+
 def export_markdown(payload: dict) -> Path:
     md_path = RESULTS_DIR / f"{payload['technique']}.md"
 
@@ -61,6 +62,7 @@ def export_markdown(payload: dict) -> Path:
 
     md_path.write_text(content, encoding="utf-8")
     return md_path
+
 
 def run_experiment(experiment_module_name: str):
     module = importlib.import_module(f"experiments.{experiment_module_name}")
@@ -86,7 +88,12 @@ def run_experiment(experiment_module_name: str):
     print(f"Saved Markdown: {md_path}")
 
 
-
 if __name__ == "__main__":
-    for technique in ["zero_shot", "step_back", "analogical"]:
+    for technique in [
+        "zero_shot",
+        "step_back",
+        "analogical",
+        "autocot",
+        "generate_knowledge",
+    ]:
         run_experiment(technique)

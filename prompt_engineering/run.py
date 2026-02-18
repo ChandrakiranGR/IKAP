@@ -88,5 +88,5 @@ def run_experiment(experiment_module_name: str):
 
 
 if __name__ == "__main__":
-    for technique in ["zero_shot", "step_back"]:
+    for technique in ["zero_shot", "step_back", "analogical"]:
         run_experiment(technique)

@@ -1,107 +1,146 @@
-IKAP – Intelligent Knowledge Assistant Platform
-Overview
-IKAP (Intelligent Knowledge Assistant Platform) is an AI-powered knowledge assistant designed to improve access to institutional knowledge bases.
+# IKAP – Intelligent Knowledge Assistant Platform
+
+**IKAP** (Intelligent Knowledge Assistant Platform) is an AI-powered knowledge assistant designed to improve access to institutional knowledge bases.
+
+## Overview
 
 The system aims to:
-1) Provide natural-language search over knowledge base articles
-2) Deliver structured, step-by-step troubleshooting guidance
-3) Reduce ticket resolution time
-4) Improve consistency of support responses
 
-This repository contains the foundational work for prompt engineering, experimentation, and future RAG-based system development.
+1. Provide natural-language search over knowledge base articles  
+2. Deliver structured, step-by-step troubleshooting guidance  
+3. Reduce ticket resolution time  
+4. Improve consistency of support responses  
 
-Current Module: Prompt Engineering
+This repository contains the foundational work for **prompt engineering**, experimentation, and future **RAG-based system development**.
 
-The prompt_engineering/ module is responsible for:
+---
 
-1) System prompt experimentation
-2) Evaluation of prompting techniques
-3) Measuring consistency and reliability
-4) Preparing prompts for future RAG integration
+## Current Module: Prompt Engineering
 
-This module serves as a controlled environment to test and compare different prompt strategies before integrating them into the full IKAP architecture.
+The `prompt_engineering/` module is responsible for:
 
-Repository Structure
+- System prompt experimentation  
+- Evaluation of prompting techniques  
+- Measuring consistency and reliability  
+- Preparing prompts for future RAG integration  
+
+This module serves as a controlled environment to test and compare different prompt strategies **before integrating them into the full IKAP architecture**.
+
+---
+
+## Repository Structure
+
+```
 IKAP/
 │
 ├── prompt_engineering/
-│   ├── run.py
-│   ├── prompts/
-│   ├── experiments/
-│   └── results/
+│   ├── run.py                 # Main entry point for running prompt experiments
+│   ├── prompts/               # Prompt templates (for future separation of techniques)
+│   ├── experiments/           # Experiment configurations and technique definitions
+│   └── results/               # Automatically generated JSON outputs from runs
 │
-├── .env
+├── .env                       # Environment variables (API key)
 ├── .gitignore
 └── README.md
+```
 
-prompt_engineering/
+---
 
-Contains all prompt experimentation logic.
+### prompt_engineering/
 
-run.py → Main entry point for running prompt experiments
+Contains all **prompt experimentation logic**:
 
-prompts/ → Prompt templates (future separation of techniques)
+- `run.py` → Main entry point for running prompt experiments  
+- `prompts/` → Prompt templates  
+- `experiments/` → Experiment configurations and technique definitions  
+- `results/` → Automatically generated JSON outputs from runs  
 
-experiments/ → Experiment configurations and technique definitions
+---
 
-results/ → Automatically generated JSON outputs from runs
+## Setup Instructions
 
-------Setup Instructions------
-1. Clone the Repository
+1. **Clone the Repository**
+
+```bash
 git clone <repo_url>
 cd IKAP
+```
 
-2. Create Virtual Environment
+2. **Create Virtual Environment**
+
+```bash
 python -m venv .venv
 source .venv/bin/activate        # mac/linux
 # .venv\Scripts\activate         # windows
+```
 
-3. Install Dependencies
+3. **Install Dependencies**
+
+You can install dependencies either via `pip` for individual packages or using `requirements.txt`:
+
+**Option 1: Install manually**
+```bash
 pip install openai python-dotenv
+```
 
-4. Configure API Key
+**Option 2: Install from `requirements.txt`**
+```bash
+pip install -r requirements.txt
+```
 
-Create a .env file at the repository root:
+4. **Configure API Key**
+
+Create a `.env` file at the repository root:
+
+```
 OPENAI_API_KEY=your_api_key_here
-⚠️ Do not commit .env to GitHub.
+```
 
-Running Prompt Experiments
+⚠️ **Do not commit `.env` to GitHub.**
+
+---
+
+## Running Prompt Experiments
+
 To run the baseline experiment:
 
+```bash
 python prompt_engineering/run.py
+```
 
 This will:
 
-Execute the configured prompt technique
-
-Call the selected model
-
-Save output as a timestamped JSON file inside prompt_engineering/results/
+- Execute the configured prompt technique  
+- Call the selected model  
+- Save output as a timestamped JSON file inside `prompt_engineering/results/`  
 
 Example output:
 
-prompt_engineering/results/20260217_123045_zero_shot.json
+```
+prompt_engineering/results/zero_shot.json
+```
 
-Development Roadmap
+---
 
-This repository will evolve to include:
+## Development Roadmap
 
-Advanced prompt engineering techniques
+Future enhancements will include:
 
-Self-consistency and evaluation strategies
+- Advanced prompt engineering techniques  
+- Self-consistency and evaluation strategies  
+- Retrieval-Augmented Generation (RAG) pipeline  
+- Backend service layer  
+- Frontend interface  
 
-Retrieval-Augmented Generation (RAG) pipeline
+The current focus is **establishing a rigorous and reproducible prompt experimentation framework**.
 
-Backend service layer
+---
 
-Frontend interface
+## Collaboration Guidelines
 
-The current focus is establishing a rigorous and reproducible prompt experimentation framework.
+1. Keep modules clean and modular  
+2. Do not hardcode API keys  
+3. Store experiment outputs only in `results/`  
+4. Use clear naming conventions for new experiments  
+5. Keep model and temperature constants consistent during comparisons
 
-Collaboration Guidelines
-
-1) Keep modules clean and modular
-2) Do not hardcode API keys
-3) Store experiment outputs only in results/
-4) Use clear naming conventions for new experiments
-5) Keep model and temperature constants consistent during comparisons

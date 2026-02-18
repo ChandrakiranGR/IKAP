@@ -8,36 +8,41 @@ I am a new Northeastern student. How do I enroll in Duo multi-factor authenticat
 
 ## Response
 
-Welcome to Northeastern! Here’s a step-by-step guide to enroll in Duo multi-factor authentication (MFA):
+Welcome to Northeastern! Here’s how you can enroll in Duo multi-factor authentication (MFA):
 
-### Step 1: Access the Duo Enrollment Page
-1. Go to the Northeastern University login page.
-2. Enter your Northeastern credentials (username and password).
-3. You will be prompted to set up Duo MFA.
+### Step-by-Step Guide to Enroll in Duo MFA:
 
-### Step 2: Choose Your Authentication Method
-1. **Select a Device**: You can choose to use a smartphone, tablet, or a hardware token.
-2. **Smartphone/Tablet**: If you choose to use a mobile device, download the Duo Mobile app from the App Store (iOS) or Google Play Store (Android).
+1. **Log into MyNortheastern:**
+   - Go to the MyNortheastern portal at [my.northeastern.edu](https://my.northeastern.edu).
+   - Enter your Northeastern credentials to log in.
 
-### Step 3: Set Up Duo Mobile
-1. Open the Duo Mobile app on your device.
-2. Follow the on-screen instructions to add your account:
-   - You may need to scan a QR code displayed on your computer screen.
-   - If you cannot scan the QR code, you can choose to receive a text message or call to verify your identity.
+2. **Access the Duo Enrollment Page:**
+   - Once logged in, navigate to the **“Duo MFA”** section. This may be found under the security settings or account settings.
 
-### Step 4: Complete Enrollment
-1. Once your device is added, you will receive a confirmation that your Duo account is set up.
-2. You may be prompted to test the authentication method to ensure it works correctly.
+3. **Start the Enrollment Process:**
+   - Click on the option to **“Enroll in Duo”**. This will guide you through the setup process.
 
-### Step 5: Additional Options
-1. You can set up additional devices if needed (e.g., a landline or another mobile device).
-2. Review your settings and preferences in the Duo app.
+4. **Choose Your Authentication Method:**
+   - You will be prompted to select how you want to receive authentication requests. Options typically include:
+     - **Duo Mobile App:** Download the Duo Mobile app from the App Store (iOS) or Google Play (Android).
+     - **Phone Call:** You can set up a phone number to receive calls.
+     - **Text Message:** You can opt to receive a text message with a passcode.
 
-### Step 6: Log In with Duo
-1. The next time you log in to a Northeastern service that requires MFA, you will be prompted to use Duo.
-2. Follow the instructions to authenticate using your chosen method (push notification, phone call, or passcode).
+5. **Follow the Prompts:**
+   - If you choose the Duo Mobile app, you will need to scan a QR code with the app to link it to your account.
+   - If you choose phone call or text message, follow the instructions to verify your phone number.
 
-### Need Help?
-If you encounter any issues during the enrollment process, you can contact Northeastern IT Services for assistance.
+6. **Complete the Enrollment:**
+   - Once you have set up your preferred method, confirm your settings.
+   - You may be asked to verify your setup by completing a test authentication.
 
-Good luck, and enjoy your time at Northeastern!
+7. **Save Your Backup Codes:**
+   - After enrollment, you may be provided with backup codes. Save these in a secure location, as they can be used if you lose access to your primary authentication method.
+
+8. **Log Out and Test:**
+   - Log out of your account and log back in to test your Duo MFA setup. Ensure that you can receive authentication requests successfully.
+
+### Additional Tips:
+- If you encounter any issues during the enrollment process, consult the Northeastern IT Services Knowledge Base or reach out to the IT Support Center for assistance.
+
+By following these steps, you should be successfully enrolled in Duo multi-factor authentication. If you have any further questions, feel free to ask!

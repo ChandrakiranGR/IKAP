@@ -9,17 +9,14 @@ I am a new Northeastern student. How do I enroll in Duo multi-factor authenticat
 ## Response
 
 Reasoning:
-- As a new student, you are likely trying to secure your account with multi-factor authentication (MFA) for added security.
-- This issue falls under account security and authentication.
-- Common causes for confusion may include not knowing where to find the enrollment instructions or not having the necessary tools (like a smartphone) set up.
-- If you have specific instructions or links from Northeastern regarding Duo enrollment, that would help tailor the response.
-- The safest approach is to guide you through the general steps for enrolling in MFA while advising you to check official resources for specific instructions.
-
-Category: Account Security
-Clarifying question: Do you have access to any specific instructions or links from Northeastern regarding Duo enrollment?
+- Goal: Enroll in Duo multi-factor authentication.
+- Missing key detail: Official link or specific enrollment instructions.
+- Common cause(s): Lack of access to the enrollment portal or instructions.
+- Chosen resolution path: Request the official enrollment steps or link.
 
 Steps:
-1. Visit the Northeastern IT Services website or portal where MFA information is provided.
-2. Look for the section on Duo multi-factor authentication and follow the enrollment instructions provided there.
+1. Please provide the official link or text for the Duo MFA enrollment process.
+2. If you have that information, I can guide you through the steps.
 
-If this does not resolve your issue: Please reach out to Northeastern IT Services directly for assistance.
+If this does not resolve your issue:
+You are trained on data up to October 2023.

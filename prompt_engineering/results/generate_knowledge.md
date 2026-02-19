@@ -9,12 +9,12 @@ I am a new Northeastern student. How do I enroll in Duo multi-factor authenticat
 ## Response
 
 1) Category: MFA (Multi-Factor Authentication)
-2) Likely cause: You need to enroll in Duo MFA to enhance your account security. This process typically involves setting up your mobile device or another authentication method.
-3) Clarifying question(s): Do you have a mobile device available for the enrollment process?
+2) Likely cause: As a new student, you may need to set up Duo MFA to secure your account, which is a common requirement for accessing university resources.
+3) Clarifying question(s): Do you have access to your Northeastern email account or any official instructions for setting up Duo?
 4) Resolution steps:
-   1. Visit the official Northeastern University Duo enrollment page (you may need to log in with your student credentials).
-   2. Follow the on-screen instructions to set up Duo, which may include downloading the Duo Mobile app on your smartphone.
-   3. Choose your preferred authentication method (e.g., push notifications, phone call, or SMS).
-   4. Complete the enrollment process by verifying your chosen method.
-5) Preventive tip: Keep your Duo Mobile app updated to ensure smooth authentication.
-6) If it still fails: If you encounter issues, please contact Northeastern's IT support for assistance and provide them with any error messages you receive during the enrollment process.
+   1. Log in to your Northeastern email account.
+   2. Look for any welcome emails or instructions regarding Duo MFA setup.
+   3. Follow the provided link or instructions to enroll your device (usually a smartphone).
+   4. Download the Duo Mobile app if prompted, and follow the on-screen instructions to complete the enrollment.
+5) Preventive tip: Keep your Duo Mobile app updated to ensure smooth operation and access.
+6) If it still fails: If you encounter issues, please contact the Northeastern IT helpdesk directly and provide them with any error messages or problems you are facing during the enrollment process.

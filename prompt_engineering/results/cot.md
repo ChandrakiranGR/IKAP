@@ -10,13 +10,15 @@ I am a new Northeastern student. How do I enroll in Duo multi-factor authenticat
 
 Reasoning:
 - Goal: Enroll in Duo multi-factor authentication.
-- Missing key detail: Official link or specific enrollment instructions.
-- Common cause(s): Lack of access to the enrollment portal or instructions.
-- Chosen resolution path: Request the official enrollment steps or link.
+- Missing info: Official KB text/link for enrollment steps.
+- Common cause(s): Not having the Duo app installed, not having a device ready for enrollment.
+- Safe approach: Request the official enrollment instructions from the user.
 
+Category: MFA
+Clarifying question(s): Do you have the Duo Mobile app installed on your device?
 Steps:
-1. Please provide the official link or text for the Duo MFA enrollment process.
-2. If you have that information, I can guide you through the steps.
+1. Download and install the Duo Mobile app from your device's app store.
+2. Follow the official enrollment instructions provided by Northeastern.
+3. Complete the enrollment process in the app as directed.
 
-If this does not resolve your issue:
-You are trained on data up to October 2023.
+If this does not resolve your issue: Please contact the IT Help Desk and provide them with details about your enrollment attempt and any error messages you encountered.

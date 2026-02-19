@@ -8,10 +8,11 @@ I am a new Northeastern student. How do I enroll in Duo multi-factor authenticat
 
 ## Response
 
-Category: MFA (Multi-Factor Authentication)  
-Clarifying question(s): Could you please provide the Northeastern KB text or link regarding Duo enrollment?  
+Category: MFA  
+Clarifying question(s): Do you have access to your Northeastern email account?  
 Steps:  
-1. Visit the Northeastern University Duo enrollment page.  
-2. Follow the instructions provided to set up your Duo account, which typically includes downloading the Duo Mobile app and linking it to your university account.  
-3. Complete the enrollment process by verifying your phone number and setting your authentication preferences.  
-If it still fails: Please contact the IT helpdesk for further assistance.
+1. Log in to your Northeastern email account.  
+2. Navigate to the Duo enrollment page, which is typically found in the security settings or IT services section.  
+3. Follow the prompts to set up Duo multi-factor authentication, including selecting your preferred method (e.g., mobile app, phone call, or SMS).  
+4. Complete the verification process as instructed.  
+If it still fails: Please share the relevant Northeastern KB text or link for specific instructions.

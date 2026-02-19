@@ -95,5 +95,6 @@ if __name__ == "__main__":
         "analogical",
         "autocot",
         "generate_knowledge",
+        "cot",
     ]:
         run_experiment(technique)

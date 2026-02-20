@@ -96,6 +96,6 @@ if __name__ == "__main__":
         # "autocot",
         # "generate_knowledge",
         # "few_shot"
-        "v1_system_prompt"
+        "v2_advance_prompt"
     ]:
         run_experiment(technique)

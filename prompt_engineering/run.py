@@ -90,11 +90,12 @@ def run_experiment(experiment_module_name: str):
 
 if __name__ == "__main__":
     for technique in [
-        "zero_shot",
-        "step_back",
-        "analogical",
-        "autocot",
-        "generate_knowledge",
-        "few_shot"
+        #   "zero_shot",
+        #   "step_back",
+        #  "analogical",
+        # "autocot",
+        # "generate_knowledge",
+        # "few_shot"
+        "v1_system_prompt"
     ]:
         run_experiment(technique)

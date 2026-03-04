@@ -1,0 +1,566 @@
+{
+  "experiment": "IKAP Prompt Sensitivity Testing",
+  "date": "2026-03-04T13:42:24.441283",
+  "config": {
+    "model": "gpt-4o-mini",
+    "max_tokens": 500,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.7
+    ],
+    "prompt_variants": [
+      "v3_revised",
+      "v3_rephrase_a",
+      "v3_rephrase_b"
+    ],
+    "categories": [
+      "mfa_enrollment",
+      "password_reset",
+      "wifi_connectivity"
+    ],
+    "total_runs": 54
+  },
+  "results": [
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.0,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Select the option to enroll in Duo multi-factor authentication.\n4. Follow the prompts to set up your Duo account, which may include downloading the Duo Mobile app on your smartphone.\n5. Register your device by scanning a QR code or entering a provided code in the Duo app.\n6. Complete any additional verification steps as prompted to finalize your enrollment.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:37:44.599071"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.0,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal using your student credentials.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Choose your preferred method of authentication (e.g., mobile app, SMS, or email).\n4. Follow the prompts to set up your chosen method, which may include scanning a QR code or entering a verification code sent to your device.\n5. Complete any additional verification steps as prompted.\n6. Save your settings and ensure that MFA is enabled for your account.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:37:51.009889"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.0,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the password reset page for your university account.  \n2. Enter your username or email address associated with your account.  \n3. Follow the prompts to verify your identity, which may include answering security questions or receiving a verification code via email or SMS.  \n4. Once verified, you will be prompted to create a new password.  \n5. Choose a strong password that meets the security requirements.  \n6. Confirm the new password and submit the changes.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:37:56.587523"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.0,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a \"Forgot Password\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to enter your email address or username associated with your account.  \n4. Check your email for a password reset link and follow the instructions provided.  \n5. Create a new password that meets any specified requirements.  \n6. Try logging in again with your new password.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:01.262538"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.0,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop.  \n2. Look for available networks and select the campus WiFi network from the list.  \n3. Click \"Connect\" or \"Join\" to initiate the connection.  \n4. If prompted, enter your university credentials (username and password) to authenticate.  \n5. Once connected, you should see a confirmation message or the network status change to \"Connected.\"  \n6. Test your connection by opening a web browser and visiting a website.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:05.787290"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.0,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device. This option is usually found in the WiFi settings.  \n2. Restart your device to clear any temporary issues.  \n3. Reconnect to the WiFi network by selecting it and entering your credentials again. Ensure you are using the correct username and password.  \n4. If prompted, check for any additional security settings, such as a security type (WPA2, etc.), and ensure they match the network requirements.  \n5. If the issue persists, try connecting to a different WiFi network to see if the problem is specific to that network.  \n6. If you are still unable to connect, consider resetting your network settings on your device.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:11.263446"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.3,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal using your credentials.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Select the option to enroll in Duo multi-factor authentication.\n4. Follow the prompts to set up your Duo account, which may include downloading the Duo Mobile app on your smartphone.\n5. Once the app is installed, scan the QR code provided during the enrollment process to link your device.\n6. Complete any additional verification steps as prompted to finalize your enrollment.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:15.954655"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.3,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal using your student credentials.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Choose the method of MFA you prefer (e.g., mobile app, SMS, email).\n4. Follow the prompts to set up your chosen MFA method, which may include scanning a QR code or entering a verification code sent to your device.\n5. Complete any additional verification steps as prompted.\n6. Save your settings and ensure that MFA is enabled for your account.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:20.597769"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.3,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the password reset page associated with your university account.  \n2. Enter your username or email address when prompted.  \n3. Follow the instructions provided to verify your identity, which may include answering security questions or receiving a verification code via email or SMS.  \n4. Once verified, create a new password following the specified guidelines (e.g., length, character requirements).  \n5. Save your new password securely and try signing in with it.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:24.869518"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.3,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a link or option that says \"Forgot Password\" or \"Reset Password.\"  \n3. Follow the prompts to enter your username or email address associated with your account.  \n4. Check your email for a password reset link and follow the instructions provided.  \n5. Create a new password that meets any specified requirements (e.g., length, character types).  \n6. Try logging in again with your new password.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:28.387158"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.3,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop. This is usually found in the system tray or settings menu.  \n2. Look for available networks and select the campus WiFi network from the list.  \n3. Click \"Connect\" and enter the required credentials, such as your university username and password, if prompted.  \n4. Wait for the connection to establish. You may need to accept any terms of service or additional prompts.  \n5. Once connected, test your internet access by opening a web browser and visiting a website.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:32.329330"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.3,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device. This option is usually found in the WiFi settings menu.  \n2. Restart your device to clear any temporary issues.  \n3. Reconnect to the WiFi network by selecting it from the list of available networks.  \n4. Enter your credentials (username and password) when prompted. Ensure that you are using the correct credentials.  \n5. If the issue persists, try connecting to a different WiFi network to see if the problem is specific to the current network.  \n6. If you still cannot connect, consider resetting your network settings. This option is typically found in the settings menu under \"Network\" or \"Reset.\"  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:37.033735"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.7,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Select the option to enroll in Duo multi-factor authentication.\n4. Follow the prompts to add your phone number and choose your preferred method of authentication (e.g., app, SMS).\n5. Complete the registration process by verifying your method (e.g., entering a code sent to your phone).\n6. Review any additional instructions or settings to finalize your enrollment.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:40.907001"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.7,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal with your username and password.\n2. Navigate to the security settings or account settings section.\n3. Look for the option labeled \"Multi-Factor Authentication\" or \"Two-Step Verification.\"\n4. Choose your preferred method of authentication (e.g., mobile app, SMS, or email).\n5. Follow the instructions provided to set up your chosen authentication method, which may include scanning a QR code or receiving a verification code.\n6. Save any changes and test the MFA setup by signing out and signing back in to ensure it works correctly.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:45.283412"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.7,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the password reset page for your university account.  \n2. Enter your username or email address associated with your account.  \n3. Follow the prompts to verify your identity, which may include answering security questions or receiving a verification code via email or SMS.  \n4. Once verified, follow the instructions to create a new password.  \n5. Make sure to choose a strong password that meets any specified requirements.  \n6. After resetting your password, try signing in to your account with the new password.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:50.053905"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.7,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a link or option that says \"Forgot Password\" or \"Reset Password.\"  \n3. Click on that link and follow the prompts to verify your identity.  \n4. You may need to provide your email address or answer security questions.  \n5. Check your email for a password reset link and follow the instructions provided.  \n6. Create a new password that meets the specified requirements.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:54.508166"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.7,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Open the WiFi settings on your laptop.\n2. Look for available networks and select the campus WiFi network.\n3. Click \"Connect\" and enter the required credentials (such as your university username and password) when prompted.\n4. If asked, accept any terms and conditions to complete the connection.\n5. Wait for your laptop to confirm that you are connected to the network.\n6. Test your connection by opening a web browser and navigating to a website.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:38:59.532863"
+    },
+    {
+      "prompt_variant": "v3_revised",
+      "temperature": 0.7,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device by going to your WiFi settings, selecting the network, and choosing \"Forget\" or \"Remove.\"  \n2. Restart your device to refresh the network settings.  \n3. Go back to the WiFi settings and attempt to reconnect to the network by selecting it and entering your credentials again.  \n4. Ensure that you are using the correct username and password for the WiFi network.  \n5. If the issue persists, try connecting to a different WiFi network (if available) to determine if the problem is with your device or the specific network.  \n6. If you're still having trouble, reset your network settings in your device settings (note that this may remove saved networks and passwords).  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:04.956755"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.0,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Log in to your university account using your credentials.\n2. Navigate to the security settings or multi-factor authentication section of your account.\n3. Look for an option to enroll in Duo or set up multi-factor authentication.\n4. Follow the prompts to download the Duo Mobile app on your smartphone.\n5. Once the app is installed, scan the QR code provided during the enrollment process to link your account.\n6. Complete any additional verification steps as prompted to finalize your enrollment.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:08.841833"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.0,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Log in to your university account using your username and password.\n2. Navigate to the security settings or account settings section.\n3. Look for an option labeled \"Multi-Factor Authentication\" or \"MFA.\"\n4. Follow the prompts to select your preferred method of authentication (e.g., mobile app, SMS, email).\n5. If using a mobile app, download the app (like Google Authenticator or Authy) and scan the provided QR code.\n6. Complete the setup by entering the verification code sent to your chosen method.\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:13.111997"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.0,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the password reset page for your university account.  \n2. Enter your username or email address associated with your account.  \n3. Follow the prompts to verify your identity, which may include answering security questions or receiving a verification code via email or SMS.  \n4. Once verified, you will be prompted to create a new password.  \n5. Choose a strong password that meets the security requirements.  \n6. Confirm the new password and submit the changes.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:19.926294"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.0,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a \"Forgot Password\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to enter your email address or username associated with your account.  \n4. Check your email for a password reset link and follow the instructions provided.  \n5. Create a new password that meets any specified requirements.  \n6. Try logging in again with your new password.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:24.764078"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.0,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop. This is usually found in the system tray or settings menu.  \n2. Look for available networks and select the campus WiFi network from the list.  \n3. Click \"Connect\" and enter the required credentials (such as your username and password) if prompted.  \n4. Wait for the connection to establish. You may see a notification indicating that you are connected.  \n5. Test your connection by opening a web browser and visiting a website.  \n6. If you encounter issues, try disconnecting and reconnecting to the network or restarting your laptop.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:30.008882"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.0,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device. This can usually be done in the WiFi settings by selecting the network and choosing the option to forget it.  \n2. Restart your device to clear any temporary issues.  \n3. Go back to the WiFi settings and reconnect to the network by entering your credentials again. Make sure you are using the correct username and password.  \n4. If the issue persists, check if other devices can connect to the same WiFi network. This will help determine if the problem is with your device or the network itself.  \n5. Ensure that your device's software is up to date, as outdated software can sometimes cause connectivity issues.  \n6. If you are still unable to connect, try resetting your network settings. This option is usually found in the settings menu under network or general settings.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:35.653932"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.3,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Log in to your university account using your credentials.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Select the option to enroll in Duo or multi-factor authentication.\n4. Follow the prompts to set up Duo, which may include downloading the Duo Mobile app on your smartphone.\n5. Register your device by scanning a QR code or entering a provided code in the Duo app.\n6. Complete any additional verification steps as prompted to finalize your enrollment.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:41.136772"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.3,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Log in to your university account using your username and password.\n2. Navigate to the security settings or account settings section.\n3. Look for an option labeled \"Multi-Factor Authentication\" or \"MFA.\"\n4. Follow the prompts to choose your preferred MFA method (e.g., mobile app, SMS, email).\n5. If using a mobile app, download the app (like Google Authenticator or Authy) and scan the QR code provided.\n6. Complete the setup by entering the verification code generated by the app or sent to your phone/email.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:47.795003"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.3,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the password reset page for your university account.  \n2. Enter your username or email address associated with your account.  \n3. Follow the prompts to verify your identity, which may include answering security questions or receiving a verification code via email or SMS.  \n4. Once verified, you will be prompted to create a new password. Make sure it meets any specified requirements (e.g., length, character types).  \n5. After resetting your password, try logging in with the new password to ensure it works.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:52.323046"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.3,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a \"Forgot Password?\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to enter your email address or username associated with your account.  \n4. Check your email for a password reset link and follow the instructions provided.  \n5. Create a new password that meets any specified requirements.  \n6. Try logging in again with your new password.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:39:56.795611"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.3,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop. This is typically found in the system tray or settings menu.  \n2. Look for available networks and select the campus WiFi network from the list.  \n3. Click \"Connect\" and enter the required credentials (such as your university username and password) if prompted.  \n4. Wait for the connection to establish, and check if you have internet access by opening a web browser.  \n5. If you encounter any issues, try forgetting the network and reconnecting, or restarting your laptop.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:02.476478"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.3,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device. This option is usually found in the WiFi settings under \"Saved Networks\" or \"Manage Networks.\"  \n2. Restart your device to clear any temporary issues.  \n3. Go back to the WiFi settings and reconnect to the network by entering your credentials again. Ensure that you are using the correct username and password.  \n4. If the issue persists, try connecting to a different WiFi network to see if the problem is specific to the current network.  \n5. Check if your device's software is up to date, as updates can resolve connectivity issues.  \n6. If none of these steps work, consider resetting your network settings, which can often resolve persistent connectivity problems.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:10.433249"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.7,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Log in to your university account.  \n2. Navigate to the security settings section where you can manage your multi-factor authentication options.  \n3. Select the option to enroll in Duo multi-factor authentication.  \n4. Follow the prompts to download the Duo Mobile app on your smartphone.  \n5. Open the Duo Mobile app and scan the QR code or enter the provided activation code to link your account.  \n6. Complete any additional verification steps as instructed.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:16.877268"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.7,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Log in to your university account using your credentials.\n2. Navigate to the security settings or account settings section.\n3. Look for the Multi-Factor Authentication (MFA) option or similar.\n4. Choose your preferred method for MFA (e.g., mobile app, SMS, email).\n5. Follow the prompts to set up your chosen MFA method, which may include scanning a QR code or receiving a verification code.\n6. Once set up, test the MFA to ensure it is functioning correctly.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:21.512939"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.7,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a \"Forgot Password?\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to enter your username or email address associated with your account.  \n4. Check your email for a password reset link and click on it.  \n5. Follow the instructions provided to create a new password.  \n6. Once your password is reset, try logging in with your new password.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:25.716920"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.7,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a \"Forgot Password?\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to enter your email or username to receive a password reset link.  \n4. Check your email for the password reset instructions and follow them to create a new password.  \n5. Once your password is reset, return to the login page and try logging in with your new password.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:30.165898"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.7,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop. This is typically found in the system tray or settings menu.  \n2. Look for available networks and select the campus WiFi network from the list.  \n3. Click on \"Connect\" or similar option.  \n4. If prompted, enter the WiFi password. If you do not have the password, check with your university's IT support or documentation.  \n5. Once connected, confirm that you have internet access by opening a web browser and visiting any website.  \n6. If you encounter issues, try forgetting the network and reconnecting, or restarting your laptop.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:40.490927"
+    },
+    {
+      "prompt_variant": "v3_rephrase_a",
+      "temperature": 0.7,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device (go to your WiFi settings, select the network, and choose the option to forget it).  \n2. Restart your device to clear any temporary glitches.  \n3. Go back to your WiFi settings and select the network again to reconnect.  \n4. Enter your WiFi credentials (username and password) carefully, ensuring there are no typos.  \n5. If the issue persists, try connecting to a different WiFi network to verify if the problem is with your device or the specific WiFi network.  \n6. Check for any software updates on your device that may address connectivity issues.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:47.144335"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.0,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Sign in to your university account portal.  \n2. Navigate to the security settings or multi-factor authentication section.  \n3. Select the option to enroll in Duo multi-factor authentication.  \n4. Follow the prompts to set up your Duo account, which may include downloading the Duo Mobile app on your smartphone.  \n5. Once the app is installed, scan the QR code provided during the enrollment process to link your device.  \n6. Complete any additional verification steps as prompted to finalize your enrollment.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:40:53.835146"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.0,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal using your student credentials.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Choose your preferred method of authentication (e.g., mobile app, SMS, or email).\n4. If using a mobile app, download the app (such as Google Authenticator or Authy) on your smartphone.\n5. Follow the prompts to link the app to your account, which may involve scanning a QR code or entering a setup key.\n6. Complete any additional verification steps as prompted to finalize the setup.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:02.514629"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.0,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the password reset page for your university account.  \n2. Enter your username or email address associated with your account.  \n3. Follow the prompts to verify your identity, which may include answering security questions or receiving a verification code via email or SMS.  \n4. Once verified, you will be prompted to create a new password. Make sure it meets any specified security requirements.  \n5. After resetting your password, try logging in with the new password to ensure it works.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:08.001836"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.0,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a \"Forgot Password\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to enter your email address or username associated with your account.  \n4. Check your email for a password reset link and follow the instructions provided.  \n5. Create a new password that meets any specified requirements (e.g., length, character types).  \n6. Try logging in again with your new password.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:12.025426"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.0,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop. This is usually found in the system tray or settings menu.  \n2. Ensure that WiFi is turned on.  \n3. Look for available networks and select the campus WiFi network from the list.  \n4. Click \"Connect\" and enter the required credentials (such as your username and password) if prompted.  \n5. Wait for the connection to establish. You may see a notification indicating that you are connected.  \n6. Test your connection by opening a web browser and visiting a website.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:18.290494"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.0,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device. This can usually be done in the WiFi settings menu.  \n2. Restart your device to clear any temporary issues.  \n3. Reconnect to the WiFi network by selecting it from the list of available networks.  \n4. When prompted, enter your credentials carefully, ensuring there are no typos.  \n5. If the issue persists, check if other devices can connect to the same WiFi network.  \n6. If other devices are connecting without issue, consider resetting your network settings on the device that is failing to connect.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:24.319808"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.3,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Sign in to your university account portal.  \n2. Navigate to the security settings or multi-factor authentication section.  \n3. Look for an option to enroll in Duo or set up multi-factor authentication.  \n4. Follow the prompts to register your device, which may include downloading the Duo Mobile app on your smartphone.  \n5. Once the app is installed, scan the QR code provided during the enrollment process to link your device.  \n6. Complete any additional verification steps as prompted to finalize the enrollment.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:30.534078"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.3,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal using your username and password.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Choose your preferred method of MFA (e.g., mobile app, text message, or email).\n4. If using a mobile app, download the app (such as Google Authenticator or Authy) on your smartphone.\n5. Follow the prompts to link the app to your account, which may involve scanning a QR code or entering a setup key.\n6. Complete the setup by verifying the MFA method you selected, usually by entering a code sent to your device.\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:35.801011"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.3,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the password reset page for your university account.  \n2. Enter your username or email address associated with your account.  \n3. Follow the prompts to verify your identity, which may include answering security questions or receiving a verification code via email or SMS.  \n4. Once verified, create a new password following any specified requirements (e.g., length, character types).  \n5. Save your new password securely and try logging in with it.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:39.681547"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.3,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a \"Forgot Password?\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to enter your email address or username associated with your account.  \n4. Check your email for a password reset link and follow the instructions provided.  \n5. Create a new password that meets any specified requirements (e.g., length, special characters).  \n6. Try logging in again with your new password.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:43.750798"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.3,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop. This is usually found in the system tray or settings menu.  \n2. Look for available networks and select the campus WiFi network from the list.  \n3. Click \"Connect\" or \"Join\" to initiate the connection.  \n4. If prompted, enter the required credentials (such as your university username and password).  \n5. Once connected, verify that you have internet access by opening a web browser and navigating to a website.  \n6. If you experience issues, try disconnecting and reconnecting to the network or restarting your laptop.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:49.793138"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.3,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device. This can usually be done in the WiFi settings menu.  \n2. Restart your device to clear any temporary issues.  \n3. Go back to the WiFi settings and reconnect to the network, entering your credentials carefully.  \n4. Ensure that you are using the correct username and password for the WiFi network.  \n5. If prompted, check if there are any additional security settings or certificates required for the connection.  \n6. If the issue persists, try connecting to a different WiFi network to see if the problem is specific to the current one.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:54.514667"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.7,
+      "category": "mfa_enrollment",
+      "user_query": "How do I enroll in Duo multi-factor authentication?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal.\n2. Navigate to the security settings or multi-factor authentication section.\n3. Select the option to enroll in Duo multi-factor authentication.\n4. Follow the prompts to set up your device, which may include downloading the Duo Mobile app.\n5. Verify your device by completing a test authentication, if prompted.\n6. Review any additional settings or options, such as backup methods for authentication.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:41:58.391839"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.7,
+      "category": "mfa_enrollment",
+      "user_query": "I'm a new student and I need to set up MFA. What are the steps?",
+      "response": "Category: Multi-Factor Authentication (MFA)\nClarifying question: None\nSteps (general guidance, not official Northeastern instructions):\n1. Sign in to your university account portal using your username and password.\n2. Navigate to the security settings or multi-factor authentication section of your account.\n3. Select the option to set up multi-factor authentication.\n4. Choose your preferred method of authentication (e.g., mobile app, SMS, or email).\n5. Follow the prompts to verify your chosen method (e.g., entering a code sent to your phone).\n6. Complete the setup process by confirming your settings.\n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:\n- Your device/OS\n- The step where the issue occurred\n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:42:04.865272"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.7,
+      "category": "password_reset",
+      "user_query": "I forgot my Northeastern password. How do I reset it?",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the sign-in page of your university account portal.  \n2. Look for a \"Forgot Password?\" or \"Reset Password\" link and click on it.  \n3. Follow the prompts to verify your identity, which may include answering security questions or receiving a code via email or SMS.  \n4. Create a new password, ensuring it meets the required complexity criteria.  \n5. Confirm the new password and complete the process.  \n6. Sign in with your new password to verify that the reset was successful.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:42:09.725117"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.7,
+      "category": "password_reset",
+      "user_query": "I can't log in to my account. I think my password is wrong.",
+      "response": "Category: Password reset and account lockout  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Go to the login page for your university account.  \n2. Look for a link or option that says \"Forgot Password\" or \"Reset Password.\"  \n3. Follow the prompts to enter your registered email address or username.  \n4. Check your email for a password reset link and follow the instructions provided.  \n5. Create a new password, ensuring it meets any specified requirements (e.g., length, special characters).  \n6. Return to the login page and try signing in with your new password.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:42:13.724536"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.7,
+      "category": "wifi_connectivity",
+      "user_query": "How do I connect to campus WiFi on my laptop?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Open the WiFi settings on your laptop. This is usually found in the system tray or settings menu.  \n2. Look for available networks and select the campus WiFi network from the list.  \n3. Click \"Connect\" or \"Join.\"  \n4. If prompted, enter the required credentials (such as your username and password).  \n5. Wait for the connection to establish. You should see a confirmation that you are connected to the network.  \n6. Test the connection by opening a web browser and visiting a website.  \n\nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:42:18.671797"
+    },
+    {
+      "prompt_variant": "v3_rephrase_b",
+      "temperature": 0.7,
+      "category": "wifi_connectivity",
+      "user_query": "WiFi keeps asking for credentials and then failing. What should I do?",
+      "response": "Category: WiFi and network connectivity  \nClarifying question: None  \nSteps (general guidance, not official Northeastern instructions):  \n1. Forget the WiFi network on your device. You can usually find this option in your WiFi settings.  \n2. Restart your device to refresh the network settings.  \n3. Reconnect to the WiFi network by selecting it from the available networks list.  \n4. Enter your credentials carefully, ensuring that you are using the correct username and password.  \n5. If prompted, check any additional settings such as security type (e.g., WPA2) to ensure they match the network requirements.  \n6. If the connection still fails, try using a different device to test if the issue is specific to your original device.  \nIf this does not resolve your issue: Contact Northeastern IT Support and include:  \n- Your device/OS  \n- The step where the issue occurred  \n- Any error message shown  ",
+      "model": "gpt-4o-mini",
+      "max_tokens": 500,
+      "timestamp": "2026-03-04T13:42:23.939148"
+    }
+  ]
+}

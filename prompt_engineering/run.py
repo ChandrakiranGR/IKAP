@@ -9,12 +9,11 @@ from openai import OpenAI
 
 # ---------- Config ----------
 MODEL = "gpt-4o-mini"
-TEMPERATURE = 0.3
+TEMPERATURE = 0.7
 MAX_TOKENS = 500
 
 USER_QUERY = (
-    "I am a new Northeastern student. "
-    "How do I enroll in Duo multi-factor authentication?"
+    "I am a Northeastern student. I am using an android mobile and I am getting an error when I am trying to connect to NUWave."
 )
 # ---------------------------
 
@@ -96,7 +95,8 @@ if __name__ == "__main__":
         # "autocot",
         # "generate_knowledge",
         # "few_shot",
-        "v1_system_prompt",
-        "v2_advance_prompt",
+        #"v1_system_prompt",
+        #"v2_advance_prompt",
+        "v3_system_prompt"
     ]:
         run_experiment(technique)

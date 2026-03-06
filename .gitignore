@@ -206,11 +206,29 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# -----------------------------
+# DATA (do not commit)
+# -----------------------------
 data/raw/
 data/processed/
-data/dataset/all.jsonl
-data/dataset/splits/
-data/dataset/draft/
-*.csv
-data/raw/.gitkeep
-data/processed/.gitkeep
+data/rag/
+data/finetune/
+data/dataset/
+
+# If you want to keep folder structure, add empty .gitkeep files and allow them:
+!data/**/.gitkeep
+
+# -----------------------------
+# RESULTS / OUTPUTS (often contain KB-derived text)
+# -----------------------------
+results/
+prompt_engineering/results/
+
+# -----------------------------
+# Python / OS noise
+# -----------------------------
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

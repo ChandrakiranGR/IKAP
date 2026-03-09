@@ -1,256 +1,354 @@
 #!/usr/bin/env python3
 """
-KB HTML -> JSON converter (offline, no API).
+kb_html_to_json.py
 
-Reads:  data/raw/kb_html/*.html
-Writes: data/processed/kb_json/*.json
+Convert ServiceNow KB HTML exports to structured JSON.
 
-Key feature:
-- If filename doesn't contain KB#####, the script will try to extract KB#####
-  from the HTML content (common in ServiceNow links/params).
+Fixes:
+- Correct KB ID detection (canonical/og:url/first sysparm_article)
+- Robust section extraction (heading -> until next heading)
+- Hyperlink capture (per-section + top-level)
+- Fallback when headings exist but text extraction fails
 """
 
-import argparse
-import csv
-import json
 import re
+import json
+import argparse
 from pathlib import Path
+from collections import Counter
+from urllib.parse import urljoin, urldefrag
 
 from bs4 import BeautifulSoup
 
-DEFAULT_SOURCE_SYSTEM = "Northeastern IT Services KB"
-DEFAULT_DOC_TYPE = "kb_article"
 
-KB_ID_RE = re.compile(r"\bKB\d{6,10}\b", re.IGNORECASE)
-KB_IN_PARAM_RE = re.compile(r"sysparm_article=(KB\d{6,10})", re.IGNORECASE)
-
-
-def clean_text(s: str) -> str:
-    return re.sub(r"\s+", " ", (s or "")).strip()
+# -----------------------------
+# Regexes
+# -----------------------------
+KB_ID_RE = re.compile(r"\bKB\d{7,9}\b", re.IGNORECASE)
+SYS_PARM_RE = re.compile(r"sysparm_article=(KB\d{7,9})", re.IGNORECASE)
 
 
-def guess_article_id_from_filename(name: str) -> str:
-    m = KB_ID_RE.search(name)
-    return m.group(0).upper() if m else ""
+# -----------------------------
+# Helpers
+# -----------------------------
+def normalize_ws(s: str) -> str:
+    if not s:
+        return ""
+    s = s.replace("\r", "\n")
+    s = re.sub(r"[ \t]+\n", "\n", s)
+    s = re.sub(r"\n{3,}", "\n\n", s)
+    return s.strip()
 
 
-def guess_article_id_from_html(raw_html: str) -> str:
+def normalize_href(href: str, base_url: str | None) -> str | None:
+    href = (href or "").strip()
+    if not href:
+        return None
+    low = href.lower()
+    if low.startswith(("javascript:", "mailto:", "tel:")):
+        return None
+    if base_url:
+        href = urljoin(base_url, href)
+    href = urldefrag(href)[0]
+    return href
+
+
+def dedupe_links(links: list[dict]) -> list[dict]:
+    seen = set()
+    out = []
+    for l in links or []:
+        txt = (l.get("text") or "").strip()
+        url = (l.get("url") or "").strip()
+        if not url:
+            continue
+        key = (txt, url)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"text": txt, "url": url})
+    return out
+
+
+def collect_links(tag, base_url: str | None) -> list[dict]:
+    links = []
+    for a in tag.find_all("a", href=True):
+        txt = a.get_text(" ", strip=True)
+        href = normalize_href(a.get("href", ""), base_url)
+        if txt and href:
+            links.append({"text": txt, "url": href})
+    return links
+
+
+# -----------------------------
+# KB ID + URL detection
+# -----------------------------
+def extract_canonical_url(soup: BeautifulSoup) -> str | None:
+    # <link rel="canonical" href="...">
+    canon = soup.find("link", rel=lambda x: x and "canonical" in str(x).lower())
+    if canon and canon.get("href"):
+        return canon["href"].strip()
+    return None
+
+
+def extract_og_url(soup: BeautifulSoup) -> str | None:
+    # <meta property="og:url" content="...">
+    og = soup.find("meta", attrs={"property": "og:url"})
+    if og and og.get("content"):
+        return str(og["content"]).strip()
+    return None
+
+
+def pick_article_id(html: str, soup: BeautifulSoup, filename: str) -> str | None:
     """
-    Try to find KB id from:
-    1) sysparm_article=KBxxxx
-    2) any KBxxxx occurrences
-    Prefer the sysparm_article match if present.
+    IMPORTANT:
+    Do NOT choose the 'most common' KB id from the HTML,
+    because pages contain related-articles links that will dominate counts.
     """
-    m = KB_IN_PARAM_RE.search(raw_html)
+
+    # 1) canonical link
+    canon = extract_canonical_url(soup)
+    if canon:
+        m = SYS_PARM_RE.search(canon)
+        if m:
+            return m.group(1).upper()
+
+    # 2) og:url
+    og = extract_og_url(soup)
+    if og:
+        m = SYS_PARM_RE.search(og)
+        if m:
+            return m.group(1).upper()
+
+    # 3) FIRST sysparm_article occurrence in full HTML (not most common)
+    m = SYS_PARM_RE.search(html)
     if m:
         return m.group(1).upper()
 
-    m2 = KB_ID_RE.search(raw_html)
-    if m2:
-        return m2.group(0).upper()
+    # 4) fallback: any KB id in HTML (first)
+    m = KB_ID_RE.search(html)
+    if m:
+        return m.group(0).upper()
 
-    return ""
+    # 5) fallback: filename contains KB
+    m = KB_ID_RE.search(filename)
+    if m:
+        return m.group(0).upper()
 
-
-def load_soup(html_path: Path) -> BeautifulSoup:
-    raw = html_path.read_text(encoding="utf-8", errors="ignore")
-    soup = BeautifulSoup(raw, "lxml")
-
-    # remove scripts/styles/noscript (noise + possible embedded config)
-    for tag in soup(["script", "style", "noscript"]):
-        tag.decompose()
-
-    return soup
+    return None
 
 
+# -----------------------------
+# Content extraction
+# -----------------------------
 def extract_title(soup: BeautifulSoup) -> str:
-    # Try common KB title patterns first
-    # 1) h1
     h1 = soup.find("h1")
     if h1:
-        t = clean_text(h1.get_text(" "))
+        t = h1.get_text(" ", strip=True)
         if t:
             return t
-
-    # 2) any h2 that looks like a KB title header
-    h2s = soup.find_all("h2")
-    for h2 in h2s:
-        t = clean_text(h2.get_text(" "))
-        if t and "IT Services" not in t and len(t) > 8:
-            return t
-
-    # 3) <title>
-    if soup.title:
-        return clean_text(soup.title.get_text(" "))
-
-    return ""
+    if soup.title and soup.title.string:
+        return str(soup.title.string).strip()
+    return "Untitled KB"
 
 
-def extract_sections(soup: BeautifulSoup):
+def choose_main_container(soup: BeautifulSoup):
     """
-    Heuristic extraction:
-    - Use headings (h1/h2/h3) as section boundaries
-    - ordered lists -> steps
-    - unordered lists -> bullets
-    - paragraphs -> text
+    Heuristic: pick a container with the most meaningful text.
+    This helps avoid extracting nav/footer/sidebars.
     """
-    headings = soup.find_all(["h1", "h2", "h3"])
+    candidates = []
+
+    # Semantic containers
+    for sel in ["article", "main"]:
+        candidates.extend(soup.find_all(sel))
+
+    # ServiceNow-ish / generic content containers
+    candidates.extend(
+        soup.find_all(
+            ["div", "section"],
+            attrs={"id": re.compile(r"(kb|article|content|main|body)", re.I)},
+        )
+    )
+    candidates.extend(
+        soup.find_all(
+            ["div", "section"],
+            attrs={"class": re.compile(r"(kb|article|content|main|body)", re.I)},
+        )
+    )
+
+    # fallback
+    if soup.body:
+        candidates.append(soup.body)
+
+    def score(tag):
+        txt = tag.get_text(" ", strip=True)
+        return len(txt)
+
+    return max(candidates, key=score, default=soup.body or soup)
+
+
+def extract_sections(container, base_url: str | None) -> list[dict]:
+    # remove noise
+    for noise in container.find_all(
+        ["script", "style", "noscript", "nav", "footer", "aside"]
+    ):
+        noise.decompose()
+
+    headings = container.find_all(["h1", "h2", "h3"])
+
+    # If no headings, single body section
+    if not headings:
+        full_txt = normalize_ws(container.get_text("\n", strip=True))
+        links = dedupe_links(collect_links(container, base_url))
+        return [{"heading": "Body", "text": full_txt, "links": links}]
+
     sections = []
 
-    if not headings:
-        body_text = clean_text(soup.get_text(" "))
-        if body_text:
-            sections.append({"heading": "Content", "text": body_text})
-        return sections
-
-    for h in headings:
-        heading = clean_text(h.get_text(" "))
+    for i, h in enumerate(headings):
+        heading = h.get_text(" ", strip=True)
         if not heading:
             continue
 
-        # Collect siblings until next heading
-        content_nodes = []
-        node = h.next_sibling
-        while node and not (getattr(node, "name", None) in ["h1", "h2", "h3"]):
-            if getattr(node, "get_text", None):
-                content_nodes.append(node)
-            node = node.next_sibling
+        next_h = headings[i + 1] if (i + 1) < len(headings) else None
 
-        steps, bullets, texts = [], [], []
+        blocks = []
+        links = []
 
-        for n in content_nodes:
-            # ordered list => steps
-            for ol in getattr(n, "find_all", lambda *_: [])("ol"):
-                for li in ol.find_all("li"):
-                    t = clean_text(li.get_text(" "))
-                    if t:
-                        steps.append(t)
+        # walk forward until next heading
+        for el in h.next_elements:
+            if el == next_h:
+                break
 
-            # unordered list => bullets
-            for ul in getattr(n, "find_all", lambda *_: [])("ul"):
-                for li in ul.find_all("li"):
-                    t = clean_text(li.get_text(" "))
-                    if t:
-                        bullets.append(t)
+            if not hasattr(el, "name"):
+                continue
 
-            # paragraphs => text
-            for p in getattr(n, "find_all", lambda *_: [])(["p"]):
-                t = clean_text(p.get_text(" "))
+            # stop if we hit another heading (safety)
+            if el.name in ["h1", "h2", "h3"]:
+                break
+
+            # collect text from common content blocks
+            if el.name in ["p", "li", "td", "th", "pre", "code", "blockquote"]:
+                t = normalize_ws(el.get_text("\n", strip=True))
                 if t:
-                    texts.append(t)
+                    blocks.append(t)
+                links.extend(collect_links(el, base_url))
 
-        # fallback raw text if nothing found
-        if not steps and not bullets and not texts:
-            raw_text = clean_text(
-                " ".join(
-                    clean_text(x.get_text(" "))
-                    for x in content_nodes
-                    if getattr(x, "get_text", None)
-                )
-            )
-            if raw_text:
-                texts.append(raw_text)
+        sec_text = normalize_ws("\n\n".join(blocks))
+        sections.append(
+            {
+                "heading": heading,
+                "text": sec_text,
+                "links": dedupe_links(links),
+            }
+        )
 
-        sec = {"heading": heading}
-        if steps:
-            sec["steps"] = steps
-        elif bullets:
-            sec["bullets"] = bullets
-        elif texts:
-            sec["text"] = " ".join(texts)
-
-        if len(sec) > 1:
-            sections.append(sec)
+    # Fallback: headings exist but we extracted nothing
+    total = sum(len((s.get("text") or "").strip()) for s in sections)
+    if total == 0:
+        full_txt = normalize_ws(container.get_text("\n", strip=True))
+        links = dedupe_links(collect_links(container, base_url))
+        return [{"heading": "Body", "text": full_txt, "links": links}]
 
     return sections
 
 
-def load_manifest(manifest_path: str):
-    """
-    Optional enrichment. Manifest can be empty; script still works.
-    Expected columns (any subset is fine):
-    article_id,title,category,url,revised_by,last_updated,source_html_file
-    """
-    manifest = {}
-    if not manifest_path:
-        return manifest
-
-    mp = Path(manifest_path)
-    if not mp.exists():
-        return manifest
-
-    with mp.open("r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            aid = (row.get("article_id") or "").strip().upper()
-            if aid:
-                manifest[aid] = row
-    return manifest
-
-
+# -----------------------------
+# Main
+# -----------------------------
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument(
-        "--in", dest="inp", required=True, help="Input folder containing KB HTML files"
+        "--in_dir", default="data/raw/kb_html", help="Folder containing *.html exports"
     )
     ap.add_argument(
-        "--out", dest="out", required=True, help="Output folder for JSON files"
+        "--out_dir",
+        default="data/processed/kb_json",
+        help="Folder to write KB JSON files",
     )
     ap.add_argument(
-        "--manifest",
-        dest="manifest",
-        default="",
-        help="Optional kb_manifest.csv to enrich metadata",
+        "--base_url",
+        default="https://service.northeastern.edu",
+        help="Used to resolve relative links",
+    )
+    ap.add_argument(
+        "--overwrite", action="store_true", help="Overwrite existing JSON files"
     )
     args = ap.parse_args()
 
-    inp = Path(args.inp)
-    out = Path(args.out)
-    out.mkdir(parents=True, exist_ok=True)
+    in_dir = Path(args.in_dir)
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    manifest = load_manifest(args.manifest)
-
-    html_files = sorted(inp.glob("*.html"))
+    html_files = sorted(in_dir.glob("*.html"))
     if not html_files:
-        raise SystemExit(f"No .html files found in {inp}")
+        raise SystemExit(f"No .html files found in: {in_dir}")
 
-    for hp in html_files:
-        raw_html = hp.read_text(encoding="utf-8", errors="ignore")
+    processed_html = 0
+    wrote_unique = 0
+    overwritten = 0
+    skipped = 0
+    missing_id = 0
 
-        # 1) try filename KB id
-        article_id = guess_article_id_from_filename(hp.name)
+    for fp in html_files:
+        processed_html += 1
+        html = fp.read_text(encoding="utf-8", errors="ignore")
+        soup = BeautifulSoup(html, "html.parser")
 
-        # 2) fallback: try inside HTML content
+        article_id = pick_article_id(html, soup, fp.name)
         if not article_id:
-            article_id = guess_article_id_from_html(raw_html)
+            print(f"[SKIP] Could not detect KB ID for: {fp.name}")
+            missing_id += 1
+            continue
 
-        soup = load_soup(hp)
         title = extract_title(soup)
+        container = choose_main_container(soup)
+        sections = extract_sections(container, args.base_url)
 
-        meta = manifest.get(article_id, {}) if article_id else {}
+        # Roll up top-level links
+        all_links = []
+        for s in sections:
+            all_links.extend(s.get("links", []))
+        all_links = dedupe_links(all_links)
 
-        doc = {
-            "source_system": DEFAULT_SOURCE_SYSTEM,
-            "doc_type": DEFAULT_DOC_TYPE,
+        # Prefer canonical/og URL if present
+        url = extract_canonical_url(soup) or extract_og_url(soup)
+        if url:
+            url = normalize_href(url, None)
+
+        kb_obj = {
             "article_id": article_id,
-            "title": meta.get("title", "") or title,
-            "category": meta.get("category", "") or "",
-            "revised_by": meta.get("revised_by", "") or "",
-            "url": meta.get("url", "") or "",
-            "sections": extract_sections(soup),
-            "source_file": hp.name,
+            "doc_type": "kb_article",
+            "title": title,
+            "source_system": "ServiceNow",
+            "source_file": fp.name,
+            "url": url,
+            "sections": sections,
+            "links": all_links,
         }
 
-        # Output filename
-        out_name = f"{article_id}.json" if article_id else f"{hp.stem}.json"
-        out_path = out / out_name
+        out_path = out_dir / f"{article_id}.json"
+        if out_path.exists() and not args.overwrite:
+            skipped += 1
+            continue
+
+        if out_path.exists() and args.overwrite:
+            overwritten += 1
 
         out_path.write_text(
-            json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8"
+            json.dumps(kb_obj, indent=2, ensure_ascii=False), encoding="utf-8"
         )
-        print(f"Wrote {out_path.name}")
+        wrote_unique += 1
 
-    print("Done.")
+    # Actual unique count on disk
+    actual_json = len(list(out_dir.glob("*.json")))
+
+    print(f"Processed HTML files: {processed_html}")
+    print(f"Wrote/updated JSON:   {wrote_unique}")
+    print(f"Overwritten (overwrite): {overwritten}")
+    print(f"Skipped (no overwrite):  {skipped}")
+    print(f"Missing KB ID:           {missing_id}")
+    print(f"JSON files on disk:   {actual_json}")
+    print(f"Output dir: {out_dir}")
 
 
 if __name__ == "__main__":

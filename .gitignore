@@ -221,8 +221,7 @@ data/dataset/
 # -----------------------------
 # RESULTS / OUTPUTS (often contain KB-derived text)
 # -----------------------------
-results/
-prompt_engineering/results/
+
 
 # -----------------------------
 # Python / OS noise

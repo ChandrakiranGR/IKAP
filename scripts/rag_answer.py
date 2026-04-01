@@ -75,6 +75,20 @@ SETUP_TERMS = {
     "manage",
 }
 
+NOTE_HEADING_TERMS = {
+    "introduction",
+    "requirements",
+    "requirement",
+    "benefits",
+    "limitations",
+    "important",
+    "notes",
+    "note",
+    "resource",
+    "prerequisite",
+    "prerequisites",
+}
+
 
 def normalize_text(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip().lower())
@@ -211,6 +225,17 @@ def choose_priority_sections(kb: dict, query: str, max_sections: int = 2):
     q_tokens = set(tokenize(query))
     query_l = normalize_text(query)
     setup_query = any(term in query_l for term in SETUP_TERMS)
+    platform_query = any(term in query_l for term in PLATFORM_TERMS)
+    timing_query = any(
+        term in query_l
+        for term in [
+            "before",
+            "after",
+            "publish",
+            "published",
+            "unpublished",
+        ]
+    )
 
     scored_sections = []
     for sec in sections:
@@ -226,6 +251,8 @@ def choose_priority_sections(kb: dict, query: str, max_sections: int = 2):
         body_l = normalize_text(text)
         steps_l = normalize_text(steps_text)
         combined_l = normalize_text(" ".join(part for part in [heading, text, steps_text] if part))
+        note_heading = any(term in heading_l for term in NOTE_HEADING_TERMS)
+        limitation_heading = "limitation" in heading_l
 
         if required_terms and all(term in heading_l for term in required_terms):
             score += 1.5
@@ -270,6 +297,27 @@ def choose_priority_sections(kb: dict, query: str, max_sections: int = 2):
             ]
         ):
             score += 0.6
+
+        if platform_query and any(term in combined_l for term in PLATFORM_TERMS):
+            score += 0.35
+
+        if platform_query and "requirement" in heading_l:
+            score += 0.35
+
+        if timing_query and (
+            "introduction" in heading_l
+            or "benefit" in heading_l
+            or "unpublished" in combined_l
+            or "published" in combined_l
+            or "only work after" in combined_l
+        ):
+            score += 0.6
+
+        if note_heading and any(term in combined_l for term in required_terms):
+            score += 0.25
+
+        if setup_query and limitation_heading and "limitation" not in query_l:
+            score -= 0.15
 
         scored_sections.append((score, sec))
 

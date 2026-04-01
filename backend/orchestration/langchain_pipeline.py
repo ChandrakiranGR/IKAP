@@ -1,6 +1,8 @@
 from typing import Any, Dict, List
 import re
+from pathlib import Path
 
+from dotenv import load_dotenv
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
@@ -12,6 +14,10 @@ from backend.orchestration.retrieval_adapter import retrieve_kb_chunks
 
 # Use a base model while the new RAG and fine-tuning pipeline is rebuilt.
 FINAL_MODEL = "gpt-4o-mini"
+
+
+def _project_root() -> Path:
+    return Path(__file__).resolve().parents[2]
 
 
 def format_retrieved_context(chunks: List[Dict[str, Any]]) -> str:
@@ -65,6 +71,8 @@ class IKAPLangChainPipeline:
         temperature: float = 0.3,
         top_k: int = 1,
     ):
+        load_dotenv(_project_root() / ".env")
+
         self.model_name = model_name
         self.temperature = temperature
         self.top_k = top_k

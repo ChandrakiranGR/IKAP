@@ -48,7 +48,7 @@
     "question": "How do I connect to eduroam?",
     "expected_kb_id": "KB000018114",
     "min_steps": 4,
-    "required_terms": ["eduroam", "PEAP", "MSCHAPv2"],
+    "required_terms": ["eduroam", "PEAP", "wireless.northeastern.edu"],
     "forbidden_terms": ["trained on data up to"]
   },
   {

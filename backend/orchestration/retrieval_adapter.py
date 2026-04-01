@@ -11,6 +11,8 @@ from scripts.rag_answer import (
     load_index,
     retrieve,
     load_retrieved_links,
+    load_kb_json,
+    choose_priority_sections,
 )
 
 
@@ -119,6 +121,57 @@ def _score_url(url: str, kb_id: str) -> int:
     return score
 
 
+def _build_precise_kb_excerpt(kb_dir: Path, kb_id: str, question: str) -> str:
+    kb = load_kb_json(kb_dir, kb_id)
+    if not kb:
+        return ""
+
+    question_l = question.lower()
+    setup_query = any(
+        term in question_l
+        for term in [
+            "connect",
+            "configure",
+            "set up",
+            "setup",
+            "install",
+            "enroll",
+            "register",
+            "update",
+            "reset",
+        ]
+    )
+
+    sections = choose_priority_sections(
+        kb,
+        question,
+        max_sections=5 if setup_query else 3,
+    )
+    blocks = []
+    for section in sections:
+        heading = (section.get("heading") or "").strip()
+        text = _clean_kb_text(section.get("text", ""))
+        steps = [
+            _clean_kb_text(step)
+            for step in (section.get("steps") or [])
+            if _clean_kb_text(step)
+        ]
+
+        parts = []
+        if heading:
+            parts.append(f"{heading}:")
+        if text:
+            parts.append(text)
+        if steps:
+            parts.append("Steps:")
+            parts.extend(f"{idx}. {step}" for idx, step in enumerate(steps, start=1))
+
+        if parts:
+            blocks.append("\n".join(parts))
+
+    return "\n\n".join(blocks).strip()
+
+
 def _pick_best_link(kb_id: str, links: List[Dict[str, Any]]) -> Dict[str, Any]:
     if not links:
         return {}
@@ -193,11 +246,19 @@ def retrieve_kb_chunks(question: str, top_k: int = 4) -> List[Dict[str, Any]]:
         url = (
             best_link.get("url", "")
             or best_link.get("link", "")
+            or row.get("article_url", "")
             or row.get("url", "")
             or row.get("link", "")
         )
 
-        text = _clean_kb_text(_extract_text(row), title)
+        precise_text = ""
+        if kb_id and kb_dir.exists():
+            try:
+                precise_text = _build_precise_kb_excerpt(kb_dir, kb_id, question)
+            except Exception:
+                precise_text = ""
+
+        text = precise_text or _clean_kb_text(_extract_text(row), title)
 
         adapted.append(
             {

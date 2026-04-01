@@ -62,6 +62,19 @@ STOPWORDS = {
     "use",
 }
 
+SETUP_TERMS = {
+    "connect",
+    "setup",
+    "set up",
+    "configure",
+    "install",
+    "enroll",
+    "register",
+    "update",
+    "reset",
+    "manage",
+}
+
 
 def normalize_text(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip().lower())
@@ -196,34 +209,67 @@ def choose_priority_sections(kb: dict, query: str, max_sections: int = 2):
 
     required_terms = extract_required_terms(query)
     q_tokens = set(tokenize(query))
+    query_l = normalize_text(query)
+    setup_query = any(term in query_l for term in SETUP_TERMS)
 
     scored_sections = []
     for sec in sections:
         heading = sec.get("heading", "")
         text = sec.get("text", "")
-        if not text.strip():
+        steps = [step for step in (sec.get("steps") or []) if (step or "").strip()]
+        steps_text = " ".join(steps)
+        if not text.strip() and not steps_text.strip():
             continue
 
         score = 0.0
         heading_l = normalize_text(heading)
         body_l = normalize_text(text)
+        steps_l = normalize_text(steps_text)
+        combined_l = normalize_text(" ".join(part for part in [heading, text, steps_text] if part))
 
         if required_terms and all(term in heading_l for term in required_terms):
             score += 1.5
         elif required_terms and all(term in body_l for term in required_terms):
             score += 1.0
+        elif required_terms and all(term in steps_l for term in required_terms):
+            score += 1.2
+        elif required_terms and all(term in combined_l for term in required_terms):
+            score += 0.9
 
         h_tokens = set(tokenize(heading))
         b_tokens = set(tokenize(text))
+        s_tokens = set(tokenize(steps_text))
 
         score += min(len(q_tokens & h_tokens) * 0.20, 1.0)
         score += min(len(q_tokens & b_tokens) * 0.05, 0.5)
+        score += min(len(q_tokens & s_tokens) * 0.08, 0.7)
 
         if any(
             word in heading_l
             for word in ["connect", "setup", "configure", "install", "enroll", "reset"]
         ):
             score += 0.4
+
+        if steps:
+            score += 0.15
+
+        if setup_query and steps:
+            score += min(len(steps) * 0.05, 0.45)
+
+        if setup_query and any(
+            marker in combined_l
+            for marker in [
+                "eap method",
+                "mschapv2",
+                "certificate",
+                "domain field",
+                "identity field",
+                "portal address",
+                "globalprotect",
+                "wireless.northeastern.edu",
+            ]
+        ):
+            score += 0.6
 
         scored_sections.append((score, sec))
 
@@ -248,7 +294,13 @@ def build_priority_block(kb: dict, query: str):
 
     for sec in picked:
         lines.append(f"[Section] {sec.get('heading', '')}")
-        lines.append(sec.get("text", "").strip())
+        body = sec.get("text", "").strip()
+        if body:
+            lines.append(body)
+        steps = [step.strip() for step in (sec.get("steps") or []) if step.strip()]
+        if steps:
+            lines.append("Steps:")
+            lines.extend(f"{idx}. {step}" for idx, step in enumerate(steps, start=1))
 
     return "\n\n".join(lines)
 

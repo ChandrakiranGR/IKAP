@@ -17,6 +17,7 @@ from backend.orchestration.retrieval_adapter import retrieve_kb_chunks
 
 URL_RE = re.compile(r"https?://[^\s)>\]]+")
 STEP_RE = re.compile(r"(?m)^\d+\.\s+")
+TRAILING_URL_PUNCT_RE = re.compile(r"[),.;>\]]+$")
 
 
 def load_cases(path: Path) -> list[dict]:
@@ -27,7 +28,10 @@ def load_cases(path: Path) -> list[dict]:
 
 
 def extract_urls(text: str) -> list[str]:
-    return URL_RE.findall(text or "")
+    urls = []
+    for url in URL_RE.findall(text or ""):
+        urls.append(TRAILING_URL_PUNCT_RE.sub("", url))
+    return urls
 
 
 def count_steps(text: str) -> int:

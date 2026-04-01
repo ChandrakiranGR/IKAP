@@ -38,12 +38,25 @@ def extract_body_from_kb(kb: dict) -> str:
         for sec in secs:
             heading = sanitize((sec.get("heading") or "").strip())
             txt = sanitize((sec.get("text") or "").strip())
-            if not txt:
-                continue
+            steps = [
+                sanitize((step or "").strip())
+                for step in (sec.get("steps") or [])
+                if isinstance(step, str) and step.strip()
+            ]
+            section_lines = []
             if heading:
-                parts.append(f"{heading}\n{txt}")
-            else:
-                parts.append(txt)
+                section_lines.append(heading)
+            if not txt:
+                txt = ""
+            if txt:
+                section_lines.append(txt)
+            if steps:
+                section_lines.append("Steps:")
+                section_lines.extend(
+                    f"{idx}. {step}" for idx, step in enumerate(steps, start=1)
+                )
+            if section_lines:
+                parts.append("\n".join(section_lines))
         return "\n\n".join(parts).strip()
 
     # Fallback for other potential KB JSON shapes (future-proofing)

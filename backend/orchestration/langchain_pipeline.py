@@ -96,6 +96,8 @@ class IKAPLangChainPipeline:
                     + "Do not invent citations or links. "
                     + "If the user explicitly asks for a link and a relevant KB URL is present in retrieved context, include that URL. "
                     + "If a relevant KB URL is not present in retrieved context, do not make one up. "
+                    + "If the user explicitly asks for a link, place the URL under 'References:' and do not leave References as 'None'. "
+                    + "Avoid putting a raw URL only inside a numbered step unless the KB context makes clicking that URL an explicit step. "
                     + "Use the heading 'Steps:' only. "
                     + "Use the heading 'References:' only. "
                     + "Prioritize correctness and completeness over brevity. "
@@ -105,6 +107,9 @@ class IKAPLangChainPipeline:
                     + "Preserve important notes or conditions when they are relevant to successfully completing the task. "
                     + "Do not include partial or broken sentences. "
                     + "If the KB content is noisy, extract the most reliable actionable guidance and present it clearly. "
+                    + "For configuration or setup questions, preserve exact KB-backed values such as EAP method, certificate settings, identity fields, domains, portal addresses, and version-specific branches whenever they appear in retrieved context. "
+                    + "When the question specifies a platform or device such as Android, iPhone, iOS, Windows, Mac, macOS, Chromebook, or Linux, keep that platform explicit in the response instead of generalizing it away. "
+                    + "If the user asks for unsafe or disallowed instructions, Step 1 must explicitly say that you cannot assist or cannot provide those instructions before offering safe alternatives. "
                     + "Keep the response aligned with the IKAP format.",
                 ),
                 (

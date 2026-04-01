@@ -199,11 +199,16 @@ def main() -> int:
         default="data/benchmarks/results/answer_eval_results.json",
         help="Output JSON file for detailed results",
     )
+    ap.add_argument(
+        "--model",
+        default="",
+        help="Optional model override for the answer pipeline",
+    )
     args = ap.parse_args()
 
     cases_path = Path(args.cases)
     cases = load_cases(cases_path)
-    pipeline = IKAPLangChainPipeline(top_k=args.top_k)
+    pipeline = IKAPLangChainPipeline(model_name=args.model or None, top_k=args.top_k)
 
     results = []
     for case in cases:
@@ -216,6 +221,7 @@ def main() -> int:
     summary = summarize(results)
     payload = {
         "cases_file": str(cases_path),
+        "model": pipeline.model_name,
         "top_k": args.top_k,
         "summary": summary,
         "results": results,

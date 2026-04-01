@@ -77,6 +77,12 @@ def chunk_text(text: str, max_chars: int = 1400, overlap: int = 200) -> list[str
     return chunks
 
 
+def batched(items: list[dict], batch_size: int) -> list[list[dict]]:
+    if batch_size <= 0:
+        batch_size = 1
+    return [items[i : i + batch_size] for i in range(0, len(items), batch_size)]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument(
@@ -96,6 +102,12 @@ def main():
     )
     ap.add_argument(
         "--embed_model", default=DEFAULT_EMBED_MODEL, help="Embedding model name"
+    )
+    ap.add_argument(
+        "--batch_size",
+        type=int,
+        default=64,
+        help="Number of chunks to embed per API request",
     )
     args = ap.parse_args()
 
@@ -120,48 +132,63 @@ def main():
     if args.limit and args.limit > 0:
         files = files[: args.limit]
 
-    total_chunks = 0
-    total_docs = 0
+    chunk_records = []
+    doc_chunk_counts = []
 
-    with out_path.open("w", encoding="utf-8") as f_out:
-        for fp in files:
-            kb = json.loads(fp.read_text(encoding="utf-8"))
+    for fp in files:
+        kb = json.loads(fp.read_text(encoding="utf-8"))
 
-            kb_id = kb.get("article_id") or kb.get("kb_id") or fp.stem
-            title = sanitize(kb.get("title") or kb.get("short_description") or "")
+        kb_id = kb.get("article_id") or kb.get("kb_id") or fp.stem
+        title = sanitize(kb.get("title") or kb.get("short_description") or "")
+        article_url = kb.get("url") or kb.get("article_url") or ""
 
-            body = extract_body_from_kb(kb)
-            doc = f"Title: {title}\n\n{body}".strip()
-            doc = sanitize(doc)
+        body = extract_body_from_kb(kb)
+        doc = f"Title: {title}\n\n{body}".strip()
+        doc = sanitize(doc)
 
-            if not body:
-                # If there's no body, indexing only title won't help RAG grounding
-                # Skip it to avoid poor retrieval behavior.
-                continue
+        if not body:
+            continue
 
-            chunks = chunk_text(doc, max_chars=args.max_chars, overlap=args.overlap)
-            if not chunks:
-                continue
+        chunks = chunk_text(doc, max_chars=args.max_chars, overlap=args.overlap)
+        if not chunks:
+            continue
 
-            # Embed each chunk and write to JSONL
-            for idx, ch in enumerate(chunks):
-                emb = (
-                    client.embeddings.create(model=args.embed_model, input=ch)
-                    .data[0]
-                    .embedding
-                )
-                rec = {
+        for idx, ch in enumerate(chunks):
+            chunk_records.append(
+                {
                     "kb_id": kb_id,
                     "title": title,
+                    "article_url": article_url,
                     "chunk_id": idx,
                     "text": ch,
-                    "embedding": emb,
+                }
+            )
+
+        doc_chunk_counts.append((kb_id, len(chunks)))
+
+    total_docs = len(doc_chunk_counts)
+    total_chunks = len(chunk_records)
+
+    with out_path.open("w", encoding="utf-8") as f_out:
+        for batch in batched(chunk_records, args.batch_size):
+            embeddings = client.embeddings.create(
+                model=args.embed_model,
+                input=[item["text"] for item in batch],
+            ).data
+
+            for item, emb in zip(batch, embeddings):
+                rec = {
+                    "kb_id": item["kb_id"],
+                    "title": item["title"],
+                    "article_url": item["article_url"],
+                    "chunk_id": item["chunk_id"],
+                    "text": item["text"],
+                    "embedding": emb.embedding,
                 }
                 f_out.write(json.dumps(rec, ensure_ascii=False) + "\n")
-                total_chunks += 1
 
-            total_docs += 1
-            print(f"Indexed {kb_id} -> {len(chunks)} chunks")
+    for kb_id, chunk_count in doc_chunk_counts:
+        print(f"Indexed {kb_id} -> {chunk_count} chunks")
 
     print(f"\n Indexed docs: {total_docs}")
     print(f" Wrote {total_chunks} chunk embeddings to {out_path}")

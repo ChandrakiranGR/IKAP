@@ -1,9 +1,0 @@
-{
-  "num_examples": 36,
-  "top_k": 1,
-  "avg_steps": 4.6667,
-  "format_ok_rate": 1.0,
-  "response_nonempty_rate": 1.0,
-  "category_accuracy": null,
-  "grounded_url_rate": null
-}

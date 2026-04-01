@@ -13,6 +13,8 @@ ESCALATION_BLOCK = (
     "- The step where the issue occurred\n"
     "- Any error message shown"
 )
+SEMICOLON_SECTION_SPLIT_RE = re.compile(r";\s+(?=[A-Z][A-Za-z0-9/&'() -]{1,80}:)")
+NOTE_SPLIT_RE = re.compile(r"\bNote:\s+", re.I)
 
 
 def load_json(path: Path):
@@ -21,6 +23,42 @@ def load_json(path: Path):
 
 def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").strip())
+
+
+def clean_step_text(text: str) -> str:
+    text = normalize_space(text)
+    text = re.sub(r"\bto the to the\b", "to the", text, flags=re.I)
+    text = re.sub(r"\bthe the\b", "the", text, flags=re.I)
+    text = re.sub(r"\bto to\b", "to", text, flags=re.I)
+    text = re.sub(r"\s+([:;,.])", r"\1", text)
+    return text.strip()
+
+
+def split_step_text(text: str) -> list[str]:
+    text = clean_step_text(text)
+    if not text:
+        return []
+
+    out: list[str] = []
+    for part in SEMICOLON_SECTION_SPLIT_RE.split(text):
+        part = clean_step_text(part)
+        if not part:
+            continue
+
+        note_parts = NOTE_SPLIT_RE.split(part, maxsplit=1)
+        main_step = clean_step_text(note_parts[0])
+        if main_step:
+            out.append(main_step)
+
+        if len(note_parts) == 2:
+            note_step = clean_step_text(note_parts[1])
+            if note_step:
+                if note_step.lower().startswith("if "):
+                    out.append(note_step)
+                else:
+                    out.append(f"Note: {note_step}")
+
+    return out
 
 
 def sentence_chunks(text: str) -> list[str]:
@@ -70,7 +108,9 @@ def build_steps(doc: dict, max_steps: int = 8) -> tuple[list[str], bool]:
     ordered = []
     for section in sections:
         heading = normalize_space(section.get("heading", ""))
-        steps = [normalize_space(step) for step in (section.get("steps") or []) if normalize_space(step)]
+        steps: list[str] = []
+        for raw_step in section.get("steps") or []:
+            steps.extend(split_step_text(raw_step))
         text = normalize_space(section.get("text", ""))
         ordered.append({"heading": heading, "steps": steps, "text": text})
 
@@ -81,15 +121,22 @@ def build_steps(doc: dict, max_steps: int = 8) -> tuple[list[str], bool]:
 
     picked_sections = non_intro_step_sections or step_sections
     steps: list[str] = []
+    seen: set[str] = set()
 
     for section in picked_sections:
-        if section["heading"] and section["heading"].lower() not in {"introduction", "summary"}:
-            steps.append(f"{section['heading']}:")
-        steps.extend(section["steps"])
+        for step in section["steps"]:
+            if not step:
+                continue
+            key = step.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            steps.append(step)
+            if len(steps) >= max_steps:
+                break
         if len(steps) >= max_steps:
             break
 
-    steps = [step for step in steps if step]
     if steps:
         return steps[:max_steps], True
 
@@ -115,28 +162,16 @@ def draft_quality(doc: dict, steps: list[str], used_explicit_steps: bool) -> str
     if not used_explicit_steps:
         return "low"
 
-    pure_steps = [step for step in steps if not step.endswith(":")]
-    if len(pure_steps) >= 4:
+    if len(steps) >= 4:
         return "high"
-    if len(pure_steps) >= 2:
+    if len(steps) >= 2:
         return "medium"
     return "low"
 
 
 def build_assistant_response(doc: dict, steps: list[str]) -> str:
     category = derive_category(doc)
-    step_lines = []
-    number = 1
-    for step in steps:
-        if step.endswith(":"):
-            if step_lines:
-                step_lines[-1] = step_lines[-1] + f" {step}"
-            else:
-                step_lines.append(f"{number}. {step}")
-                number += 1
-            continue
-        step_lines.append(f"{number}. {step}")
-        number += 1
+    step_lines = [f"{idx}. {clean_step_text(step)}" for idx, step in enumerate(steps, start=1)]
 
     if not step_lines:
         step_lines = [
@@ -161,6 +196,9 @@ def build_assistant_response(doc: dict, steps: list[str]) -> str:
 
 def build_user_question(doc: dict) -> str:
     title = normalize_space(doc.get("title", ""))
+    if title.lower().startswith("faq:"):
+        topic = title.split(":", 1)[1].strip().rstrip("?")
+        return f"What should I know about {topic}?"
     if title.endswith("?"):
         return title
     return f"{title}?"

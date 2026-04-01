@@ -1,100 +1,72 @@
-# IKAP Dataset Data Card (Assignment 4 – Step 2)
+# IKAP Data Card (KB-Only MVP)
 
-## Purpose
-This dataset supports IKAP, a Northeastern IT helpdesk assistant prototype, by providing structured examples across multiple IT support use cases. It is designed for:
-- prompt-only baseline evaluation (consistency and safety)
-- fine-tuning/evaluation experiments
-- future grounding/RAG integration
+## Current Scope
+The current IKAP MVP uses Northeastern IT knowledge base (KB) articles only.
 
-## Scope and Use Cases
-The dataset covers the following use cases:
-- student_portal (Student Hub / profile tasks)
-- mfa (Duo and authentication-related issues)
-- vpn (remote access/VPN issues)
-- canvas (LMS-related support)
-- account_access (username/login/access topics)
-- software (licensed software install/access issues)
-- password (password reset/change topics)
-- wifi (connectivity basics)
+This repository no longer treats incident exports as part of the active MVP data path. The latest KB exports in `data/raw/` are the source of truth for ingestion, cleaning, retrieval, and downstream response grounding.
 
-## Dataset Size and Composition
-**Total examples:** 138  
-**Case types:**
-- Typical: 110
-- Edge: 17
-- Adversarial: 11
+## Active Use Cases
+The KB corpus currently supports these working use-case groups:
+- `account_access`
+- `mfa`
+- `vpn`
+- `wifi`
+- `student_portal`
+- `canvas`
+- `software`
+- `other`
 
-**Use-case distribution:**
-| Use Case | Count |
-|---|---:|
-| student_portal | 29 |
-| mfa | 26 |
-| vpn | 19 |
-| canvas | 14 |
-| account_access | 13 |
-| software | 13 |
-| password | 12 |
-| wifi | 12 |
+Password-related flows such as reset, change, or forgotten-password guidance are handled under `account_access` or the relevant product-specific KB area rather than a standalone MVP use case.
 
 ## Data Sources
-**Typical examples (KB-derived):**
-- Generated from ServiceNow KB articles exported as HTML and converted to structured JSON.
-- Steps were extracted and normalized; raw URLs were removed or replaced with placeholders (e.g., `[URL]`).
+KB articles are collected from Northeastern ServiceNow knowledge base pages through raw exports such as:
+- structured KB JSON exports placed in `data/raw/*_kb.json`
 
-**Edge examples (incident-inspired + realistic constraints):**
-- Built using redacted ServiceNow incident exports for selected use cases:
-  - `incident_mfa_redacted.csv`
-  - `incident_account_access_redacted.csv`
-  - `incident_software_redacted.csv`
-  - `incident_student_hub_redacted.csv`
-  - `incident_vpn_redacted.csv`
-- Wi-Fi incidents were intentionally skipped due to highly repetitive connectivity-only patterns; Wi-Fi edge coverage can be expanded later if needed.
+## Raw and Processed Layout
+Raw KB inputs:
+- `data/raw/*_kb.json`
 
-**Adversarial examples (synthetic):**
-- Added to test guardrails (e.g., requests for bypassing security, requests for internal-only procedures, prompt-injection attempts).
-- Intended to verify safe refusal + correct escalation behavior.
+Processed KB artifacts:
+- `data/processed/kb_json/` for one-article-per-file normalized KB records
+- `data/manifests/kb_index.csv` for the generated KB manifest
 
-## Data Format
-Stored as JSONL with one record per line. Key fields include:
-- `id`, `use_case`, `case_type`, `user_query`
-- `expected_output`:
-  - `category`
-  - `steps` (list of step strings)
-  - `escalation` (what to do if unresolved)
-- `guardrails` (e.g., no URLs, no portal assumptions, no policy claims)
-- `source` (KB IDs and/or incident reference filenames)
-- `tags` (optional)
+## Expected KB Record Shape
+Each normalized KB article should preserve:
+- `article_id`
+- `title`
+- `article_url`
+- `source_url`
+- `doc_type`
+- `source_system`
+- `updated_at`
+- `plain_text`
+- `body_html`
+- `sections`
+- `links`
+- `related_articles`
+- `categories`
 
-Primary compiled file:
-- `data/dataset/all.jsonl`
+Each section should preserve:
+- `heading`
+- `text`
+- `steps`
+- `links`
 
-Draft components:
-- `data/dataset/draft/*_typical.jsonl`
-- `data/dataset/draft/*_edge_adv.jsonl`
+## Quality Goals
+The KB cleaning pipeline should:
+- keep canonical KB article URLs
+- preserve embedded links with visible anchor text
+- extract actionable steps from procedural sections
+- remove navigation/page chrome noise such as table-of-contents duplication, profile menus, and footer content
+- deduplicate repeated article exports
+- keep raw exports separate from normalized processed files
 
-## Privacy and PII Handling
-Incident exports were processed using regex-based redaction across all columns to remove or mask:
-- emails (including partial forms), phone numbers, IP/MAC, ticket IDs (INC/RITM/REQ/TASK/CHG), IDs (NUID/student IDs), dates of birth patterns
-- personal names in greetings, signatures, and inline self-introductions (e.g., “My name is …”)
-Redacted placeholders are used (e.g., `[REDACTED_EMAIL]`, `[REDACTED_PHONE]`, `[REDACTED_NAME]`, `[REDACTED_TICKET]`).
+## Exclusions
+The current MVP excludes:
+- ServiceNow incident exports
+- incident-inspired edge-case generation
+- incident redaction workflows
+- any retrieval or evaluation path that depends on incident data
 
-## Quality Checks
-- JSONL validation: schema completeness, duplicate IDs, minimum steps, and URL removal in `expected_output`
-- Manual spot checks on redacted incident text to confirm removal of common name/signature patterns
-- Consistent labeling across use cases via KB mapping rules
-
-## Train/Dev/Test Split
-A stratified split (by `use_case` and `case_type`) was created using a fixed random seed:
-- Train: 84
-- Dev: 18
-- Test: 36
-
-Files:
-- `data/dataset/splits/train.jsonl`
-- `data/dataset/splits/dev.jsonl`
-- `data/dataset/splits/test.jsonl`
-
-## Limitations and Next Improvements
-- Some edge/adversarial cases are synthetic (by design) and will be strengthened by exporting additional incident sets (e.g., Canvas/Wi-Fi) if needed.
-- Some KB-derived steps may still contain institution-specific wording; URLs are removed, but future RAG grounding will allow safer, more accurate referencing.
-- Future work: integrate retrieval grounding (RAG) so responses can cite KB content directly and reduce reliance on generalized guidance.
+## Notes
+Some historical coursework scripts and experiments may still remain in the repository, but the active MVP data path is KB-only.

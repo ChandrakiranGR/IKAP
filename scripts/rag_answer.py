@@ -258,24 +258,31 @@ def synthesize_article_url(kb_id: str):
 
 
 def load_retrieved_links(kb_dir: Path, kb_ids: list[str], limit: int = 10):
-    seen = set()
     out = []
-
+    loaded = []
     for kb_id in kb_ids:
         kb = load_kb_json(kb_dir, kb_id)
         if not kb:
             continue
 
+        loaded.append((kb_id, kb))
+        seen_for_kb = set()
         title = kb.get("title") or kb_id
 
         self_url = normalize_url(kb.get("url") or "") or synthesize_article_url(kb_id)
         self_label = title
         self_key = (self_label, self_url)
-        if self_url and self_key not in seen:
-            seen.add(self_key)
+        if self_url and self_key not in seen_for_kb:
+            seen_for_kb.add(self_key)
             out.append({"kb_id": kb_id, "text": self_label, "url": self_url})
             if len(out) >= limit:
                 return out
+
+        kb["_seen_for_retrieved_links"] = seen_for_kb
+
+    for kb_id, kb in loaded:
+        seen_for_kb = kb.get("_seen_for_retrieved_links", set())
+        title = kb.get("title") or kb_id
 
         for link in kb.get("links", []):
             text = (link.get("text") or "").strip() or title
@@ -283,9 +290,9 @@ def load_retrieved_links(kb_dir: Path, kb_ids: list[str], limit: int = 10):
             if not url:
                 continue
             key = (text, url)
-            if key in seen:
+            if key in seen_for_kb:
                 continue
-            seen.add(key)
+            seen_for_kb.add(key)
             out.append({"kb_id": kb_id, "text": text, "url": url})
             if len(out) >= limit:
                 return out

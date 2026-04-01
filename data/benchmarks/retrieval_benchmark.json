@@ -1,0 +1,176 @@
+[
+  {
+    "id": "account_password_reset",
+    "category": "account_access",
+    "question": "I forgot my Northeastern password. How do I reset it?",
+    "expected_kb_id": "KB0012457"
+  },
+  {
+    "id": "mfa_enroll_duo",
+    "category": "mfa",
+    "question": "How do I enroll in Duo MFA?",
+    "expected_kb_id": "KB0012649"
+  },
+  {
+    "id": "mfa_new_phone",
+    "category": "mfa",
+    "question": "I got a new phone. How do I update my Duo enrollment?",
+    "expected_kb_id": "KB0015209"
+  },
+  {
+    "id": "mfa_remember_me",
+    "category": "mfa",
+    "question": "How do I get Duo to remember me for 30 days?",
+    "expected_kb_id": "KB0014282"
+  },
+  {
+    "id": "mfa_trusted_devices",
+    "category": "mfa",
+    "question": "How do I manage my Duo account and trusted devices?",
+    "expected_kb_id": "KB0015162"
+  },
+  {
+    "id": "mfa_touch_id",
+    "category": "mfa",
+    "question": "How do I set up Touch ID with Duo on my Mac?",
+    "expected_kb_id": "KB0015163"
+  },
+  {
+    "id": "vpn_mac",
+    "category": "vpn",
+    "question": "How do I connect to VPN on my Mac?",
+    "expected_kb_id": "KB0013800"
+  },
+  {
+    "id": "vpn_windows_install",
+    "category": "vpn",
+    "question": "How do I install VPN on Windows?",
+    "expected_kb_id": "KB0013799"
+  },
+  {
+    "id": "vpn_android",
+    "category": "vpn",
+    "question": "How do I connect to VPN on Android?",
+    "expected_kb_id": "KB0013910"
+  },
+  {
+    "id": "wifi_nuwave_windows",
+    "category": "wifi",
+    "question": "How do I connect to NUwave on Windows?",
+    "expected_kb_id": "KB0012505"
+  },
+  {
+    "id": "wifi_eduroam",
+    "category": "wifi",
+    "question": "How do I connect to eduroam?",
+    "expected_kb_id": "KB000018114"
+  },
+  {
+    "id": "wifi_guest_conference_code",
+    "category": "wifi",
+    "question": "How do I connect to NUwave-guest with a conference code?",
+    "expected_kb_id": "KB0013940"
+  },
+  {
+    "id": "studenthub_access",
+    "category": "studenthub",
+    "question": "How do I access the Student Hub?",
+    "expected_kb_id": "KB000016368"
+  },
+  {
+    "id": "studenthub_holds",
+    "category": "studenthub",
+    "question": "How do I view or resolve holds and blocks on Student Hub?",
+    "expected_kb_id": "KB000018826"
+  },
+  {
+    "id": "studenthub_privacy",
+    "category": "studenthub",
+    "question": "How do I change my privacy and visibility settings in Student Hub?",
+    "expected_kb_id": "KB000018534"
+  },
+  {
+    "id": "canvas_qwickly_info",
+    "category": "canvas",
+    "question": "What is Qwickly Attendance?",
+    "expected_kb_id": "KB0014197"
+  },
+  {
+    "id": "canvas_qwickly_take_attendance",
+    "category": "canvas",
+    "question": "How do I take attendance in Canvas using Qwickly?",
+    "expected_kb_id": "KB000016406"
+  },
+  {
+    "id": "canvas_qwickly_email",
+    "category": "canvas",
+    "question": "How do I email students before I publish my Canvas course?",
+    "expected_kb_id": "KB000018461"
+  },
+  {
+    "id": "canvas_turnitin_add_assignment",
+    "category": "canvas",
+    "question": "How do I add a Turnitin assignment to my Canvas course?",
+    "expected_kb_id": "KB0014244"
+  },
+  {
+    "id": "canvas_turnitin_quick_submit",
+    "category": "canvas",
+    "question": "How do I use Turnitin quick submit as faculty?",
+    "expected_kb_id": "KB0014253"
+  },
+  {
+    "id": "canvas_respondus_info",
+    "category": "canvas",
+    "question": "What is Respondus LockDown Browser and Monitor?",
+    "expected_kb_id": "KB0014205"
+  },
+  {
+    "id": "canvas_create_quiz",
+    "category": "canvas",
+    "question": "How do I create and grade a quiz in Canvas?",
+    "expected_kb_id": "KB0014587"
+  },
+  {
+    "id": "canvas_extra_time",
+    "category": "canvas",
+    "question": "How do I give students more time on a Canvas quiz?",
+    "expected_kb_id": "KB0014530"
+  },
+  {
+    "id": "canvas_import_rubric",
+    "category": "canvas",
+    "question": "How do I import a rubric from Excel into Canvas?",
+    "expected_kb_id": "KB0014393"
+  },
+  {
+    "id": "software_matlab_access",
+    "category": "software",
+    "question": "How do I access MATLAB?",
+    "expected_kb_id": "KB0014060"
+  },
+  {
+    "id": "software_matlab_license",
+    "category": "software",
+    "question": "How do I update my MATLAB license?",
+    "expected_kb_id": "KB0012582"
+  },
+  {
+    "id": "software_tableau_access",
+    "category": "software",
+    "question": "How do I access Tableau?",
+    "expected_kb_id": "KB000017757"
+  },
+  {
+    "id": "software_solidworks_download",
+    "category": "software",
+    "question": "How do I download SOLIDWORKS as a COE student?",
+    "expected_kb_id": "KB000018203"
+  },
+  {
+    "id": "software_ansys_access",
+    "category": "software",
+    "question": "How do I get access to Ansys?",
+    "expected_kb_id": "KB000018204"
+  }
+]

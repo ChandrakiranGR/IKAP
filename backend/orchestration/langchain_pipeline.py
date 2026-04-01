@@ -10,7 +10,8 @@ from backend.orchestration.prompt_loader import load_v4_system_prompt
 from backend.orchestration.retrieval_adapter import retrieve_kb_chunks
 
 
-FINAL_MODEL = "ft:gpt-4o-mini-2024-07-18:northeastern-university::DHXUyO6e"
+# Use a base model while the new RAG and fine-tuning pipeline is rebuilt.
+FINAL_MODEL = "gpt-4o-mini"
 
 
 def format_retrieved_context(chunks: List[Dict[str, Any]]) -> str:

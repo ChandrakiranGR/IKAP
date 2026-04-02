@@ -25,12 +25,14 @@ npm install
 npm run dev
 ```
 
-The Vite dev server proxies `/api/*` requests to `http://127.0.0.1:8000`.
+By default, the Vite dev server runs on `http://127.0.0.1:8080` and proxies `/api/*` requests to `http://127.0.0.1:8000`.
 
 ## Optional environment override
 
-If you want the frontend to call a different backend host, create `frontend/.env` with:
+If you want the frontend to call a different backend host or use a different local dev port, create `frontend/.env` with:
 
 ```bash
 VITE_API_BASE_URL=http://127.0.0.1:8000
+VITE_API_PROXY_TARGET=http://127.0.0.1:8000
+VITE_DEV_PORT=8080
 ```

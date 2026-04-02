@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
-import { AlertTriangle, BookOpen, MessageSquare, Shield } from "lucide-react";
+import { AlertTriangle, ArrowRight, BookOpen, MessageSquare, Shield } from "lucide-react";
 
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
+
+const SAMPLE_PROMPTS = [
+  "How do I reset my Northeastern password?",
+  "How do I update Duo enrollment when I get a new phone?",
+  "How do I connect to VPN on my Mac?",
+  "Give me the Turnitin quick submit link.",
+];
 
 const Index = () => {
   return (
@@ -32,6 +39,44 @@ const Index = () => {
                   Open IKAP Chat
                 </Button>
               </Link>
+              <Link to={`/chat?q=${encodeURIComponent(SAMPLE_PROMPTS[0])}`}>
+                <Button size="lg" variant="outline" className="gap-2 text-base">
+                  Try a Sample Question
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t bg-background py-16">
+        <div className="container">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-8 text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-primary">
+                Start Fast
+              </p>
+              <h2 className="mt-3 text-3xl font-bold text-foreground">
+                Try common student and faculty questions
+              </h2>
+            </div>
+            <div className="grid gap-4 md:grid-cols-2">
+              {SAMPLE_PROMPTS.map((prompt) => (
+                <Link
+                  key={prompt}
+                  to={`/chat?q=${encodeURIComponent(prompt)}`}
+                  className="group rounded-2xl border bg-card p-5 transition hover:-translate-y-0.5 hover:border-primary/35 hover:shadow-sm"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <div className="mb-2 text-sm font-semibold text-primary">Sample prompt</div>
+                      <div className="text-base text-foreground">{prompt}</div>
+                    </div>
+                    <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-muted-foreground transition group-hover:text-primary" />
+                  </div>
+                </Link>
+              ))}
             </div>
           </div>
         </div>

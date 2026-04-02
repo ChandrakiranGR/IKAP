@@ -1,7 +1,5 @@
 # IKAP Frontend
 
-This frontend is adapted from the Lovable prototype and wired to the local IKAP Python backend instead of Supabase functions.
-
 ## What is included
 
 - Landing page

@@ -121,6 +121,73 @@ def _score_url(url: str, kb_id: str) -> int:
     return score
 
 
+def _is_requirements_section(heading: str) -> bool:
+    heading_l = (heading or "").strip().lower()
+    return any(
+        term in heading_l
+        for term in [
+            "requirement",
+            "prerequisite",
+            "prerequisites",
+        ]
+    )
+
+
+def _is_note_section(heading: str) -> bool:
+    heading_l = (heading or "").strip().lower()
+    return any(
+        term in heading_l
+        for term in [
+            "introduction",
+            "benefit",
+            "limitation",
+            "important",
+            "note",
+            "resource",
+        ]
+    )
+
+
+def _extract_question_specific_notes(kb: Dict[str, Any], question: str) -> List[str]:
+    notes: List[str] = []
+    question_l = (question or "").lower()
+    title = (kb.get("title") or "").strip()
+    title_l = title.lower()
+    sections = kb.get("sections", []) or []
+
+    if any(term in question_l for term in [" mac", " mac?", " mac.", " on my mac", "macbook", "macos"]):
+        if any(term in title_l for term in ["mac", "macbook", "macos"]):
+            notes.append("Platform: Mac.")
+        else:
+            for section in sections:
+                combined = " ".join(
+                    [
+                        section.get("heading", ""),
+                        section.get("text", ""),
+                        " ".join(section.get("steps") or []),
+                    ]
+                ).lower()
+                if any(term in combined for term in ["mac", "macbook", "macos"]):
+                    notes.append("Platform: Mac.")
+                    break
+
+    if any(term in question_l for term in ["publish", "published", "unpublished", "before i publish", "before publishing"]):
+        for section in sections:
+            text = _clean_kb_text(section.get("text", ""))
+            combined_l = " ".join(
+                [
+                    (section.get("heading") or "").lower(),
+                    text.lower(),
+                    " ".join((section.get("steps") or [])).lower(),
+                ]
+            )
+            if any(term in combined_l for term in ["published", "unpublished", "only work after"]):
+                notes.append(f"Timing note: {text}")
+                break
+
+    return notes
+
+
 def _build_precise_kb_excerpt(kb_dir: Path, kb_id: str, question: str) -> str:
     kb = load_kb_json(kb_dir, kb_id)
     if not kb:
@@ -148,6 +215,14 @@ def _build_precise_kb_excerpt(kb_dir: Path, kb_id: str, question: str) -> str:
         max_sections=5 if setup_query else 3,
     )
     blocks = []
+    title = (kb.get("title") or "").strip()
+    if title:
+        blocks.append(f"Article title: {title}")
+
+    qualifier_notes = _extract_question_specific_notes(kb, question)
+    if qualifier_notes:
+        blocks.append("\n".join(qualifier_notes))
+
     for section in sections:
         heading = (section.get("heading") or "").strip()
         text = _clean_kb_text(section.get("text", ""))
@@ -163,8 +238,15 @@ def _build_precise_kb_excerpt(kb_dir: Path, kb_id: str, question: str) -> str:
         if text:
             parts.append(text)
         if steps:
-            parts.append("Steps:")
-            parts.extend(f"{idx}. {step}" for idx, step in enumerate(steps, start=1))
+            if _is_requirements_section(heading):
+                parts.append("Requirements:")
+                parts.extend(f"- {step}" for step in steps)
+            elif _is_note_section(heading):
+                parts.append("Key notes:")
+                parts.extend(f"- {step}" for step in steps)
+            else:
+                parts.append("Steps:")
+                parts.extend(f"{idx}. {step}" for idx, step in enumerate(steps, start=1))
 
         if parts:
             blocks.append("\n".join(parts))

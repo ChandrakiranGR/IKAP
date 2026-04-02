@@ -21,6 +21,9 @@ UNSAFE_QUERY_RE = re.compile(
     r"(?i)\b("
     r"bypass(?:ing)?\s+(?:duo|mfa|multi[- ]factor)|"
     r"disable\s+(?:duo|mfa|multi[- ]factor)|"
+    r"internal\s+(?:steps?|process|procedure|workflow)|"
+    r"(?:admin|administrator|administrative)\s+(?:steps?|process|procedure|workflow)|"
+    r"reset\s+duo\s+for\s+(?:any|another|other)\s+user|"
     r"cracked?\s+(?:license|licence|key)|"
     r"keygen|serial key|pirated?|"
     r"hack(?:ing)?|"
@@ -76,6 +79,88 @@ def clean_response(text: str) -> str:
     text = re.sub(r"\n{3,}", "\n\n", text)
 
     return text.strip()
+
+
+def _find_supported_scope_notes(question: str, response: str, chunks: List[Dict[str, Any]]) -> List[str]:
+    question_l = (question or "").lower()
+    response_l = (response or "").lower()
+    combined_context = " ".join(
+        " ".join(
+            [
+                (chunk.get("title") or "").lower(),
+                (chunk.get("text") or "").lower(),
+            ]
+        )
+        for chunk in chunks[:2]
+    )
+
+    notes: List[str] = []
+    platform_labels = [
+        ("mac", "Scope: Mac."),
+        ("macos", "Scope: macOS."),
+        ("windows", "Scope: Windows."),
+        ("android", "Scope: Android."),
+        ("iphone", "Scope: iPhone."),
+        ("ios", "Scope: iOS."),
+        ("chromebook", "Scope: Chromebook."),
+        ("linux", "Scope: Linux."),
+    ]
+    for term, note in platform_labels:
+        if term in question_l and term not in response_l and term in combined_context:
+            notes.append(note)
+            break
+
+    if (
+        any(term in question_l for term in ["publish", "published", "unpublished", "before publishing", "before i publish"])
+        and "publish" not in response_l
+        and any(term in combined_context for term in ["publish", "published", "unpublished"])
+    ):
+        notes.append("Timing: This guidance applies before the course is published when the KB says Qwickly works with unpublished courses.")
+
+    return notes
+
+
+def _insert_scope_notes(response: str, notes: List[str]) -> str:
+    if not notes:
+        return response
+
+    marker = "Clarifying question: None\n"
+    note_block = "\n".join(notes) + "\n"
+    if marker in response:
+        return response.replace(marker, marker + note_block, 1)
+    return note_block + response
+
+
+def _is_link_request(question: str) -> bool:
+    question_l = (question or "").lower()
+    return any(
+        phrase in question_l
+        for phrase in [
+            "give me the link",
+            "send me the link",
+            "what is the link",
+            "article link",
+            "url",
+            "link to",
+        ]
+    )
+
+
+def _count_numbered_steps(response: str) -> int:
+    return len(re.findall(r"(?m)^\d+\.\s+", response or ""))
+
+
+def _ensure_link_request_steps(question: str, response: str, chunks: List[Dict[str, Any]]) -> str:
+    if not _is_link_request(question) or _count_numbered_steps(response) >= 2:
+        return response
+
+    title = (chunks[0].get("title") or "the KB article") if chunks else "the KB article"
+    extra_step = f"2. Open the KB article in References and follow the detailed steps in {title}."
+
+    marker = "\nReferences:\n"
+    if marker in response:
+        return response.replace(marker, f"\n{extra_step}{marker}", 1)
+    return response + f"\n{extra_step}"
 
 
 def is_unsafe_request(question: str) -> bool:
@@ -166,6 +251,7 @@ class IKAPLangChainPipeline:
                     + "For configuration or setup questions, preserve exact KB-backed values such as EAP method, certificate settings, identity fields, domains, portal addresses, and version-specific branches whenever they appear in retrieved context. "
                     + "Do not compress configuration-heavy KBs into overly short summaries when the source contains exact required values or option branches. "
                     + "When the question specifies a platform or device such as Android, iPhone, iOS, Windows, Mac, macOS, Chromebook, or Linux, keep that platform explicit in the response instead of generalizing it away. "
+                    + "When the question includes a timing, platform, or scope qualifier such as 'before the course is published', 'on your Mac', or 'with a new phone', repeat that qualifier explicitly in the response when the KB context supports it. "
                     + "If the user asks for unsafe or disallowed instructions, Step 1 must explicitly say that you cannot assist or cannot provide those instructions before offering safe alternatives. "
                     + "Keep the response aligned with the IKAP format.",
                 ),
@@ -179,14 +265,7 @@ class IKAPLangChainPipeline:
         )
 
         return (
-            {
-                "question": RunnablePassthrough(),
-                "context": RunnableLambda(
-                    lambda question: format_retrieved_context(
-                        retrieve_kb_chunks(question, top_k=self.top_k)
-                    )
-                ),
-            }
+            RunnablePassthrough()
             | prompt
             | self.llm
             | StrOutputParser()
@@ -194,6 +273,16 @@ class IKAPLangChainPipeline:
         )
 
     def invoke(self, question: str) -> str:
+        chunks = retrieve_kb_chunks(question, top_k=self.top_k)
         if is_unsafe_request(question):
-            return build_unsafe_response(question, retrieve_kb_chunks(question, top_k=self.top_k))
-        return self.chain.invoke(question)
+            return build_unsafe_response(question, chunks)
+
+        response = self.chain.invoke(
+            {
+                "question": question,
+                "context": format_retrieved_context(chunks),
+            }
+        )
+        notes = _find_supported_scope_notes(question, response, chunks)
+        response = _insert_scope_notes(response, notes)
+        return _ensure_link_request_steps(question, response, chunks)

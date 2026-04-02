@@ -1,5 +1,8 @@
 from functools import lru_cache
+import os
+from pathlib import Path
 
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -27,11 +30,25 @@ class ChatResponse(BaseModel):
     confidence: str
 
 
+def _project_root() -> Path:
+    return Path(__file__).resolve().parents[2]
+
+
+def _cors_origins() -> list[str]:
+    configured = os.getenv(
+        "IKAP_CORS_ORIGINS",
+        "http://127.0.0.1:8080,http://localhost:8080,http://127.0.0.1:5173,http://localhost:5173",
+    )
+    return [origin.strip() for origin in configured.split(",") if origin.strip()]
+
+
+load_dotenv(_project_root() / ".env")
+
 app = FastAPI(title="IKAP API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_cors_origins(),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

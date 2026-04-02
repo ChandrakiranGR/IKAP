@@ -1,146 +1,152 @@
-# IKAP – Intelligent Knowledge Assistant Platform
+# IKAP
 
-**IKAP** (Intelligent Knowledge Assistant Platform) is an AI-powered knowledge assistant designed to improve access to institutional knowledge bases.
+IKAP is a KB-grounded AI assistant for Northeastern IT support workflows. It uses a cleaned knowledge-base corpus, a local RAG index, and an API-backed chat frontend to answer questions with step-by-step guidance and source links.
 
-## Overview
+## Current Architecture
 
-The system aims to:
+The active app flow is:
 
-1. Provide natural-language search over knowledge base articles  
-2. Deliver structured, step-by-step troubleshooting guidance  
-3. Reduce ticket resolution time  
-4. Improve consistency of support responses  
+1. React frontend in `frontend/`
+2. FastAPI backend in `backend/api/app.py`
+3. Retrieval orchestration in `backend/orchestration/langchain_pipeline.py` and `backend/orchestration/retrieval_adapter.py`
+4. Processed KB corpus in `data/processed/kb_json/`
+5. RAG index in `data/rag/kb_index.jsonl`
+6. Prompt loading from `prompt_engineering/prompts/v4_system_prompt.txt`
 
-This repository contains the foundational work for **prompt engineering**, experimentation, and future **RAG-based system development**.
-
----
-
-## Current Module: Prompt Engineering
-
-The `prompt_engineering/` module is responsible for:
-
-- System prompt experimentation  
-- Evaluation of prompting techniques  
-- Measuring consistency and reliability  
-- Preparing prompts for future RAG integration  
-
-This module serves as a controlled environment to test and compare different prompt strategies **before integrating them into the full IKAP architecture**.
-
----
+The current production default model is `gpt-4o-mini`, with retrieval grounded in the processed KB corpus.
 
 ## Repository Structure
 
-```
+```text
 IKAP/
-│
-├── prompt_engineering/
-│   ├── run.py                 # Main entry point for running prompt experiments
-│   ├── prompts/               # Prompt templates (for future separation of techniques)
-│   ├── experiments/           # Experiment configurations and technique definitions
-│   └── results/               # Automatically generated JSON outputs from runs
-│
-├── .env                       # Environment variables (API key)
-├── .gitignore
+├── backend/
+│   ├── api/                    # FastAPI chat API
+│   └── orchestration/          # Prompt + retrieval runtime
+├── data/
+│   ├── raw/                    # Raw KB exports (gitignored)
+│   ├── processed/kb_json/      # One JSON file per KB article (gitignored)
+│   ├── rag/                    # Retrieval index artifacts (gitignored)
+│   └── manifests/              # Lightweight tracked manifests
+├── frontend/                   # React/Vite chat UI
+├── prompt_engineering/         # Prompt assets and experiment history
+├── scripts/                    # Data prep, RAG build, eval, and fine-tune tooling
+├── requirements.txt
 └── README.md
 ```
 
----
+## What Is Included
 
-### prompt_engineering/
+- KB-only RAG pipeline for Northeastern IT articles
+- Processed KB corpus and index build scripts
+- FastAPI chat endpoint with source cards
+- React chat frontend
+- Retrieval and answer evaluation tooling
+- Fine-tune preparation and launch tooling
 
-Contains all **prompt experimentation logic**:
+## What Is Not In The Active Path
 
-- `run.py` → Main entry point for running prompt experiments  
-- `prompts/` → Prompt templates  
-- `experiments/` → Experiment configurations and technique definitions  
-- `results/` → Automatically generated JSON outputs from runs  
+- Incident data for MVP answers
+- Supabase-backed frontend flows
+- Database-backed article management
+- Legacy HTML KB ingestion
 
----
+## Local Setup
 
-## Setup Instructions
-
-1. **Clone the Repository**
-
-```bash
-git clone <repo_url>
-cd IKAP
-```
-
-2. **Create Virtual Environment**
+### 1. Python environment
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate        # mac/linux
-# .venv\Scripts\activate         # windows
+python3 -m venv .venv
+source .venv/bin/activate
+.venv/bin/pip install -r requirements.txt
 ```
 
-3. **Install Dependencies**
+### 2. Frontend dependencies
 
-You can install dependencies either via `pip` for individual packages or using `requirements.txt`:
-
-**Option 1: Install manually**
 ```bash
-pip install openai python-dotenv
+cd frontend
+npm install
+cd ..
 ```
 
-**Option 2: Install from `requirements.txt`**
+### 3. Environment variables
+
+Copy `.env.example` to `.env` and set your OpenAI key:
+
 ```bash
-pip install -r requirements.txt
+cp .env.example .env
 ```
 
-4. **Configure API Key**
+Minimum required variable:
 
-Create a `.env` file at the repository root:
-
-```
+```bash
 OPENAI_API_KEY=your_api_key_here
 ```
 
-⚠️ **Do not commit `.env` to GitHub.**
+## Running The App
 
----
-
-## Running Prompt Experiments
-
-To run the baseline experiment:
+### Backend
 
 ```bash
-python prompt_engineering/run.py
+.venv/bin/python -m uvicorn backend.api.app:app --reload --host 127.0.0.1 --port 8000
 ```
 
-This will:
+### Frontend
 
-- Execute the configured prompt technique  
-- Call the selected model  
-- Save output as a timestamped JSON file inside `prompt_engineering/results/`  
-
-Example output:
-
-```
-prompt_engineering/results/zero_shot.json
+```bash
+cd frontend
+npm run dev
 ```
 
----
+If you want the frontend to call a non-default backend URL, set:
 
-## Development Roadmap
+```bash
+VITE_API_BASE_URL=http://127.0.0.1:8000
+```
 
-Future enhancements will include:
+## API Endpoints
 
-- Advanced prompt engineering techniques  
-- Self-consistency and evaluation strategies  
-- Retrieval-Augmented Generation (RAG) pipeline  
-- Backend service layer  
-- Frontend interface  
+- `GET /api/health`
+- `POST /api/chat`
 
-The current focus is **establishing a rigorous and reproducible prompt experimentation framework**.
+Example request:
 
----
+```bash
+curl -X POST http://127.0.0.1:8000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"question":"How do I connect to VPN on my Mac?"}'
+```
 
-## Collaboration Guidelines
+## Rebuilding KB Data And Retrieval
 
-1. Keep modules clean and modular  
-2. Do not hardcode API keys  
-3. Store experiment outputs only in `results/`  
-4. Use clear naming conventions for new experiments  
-5. Keep model and temperature constants consistent during comparisons
+The active KB pipeline is:
 
+```text
+data/raw -> scripts/raw_kb_to_processed.py -> data/processed/kb_json -> scripts/build_rag_index.py -> data/rag/kb_index.jsonl
+```
+
+Typical rebuild flow:
+
+```bash
+python3 scripts/rebuild_kb_corpus.py
+python3 scripts/build_rag_index.py --kb_dir data/processed/kb_json --out data/rag/kb_index.jsonl --batch_size 64
+```
+
+## Evaluation
+
+Retrieval benchmark:
+
+```bash
+python3 scripts/run_retrieval_benchmark.py
+```
+
+Answer evaluation:
+
+```bash
+.venv/bin/python scripts/run_answer_eval.py --cases data/benchmarks/answer_eval_cases_extended.json --top_k 4 --out data/benchmarks/results/answer_eval_results_extended.json
+```
+
+## Notes
+
+- Most generated data artifacts are gitignored by design.
+- The app is currently file-based, not database-backed.
+- The frontend no longer depends on Supabase in the active app path.

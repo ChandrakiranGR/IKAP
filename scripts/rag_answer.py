@@ -324,6 +324,21 @@ def choose_priority_sections(kb: dict, query: str, max_sections: int = 2):
     scored_sections.sort(key=lambda x: x[0], reverse=True)
     picked = [sec for _, sec in scored_sections[:max_sections]]
 
+    if setup_query:
+        requirement_section = next(
+            (
+                sec
+                for _, sec in scored_sections
+                if "requirement" in normalize_text(sec.get("heading", ""))
+            ),
+            None,
+        )
+        if requirement_section and requirement_section not in picked:
+            if len(picked) >= max_sections:
+                picked = [requirement_section] + picked[: max_sections - 1]
+            else:
+                picked = [requirement_section] + picked
+
     if not picked:
         picked = [s for s in sections if (s.get("text") or "").strip()][:max_sections]
 

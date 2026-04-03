@@ -1,0 +1,18 @@
+[
+  {
+    "id": "canvas_turnitin_add_assignment",
+    "category": "canvas",
+    "case_type": "link_request",
+    "question": "Give me the link to add a Turnitin assignment to my Canvas course.",
+    "expected_kb_id": "KB0014244",
+    "expected_reference_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014244",
+    "min_steps": 2,
+    "required_terms": [
+      "Turnitin",
+      "Canvas"
+    ],
+    "forbidden_terms": [
+      "trained on data up to"
+    ]
+  }
+]

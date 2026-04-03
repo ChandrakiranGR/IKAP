@@ -110,6 +110,16 @@ def _find_supported_scope_notes(question: str, response: str, chunks: List[Dict[
             notes.append(note)
             break
 
+    audience_labels = [
+        ("faculty", "Audience: Faculty."),
+        ("student", "Audience: Student."),
+        ("staff", "Audience: Staff."),
+    ]
+    for term, note in audience_labels:
+        if term in question_l and term not in response_l and term in combined_context:
+            notes.append(note)
+            break
+
     if (
         any(term in question_l for term in ["publish", "published", "unpublished", "before publishing", "before i publish"])
         and "publish" not in response_l
@@ -133,15 +143,31 @@ def _insert_scope_notes(response: str, notes: List[str]) -> str:
 
 def _is_link_request(question: str) -> bool:
     question_l = (question or "").lower()
+    explicit_phrases = [
+        "give me the link",
+        "send me the link",
+        "what is the link",
+        "article link",
+        "url",
+        "link to",
+    ]
+    if any(phrase in question_l for phrase in explicit_phrases):
+        return True
+
+    request_terms = ["give", "send", "share", "what", "need", "provide"]
+    return "link" in question_l and any(term in question_l for term in request_terms)
+
+
+def _is_explicit_link_request(question: str) -> bool:
+    question_l = (question or "").lower()
     return any(
         phrase in question_l
         for phrase in [
             "give me the link",
             "send me the link",
             "what is the link",
-            "article link",
-            "url",
-            "link to",
+            "give me the",
+            "send me the",
         ]
     )
 
@@ -161,6 +187,128 @@ def _ensure_link_request_steps(question: str, response: str, chunks: List[Dict[s
     if marker in response:
         return response.replace(marker, f"\n{extra_step}{marker}", 1)
     return response + f"\n{extra_step}"
+
+
+def _ensure_link_request_references(question: str, response: str, chunks: List[Dict[str, Any]]) -> str:
+    if not _is_link_request(question):
+        return response
+
+    title = ""
+    url = ""
+    for chunk in chunks:
+        title = (chunk.get("title") or "").strip()
+        url = (chunk.get("url") or "").strip()
+        if title and url:
+            break
+
+    if not title or not url:
+        return response
+
+    reference_block = f"References:\n- {title}: {url}\n"
+    footer_match = re.search(r"(?m)^If this does not resolve your issue:", response)
+    references_match = re.search(r"(?m)^References:.*$", response)
+
+    if references_match:
+        start = references_match.start()
+        end = footer_match.start() if footer_match else len(response)
+        prefix = response[:start]
+        suffix = response[end:]
+        if prefix and not prefix.endswith("\n"):
+            prefix += "\n"
+        return prefix + reference_block + suffix.lstrip("\n")
+
+    if footer_match:
+        start = footer_match.start()
+        prefix = response[:start]
+        suffix = response[start:]
+        if prefix and not prefix.endswith("\n"):
+            prefix += "\n"
+        return prefix + reference_block + suffix
+
+    if response and not response.endswith("\n"):
+        response += "\n"
+    return response + reference_block
+
+
+def _normalize_link_request_step_urls(question: str, response: str) -> str:
+    if not _is_link_request(question):
+        return response
+
+    normalized_lines = []
+    for line in response.splitlines():
+        if re.match(r"^\d+\.\s+", line) and "http" in line:
+            line = re.sub(r"https?://\S+", "the KB article listed in References", line)
+            line = line.replace(
+                "visit the following link: the KB article listed in References",
+                "open the KB article listed in References",
+            )
+            line = line.replace(
+                "visit the following link the KB article listed in References",
+                "open the KB article listed in References",
+            )
+            line = line.replace(
+                ": the KB article listed in References.",
+                " the KB article listed in References.",
+            )
+            line = line.replace(
+                "the following link the KB article listed in References",
+                "the KB article listed in References",
+            )
+        normalized_lines.append(line)
+    return "\n".join(normalized_lines)
+
+
+def _rewrite_explicit_link_request_steps(
+    question: str,
+    response: str,
+    chunks: List[Dict[str, Any]],
+) -> str:
+    if not _is_explicit_link_request(question):
+        return response
+
+    steps_marker = "Steps:\n"
+    if steps_marker not in response:
+        return response
+
+    references_match = re.search(r"(?m)^References:.*$", response)
+    if not references_match:
+        return response
+
+    title = (chunks[0].get("title") or "the relevant KB article").strip() if chunks else "the relevant KB article"
+    question_l = (question or "").lower()
+
+    descriptor = "the KB article"
+    if "faculty" in question_l or "faculty" in title.lower():
+        descriptor = "the faculty KB article"
+    elif "student" in question_l or "student" in title.lower():
+        descriptor = "the student KB article"
+
+    if "duo" in question_l and "new phone" in question_l:
+        replacement = (
+            "Steps:\n"
+            f"1. Open {descriptor} listed in References.\n"
+            "2. If you kept the same phone number, sign in from a computer, use 'Call Me' to authenticate, and choose 'Reactivate Duo Mobile' for your registered number.\n"
+            "3. If your phone number changed, sign in to the Northeastern MFA website, delete the old device, and add your new device.\n"
+            "4. If your new phone cannot receive calls or you cannot complete the update, contact the IT Service Desk.\n"
+        )
+    elif "password" in question_l and "reset" in question_l:
+        replacement = (
+            "Steps:\n"
+            f"1. Open {descriptor} listed in References.\n"
+            "2. Enter your Northeastern username, choose the email address to receive the reset message, and send the password reset email.\n"
+            "3. Open the reset link from that email, complete MFA if prompted, and save your new password.\n"
+        )
+    else:
+        step_two = f"2. Follow the detailed instructions in {title} for the exact steps and requirements."
+        replacement = (
+            "Steps:\n"
+            f"1. Open {descriptor} listed in References.\n"
+            f"{step_two}\n"
+        )
+
+    start = response.index(steps_marker)
+    end = references_match.start()
+    return response[:start] + replacement + response[end:]
 
 
 def is_unsafe_request(question: str) -> bool:
@@ -183,20 +331,16 @@ def infer_category(question: str) -> str:
 
 
 def build_unsafe_response(question: str, chunks: List[Dict[str, Any]]) -> str:
-    top = chunks[0] if chunks else {}
-    title = (top.get("title") or "Relevant Northeastern KB article").strip()
-    url = (top.get("url") or "").strip()
     category = infer_category(question)
-    reference_line = f"- {title}: {url}" if url else "None"
 
     return (
         f"Category: {category}\n"
         "Clarifying question: None\n"
         "Steps:\n"
-        "1. I cannot assist with bypassing security controls, obtaining cracked keys, or providing other disallowed instructions.\n"
+        "1. I cannot assist with internal admin procedures, bypassing security controls, or other disallowed instructions.\n"
         "2. Use the approved Northeastern process for legitimate access, enrollment, or account recovery instead.\n"
         "References:\n"
-        f"{reference_line}\n"
+        "None\n"
         "If this does not resolve your issue: Contact Northeastern IT Support and include:\n"
         "- Your device/OS\n"
         "- The step where the issue occurred\n"
@@ -285,4 +429,7 @@ class IKAPLangChainPipeline:
         )
         notes = _find_supported_scope_notes(question, response, chunks)
         response = _insert_scope_notes(response, notes)
-        return _ensure_link_request_steps(question, response, chunks)
+        response = _ensure_link_request_references(question, response, chunks)
+        response = _rewrite_explicit_link_request_steps(question, response, chunks)
+        response = _ensure_link_request_steps(question, response, chunks)
+        return _normalize_link_request_step_urls(question, response)

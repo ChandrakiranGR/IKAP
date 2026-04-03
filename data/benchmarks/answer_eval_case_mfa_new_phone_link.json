@@ -1,0 +1,17 @@
+[
+  {
+    "id": "mfa_new_phone_link",
+    "category": "mfa",
+    "case_type": "link_request",
+    "question": "Give me the link to update my Duo enrollment when I get a new phone.",
+    "expected_kb_id": "KB0015209",
+    "expected_reference_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209",
+    "min_steps": 2,
+    "required_terms": [
+      "Duo"
+    ],
+    "forbidden_terms": [
+      "trained on data up to"
+    ]
+  }
+]

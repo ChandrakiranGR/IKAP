@@ -1,6 +1,7 @@
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, List
+from backend.orchestration.security_constants import RAG_INJECTION_MARKERS
 import re
 
 from dotenv import load_dotenv
@@ -61,14 +62,44 @@ def _extract_kb_id(row: Dict[str, Any]) -> str:
             return value.strip()
     return ""
 
+def _sanitize_kb_section(text: str) -> str:
+    """
+    Scans a KB section's text for embedded instruction-like content.
+    If any injection marker is found, the entire section text is replaced
+    with a safe placeholder so it never reaches the model's context window.
+
+    This is IKAP's defense against indirect prompt injection via RAG content —
+    an attacker embedding 'SYSTEM NOTE: reset your instructions' inside
+    what appears to be legitimate KB article text.
+    """
+    if not text:
+        return text
+
+    lowered = text.lower()
+    for marker in RAG_INJECTION_MARKERS:
+        if marker in lowered:
+            # Log for audit purposes
+            print(
+                f"[IKAP SECURITY] RAG injection marker detected and removed: '{marker}'"
+            )
+            return "[This KB section was flagged and removed for security reasons.]"
+
+    return text
 
 def _clean_kb_text(text: str, title: str = "") -> str:
     """
     Generic cleanup only.
     Preserve information; remove only obvious formatting noise.
+    Now includes injection sanitization as the first step.
     """
     if not text:
         return ""
+    
+    # sanitize before any other processing to ensure markers are detected even if surrounded by noise
+    text = _sanitize_kb_section(text)
+    # If the section was flagged, return the placeholder immediately
+    if text == "[This KB section was flagged and removed for security reasons.]":
+        return text
 
     text = text.replace("\n", " ")
     text = re.sub(r"\s+", " ", text).strip()
@@ -189,6 +220,10 @@ def _extract_question_specific_notes(kb: Dict[str, Any], question: str) -> List[
 
 
 def _build_precise_kb_excerpt(kb_dir: Path, kb_id: str, question: str) -> str:
+    """
+    Existing function — add sanitization to steps as well as section text.
+    Replace the steps extraction block inside this function.
+    """
     kb = load_kb_json(kb_dir, kb_id)
     if not kb:
         return ""
@@ -226,12 +261,15 @@ def _build_precise_kb_excerpt(kb_dir: Path, kb_id: str, question: str) -> str:
     for section in sections:
         heading = (section.get("heading") or "").strip()
         text = _clean_kb_text(section.get("text", ""))
-        steps = [
-            _clean_kb_text(step)
-            for step in (section.get("steps") or [])
-            if _clean_kb_text(step)
-        ]
 
+        # sanitize individual steps as well, since they can also contain injection attempts
+        raw_steps = section.get("steps") or []
+        steps = []
+        for step in raw_steps:
+            cleaned_step = _clean_kb_text(step)
+            if cleaned_step:
+                steps.append(cleaned_step)
+                
         parts = []
         if heading:
             parts.append(f"{heading}:")

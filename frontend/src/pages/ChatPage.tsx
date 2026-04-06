@@ -96,7 +96,7 @@ export default function ChatPage() {
     setLastError(null);
 
     const userMsg: ChatMessage = {
-      id: crypto.randomUUID(),
+      id: (typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15)),
       role: "user",
       content: text,
     };
@@ -113,7 +113,7 @@ export default function ChatPage() {
       if (controller.signal.aborted) return;
 
       const assistantMsg: ChatMessage = {
-        id: crypto.randomUUID(),
+        id: (typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15)),
         role: "assistant",
         content:
           stripLegacySourceTags(data.answer) ||
@@ -134,7 +134,7 @@ export default function ChatPage() {
       setMessages((prev) => [
         ...prev,
         {
-          id: crypto.randomUUID(),
+          id: (typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15)),
           role: "assistant",
           content:
             "Sorry, I encountered an error processing your request. Please try again.",

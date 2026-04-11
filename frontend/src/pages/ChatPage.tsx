@@ -132,6 +132,13 @@ export default function ChatPage() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
 
+  const resizeComposer = () => {
+    const element = textareaRef.current;
+    if (!element) return;
+    element.style.height = "0px";
+    element.style.height = `${Math.min(element.scrollHeight, 168)}px`;
+  };
+
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading]);
@@ -141,6 +148,10 @@ export default function ChatPage() {
     if (!q || messages.length > 0 || input.trim()) return;
     setInput(q.trim());
   }, [input, messages.length, searchParams]);
+
+  useEffect(() => {
+    resizeComposer();
+  }, [input]);
 
   const primePrompt = (prompt: string) => {
     setInput(prompt);
@@ -241,11 +252,11 @@ export default function ChatPage() {
     if (!sources?.length) return null;
 
     return (
-      <div className="mt-4 border-t border-border/70 pt-4">
+      <aside className="rounded-2xl border border-border/80 bg-background/80 p-4">
         <div className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
           Sources
         </div>
-        <div className="space-y-2">
+        <div className="space-y-2.5">
           {sources.map((source) => {
             const CardTag = source.source_url ? "a" : "div";
 
@@ -259,37 +270,27 @@ export default function ChatPage() {
                       rel: "noopener noreferrer",
                     }
                   : {})}
-                className="source-card block"
+                className="source-card block rounded-xl border border-border/80 bg-card/80 p-3 shadow-sm hover:border-primary/30"
               >
-                <div className="flex items-start justify-between gap-3">
-                  <div className="space-y-1">
-                    <div className="font-medium text-foreground">{source.article_title}</div>
-                    <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+                <div className="flex items-start gap-3">
+                  <div className="min-w-0 flex-1 space-y-1">
+                    <div className="line-clamp-3 text-sm font-medium leading-5 text-foreground">
+                      {source.article_title}
+                    </div>
+                    <div className="flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.12em] text-muted-foreground">
                       {source.article_id && <span>{source.article_id}</span>}
-                      {source.section && (
-                        <span className="rounded-full bg-secondary px-2 py-0.5 text-[11px]">
-                          {source.section}
-                        </span>
-                      )}
+                      {source.section && <span>{source.section}</span>}
                     </div>
                   </div>
-                  {source.source_url && (
+                  {source.source_url ? (
                     <ExternalLink className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
-                  )}
+                  ) : null}
                 </div>
-                {source.snippet && (
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                    {source.snippet}
-                  </p>
-                )}
-                {source.source_url && (
-                  <div className="mt-3 text-xs font-medium text-primary">Open KB article</div>
-                )}
               </CardTag>
             );
           })}
         </div>
-      </div>
+      </aside>
     );
   };
 
@@ -369,7 +370,18 @@ export default function ChatPage() {
             </div>
             <div className="space-y-1 text-sm text-muted-foreground">
               {supportLines.map((line, idx) => (
-                <div key={`${message.id}-support-${idx}`}>{line}</div>
+                <div key={`${message.id}-support-${idx}`} className="leading-6">
+                  {line.startsWith("- ") ? (
+                    <div className="flex gap-2">
+                      <span className="pt-[2px] text-muted-foreground">•</span>
+                      <div className="min-w-0">
+                        <MarkdownInline content={line.slice(2)} />
+                      </div>
+                    </div>
+                  ) : (
+                    <MarkdownInline content={line} />
+                  )}
+                </div>
               ))}
             </div>
           </div>
@@ -416,12 +428,14 @@ export default function ChatPage() {
     return (
       <div key={msg.id} className={`group flex ${isUser ? "justify-end" : "justify-start"}`}>
         <div
-          className={`max-w-[80%] rounded-lg px-4 py-3 ${
-            isUser ? "bg-chat-user text-foreground" : "border bg-chat-assistant text-foreground"
+          className={`w-full ${
+            isUser
+              ? "max-w-[42rem] rounded-2xl bg-chat-user px-4 py-3 text-foreground shadow-sm"
+              : "max-w-6xl text-foreground"
           }`}
         >
           {!isUser && (
-            <div className="mb-3 flex flex-wrap items-center gap-2">
+            <div className="mb-3 flex flex-wrap items-center gap-2 px-1">
               <Badge
                 variant="outline"
                 className={statusClasses(msg)}
@@ -438,7 +452,24 @@ export default function ChatPage() {
             </div>
           )}
 
-          {renderStructuredContent(msg)}
+          {isUser ? (
+            renderStructuredContent(msg)
+          ) : (
+            <div
+              className={`grid gap-4 ${
+                msg.mode === "grounded" && msg.sources?.length ? "lg:grid-cols-[minmax(0,1fr)_260px]" : ""
+              }`}
+            >
+              <div className="rounded-2xl border bg-chat-assistant px-4 py-4 shadow-sm sm:px-5">
+                {renderStructuredContent(msg)}
+              </div>
+              {msg.mode === "grounded" && msg.sources?.length ? (
+                <div className="lg:pt-0">
+                  {renderSources(msg.sources)}
+                </div>
+              ) : null}
+            </div>
+          )}
 
           {isUser && !loading && (
             <div className="mt-1 flex justify-end opacity-0 transition-opacity group-hover:opacity-100">
@@ -452,7 +483,6 @@ export default function ChatPage() {
             </div>
           )}
 
-          {!isUser && msg.mode === "grounded" && renderSources(msg.sources)}
         </div>
       </div>
     );
@@ -501,11 +531,11 @@ export default function ChatPage() {
               </div>
             )}
 
-            <div className="mx-auto max-w-3xl space-y-4">
+            <div className="mx-auto max-w-6xl space-y-5">
               {messages.map((msg) => renderMessage(msg))}
               {loading && (
                 <div className="flex justify-start">
-                  <div className="rounded-xl border bg-chat-assistant px-4 py-3 shadow-sm">
+                  <div className="rounded-2xl border bg-chat-assistant px-4 py-3 shadow-sm">
                     <div className="flex items-center gap-2">
                       <Loader2 className="h-4 w-4 animate-spin text-primary" />
                       <span className="text-sm font-medium text-foreground">
@@ -522,9 +552,9 @@ export default function ChatPage() {
             </div>
           </div>
 
-          <div className="border-t bg-card/95 p-4 backdrop-blur">
+          <div className="border-t bg-card/90 px-3 py-2 backdrop-blur">
             {lastError && (
-              <div className="mx-auto mb-3 flex max-w-3xl items-start gap-3 rounded-xl border border-destructive/20 bg-destructive/5 px-4 py-3 text-sm text-destructive">
+              <div className="mx-auto mb-3 flex max-w-6xl items-start gap-3 rounded-xl border border-destructive/20 bg-destructive/5 px-4 py-3 text-sm text-destructive">
                 <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" />
                 <div>
                   <div className="font-medium">Request failed</div>
@@ -538,56 +568,64 @@ export default function ChatPage() {
                 e.preventDefault();
                 sendMessage();
               }}
-              className="mx-auto max-w-3xl"
+              className="mx-auto max-w-6xl"
             >
-              <div className="rounded-2xl border bg-background p-3 shadow-sm">
-                <Textarea
-                  ref={textareaRef}
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
-                  placeholder="Ask about IT services, MFA, VPN, accounts, Canvas, software, or Student Hub..."
-                  className="min-h-[88px] resize-none border-0 px-1 py-1 text-sm shadow-none focus-visible:ring-0 focus-visible:ring-offset-0"
-                  disabled={loading}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" && !e.shiftKey) {
-                      e.preventDefault();
-                      sendMessage();
-                    }
-                  }}
-                />
-                <div className="mt-3 flex flex-col gap-3 border-t pt-3 sm:flex-row sm:items-center sm:justify-between">
-                  <div className="text-xs text-muted-foreground">
-                    Press Enter to send. Use Shift+Enter for a new line.
-                  </div>
-                  <div className="flex items-center justify-end gap-2">
+              <div className="rounded-[28px] border bg-background/95 px-4 py-2 shadow-lg backdrop-blur">
+                <div className="flex items-end gap-3">
+                  <Textarea
+                    ref={textareaRef}
+                    value={input}
+                    onChange={(e) => setInput(e.target.value)}
+                    placeholder="Ask about IT services, MFA, VPN, accounts, Canvas, software, or Student Hub..."
+                    rows={1}
+                    className="max-h-40 min-h-[24px] flex-1 resize-none border-0 bg-transparent px-0 py-2 text-sm leading-6 shadow-none focus-visible:ring-0 focus-visible:ring-offset-0"
+                    disabled={loading}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" && !e.shiftKey) {
+                        e.preventDefault();
+                        sendMessage();
+                      }
+                    }}
+                  />
+                  <div className="flex items-center gap-2 pb-1">
+                    {!loading && input.trim() ? (
+                      <Button
+                        type="button"
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => setInput("")}
+                        className="rounded-full px-3 text-xs"
+                      >
+                        Clear
+                      </Button>
+                    ) : null}
                     {loading ? (
                       <Button
                         type="button"
                         onClick={handleStop}
                         variant="destructive"
+                        size="icon"
                         title="Stop generating"
+                        className="h-10 w-10 rounded-full"
                       >
-                        <Square className="mr-2 h-4 w-4" />
-                        Stop
+                        <Square className="h-4 w-4" />
                       </Button>
                     ) : (
-                      <>
-                        <Button
-                          type="button"
-                          variant="ghost"
-                          onClick={() => setInput("")}
-                          disabled={!input.trim()}
-                        >
-                          Clear
-                        </Button>
-                        <Button type="submit" disabled={!input.trim()}>
-                          <Send className="mr-2 h-4 w-4" />
-                          Send
-                        </Button>
-                      </>
+                      <Button
+                        type="submit"
+                        size="icon"
+                        disabled={!input.trim()}
+                        className="h-10 w-10 rounded-full"
+                        title="Send message"
+                      >
+                        <Send className="h-4 w-4" />
+                      </Button>
                     )}
                   </div>
                 </div>
+              </div>
+              <div className="px-2 pt-1 text-[11px] text-muted-foreground/80">
+                Enter to send. Shift+Enter for a new line.
               </div>
             </form>
           </div>

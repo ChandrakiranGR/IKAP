@@ -18,7 +18,11 @@ from backend.orchestration.security_constants import INJECTION_PATTERNS
 DEFAULT_FINAL_MODEL = "gpt-4o-mini"
 LATEST_FINETUNED_MODEL = "ft:gpt-4o-mini-2024-07-18:northeastern-university:ikap-kb-assistant-v2:DPySzTO9"
 SUPPORT_FOOTER = (
-    "If this does not resolve your issue: Contact Northeastern IT Support and include:\n"
+    "If this does not resolve your issue, contact Northeastern IT Service Desk:\n"
+    "- Tech Service Portal: [service.northeastern.edu/tech](https://service.northeastern.edu/tech)\n"
+    "- Phone: [617.373.HELP (4357)](tel:6173734357)\n"
+    "- Email: [help@northeastern.edu](mailto:help@northeastern.edu)\n"
+    "When you contact them, include:\n"
     "- Your device/OS\n"
     "- The step where the issue occurred\n"
     "- Any error message shown"
@@ -136,7 +140,7 @@ def validate_input(question: str) -> tuple[bool, str]:
     return True, ""
 
 def build_validation_response(reason: str, question: str) -> str:
-    category = infer_category(question)
+    category = infer_category(question) if _contains_it_scope_signal(question) else "General Northeastern IT support"
     if reason == "empty":
         step = "1. Please enter a valid IT support question."
     elif reason == "malformed":
@@ -160,7 +164,7 @@ def build_injection_response(question: str) -> str:
     Distinct from build_unsafe_response so the report can show
     different handling for different attack types.
     """
-    category = infer_category(question)
+    category = "Security and privacy"
     return (
         f"Category: {category}\n"
         "Clarifying question: None\n"
@@ -249,6 +253,27 @@ def _is_out_of_scope(question: str) -> bool:
 def _looks_like_greeting(question: str) -> bool:
     lowered = (question or "").strip().lower()
     return bool(GREETING_QUERY_RE.match(lowered)) and not _contains_it_scope_signal(lowered)
+
+
+def _extract_intro_name(question: str) -> str | None:
+    match = re.search(
+        r"(?i)\b(?:hi|hello|hey)\b[\s,]*?(?:i am|i'm|my name is)\s+([a-z][a-z' -]{0,39})",
+        question or "",
+    )
+    if not match:
+        return None
+
+    raw_name = re.sub(r"\s+", " ", match.group(1)).strip(" .,!?")
+    if not raw_name:
+        return None
+
+    words = []
+    for part in raw_name.split():
+        if not part:
+            continue
+        words.append(part[0].upper() + part[1:].lower())
+
+    return " ".join(words) or None
 
 
 def _is_context_dependent_follow_up(question: str) -> bool:
@@ -698,8 +723,17 @@ def parse_structured_answer(answer: str) -> Dict[str, Any]:
         "clarifying_question": clarifying_question,
         "steps": steps,
         "references": references,
-        "support_message": "\n".join(support_lines) if support_lines else SUPPORT_FOOTER,
+        "support_message": _normalize_support_message("\n".join(support_lines) if support_lines else SUPPORT_FOOTER),
     }
+
+
+def _normalize_support_message(support_message: str | None) -> str:
+    text = (support_message or "").strip()
+    if not text:
+        return SUPPORT_FOOTER
+    if text.startswith("If this does not resolve your issue"):
+        return SUPPORT_FOOTER
+    return text
 
 
 def _fallback_references_from_chunks(chunks: List[Dict[str, Any]], limit: int = 3) -> List[Dict[str, str]]:
@@ -834,7 +868,7 @@ def _build_structured_response(
         "clarifying_question": clarifying_question,
         "steps": steps,
         "references": references or [],
-        "support_message": support_message or SUPPORT_FOOTER,
+        "support_message": _normalize_support_message(support_message or SUPPORT_FOOTER),
     }
     return {
         "answer": _render_answer(structured),
@@ -844,9 +878,13 @@ def _build_structured_response(
 
 def build_clarify_response(question: str) -> Dict[str, Any]:
     category = infer_category(question) if _contains_it_scope_signal(question) else "General Northeastern IT support"
+    intro_name = _extract_intro_name(question)
+    clarifying_question = "What Northeastern IT issue do you need help with?"
+    if intro_name:
+        clarifying_question = f"Hi {intro_name}, what Northeastern IT issue do you need help with?"
     return _build_structured_response(
         category=category,
-        clarifying_question="What Northeastern IT issue do you need help with?",
+        clarifying_question=clarifying_question,
         steps=[
             "Tell me the specific Northeastern IT service or problem, such as password reset, Duo MFA, VPN, Wi-Fi, Canvas, software, or Student Hub.",
             "If you are troubleshooting, include your device or platform and the exact error message you saw.",

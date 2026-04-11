@@ -1,7 +1,7 @@
 import os
-from typing import Any, Dict, List
-import re
 from pathlib import Path
+import re
+from typing import Any, Dict, List
 
 from dotenv import load_dotenv
 from langchain_core.output_parsers import StrOutputParser
@@ -11,15 +11,18 @@ from langchain_openai import ChatOpenAI
 
 from backend.orchestration.prompt_loader import load_v4_system_prompt
 from backend.orchestration.retrieval_adapter import retrieve_kb_chunks
-from backend.orchestration.security_constants import (
-    INJECTION_PATTERNS,
-    RAG_INJECTION_MARKERS,
-)
+from backend.orchestration.security_constants import INJECTION_PATTERNS
 
 # Keep the stronger base-RAG path as the production default for now.
 # The latest fine-tuned checkpoint remains available through IKAP_FINAL_MODEL overrides.
 DEFAULT_FINAL_MODEL = "gpt-4o-mini"
 LATEST_FINETUNED_MODEL = "ft:gpt-4o-mini-2024-07-18:northeastern-university:ikap-kb-assistant-v2:DPySzTO9"
+SUPPORT_FOOTER = (
+    "If this does not resolve your issue: Contact Northeastern IT Support and include:\n"
+    "- Your device/OS\n"
+    "- The step where the issue occurred\n"
+    "- Any error message shown"
+)
 UNSAFE_QUERY_RE = re.compile(
     r"(?i)\b("
     r"bypass(?:ing)?\s+(?:duo|mfa|multi[- ]factor)|"
@@ -33,6 +36,64 @@ UNSAFE_QUERY_RE = re.compile(
     r"circumvent(?:ing)?\s+(?:security|mfa|duo)"
     r")\b"
 )
+SECRET_QUERY_RE = re.compile(
+    r"(?i)\b("
+    r"api\s*key|access\s*token|secret\s*key|private\s*key|credentials?|passwords?|"
+    r"env(?:ironment)?\s*file|\.env|backend\s+key|openai\s+key"
+    r")\b"
+)
+PRIVACY_QUERY_RE = re.compile(
+    r"(?i)\b(?:provide|give|share|tell|what(?:'s| is)|find)\b.*\b("
+    r"email|e-mail|email address|phone(?: number)?|contact(?: info| information)?|address"
+    r")\b"
+)
+OUT_OF_SCOPE_QUERY_RE = re.compile(
+    r"(?i)\b("
+    r"weather|forecast|temperature|rain|snow|boston weather|news|restaurant|movie|recipe|"
+    r"capital of|stock price|sports score|horoscope|joke|poem|translate"
+    r")\b"
+)
+GREETING_QUERY_RE = re.compile(
+    r"(?i)^\s*(hi|hello|hey|help|good\s+(?:morning|afternoon|evening))\b"
+)
+FOLLOW_UP_QUERY_RE = re.compile(
+    r"(?i)\b("
+    r"windows|mac|macos|android|iphone|ios|chromebook|linux|faculty|student|staff|"
+    r"it|that|this|same|different|still|now|again|authentication failed|error|not working|"
+    r"before i publish|before publishing|new phone"
+    r")\b"
+)
+IT_SCOPE_TERMS = {
+    "account",
+    "canvas",
+    "duo",
+    "eduroam",
+    "email",
+    "mfa",
+    "northeastern",
+    "nuwave",
+    "password",
+    "qwickly",
+    "respondus",
+    "software",
+    "student hub",
+    "studenthub",
+    "turnitin",
+    "touch id",
+    "vpn",
+    "wifi",
+}
+AMBIGUOUS_SHORT_TERMS = {
+    "windows",
+    "mac",
+    "android",
+    "iphone",
+    "ios",
+    "faculty",
+    "student",
+    "staff",
+    "help",
+}
 
 def detect_injection(question: str) -> bool:
     """
@@ -105,6 +166,179 @@ def _project_root() -> Path:
     return Path(__file__).resolve().parents[2]
 
 
+def _normalize_history(history: List[Dict[str, str]] | None) -> List[Dict[str, str]]:
+    normalized: List[Dict[str, str]] = []
+    for item in history or []:
+        if not isinstance(item, dict):
+            continue
+        role = (item.get("role") or "").strip().lower()
+        content = (item.get("content") or "").strip()
+        if role not in {"user", "assistant"} or not content:
+            continue
+        normalized.append({"role": role, "content": content})
+    return normalized[-6:]
+
+
+def _contains_it_scope_signal(text: str) -> bool:
+    lowered = (text or "").lower()
+    return any(term in lowered for term in IT_SCOPE_TERMS)
+
+
+def _tokenize_words(text: str) -> List[str]:
+    return re.findall(r"[a-z0-9]+", (text or "").lower())
+
+
+def _looks_like_nonsense(question: str) -> bool:
+    lowered = re.sub(r"[^a-z]", "", (question or "").lower())
+    tokens = _tokenize_words(question)
+    if not lowered or _contains_it_scope_signal(question):
+        return False
+    if len(tokens) <= 2 and len(lowered) >= 12 and len(set(lowered)) <= 4:
+        return True
+    if len(tokens) == 1 and len(tokens[0]) >= 10 and len(set(tokens[0])) <= 3:
+        return True
+    return False
+
+
+def _is_privacy_request(question: str) -> bool:
+    lowered = (question or "").lower()
+    if not PRIVACY_QUERY_RE.search(lowered):
+        return False
+    if any(term in lowered for term in ["my email", "my phone", "my address", "my contact"]):
+        return False
+    return any(
+        term in lowered
+        for term in [
+            "someone else",
+            "another person",
+            "another user",
+            "other user",
+            "their email",
+            "'s northeastern email",
+            "northeastern email address",
+        ]
+    )
+
+
+def _is_secret_request(question: str) -> bool:
+    lowered = (question or "").lower()
+    return bool(SECRET_QUERY_RE.search(lowered)) and any(
+        term in lowered for term in ["ikap", "backend", "openai", "api", "credential", "secret"]
+    )
+
+
+def _is_out_of_scope(question: str) -> bool:
+    lowered = (question or "").lower()
+    return bool(OUT_OF_SCOPE_QUERY_RE.search(lowered)) and not _contains_it_scope_signal(lowered)
+
+
+def _looks_like_greeting(question: str) -> bool:
+    lowered = (question or "").strip().lower()
+    return bool(GREETING_QUERY_RE.match(lowered)) and not _contains_it_scope_signal(lowered)
+
+
+def _is_context_dependent_follow_up(question: str) -> bool:
+    lowered = (question or "").strip().lower()
+    tokens = _tokenize_words(lowered)
+    if not lowered:
+        return False
+    if lowered in AMBIGUOUS_SHORT_TERMS:
+        return True
+    if len(tokens) <= 8 and FOLLOW_UP_QUERY_RE.search(lowered):
+        return True
+    if len(tokens) <= 4 and not _contains_it_scope_signal(lowered):
+        return True
+    return False
+
+
+def _is_self_contained_question(question: str) -> bool:
+    lowered = (question or "").strip().lower()
+    tokens = _tokenize_words(lowered)
+    if not lowered:
+        return False
+    if _is_out_of_scope(lowered) or _looks_like_nonsense(lowered) or _is_privacy_request(lowered):
+        return True
+    if _contains_it_scope_signal(lowered) and len(tokens) >= 4 and not _is_context_dependent_follow_up(lowered):
+        return True
+    return lowered.endswith("?") and len(tokens) >= 6 and not _is_context_dependent_follow_up(lowered)
+
+
+def build_effective_question(question: str, history: List[Dict[str, str]] | None = None) -> str:
+    current = (question or "").strip()
+    normalized_history = _normalize_history(history)
+    if not current or not normalized_history or _is_self_contained_question(current):
+        return current
+
+    prior_user_turns = [
+        item["content"].strip()
+        for item in normalized_history
+        if item["role"] == "user" and item["content"].strip()
+    ]
+    if not prior_user_turns:
+        return current
+
+    seed_turns: List[str] = []
+    for prior in reversed(prior_user_turns):
+        if prior.lower() == current.lower():
+            continue
+        seed_turns.insert(0, prior)
+        if _contains_it_scope_signal(prior):
+            break
+        if len(seed_turns) >= 2:
+            break
+
+    if not seed_turns:
+        return current
+
+    if _is_context_dependent_follow_up(current):
+        return f"Original issue: {' '.join(seed_turns)} Follow-up detail: {current}".strip()
+
+    return current
+
+
+def infer_category(question: str) -> str:
+    lowered = (question or "").lower()
+    if any(term in lowered for term in ["mfa", "duo", "multi-factor", "touch id"]):
+        return "Multi-Factor Authentication (MFA)"
+    if any(term in lowered for term in ["vpn", "globalprotect"]):
+        return "VPN access"
+    if any(term in lowered for term in ["wifi", "eduroam", "nuwave", "wireless"]):
+        return "WiFi and network connectivity"
+    if any(term in lowered for term in ["canvas", "turnitin", "qwickly", "respondus"]):
+        return "Canvas and teaching tools"
+    if any(term in lowered for term in ["matlab", "software", "license", "mathematica", "labview"]):
+        return "Software access"
+    return "Account access"
+
+
+def classify_request(question: str, history: List[Dict[str, str]] | None = None) -> Dict[str, str]:
+    current = (question or "").strip()
+    effective_question = build_effective_question(current, history)
+
+    if _is_secret_request(current) or is_unsafe_request(current):
+        return {"route": "unsafe", "reason": "unsafe", "effective_question": effective_question}
+    if _is_privacy_request(current):
+        return {"route": "unsafe", "reason": "privacy", "effective_question": effective_question}
+    if _looks_like_nonsense(current):
+        return {"route": "unsupported", "reason": "nonsense", "effective_question": effective_question}
+    if _is_out_of_scope(current):
+        return {"route": "unsupported", "reason": "unsupported", "effective_question": effective_question}
+    if _looks_like_greeting(current):
+        return {"route": "clarify", "reason": "greeting", "effective_question": effective_question}
+    if not _contains_it_scope_signal(effective_question) and _is_context_dependent_follow_up(current):
+        return {"route": "clarify", "reason": "ambiguous", "effective_question": effective_question}
+    return {"route": "grounded", "reason": "grounded", "effective_question": effective_question}
+
+
+def format_recent_history(history: List[Dict[str, str]] | None) -> str:
+    normalized_history = _normalize_history(history)
+    if not normalized_history:
+        return "None"
+    return "\n".join(
+        f"{item['role'].capitalize()}: {item['content']}" for item in normalized_history
+    )
+
+
 def format_retrieved_context(chunks: List[Dict[str, Any]]) -> str:
     if not chunks:
         return "No KB context retrieved."
@@ -115,10 +349,12 @@ def format_retrieved_context(chunks: List[Dict[str, Any]]) -> str:
         url = (chunk.get("url") or "").strip()
         text = (chunk.get("text") or "").strip()
         kb_id = (chunk.get("kb_id") or "").strip()
+        score = float(chunk.get("score") or 0.0)
 
         parts.append(
             f"[KB Source {i}]\n"
             f"KB ID: {kb_id or 'N/A'}\n"
+            f"Score: {score:.4f}\n"
             f"Title: {title or 'Untitled'}\n"
             f"Direct Link: {url or 'N/A'}\n"
             f"Content:\n{text or 'None'}\n"
@@ -379,37 +615,239 @@ def _rewrite_explicit_link_request_steps(
     end = references_match.start()
     return response[:start] + replacement + response[end:]
 
-def infer_category(question: str) -> str:
-    lowered = (question or "").lower()
-    if any(term in lowered for term in ["mfa", "duo", "multi-factor"]):
-        return "Multi-Factor Authentication (MFA)"
-    if any(term in lowered for term in ["vpn", "globalprotect"]):
-        return "VPN access"
-    if any(term in lowered for term in ["wifi", "eduroam", "nuwave", "wireless"]):
-        return "WiFi and network connectivity"
-    if any(term in lowered for term in ["canvas", "turnitin", "qwickly", "respondus"]):
-        return "Canvas and teaching tools"
-    if any(term in lowered for term in ["matlab", "software", "license", "key"]):
-        return "Software access"
-    return "Account access"
+def _split_reference_line(line: str) -> Dict[str, str] | None:
+    cleaned = line.strip().lstrip("-").strip()
+    if not cleaned or cleaned.lower() == "none":
+        return None
+
+    match = re.search(r"https?://\S+", cleaned)
+    if not match:
+        return None
+    url = match.group(0).rstrip(").,;]>")
+    label = cleaned[: match.start()].rstrip(": ").strip() or "KB article"
+    return {"label": label, "url": url}
 
 
-def build_unsafe_response(question: str, chunks: List[Dict[str, Any]]) -> str:
-    category = infer_category(question)
+def parse_structured_answer(answer: str) -> Dict[str, Any]:
+    category = None
+    clarifying_question = None
+    steps: List[str] = []
+    references: List[Dict[str, str]] = []
+    support_lines: List[str] = []
+    state = ""
 
-    return (
-        f"Category: {category}\n"
-        "Clarifying question: None\n"
-        "Steps:\n"
-        "1. I cannot assist with internal admin procedures, bypassing security controls, or other disallowed instructions.\n"
-        "2. Use the approved Northeastern process for legitimate access, enrollment, or account recovery instead.\n"
-        "References:\n"
-        "None\n"
-        "If this does not resolve your issue: Contact Northeastern IT Support and include:\n"
-        "- Your device/OS\n"
-        "- The step where the issue occurred\n"
-        "- Any error message shown"
+    for raw_line in (answer or "").splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        if line.startswith("Category:"):
+            value = line.split(":", 1)[1].strip()
+            category = value or None
+            state = ""
+            continue
+        if line.startswith("Clarifying question:"):
+            value = line.split(":", 1)[1].strip()
+            clarifying_question = None if value.lower() == "none" else value
+            state = ""
+            continue
+        if line.startswith("Steps:"):
+            state = "steps"
+            continue
+        if line.startswith("References:"):
+            state = "references"
+            inline = line.split(":", 1)[1].strip()
+            ref = _split_reference_line(inline) if inline else None
+            if ref:
+                references.append(ref)
+            continue
+        if line.startswith("If this does not resolve your issue:"):
+            state = "support"
+            support_lines = [line]
+            continue
+
+        if state == "steps" and re.match(r"^\d+\.\s+", line):
+            steps.append(re.sub(r"^\d+\.\s+", "", line).strip())
+            continue
+
+        if state == "references":
+            ref = _split_reference_line(line)
+            if ref:
+                references.append(ref)
+            continue
+
+        if state == "support":
+            support_lines.append(line)
+
+    return {
+        "category": category,
+        "clarifying_question": clarifying_question,
+        "steps": steps,
+        "references": references,
+        "support_message": "\n".join(support_lines) if support_lines else SUPPORT_FOOTER,
+    }
+
+
+def _fallback_references_from_chunks(chunks: List[Dict[str, Any]], limit: int = 3) -> List[Dict[str, str]]:
+    references: List[Dict[str, str]] = []
+    seen = set()
+    for chunk in chunks:
+        title = (chunk.get("title") or "").strip()
+        url = (chunk.get("url") or "").strip()
+        if not title or not url or url in seen:
+            continue
+        seen.add(url)
+        references.append({"label": title, "url": url})
+        if len(references) >= limit:
+            break
+    return references
+
+
+def _render_answer(structured: Dict[str, Any]) -> str:
+    category = structured.get("category") or "General Northeastern IT support"
+    clarifying_question = structured.get("clarifying_question") or "None"
+    steps = structured.get("steps") or []
+    references = structured.get("references") or []
+    support_message = structured.get("support_message") or SUPPORT_FOOTER
+
+    parts = [f"Category: {category}", f"Clarifying question: {clarifying_question}", "Steps:"]
+    if steps:
+        parts.extend(f"{idx}. {step}" for idx, step in enumerate(steps, start=1))
+    else:
+        parts.append("1. Please restate the Northeastern IT issue you need help with.")
+
+    parts.append("References:")
+    if references:
+        parts.extend(f"- {ref['label']}: {ref['url']}" for ref in references if ref.get("url"))
+    else:
+        parts.append("None")
+
+    parts.append(support_message)
+    return "\n".join(parts)
+
+
+def _build_structured_response(
+    *,
+    category: str,
+    clarifying_question: str | None,
+    steps: List[str],
+    references: List[Dict[str, str]] | None = None,
+    support_message: str | None = None,
+) -> Dict[str, Any]:
+    structured = {
+        "category": category,
+        "clarifying_question": clarifying_question,
+        "steps": steps,
+        "references": references or [],
+        "support_message": support_message or SUPPORT_FOOTER,
+    }
+    return {
+        "answer": _render_answer(structured),
+        "structured": structured,
+    }
+
+
+def build_clarify_response(question: str) -> Dict[str, Any]:
+    category = infer_category(question) if _contains_it_scope_signal(question) else "General Northeastern IT support"
+    return _build_structured_response(
+        category=category,
+        clarifying_question="What Northeastern IT issue do you need help with?",
+        steps=[
+            "Tell me the specific Northeastern IT service or problem, such as password reset, Duo MFA, VPN, Wi-Fi, Canvas, software, or Student Hub.",
+            "If you are troubleshooting, include your device or platform and the exact error message you saw.",
+            "Example: 'I cannot connect to VPN on my Windows laptop and it says authentication failed.'",
+        ],
     )
+
+
+def build_unsupported_response(question: str, reason: str = "unsupported") -> Dict[str, Any]:
+    first_step = (
+        "I can help with Northeastern IT topics such as passwords, Duo MFA, VPN, Wi-Fi, Canvas, software, and Student Hub."
+    )
+    if reason == "nonsense":
+        first_step = (
+            "I could not understand that request well enough to match it to a Northeastern IT help topic."
+        )
+
+    return _build_structured_response(
+        category="General Northeastern IT support",
+        clarifying_question="What Northeastern IT issue would you like help with?",
+        steps=[
+            first_step,
+            "Please rephrase your question with the specific Northeastern IT task, service, or error you want help with.",
+            "Example questions: 'How do I reset my Northeastern password?' or 'How do I connect to VPN on Windows?'",
+        ],
+    )
+
+
+def build_unsafe_response(question: str, chunks: List[Dict[str, Any]], reason: str = "unsafe") -> str:
+    return _build_unsafe_payload(question, reason)["answer"]
+
+
+def _build_unsafe_payload(question: str, reason: str) -> Dict[str, Any]:
+    category = "Security and privacy"
+    if reason == "privacy":
+        steps = [
+            "I cannot provide another person's Northeastern email address or contact details.",
+            "Use approved university directories or official contact channels if you have a legitimate need to reach that person.",
+            "If you need help with your own Northeastern account or contact information, tell me that specific IT issue and I can help.",
+        ]
+    else:
+        steps = [
+            "I cannot assist with internal admin procedures, bypassing security controls, or other disallowed instructions.",
+            "I also cannot provide API keys, credentials, or other secrets.",
+            "Use the approved Northeastern process for legitimate access, enrollment, or account recovery instead.",
+            "If you believe you should have authorized access, contact the system owner or Northeastern IT Support through the normal channel.",
+        ]
+
+    return _build_structured_response(
+        category=category,
+        clarifying_question=None,
+        steps=steps,
+    )
+def _lexical_overlap_count(question: str, chunk: Dict[str, Any]) -> int:
+    q_tokens = {
+        token
+        for token in _tokenize_words(question)
+        if token not in {"how", "what", "when", "where", "why", "the", "and", "for", "with", "my", "on", "to"}
+    }
+    chunk_tokens = set(_tokenize_words(f"{chunk.get('title', '')} {chunk.get('text', '')}"))
+    return len(q_tokens & chunk_tokens)
+
+
+def _is_weak_retrieval(question: str, chunks: List[Dict[str, Any]]) -> str | None:
+    if not chunks:
+        return "unsupported"
+
+    top_score = float(chunks[0].get("score") or 0.0)
+    second_score = float(chunks[1].get("score") or 0.0) if len(chunks) > 1 else 0.0
+    overlap = _lexical_overlap_count(question, chunks[0])
+    combined = f"{chunks[0].get('title', '')} {chunks[0].get('text', '')}".lower()
+
+    if "admin access" in question.lower() and "admin" not in combined:
+        return "clarify"
+    if top_score < 0.45 and overlap < 2:
+        return "unsupported"
+    if top_score < 0.62:
+        return "clarify"
+    if second_score and (top_score - second_score) < 0.03 and overlap < 3:
+        return "clarify"
+    return None
+
+
+def infer_confidence(mode: str, chunks: List[Dict[str, Any]], question: str) -> str:
+    if mode != "grounded" or not chunks:
+        return "low"
+
+    top_score = float(chunks[0].get("score") or 0.0)
+    overlap = _lexical_overlap_count(question, chunks[0])
+    has_reference = bool((chunks[0].get("url") or "").strip())
+
+    if top_score >= 0.8 and overlap >= 2 and has_reference:
+        return "high"
+    if top_score >= 0.62 and overlap >= 1:
+        return "medium"
+    return "low"
 
 
 class IKAPLangChainPipeline:
@@ -465,7 +903,9 @@ class IKAPLangChainPipeline:
                 ),
                 (
                     "human",
-                    "User question:\n{question}\n\n"
+                    "Current user question:\n{question}\n\n"
+                    "Recent conversation history:\n{history}\n\n"
+                    "Effective retrieval question:\n{effective_question}\n\n"
                     "Retrieved KB context:\n{context}\n\n"
                     "If the user is explicitly asking for a link, prioritize returning the most relevant KB link from the retrieved context.",
                 ),
@@ -480,33 +920,128 @@ class IKAPLangChainPipeline:
             | RunnableLambda(clean_response)
         )
 
-    def invoke(self, question: str) -> str:
-        # Gate 1: Input validation — catches gibberish, empty, too long
-        is_valid, reason = validate_input(question)
-        
+    def invoke_response(
+        self,
+        question: str,
+        history: List[Dict[str, str]] | None = None,
+    ) -> Dict[str, Any]:
+        is_valid, validation_reason = validate_input(question)
         if not is_valid:
-            return build_validation_response(reason, question)
+            answer = build_validation_response(validation_reason, question)
+            structured = parse_structured_answer(answer)
+            return {
+                "answer": answer,
+                "mode": "clarify",
+                "structured": structured,
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": question.strip(),
+            }
 
-        # Gate 2: Injection detection — catches bracket/XML tags, persona hijack, RAG injection
         if detect_injection(question):
-            return build_injection_response(question)
+            answer = build_injection_response(question)
+            structured = parse_structured_answer(answer)
+            return {
+                "answer": answer,
+                "mode": "unsafe",
+                "structured": structured,
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": question.strip(),
+            }
 
-        # Gate 3: Operational unsafe — catches bypass MFA, cracked keys, etc.
-        if is_unsafe_request(question):
-            return build_unsafe_response(question, [])
+        normalized_history = _normalize_history(history)
+        classification = classify_request(question, normalized_history)
+        effective_question = classification["effective_question"]
+        route = classification["route"]
+        reason = classification["reason"]
 
-        # Only reaches retrieval if all three gates pass
-        chunks = retrieve_kb_chunks(question, top_k=self.top_k)
+        if route == "unsafe":
+            payload = _build_unsafe_payload(question, reason)
+            return {
+                "answer": payload["answer"],
+                "mode": "unsafe",
+                "structured": payload["structured"],
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": effective_question,
+            }
+
+        if route == "unsupported":
+            payload = build_unsupported_response(question, reason)
+            return {
+                "answer": payload["answer"],
+                "mode": "unsupported",
+                "structured": payload["structured"],
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": effective_question,
+            }
+
+        if route == "clarify":
+            payload = build_clarify_response(question)
+            return {
+                "answer": payload["answer"],
+                "mode": "clarify",
+                "structured": payload["structured"],
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": effective_question,
+            }
+
+        chunks = retrieve_kb_chunks(effective_question, top_k=self.top_k)
+        weak_mode = _is_weak_retrieval(effective_question, chunks)
+        if weak_mode == "unsupported":
+            payload = build_unsupported_response(question, "unsupported")
+            return {
+                "answer": payload["answer"],
+                "mode": "unsupported",
+                "structured": payload["structured"],
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": effective_question,
+            }
+        if weak_mode == "clarify":
+            payload = build_clarify_response(question)
+            return {
+                "answer": payload["answer"],
+                "mode": "clarify",
+                "structured": payload["structured"],
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": effective_question,
+            }
 
         response = self.chain.invoke(
-                    {
-                        "question": question,
-                        "context": format_retrieved_context(chunks),
-                    }
+            {
+                "question": question,
+                "history": format_recent_history(normalized_history),
+                "effective_question": effective_question,
+                "context": format_retrieved_context(chunks),
+            }
         )
         notes = _find_supported_scope_notes(question, response, chunks)
         response = _insert_scope_notes(response, notes)
         response = _ensure_link_request_references(question, response, chunks)
         response = _rewrite_explicit_link_request_steps(question, response, chunks)
         response = _ensure_link_request_steps(question, response, chunks)
-        return _normalize_link_request_step_urls(question, response)
+        response = _normalize_link_request_step_urls(question, response)
+
+        structured = parse_structured_answer(response)
+        if not structured.get("category"):
+            structured["category"] = infer_category(question)
+        if not structured.get("references"):
+            structured["references"] = _fallback_references_from_chunks(chunks)
+            response = _render_answer(structured)
+
+        return {
+            "answer": response,
+            "mode": "grounded",
+            "structured": structured,
+            "confidence": infer_confidence("grounded", chunks, effective_question),
+            "chunks": chunks,
+            "effective_question": effective_question,
+        }
+
+    def invoke(self, question: str) -> str:
+        return self.invoke_response(question)["answer"]

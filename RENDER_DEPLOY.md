@@ -9,6 +9,7 @@ The repo includes:
 
 - `render.yaml` for a Render blueprint
 - `deploy_data/` for the tracked KB corpus and RAG index used in deployment
+- `.python-version` to keep the backend on Python 3.11.11
 
 ## Before You Deploy
 

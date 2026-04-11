@@ -103,6 +103,16 @@ If you want the frontend to call a non-default backend URL, set:
 VITE_API_BASE_URL=http://127.0.0.1:8000
 ```
 
+## Render Deployment
+
+This repo includes a Render blueprint at [`render.yaml`](/Users/chandrakirangr/Documents/IKAP/render.yaml) and deployment notes in [`RENDER_DEPLOY.md`](/Users/chandrakirangr/Documents/IKAP/RENDER_DEPLOY.md).
+
+Important:
+
+- the deployed backend uses the tracked KB/index bundle in `deploy_data/`
+- you must set `OPENAI_API_KEY` on the backend service
+- you must set `VITE_API_BASE_URL` on the frontend static site to your backend Render URL
+
 ## API Endpoints
 
 - `GET /api/health`

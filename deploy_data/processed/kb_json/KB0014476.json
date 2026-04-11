@@ -1,0 +1,133 @@
+{
+  "article_id": "KB0014476",
+  "title": "How do I use Respondus LockDown Browser and Monitor to proctor exams?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014476",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014476",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014476",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Respondus Lockdown Browser is software that locks a student's computer during their quiz, preventing access to other pages or applications while they are taking the exam. Respondus Monitor is an add-on feature for LockDown Browser that records students as they take online exams in the Canvas environment. When this feature is enabled for a test or quiz, students are required to use a webcam and microphone with LockDown Browser. After the exam is complete, an instructor can review portions of the recorded video that are flagged based on changes in audio or the appearance of other people in the video frame. Decide whether to use Respondus LockDown Browser and Monitor Respondus offers live webinars daily, and you are encouraged to sign up for training at the Respondus website. While basic questions about Respondus LockDown Browser and Monitor may be answered by the Northeastern IT Service Desk, for more complex issues and questions, review the Respondus knowledge base and open a ticket with Respondus. There are a few considerations before deciding to use Respondus LockDown Browser and Monitor in your course. Assign the Respondus Tech Check Quiz The benefit of using this resource is that it helps students know what to expect and directs tech questions away from you to Respondus Support, which can assist students ahead of time before they encounter an urgent issue during their final exam. Respondus Lockdown Browser requires students to download software to take the exam, which may necessitate some extra effort and troubleshooting. Prepare a quiz in Canvas Make sure the quiz has been created on Canvas. Review How do I create and grade a quiz in Canvas? for instructions on creating a Canvas quiz. Note: The quiz does not need to be published to enable LockDown Browser. You can only use Respondus Lockdown Browser with quizzes created through Canvas. It cannot be used with quizzes created through third-party tools. Provide instructions for students Students will need to download Respondus LockDown Browser. Share How do I take a test using Respondus LockDown Browser and Monitor? ahead of time to help them prepare to use the software and learn how to get help. Enable Respondus Monitor (webcam feature) Additional settings will appear in the LockDown Browser Dashboard to allow you to enable Monitor and related options. Review webcam videos If students were required to use the webcam feature Respondus Monitor with the quiz, instructors can access information about the quiz sessions and review the recorded videos. Help While basic questions about Respondus LockDown Browser and Monitor may be answered by the Northeastern IT Service Desk, for more complex issues and questions, review the Respondus knowledge base and open a ticket with Respondus.",
+  "body_html": "<article id=\"364\">...</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Respondus Lockdown Browser is software that locks a student's computer during their quiz...; Decide whether to use Respondus LockDown Browser and Monitor: Respondus offers live webinars daily...; Assign the Respondus Tech Check Quiz: The benefit of using this resource is that it helps students know what to expect...; Prepare a quiz in Canvas: Make sure the quiz has been created on Canvas...; Provide instructions for students: Students will need to download Respondus LockDown Browser...; Enable Respondus Monitor (webcam feature): Additional settings will appear in the LockDown Browser Dashboard...; Review webcam videos: If students were required to use the webcam feature Respondus Monitor...; Help: While basic questions about Respondus LockDown Browser and Monitor may be answered...",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Respondus Lockdown Browser",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014205"
+    },
+    {
+      "text": "sign up for training at the Respondus website.",
+      "url": "https://web.respondus.com/webinars/"
+    },
+    {
+      "text": "Respondus knowledge base",
+      "url": "https://support.respondus.com/hc/en-us"
+    },
+    {
+      "text": "open a ticket with Respondus",
+      "url": "https://support.respondus.com/hc/en-us/requests/new"
+    },
+    {
+      "text": "How do I design an effective online exam that promotes academic integrity?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015243"
+    },
+    {
+      "text": "How do I add the Respondus Lockdown and Respondus Tech Check module to my Canvas course?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016370"
+    },
+    {
+      "text": "How do I create and grade a quiz in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587"
+    },
+    {
+      "text": "How do I give students more time on a Canvas quiz?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014530"
+    },
+    {
+      "text": "How do I manage Course Navigation links?",
+      "url": "https://community.canvaslms.com/docs/DOC-12933-415257079"
+    },
+    {
+      "text": "www.respondus.com/accessibility",
+      "url": "https://web.respondus.com/accessibility-lockdown/"
+    },
+    {
+      "text": "How do I help a student who is having problems during an exam or who got locked out of an exam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016372"
+    },
+    {
+      "text": "How do I take a test using Respondus LockDown Browser and Monitor?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:athelp@northeastern.edu"
+    },
+    {
+      "text": "https://support.respondus.com/hc/en-us/requests/new",
+      "url": "https://support.respondus.com/hc/en-us/requests/new"
+    },
+    {
+      "text": "Canvas Respondus Quick Start Guide",
+      "url": "https://web.respondus.com/wp-content/uploads/2019/08/RLDB-QuickStartGuide-Instructor-Instructure.pdf"
+    },
+    {
+      "text": "Monitor Syllabus Example",
+      "url": "https://web.respondus.com/wp-content/uploads/2019/08/Monitor-Syllabus-Example.docx"
+    },
+    {
+      "text": "Respondus Support",
+      "url": "https://web.respondus.com/support/"
+    },
+    {
+      "text": "Register for a free training webinar",
+      "url": "https://web.respondus.com/webinars/"
+    },
+    {
+      "text": "Protecting the Integrity of Online Exams",
+      "url": "https://www.youtube.com/embed/hv2L8Q2NpO4?rel=0&amp;autoplay=1"
+    },
+    {
+      "text": "Preparing an Exam for Use with LockDown Browser & Respondus Monitor",
+      "url": "https://www.youtube.com/embed/7J1K8-R20ao?rel=0&amp;autoplay=1"
+    },
+    {
+      "text": "Canvas Student Quick Start Guide for Respondus LockDown Browser and Monitor.",
+      "url": "https://web.respondus.com/wp-content/uploads/2019/08/RLDB-QuickStartGuide-Instructure-Student.pdf"
+    },
+    {
+      "text": "Introduction to Respondus LockDown Browser for Students.",
+      "url": "https://web.respondus.com/lockdownbrowser-student-video/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Respondus"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I take a test using Respondus LockDown Browser and Monitor?",
+      "url": null
+    },
+    {
+      "title": "What is Respondus Lockdown Browser and Monitor?",
+      "url": null
+    },
+    {
+      "title": "How do I add the Respondus Lockdown and the Respondus Tech Check Quiz module to my Canvas course?",
+      "url": null
+    },
+    {
+      "title": "How do I resolve a Respondus error from copying over a Canvas course?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "article_id": "KB0015142",
+  "title": "How do I import Canvas course content into another Canvas shell?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015142",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015142",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015142",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2mo ago",
+  "plain_text": "Canvas creates a shell for every Registrar-enrolled section that a faculty member teaches. The registrar-enrolled shells are empty until content is imported into them. Start by importing a Canvas course template to save time building the course and promote a consistent Canvas experience centered around sound instructional design principles. Read What are Northeastern Canvas templates? to learn more. Note: You must import content into the Registrar-enrolled shells each semester. Faculty with multiple sections with the same content may consider using the Canvas cross-list functionality. See What is the cross-listing (merge) process in Canvas? for more information. Table of Contents Import course content Additional resources Help Import course content 1. Log in to Canvas and choose the course you want to import content into. Your Registrar-enrolled course will have a name formatted such as ABCD1234.12345.202110. 2. From the right-hand menu, select 'Import Existing Content.' 3. Select 'Copy a Canvas Course' from the 'Import Content' menu. 4. To choose the course from which you would like to import content, search for it using any of the following methods: - Start typing the name of your course. Note: Start by typing in the Academic Year and Term to find the version of the course you would like to import. - Type a keyword (development, Spring 2020, etc.). - Use the 5-digit CRN. 5. Select the course name. 6. Choose whether to import 'Select specific content' or 'All content from the source course.' Note: You must choose 'Select specific content' if you have recurring meetings in your source course. - Select the 'Select specific content' radio button if you want to choose specific content. - You must choose the content you want to import before the course import begins. If you have set up a recurring calendar event (such as virtual course meetings), ensure that you deselect the 'Calendar Events' option to import these. Make any other selections and then select 'Select Content.' Learn more about selecting specific import content. - Select the 'All content' radio button to import all content from the course. 7. Select 'Adjust events and due dates' in bulk or select the Import button and adjust the event and due dates from within the course. 8. Your content has been transferred once you see the Completed message. 9. Review your content and due dates. Refer to How do I publish courses and modules in Canvas? so that students can see them. Note: If your course uses Respondus, please refer to How do I resolve a Respondus error from copying over a Canvas course? for more information. Additional resources After importing course content into another course, refer to the following resources to help you set up your new course. - How do I ensure my Canvas course is ready at the start of the term? - How do I clean up my Canvas courses? - FAQ: Bulk updating Canvas assignment dates and times. - How do I clean up the Canvas course menu? Help - Book a course design consultation with an Academic Technologies team member to discuss your strategies and ideas for using Canvas or to ask any questions about Canvas. - Email help@northeastern.edu or contact ITS support with Canvas questions or requests.",
+  "body_html": "<article id=\"364\">Canvas creates a shell for every Registrar-enrolled section that a faculty member teaches... [full body content]</article>",
+  "sections": [
+    {
+      "heading": "How do I import Canvas course content into another Canvas shell?",
+      "text": "Canvas creates a shell for every Registrar-enrolled section that a faculty member teaches. The registrar-enrolled shells are empty until content is imported into them. Start by importing a Canvas course template to save time building the course and promote a consistent Canvas experience centered around sound instructional design principles. Read What are Northeastern Canvas templates? to learn more. Note: You must import content into the Registrar-enrolled shells each semester. Faculty with multiple sections with the same content may consider using the Canvas cross-list functionality. See What is the cross-listing (merge) process in Canvas? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Table of Contents; Links",
+      "text": "Import course content, Additional resources, Help",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Import course content",
+      "text": "",
+      "steps": [
+        "Log in to Canvas and choose the course you want to import content into.",
+        "From the right-hand menu, select 'Import Existing Content.'",
+        "Select 'Copy a Canvas Course' from the 'Import Content' menu.",
+        "To choose the course from which you would like to import content, search for it using any of the following methods: Start typing the name, Type a keyword, Use the 5-digit CRN.",
+        "Select the course name.",
+        "Choose whether to import 'Select specific content' or 'All content'.",
+        "Select 'Adjust events and due dates' or select the Import button.",
+        "Your content has been transferred once you see the Completed message.",
+        "Review your content and due dates."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Additional resources",
+      "text": "After importing course content into another course, refer to the following resources to help you set up your new course.; Links: How do I ensure my Canvas course is ready at the start of the term?, How do I clean up my Canvas courses?, FAQ: Bulk updating Canvas assignment dates and times, How do I clean up the Canvas course menu?",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Help; Links",
+      "text": "Book a course design consultation, help@northeastern.edu, contact ITS support",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019560"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015068"
+    },
+    {
+      "text": "northeastern.instructure.com",
+      "url": "https://northeastern.instructure.com/"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/t5/Instructor-Guide/How-do-I-select-specific-content-as-part-of-a-course-import/ta-p/1091"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018598"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017600"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016497"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018347"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019280"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/canvas-course-design-consult/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Differentiation Tags in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000024074"
+    },
+    {
+      "title": "How do I organize Canvas content using Northeastern's Standard Template?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014596"
+    },
+    {
+      "title": "How do I access and share my NU digital badge?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022369"
+    },
+    {
+      "title": "How do I add or remove courses on my Canvas dashboard?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016365"
+    },
+    {
+      "title": "How do I begin using Canvas as a student?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015212"
+    }
+  ]
+}

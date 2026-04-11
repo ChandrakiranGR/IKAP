@@ -1,0 +1,97 @@
+{
+  "article_id": "KB000018214",
+  "title": "How do I promote academic integrity using Canvas Classic Quiz?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018214",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018214",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018214",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Canvas Classic Quizzes is an assessment tool that tests students' knowledge of a particular subject matter area. This article will share tips to help promote quiz and exam integrity when creating a Canvas Classic Quiz. Review How do I design an effective online exam that promotes academic integrity? to learn more about promoting exam integrity. Keys to maintain exam integrity: Customize quiz options. When creating a Canvas Classic quiz, there are several options you can choose to help maximize the security of your exams and quizzes. Learn more about what options you can set in a Canvas Classic Quiz. Select 'Shuffle Answers'. This option shuffles the answers for multiple-choice questions. Note: Be careful about using this option if you have questions for which the order of the answers is important. Set a 'Time Limit'. Once the time limit is reached, a student's quiz will automatically submit itself. Customize quiz responses view and feedback: Depending on which options you choose, you can allow students to see the correct answers to a quiz only once (immediately after they complete it), or between two specified dates/times. Hide quiz responses: For maximum security, you can hide students' quiz responses completely by deselecting 'Let Students See Their Quiz Responses'. Hide correct answers or set dates for viewing correct answers: You can hide the correct answers to a quiz in student feedback. Select 'Show one question at a time'. Students will only be able to view one quiz question at a time during the quiz. Fill out the 'Assignment availability' window. Customize quiz questions: Use 'New Question Group': Utilizing Canvas Question Groups allows you to add questions to a select group but randomizes the questions for each student. Limit variables on 'Formula Question' types: When you create a quiz question of type 'Formula Question', you can introduce variables and specify a range of values for each. Resources: What are the test, exam, and quiz options in Canvas? How do I create and grade a quiz in Canvas? How do I set a quiz time limit and availability window in Canvas?",
+  "body_html": "<article id=\"364\">Canvas Classic Quizzes is an assessment tool that tests students' knowledge of a particular subject matter area. This article will share tips to help promote quiz and exam integrity when creating a Canvas Classic Quiz. Review <a id=\"368\">How do I design an effective online exam that promotes academic integrity?</a> to learn more about promoting exam integrity. <h2 id=\"390\">Keys to maintain exam integrity</h2><h3 id=\"393\">Customize quiz options</h3>When creating a Canvas Classic quiz, there are several options you can choose to help maximize the security of your exams and quizzes. Learn more about <a id=\"396\">what options you can set in a Canvas Classic Quiz.</a> <ul><li>Select 'Shuffle Answers'.</li><li>Set a 'Time Limit'.</li><li>Customize quiz responses view and feedback.</li><li>Select 'Show one question at a time'.</li><li>Fill out the 'Assignment availability' window.</li></ul><h3 id=\"433\">Customize quiz questions</h3><ul><li>Use 'New Question Group'.</li><li>Limit variables on 'Formula Question' types.</li></ul><h2 id=\"451\">Resources</h2><ul><li><a id=\"455\">What are the test, exam, and quiz options in Canvas?</a></li><li><a id=\"458\">How do I create and grade a quiz in Canvas?</a></li><li><a id=\"461\">How do I set a quiz time limit and availability window in Canvas?</a></li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Canvas Classic Quizzes is an assessment tool that tests students' knowledge of a particular subject matter area. This article will share tips to help promote quiz and exam integrity when creating a Canvas Classic Quiz. Review How do I design an effective online exam that promotes academic integrity? to learn more about promoting exam integrity.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Keys to maintain exam integrity",
+      "text": "When creating a Canvas Classic quiz, there are several options you can choose to help maximize the security of your exams and quizzes.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Customize quiz options",
+      "text": "Includes Shuffle Answers, Time Limit, Quiz responses view and feedback, Show one question at a time, and Assignment availability.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Customize quiz questions",
+      "text": "Includes New Question Group and Formula Question types.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Resources",
+      "text": "Links to related Canvas quiz options, creation, and timing documentation.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I design an effective online exam that promotes academic integrity?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015243"
+    },
+    {
+      "text": "what options you can set in a Canvas Classic Quiz.",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/What-options-can-I-set-in-a-quiz/ta-p/683"
+    },
+    {
+      "text": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014527"
+    },
+    {
+      "text": "Canvas Question Groups",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-quiz-with-a-question-group-to-randomize-quiz/ta-p/1032"
+    },
+    {
+      "text": "What are the test, exam, and quiz options in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017922"
+    },
+    {
+      "text": "How do I create and grade a quiz in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

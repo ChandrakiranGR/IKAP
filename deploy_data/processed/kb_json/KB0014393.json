@@ -1,0 +1,65 @@
+{
+  "article_id": "KB0014393",
+  "title": "How do I import a rubric from Excel into Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014393",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014393",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014393",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "6d ago",
+  "plain_text": "You can add a rubric to assignments, discussions, and quizzes to help students understand expectations for the assignment and how you intend to score their submissions. Although you can create and edit a rubric directly in Canvas, you may find creating one using Excel and importing it to Canvas easier. Rubrics can be added by reusing an existing rubric in one of your courses or by creating a new rubric. Create a simple block rubric in Excel Type the word Criteria in the first cell (A1), then list your criteria right below it in column A. Enter the point values in the first row to the right of the word. The import tool will number these columns in descending order by default because Canvas requires that format. Provide any text descriptions or evaluative statements in the cells below the point value. You can read about creating more complex rubrics on the Canvas developer's documentation. Once you have your Excel file prepared, you can import the file into Canvas. Import your rubric in Canvas Select Outcomes from the course navigation menu. Select 'Manage Rubrics'. Select 'Import Rubric'. Provide your rubric a name in the 'Rubric Title' field. Copy the formatted content in your Excel file and paste it into the 'Rubric Contents' area. Select Create. You will see your rubric created in Canvas, which can now be added to an assignment or a quiz.",
+  "body_html": "<div id=\"364\">You can add a rubric to assignments, discussions, and quizzes to help students understand expectations for the assignment and how you intend to score their submissions. Although you can <a id=\"366\">create and edit a rubric directly in Canvas</a>, you may find creating one using Excel and importing it to Canvas easier. Rubrics can be added by reusing an existing rubric in one of your courses or by creating a new rubric. <hr id=\"371\"> <h2 id=\"373\">Create a simple block rubric in Excel</h2> <ul> <li>Type the word Criteria in the first cell (A1), then list your criteria right below it in column A.</li> <li>Enter the point values in the first row to the right of the word. The import tool will number these columns in descending order by default because Canvas requires that format.</li> <li>Provide any text descriptions or evaluative statements in the cells below the point value. <button id=\"387\">Rubric in excel that shows points along the first row and criteria down the first column</button> You can read about creating more complex rubrics on the Canvas developer's documentation. Once you have your Excel file prepared, you can import the file into Canvas.</li> </ul> <a id=\"389\">Back to top</a> <hr id=\"392\"> <h2 id=\"394\">Import your rubric in Canvas</h2> <ul> <li>Select Outcomes from the course navigation menu. <button id=\"399\">Outcomes is highlighted</button></li> <li>Select 'Manage Rubrics'. <button id=\"403\">click on manage rubrics</button></li> <li>Select 'Import Rubric'. <button id=\"408\">click Import rubric</button></li> <li>Provide your rubric a name in the 'Rubric Title' field.</li> <li>Copy the formatted content in your Excel file and paste it into the 'Rubric Contents' area. <button id=\"417\">content pasted in the rubric contents area</button></li> <li>Select Create. You will see your rubric created in Canvas, which can now be added to an assignment or a quiz.</li> </ul> <a id=\"421\">Back to top</a> </div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "You can add a rubric to assignments, discussions, and quizzes to help students understand expectations for the assignment and how you intend to score their submissions. Although you can create and edit a rubric directly in Canvas, you may find creating one using Excel and importing it to Canvas easier. Rubrics can be added by reusing an existing rubric in one of your courses or by creating a new rubric.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a simple block rubric in Excel",
+      "text": "Type the word Criteria in the first cell (A1), then list your criteria right below it in column A. Enter the point values in the first row to the right of the word. The import tool will number these columns in descending order by default because Canvas requires that format. Provide any text descriptions or evaluative statements in the cells below the point value. You can read about creating more complex rubrics on the Canvas developer's documentation. Once you have your Excel file prepared, you can import the file into Canvas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Import your rubric in Canvas",
+      "text": "Select Outcomes from the course navigation menu. Select 'Manage Rubrics'. Select 'Import Rubric'. Provide your rubric a name in the 'Rubric Title' field. Copy the formatted content in your Excel file and paste it into the 'Rubric Contents' area. Select Create. You will see your rubric created in Canvas, which can now be added to an assignment or a quiz.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "create and edit a rubric directly in Canvas",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-to-an-assignment/ta-p/1058"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

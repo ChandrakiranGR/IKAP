@@ -1,0 +1,59 @@
+{
+  "article_id": "KB0015051",
+  "title": "How do I change the course name in my Canvas course card list?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015051",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015051",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015051",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "",
+  "plain_text": "If you have a Canvas course with a long or confusing name or if you have two courses with similar names, you can create a nickname that appears on the course cards. Note: A course nickname does not affect the course name at the account or course level; it only changes the name of the course for the individual user who created the nickname and does not affect the official name or how it appears to others. If you need to know the original name of the course, you can hover over the nickname, and the original name will appear. Additionally, the course code is not affected and is displayed on the course card for course reference. This feature does not apply to the Gradebook or Dashboard sidebar elements, such as the To Do list. Create a nickname 1. Log in to Canvas. 2. Select 'Dashboard' from the course navigation menu. 3. Choose a course and select 'more options' in the upper right of the course card. 4. Enter a name in the Nickname field. Optionally, choose a color for the course card. Note: Course nicknames appear in the Dashboard, course navigation menu, course breadcrumbs, and notification emails. 5. Select 'Apply'. Note: To revert to the default course name, clear the Nickname field and select 'Apply'. The original name of the course will be displayed.",
+  "body_html": "<article id=\"362\"><p>If you have a Canvas course with a long or confusing name or if you have two courses with similar names, you can create a nickname that appears on the course cards. Note: A course nickname does not affect the course name at the account or course level; it only changes the name of the course for the individual user who created the nickname and does not affect the official name or how it appears to others. If you need to know the original name of the course, you can hover over the nickname, and the original name will appear. Additionally, the course code is not affected and is displayed on the course card for course reference. This feature does not apply to the Gradebook or Dashboard sidebar elements, such as the To Do list.</p><h2>Create a nickname</h2><ul><li>Log in to to <a id=\"376\">Canvas</a>.</li><li>Select 'Dashboard' from the course navigation menu.</li><li>Choose a course and select more options in the upper right of the course card.</li><li>Enter a name in the Nickname field. Optionally, choose a color for the course card. Note: Course nicknames appear in the Dashboard, course navigation menu, course breadcrumbs, and notification emails.</li><li>Select 'Apply'. Note: To revert to the default course name, clear the Nickname field and select 'Apply'. The original name of the course will be displayed.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "How do I change the course name in my Canvas course card list?",
+      "text": "If you have a Canvas course with a long or confusing name or if you have two courses with similar names, you can create a nickname that appears on the course cards. Note: A course nickname does not affect the course name at the account or course level; it only changes the name of the course for the individual user who created the nickname and does not affect the official name or how it appears to others. If you need to know the original name of the course, you can hover over the nickname, and the original name will appear. Additionally, the course code is not affected and is displayed on the course card for course reference. This feature does not apply to the Gradebook or Dashboard sidebar elements, such as the To Do list.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a nickname; Step",
+      "text": "Log in to Canvas (Link: https://canvas.northeastern.edu/); Step: Select 'Dashboard' from the course navigation menu.; Step: Choose a course and select more options in the upper right of the course card.; Step: Enter a name in the Nickname field. Optionally, choose a color for the course card.; Step: Select 'Apply'. Note: To revert to the default course name, clear the Nickname field and select 'Apply'.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Differentiation Tags in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000024074"
+    },
+    {
+      "title": "How do I organize Canvas content using Northeastern's Standard Template?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014596"
+    },
+    {
+      "title": "How do I access and share my NU digital badge?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022369"
+    },
+    {
+      "title": "How do I add or remove courses on my Canvas dashboard?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016365"
+    },
+    {
+      "title": "How do I begin using Canvas as a student?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015212"
+    }
+  ]
+}

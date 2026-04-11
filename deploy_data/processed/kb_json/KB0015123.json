@@ -1,0 +1,48 @@
+{
+  "article_id": "KB0015123",
+  "title": "How do I submit an assignment directly to Turnitin as an Instructors?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015123",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015123",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015123",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026/01/01",
+  "plain_text": "Introduction:",
+  "body_html": "<article id=\"364\"></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Introduction:",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Turnitin"
+  ],
+  "related_articles": [
+    {
+      "title": "What is Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I use Turnitin's quick submit as a faculty?",
+      "url": null
+    },
+    {
+      "title": "How do students access the Turnitin Similarity Report panel in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I allow students or staff to complete a self-check using Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I add a Turnitin assignment to my Canvas course?",
+      "url": null
+    }
+  ]
+}

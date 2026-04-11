@@ -1,0 +1,63 @@
+{
+  "article_id": "KB000019332",
+  "title": "How do I set my Canvas Course Time Zone?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019332",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019332",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019332",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Canvas courses can be customized to support teaching from any time zone to students in any time zone. This article will explain the options for teaching courses outside of the Canvas system default, which is set to Eastern Time. Instructors can customize two layers of time zones: Course Time Zone: This defaults to Eastern Time. If you are teaching in another time zone, you should set your course time zone to the time zone of the campus that is hosting the course. User Time Zone: This defaults to Eastern Time. If you are living outside the Eastern Time zone, you can set your time zone for all of Canvas to match your location. All dates and times throughout Canvas courses are displayed according to a course's respective time zone. However, you can set your time zone for your user account to display your local time zone throughout Canvas. For example, an instructor teaching in Oakland should set both the Course Time Zone and their User Time Zone to Pacific Time. Students who are learning in Oakland should also set their User Time Zone to Pacific Time. When an instructor sets the course time zone to Pacific, students learning in any time zone will automatically see their assignment due dates shown in their local time, so long as the students also set the time zone in their User Time Zone settings. Refer to How do I set account time zones in Canvas? for more information. Note: If you are using integrated tools in Canvas with separate due dates from Canvas, such as Gradescope, the Canvas course time zone will not update the integrated tool time zone, and you may need to update time zones in integrated tools manually. All integrated tools are set to the Eastern Time Zone. Set the Course Time Zone: Select Settings in your course navigation sidebar. Select the 'Course Details' tab if it is not already selected. Then, select the time zone you are working in. Select 'Update Course Details'. The course assignment due dates will now default to the time due in the course time zone, though individual users should still change their user time zone to see the dates and times correctly in the course. Note: If the course time zone differs from your user timezone, you must be mindful when setting the Due Date and Time for assignments. For example, suppose the course timezone is Pacific Time, and your user timezone is Eastern Time. In that case, you need to account for the difference when setting due dates (e.g., if you want the Due date time to be 11:59 p.m. PT, you should set it to 2:59 a.m. unless you change your User timezone to match the Course timezone). Refer to the article How do I set account time zones in Canvas? to learn more about how instructors can set an account time zone.",
+  "body_html": "<article id=\"364\"><a href=\"#\">Canvas</a> courses can be customized to support teaching from any time zone to students in any time zone... <h2>Set the Course Time Zone</h2><ul><li>Select Settings in your course navigation sidebar.</li><li>Select the 'Course Details' tab...</li><li>Select 'Update Course Details'.</li></ul>...</article>",
+  "sections": [
+    {
+      "heading": "How do I set my Canvas Course Time Zone?",
+      "text": "Canvas courses can be customized to support teaching from any time zone to students in any time zone. Instructors can customize two layers of time zones: Course Time Zone and User Time Zone.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Set the Course Time Zone; Step 1",
+      "text": "Select Settings in your course navigation sidebar.; Step 2: Select the 'Course Details' tab if it is not already selected. Then, select the time zone you are working in.; Step 3: Select 'Update Course Details'.; Note: If the course time zone differs from your user timezone, you must be mindful when setting the Due Date and Time for assignments.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014335"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "How do I set account time zones in Canvas?",
+      "url": null
+    }
+  ]
+}

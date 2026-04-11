@@ -1,0 +1,97 @@
+{
+  "article_id": "KB0014585",
+  "title": "How do I create and grade an assignment in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2mo ago",
+  "plain_text": "You can create assignments in Canvas for students to upload their work. As with other items and activities in Canvas, you will want to post assignments within a weekly or topic-based module to organize content into a structure that students will be able to understand. Review How do I organize Canvas content using Northeastern's Standard Template? to learn how to create Modules in Canvas. Any assignment you create in your Canvas course automatically gets added to your Canvas course Gradebook. It is essential to start on the right foot with your students, so check that your weighted grades are added to your course at the beginning of the term. This helps make sure your grade book is accurately reporting the correct grades to students, which makes for a more enjoyable term for everyone! Table of Contents: Create an assignment, Add an assignment to a module, Assign Weights to Gradebook, Grade an assignment. Create an assignment: Select Assignments from the course navigation menu. Select the '+ Assignment' button. Enter the assignment name and provide assignment instructions in the text box. Optionally, use the Rich Content Editor to add files, images, and links and explore additional formatting options. Assign the point value of the assignment and choose how you would like to display the grade. Choose Submission Type as Online if you would like students to submit their assignment via Canvas, and select 'Online Entry Options' to restrict submission types. Select 'Manage Due Dates and Assign To' to add due date(s). Select the Calendar icon to choose a due date. Note: Canvas allows you to assign an activity to individual students or groups of students. See How do I set up differentiated due dates in Canvas? to learn more. Select Save. Publish your course and any modules/items you would like students to have access to. Refer to How do I publish courses and modules in Canvas? for additional information. Add an assignment to a module: Select Modules from the course navigation menu. Select the plus icon to add an item to your empty module. Select Assignment as the item type. Note: Select '[New Assignment]' to create and add a new assignment to the empty module. Select the assignment you want to add. Select 'Add Item'. Assign Weights to Gradebook: You can weight final grades based on assignment groups. In your Canvas course, select Assignments. Select the '+Group' button. Type in the Group Assignment name. Select Save. Select the vertical ellipses to the right of the '+ Assignment' to open the assignment options. Select 'Assignment Groups Weight'. Check the box that says 'Weight final grade based on assignment groups'. Add your weights based on your syllabus. Select Save. Grade an assignment: Before grading, consider whether grades should be posted automatically or manually. See How do I temporarily hide grades from students while I am grading? for more information. Select SpeedGrader. Provide feedback using any of the following annotation tools. Add a grade and comments, and select Submit. Select the right arrow to grade the next assignment.",
+  "body_html": "<div id=\"364\">You can create assignments in <a id=\"366\">Canvas</a> for students to upload their work... [HTML content truncated]</div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "You can create assignments in Canvas for students to upload their work. As with other items and activities in Canvas, you will want to post assignments within a weekly or topic-based module to organize content into a structure that students will be able to understand. Review How do I organize Canvas content using Northeastern's Standard Template? to learn how to create Modules in Canvas. Any assignment you create in your Canvas course automatically gets added to your Canvas course Gradebook. It is essential to start on the right foot with your students, so check that your weighted grades are added to your course at the beginning of the term. This helps make sure your grade book is accurately reporting the correct grades to students, which makes for a more enjoyable term for everyone!",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create an assignment",
+      "text": "Select Assignments from the course navigation menu. Select the '+ Assignment' button. Enter the assignment name and provide assignment instructions in the text box. Optionally, use the Rich Content Editor to add files, images, and links and explore additional formatting options. Assign the point value of the assignment and choose how you would like to display the grade. Choose Submission Type as Online if you would like students to submit their assignment via Canvas, and select 'Online Entry Options' to restrict submission types. Select 'Manage Due Dates and Assign To' to add due date(s). Select the Calendar icon to choose a due date. Select Save. Publish your course and any modules/items you would like students to have access to.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add an assignment to a module",
+      "text": "Select Modules from the course navigation menu. Select the plus icon to add an item to your empty module. Select Assignment as the item type. Select the assignment you want to add. Select 'Add Item'.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Assign Weights to Gradebook",
+      "text": "You can weight final grades based on assignment groups. Selecting this option assigns a weight to each assignment group, not the assignments themselves. In your Canvas course, select Assignments. Select the '+Group' button. Type in the Group Assignment name. Select Save. Select the vertical ellipses to the right of the '+ Assignment' to open the assignment options. Select 'Assignment Groups Weight'. Check the box that says 'Weight final grade based on assignment groups'. Add your weights based on your syllabus. Select Save.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Grade an assignment",
+      "text": "Before grading, consider whether grades should be posted automatically or manually. Select SpeedGrader. Provide feedback using any of the following annotation tools. Add a grade and comments, and select Submit. Select the right arrow to grade the next assignment.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "How do I organize Canvas content using Northeastern's Standard Template?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014596"
+    },
+    {
+      "text": "How do I set up differentiated due dates in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017928"
+    },
+    {
+      "text": "How do I publish courses and modules in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    },
+    {
+      "text": "assignment groups",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-group-in-a-course/ta-p/970"
+    },
+    {
+      "text": "How do I temporarily hide grades from students while I am grading?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014586"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I prepare to take a quiz or exam in Canvas?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "article_id": "KB0014205",
+  "title": "What is Respondus Lockdown Browser and Monitor?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014205",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014205",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014205",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2 months ago",
+  "plain_text": "Respondus LockDown Browser secures Canvas exams at Northeastern by blocking access to other sites and apps during tests. Maintains exam integrity online. Respondus LockDown Browser is a tool that locks down the testing environment within Canvas to prevent students from browsing other sites during an exam. Check out the Respondus website for more information on the features of LockDown Browser and Monitor. This solution requires students to download software to take the exam and may require some extra effort and troubleshooting. Additional ways to promote academic honesty include reminding students of the academic honesty policy, creating a question that reminds them of this policy and asking them to agree before taking the quiz, creating application-based questions, and setting time limits on the exam. Refer to the article, How do I design an effective online exam that promotes academic integrity? for more information. LockDown Browser and Monitor features Respondus Monitor is an add-on feature for LockDown Browser that records students while they are taking online exams in the Canvas environment. When this feature is enabled for a test or quiz, students are required to use a webcam and microphone with LockDown Browser. After the exam is complete, an instructor can review portions of the recorded video that are flagged based on changes in audio or other people entering the video frame. Assessments are displayed full-screen and cannot be minimized. The browser menu and toolbar options are removed, except for Back, Forward, Refresh, and Stop. Access to other applications, including messaging, screen-sharing, virtual machines, and remote desktops, is blocked. Printing and screen capture functions are disabled. Copying and pasting anything to or from an assessment is prevented. Right-click menu options, function keys, keyboard shortcuts, and task switching are disabled. An assessment cannot be exited until the student submits it for grading. Assessments that are set up for use with LockDown Browser cannot be accessed with other browsers. Instructors can choose to require students to use a webcam to record themselves taking an exam by enabling Monitor. The Monitor will flag instances where the student taking the exam leaves the video frame or when other people enter the frame so that the faculty member can review. Access Respondus Instructors You can require students to use Respondus LockDown Browser and/or Monitor for an existing Test in a Canvas Course. View How do I use Respondus LockDown Browser and Monitor to proctor exams? for more information. View the Respondus LockDown Browser Instructor Guide for more detailed instructions on how to require students to use LockDown Browser for a test. Students Students must download the Respondus LockDown Browser. View the download and troubleshooting steps in How do I take a test using LockDown Browser and Monitor? for more information. Note: Review the article above to ensure you download the correct version of the software. Get started Respondus offers live webinars daily for their Test Creator and LockDown Browser products throughout the semester that can be found on the Respondus support site. Documentation created by Respondus for Test Creator may be found at the following sites. For video overviews and learning how to prepare for an exam, check out Respondus LockDown Browser Resources. For any more general questions, check out the Respondus Knowledge Base. Tech Check Quiz This solution requires students to download software to take the exam and may require some extra effort and troubleshooting. Let students know about the Respondus Tech Check Quiz Course two weeks ahead of time so that they can have time to troubleshoot, get help from Respondus support, and update computer software if necessary. There are instructions that instructors can import into their course and publish to provide students with instructions for enrolling in the Tech Check Quiz. Log in to to northeastern.instructure.com Select Commons on the left-hand menu. Navigate to the module to import. The benefit of using this resource is that it helps students know what to expect, and it funnels tech questions away from you to Respondus Support, which can help students ahead of time before they encounter an urgent issue during their final exam. Help While basic questions about Respondus LockDown Browser and Monitor may be answered by the Northeastern IT Service Desk, for more complex issues and questions, review the Respondus Knowledge Base and open a ticket with Respondus.",
+  "body_html": "<article id=\"364\">Respondus LockDown Browser secures Canvas exams at Northeastern by blocking access to other sites and apps during tests. Maintains exam integrity online. Respondus LockDown Browser is a tool that locks down the testing environment within Canvas to prevent students from browsing other sites during an exam. Check out <a href=\"https://www.respondus.com/\">the Respondus website</a> for more information on the features of LockDown Browser and Monitor. This solution requires students to download software to take the exam and may require some extra effort and troubleshooting. Additional ways to promote academic honesty include reminding students of the academic honesty policy, creating a question that reminds them of this policy and asking them to agree before taking the quiz, creating application-based questions, and setting time limits on the exam. Refer to the article, <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015243\">How do I design an effective online exam that promotes academic integrity?</a> for more information. <hr> <h2>Table of Contents</h2> ... <h2>LockDown Browser and Monitor features</h2> ... <h2>Access Respondus</h2> <h3>Instructors</h3> ... <h3>Students</h3> ... <h2>Get started</h2> ... <h2>Tech Check Quiz</h2> ... <h2>Help</h2> ... </article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Respondus LockDown Browser secures Canvas exams at Northeastern by blocking access to other sites and apps during tests. Maintains exam integrity online. Respondus LockDown Browser is a tool that locks down the testing environment within Canvas to prevent students from browsing other sites during an exam. Check out the Respondus website for more information on the features of LockDown Browser and Monitor. This solution requires students to download software to take the exam and may require some extra effort and troubleshooting. Additional ways to promote academic honesty include reminding students of the academic honesty policy, creating a question that reminds them of this policy and asking them to agree before taking the quiz, creating application-based questions, and setting time limits on the exam. Refer to the article, How do I design an effective online exam that promotes academic integrity? for more information.; Table of Contents: LockDown Browser and Monitor features, Access Respondus (Instructors, Students), Get started, Tech Check Quiz, Help.; LockDown Browser and Monitor features: Respondus Monitor is an add-on feature for LockDown Browser that records students while they are taking online exams in the Canvas environment. When this feature is enabled for a test or quiz, students are required to use a webcam and microphone with LockDown Browser. After the exam is complete, an instructor can review portions of the recorded video that are flagged based on changes in audio or other people entering the video frame. Features include full-screen assessments, blocked applications, disabled printing/screen capture, and proctoring via Monitor.; Access Respondus: Instructors can require Respondus for existing Tests in Canvas. Students must download the software.; Get started: Respondus offers daily live webinars and documentation for Test Creator and LockDown Browser.; Tech Check Quiz: Instructors are encouraged to use the Respondus Tech Check Quiz module to help students troubleshoot software before exams.; Help: Support is available via the Northeastern IT Service Desk or Respondus Knowledge Base and ticketing.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "the Respondus website",
+      "url": "https://support.respondus.com/hc/en-us/categories/4409595254811-LockDown-Browser-Respondus-Monitor"
+    },
+    {
+      "text": "How do I design an effective online exam that promotes academic integrity?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015243"
+    },
+    {
+      "text": "How do I use Respondus LockDown Browser and Monitor to proctor exams?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014476"
+    },
+    {
+      "text": "the Respondus LockDown Browser Instructor Guide",
+      "url": "https://web.respondus.com/qsg-canvas-instructor"
+    },
+    {
+      "text": "How do I take a test using LockDown Browser and Monitor?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477"
+    },
+    {
+      "text": "Respondus support site",
+      "url": "https://web.respondus.com/support/"
+    },
+    {
+      "text": "Respondus LockDown Browser Resources.",
+      "url": "https://web.respondus.com/he/lockdownbrowser/resources/"
+    },
+    {
+      "text": "Respondus Knowledge Base.",
+      "url": "https://support.respondus.com/hc/en-us/categories/4409595254811-LockDown-Browser-Respondus-Monitor"
+    },
+    {
+      "text": "northeastern.instructure.com",
+      "url": "https://northeastern.instructure.com/"
+    },
+    {
+      "text": "Respondus Knowledge Base",
+      "url": "https://support.respondus.com/hc/en-us/categories/4409595254811-LockDown-Browser-Respondus-Monitor"
+    },
+    {
+      "text": "open a ticket with Respondus",
+      "url": "https://support.respondus.com/hc/en-us/requests/new"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Respondus"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I take a test using Respondus LockDown Browser and Monitor?",
+      "url": null
+    },
+    {
+      "title": "How do I use Respondus LockDown Browser and Monitor to proctor exams?",
+      "url": null
+    },
+    {
+      "title": "How do I add the Respondus Lockdown and the Respondus Tech Check Quiz module to my Canvas course?",
+      "url": null
+    },
+    {
+      "title": "How do I resolve a Respondus error from copying over a Canvas course?",
+      "url": null
+    }
+  ]
+}

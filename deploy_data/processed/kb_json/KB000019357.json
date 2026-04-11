@@ -1,0 +1,83 @@
+{
+  "article_id": "KB000019357",
+  "title": "How do I copy a Classic Quiz question bank to another course in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019357",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019357",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019357",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "19d ago",
+  "plain_text": "Canvas Classic Quizzes is a tool that tests students' knowledge of a particular subject. Classic Quizzes can be used with Question Banks to help promote the integrity of questions. Question Banks provide housing for questions that can then be added to quizzes across courses or accounts. This article provides instructions on how to share Classic Quizzes between courses or development shells. If you are using New Quizzes, please refer to How do I share a question bank for New Quizzes in Canvas? for more information. Note: AEFIS does NOT support question-level linking in quizzes using Question Banks or Question Groups. If you are planning to use test banks in conjunction with AEFIS, please be sure to book an AEFIS in Canvas Technology consultation to discuss your options further. Table of contents: Import a question bank from another course, Add questions from a question bank into quizzes. Import a question bank from another course: Follow these steps to import a question bank from another course. Follow these specific steps from How do I create a question bank in a course? for more information about how to create a question bank in Classic Quizzes. 1. Log in to Canvas using your Northeastern credentials. 2. Select the course you would like to import the question bank into. 3. Select 'Import Existing Content'. 4. From the 'Content Type' drop-down menu, select 'Copy a Canvas Course'. 5. Select the course where the question bank is located from the 'Search for a course' drop-down menu. 6. Choose 'Select Specific Content'. 7. Select Import. 8. Choose 'Select Content' in the 'Current Jobs' section. 9. Select the 'Question Banks' checkbox from the 'Select Content' menu. 10. Choose the 'Select Content' button. Add questions from a question bank into quizzes: 1. Navigate to the course you want to add questions to, then select Quizzes. 2. You can import questions into an existing quiz or create a new quiz. If you're importing into a new quiz, refer to How do I create and grade a quiz in Canvas? for details. 3. To import into an existing quiz, select the quiz title and select Edit. 4. Select the Questions tab. 5. Select 'Find Questions'. 6. Select the question bank where you want to select questions. 7. Select the checkboxes of the questions you want to add to your quiz. 8. If you want to add the selected questions to a question group, scroll to the bottom of the 'Find Quiz Question' window. You can either select from the question group drop-down list or create a new group. 9. Once you've selected all the questions you want to add, select 'Add Questions'. 10. Continue building your quiz by adding questions. Then select Save to save your quiz.",
+  "body_html": "E:364",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Canvas Classic Quizzes is a tool that tests students' knowledge of a particular subject. Classic Quizzes can be used with Question Banks to help promote the integrity of questions. Question Banks provide housing for questions that can then be added to quizzes across courses or accounts. This article provides instructions on how to share Classic Quizzes between courses or development shells.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add questions from a question bank into quizzes.",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Import a question bank from another course",
+      "text": "Follow these steps to import a question bank from another course. Follow these specific steps from How do I create a question bank in a course? for more information about how to create a question bank in Classic Quizzes.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add questions from a question bank into quizzes",
+      "text": "Navigate to the course you want to add questions to, then select Quizzes. You can import questions into an existing quiz or create a new quiz. If you're importing into a new quiz, refer to How do I create and grade a quiz in Canvas? for details.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I share a question bank for New Quizzes in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017955"
+    },
+    {
+      "text": "AEFIS in Canvas Technology consultation",
+      "url": "https://outlook.office365.com/owa/calendar/AcademicTechnologies1@northeastern.onmicrosoft.com/bookings/"
+    },
+    {
+      "text": "How do I create a question bank in a course?",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-question-bank-in-a-course/ta-p/1228"
+    },
+    {
+      "text": "How do I create and grade a quiz in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

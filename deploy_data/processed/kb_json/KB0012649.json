@@ -1,0 +1,105 @@
+{
+  "article_id": "KB0012649",
+  "title": "How do I enroll in Duo multi-factor authentication (MFA)?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "mfa_kb.json",
+  "updated_at": "14 days ago",
+  "plain_text": "Multi-factor authentication (MFA) is designed to enhance the protection of your personal information. With MFA, you are granted single sign-on access to various apps and services. This additional security measure significantly reduces the risk and potential impact of compromised accounts and better protects the entire Northeastern community. Note: It is highly recommended that you register at least two devices. Please read the article How do I manage my MFA account and trusted devices? for more information about registering multiple devices. Enroll in MFA You can enroll in MFA by registering your first device. 1. Visit the the MFA authentication registration page. 2. Log in with your Northeastern username and password. 3. Complete the 'Assign New Device' form. 4. Select 'Create Device'. 5. During this process, you will be asked to select a device and provide your phone number. 6. You can register multiple mobile devices. Please refer to How do I manage my MFA account and trusted devices? for detailed instructions. Note: Whenever you add a new device to your MFA account, you will receive a notification. If you have added your email to your MFA account, you will receive an email from duosecurity.com. If you are using an app, you will receive a push notification. For additional information on MFA notifications, please refer to MFA documentation.",
+  "body_html": "<div id=\"364\"><a href=\"https://security.its.northeastern.edu/mfa/\">Multi-factor authentication (MFA)</a> is designed to enhance the protection of your personal information. With MFA, you are granted single sign-on access to various apps and services. This additional security measure significantly reduces the risk and potential impact of compromised accounts and better protects the entire Northeastern community. Note: It is highly recommended that you register at least two devices. Please read the article <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0015162\">How do I manage my MFA account and trusted devices?</a> for more information about registering multiple devices. <h2>Enroll in MFA</h2> You can enroll in MFA by registering your first device. <ul><li>Visit the the <a href=\"https://2fa.northeastern.edu/\">MFA authentication registration page</a>.</li><li>Log in with your Northeastern username and password.</li><li>Complete the 'Assign New Device' form.</li><li>Select 'Create Device'.</li><li>During this process, you will be asked to select a device and provide your phone number.</li><li>You can register multiple mobile devices. Please refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0015162\">How do I manage my MFA account and trusted devices?</a> for detailed instructions.</li></ul> Note: Whenever you add a new device to your MFA account, you will receive a notification. If you have added your email to your MFA account, you will receive an email from duosecurity.com. If you are using an app, you will receive a push notification. For additional information on MFA notifications, please refer to <a href=\"https://duo.com/docs/administration-settings#notifications\">MFA documentation</a>.</div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Multi-factor authentication (MFA) is designed to enhance the protection of your personal information. With MFA, you are granted single sign-on access to various apps and services. This additional security measure significantly reduces the risk and potential impact of compromised accounts and better protects the entire Northeastern community. Note: It is highly recommended that you register at least two devices. Please read the article for more information about registering multiple devices.",
+      "steps": [],
+      "links": [
+        {
+          "text": "Multi-factor authentication (MFA)",
+          "url": "https://security.its.northeastern.edu/mfa/"
+        },
+        {
+          "text": "How do I manage my MFA account and trusted devices?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+        }
+      ]
+    },
+    {
+      "heading": "Enroll in MFA",
+      "text": "You can enroll in MFA by registering your first device.",
+      "steps": [
+        "Visit the the MFA authentication registration page .",
+        "Log in with your Northeastern username and password.",
+        "Complete the 'Assign New Device' form.",
+        "Select 'Create Device'.",
+        "During this process, you will be asked to select a device and provide your phone number.",
+        "You can register multiple mobile devices. Please refer to How do I manage my MFA account and trusted devices? for detailed instructions."
+      ],
+      "links": [
+        {
+          "text": "MFA authentication registration page",
+          "url": "https://2fa.northeastern.edu/"
+        },
+        {
+          "text": "How do I manage my MFA account and trusted devices?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+        }
+      ]
+    },
+    {
+      "heading": "Note",
+      "text": "Whenever you add a new device to your MFA account, you will receive a notification. If you have added your email to your MFA account, you will receive an email from duosecurity.com. If you are using an app, you will receive a push notification. For additional information on MFA notifications, please refer to MFA documentation.",
+      "steps": [],
+      "links": [
+        {
+          "text": "MFA documentation",
+          "url": "https://duo.com/docs/administration-settings"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Multi-factor authentication (MFA)",
+      "url": "https://security.its.northeastern.edu/mfa/"
+    },
+    {
+      "text": "How do I manage my MFA account and trusted devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+    },
+    {
+      "text": "MFA authentication registration page",
+      "url": "https://2fa.northeastern.edu/"
+    },
+    {
+      "text": "MFA documentation",
+      "url": "https://duo.com/docs/administration-settings"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access",
+    "Northeastern Account Access",
+    "Multi-Factor Authentication (MFA)"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I manage my Duo account and trusted devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+    },
+    {
+      "title": "How do I update my Duo enrollment when I get a new phone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209"
+    },
+    {
+      "title": "How do I set up passwordless authentication using Authenticator?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021992"
+    },
+    {
+      "title": "FAQ: Multi-factor authentication for retirees",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022997"
+    }
+  ]
+}

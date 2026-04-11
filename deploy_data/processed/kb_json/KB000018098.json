@@ -1,0 +1,62 @@
+{
+  "article_id": "KB000018098",
+  "title": "How do I forget a wireless network on a Windows device?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018098",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018098",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018098",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "2026-03-09",
+  "plain_text": "Fix Wi-Fi connection issues on Windows by forgetting and reconnecting to networks. Learn how to remove saved wireless networks from your device. If you are having trouble connecting to a wireless network your device has previously connected to, forgetting the network and reconnecting to it may resolve the issue. Forget the Wi-Fi network on Windows. Note: ITS-managed computers cannot forget NUwave because it is bound to the domain. 1. Select the Start menu. 2. Select Settings > Network & internet. 3. Select Wi-Fi. 4. Select 'Manage known networks'. 5. Select the network you wish to remove. 6. Select Forget. 7. The Wi-Fi network should now be removed from your device.",
+  "body_html": "<article id=\"364\"><p>Fix Wi-Fi connection issues on Windows by forgetting and reconnecting to networks. Learn how to remove saved wireless networks from your device. If you are having trouble connecting to a wireless network your device has previously connected to, forgetting the network and reconnecting to it may resolve the issue.</p><h2>Forget the Wi-Fi network on Windows</h2><p>Note: ITS-managed computers cannot forget NUwave because it is bound to the domain.</p><ul><li>Select the Start menu.</li><li>Select Settings > Network & internet.</li><li>Select Wi-Fi.</li><li>Select 'Manage known networks'. <button id=\"387\">Click Manage known networks under Wi-Fi</button></li><li>Select the network you wish to remove.</li><li>Select Forget. <button id=\"394\">Forget a known network</button></li><li>The Wi-Fi network should now be removed from your device.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "How do I forget a wireless network on a Windows device?",
+      "text": "Fix Wi-Fi connection issues on Windows by forgetting and reconnecting to networks. Learn how to remove saved wireless networks from your device. If you are having trouble connecting to a wireless network your device has previously connected to, forgetting the network and reconnecting to it may resolve the issue.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Forget the Wi-Fi network on Windows",
+      "text": "Note: ITS-managed computers cannot forget NUwave because it is bound to the domain.",
+      "steps": [
+        "Select the Start menu.",
+        "Select Settings > Network & internet.",
+        "Select Wi-Fi.",
+        "Select 'Manage known networks'.",
+        "Select the network you wish to remove.",
+        "Select Forget.",
+        "The Wi-Fi network should now be removed from your device."
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

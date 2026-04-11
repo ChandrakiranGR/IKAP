@@ -1,0 +1,50 @@
+{
+  "article_id": "KB0012646",
+  "title": "How do I access ChemDraw?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012646",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012646",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012646",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "28d ago",
+  "plain_text": "ChemDraw Professional for Northeastern students and faculty. Draw molecules, analyze compounds, and manage chemical data with industry-standard software. ChemDraw is a scientifically intelligent, integrated suite of personal productivity tools that enables scientists and researchers to capture, store, retrieve, and share data and information on compounds, reactions, materials, and their properties. ChemDraw Professional helps you efficiently keep track of your work, visualize and gain a deeper understanding of the results, and correlate biological activity with chemical structures. Download and install ChemDraw. To access the download portal, you will need a ChemDraw account. Visit the the ChemDraw website. Search for Northeastern University. Select Register. If you have an existing ChemDraw account for accessing this portal, select the option to log in. If you are a new user, complete the new user registration process using your Northeastern email address. Note: Only users with a valid @northeastern.edu email address will be able to create an account. Select the product you wish to download. Note: For support, submit a request to ChemDraw support.",
+  "body_html": "<article id=\"364\">\n  <p>ChemDraw Professional for Northeastern students and faculty. Draw molecules, analyze compounds, and manage chemical data with industry-standard software. ChemDraw is a scientifically intelligent, integrated suite of personal productivity tools that enables scientists and researchers to capture, store, retrieve, and share data and information on compounds, reactions, materials, and their properties. ChemDraw Professional helps you efficiently keep track of your work, visualize and gain a deeper understanding of the results, and correlate biological activity with chemical structures.</p>\n  <h2 id=\"368\">Download and install ChemDraw</h2>\n  <p>To access the download portal, you will need a ChemDraw account.</p>\n  <ul>\n    <li>Visit the the <a id=\"376\">ChemDraw</a> website.</li>\n    <li>Search for Northeastern University.</li>\n    <li>Select Register. <button id=\"385\">Northeastern Perkin Elmer site subscription</button></li>\n    <li>If you have an existing ChemDraw account for accessing this portal, select the option to log in. If you are a new user, complete the new user registration process using your Northeastern email address. Note: Only users with a valid @northeastern.edu email address will be able to create an account.</li>\n    <li>Select the product you wish to download.</li>\n  </ul>\n  <p>Note: For support, submit a request to <a id=\"400\">ChemDraw support</a>.</p>\n</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "ChemDraw Professional for Northeastern students and faculty. Draw molecules, analyze compounds, and manage chemical data with industry-standard software. ChemDraw is a scientifically intelligent, integrated suite of personal productivity tools that enables scientists and researchers to capture, store, retrieve, and share data and information on compounds, reactions, materials, and their properties. ChemDraw Professional helps you efficiently keep track of your work, visualize and gain a deeper understanding of the results, and correlate biological activity with chemical structures.; Download and install ChemDraw: To access the download portal, you will need a ChemDraw account. Visit the the ChemDraw website. Search for Northeastern University. Select Register. If you have an existing ChemDraw account for accessing this portal, select the option to log in. If you are a new user, complete the new user registration process using your Northeastern email address. Note: Only users with a valid @northeastern.edu email address will be able to create an account. Select the product you wish to download. Note: For support, submit a request to ChemDraw support.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "ChemDraw",
+      "url": "https://connect.revvitysignals.com/sitesubscription/"
+    },
+    {
+      "text": "ChemDraw support",
+      "url": "https://support.revvitysignals.com/hc/en-us/requests/new"
+    }
+  ],
+  "categories": [
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Other Applications"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access AutoCAD?",
+      "url": null
+    },
+    {
+      "title": "How do I access think-cell software?",
+      "url": null
+    },
+    {
+      "title": "How do I use 7-Zip to encrypt files and folders on Windows?",
+      "url": null
+    }
+  ]
+}

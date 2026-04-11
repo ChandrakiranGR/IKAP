@@ -1,0 +1,97 @@
+{
+  "article_id": "KB000018478",
+  "title": "What is Wolfram Mathematica?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018478",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018478",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018478",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Mathematica is a computing application used in engineering, mathematics, finance, science, and a wide range of other fields. It is ideal for course lecture slideshows, student exploratory projects (to support a text, faculty, or student computations), and other projects requiring scientific information visualization. Mathematica is available for Windows, Mac, and Linux computers. As a complement to Mathematica, Wolfram Alpha Pro lets you enter plain English input to compute and visualize answers online through your web browser. For professors, Wolfram Alpha Pro makes it easy to introduce students to computation across a wide array of disciplines. Students also get access to features like the Problem Generator and Solutions help. Table of Contents Access Mathematica Get started with Mathematica Accessibility Resources Support and training Help Training Access Mathematica Faculty, staff, and students are eligible to use products on campus or personal machines. Northeastern University's agreement supports using products for instruction and academic research. Licensing is renewed annually for active faculty, staff, and students. For information on requesting a license, see How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software? for more information. Get started with Mathematica Accessibility Accessibility: Wolfram Voluntary Product Accessibility Template. Resources How do I activate Wolfram products using SSO? How do I troubleshoot SSO login or access issues? Mathematica. Mathematica Online. Wolfram Alpha Pro. Support and training Help Please contact Wolfram support for further information about tool-specific information. They have a dedicated support center for questions and help. Email and phone options are available to support instructors and students. Wolfram phone support: 1.800.WOLFRAM. Wolfram email support. Training Wolfram Webinars & Training (Wolfram U). Hands-on Start to Mathematica Online: Get started with Mathematica Online. This video course takes you step by step and shows you how to navigate the cloud interface, create notebooks, enter queries through free-form input and the Wolfram Language, perform basic calculations, generate 2D and 3D graphics, create interactive models, analyze data, and share your files. Fast Introduction to Mathematica for Programmers: Learn to program in Wolfram Language—fast. These videos offer a quick introduction to Wolfram Language. As a programmer, you will get up to speed with the higher-level constructs of this fully symbolic programming language. You will be introduced to a selection of its nearly 6,000 carefully integrated, built-in functions. You can also try rapid prototyping of your ideas with quick cloud deployment options, as well as access and work with an amazing collection of curated computable data built into the language itself, from within the all-in-one notebook environment. After you are done, you will be able to read and understand almost any Wolfram Language code and start programming in Wolfram Language yourself. A Guide to Programming with Wolfram Language (Mathematica): Go beyond the basics of programming in Wolfram Language. Learn how to write more complex programs in different programming styles as well as utilize flow control primitives and other features of this high-level programming language. Wolfram Language has a wealth of built-in functions that require little or no programming, but there are special applications that require programming to get the code to do things that go beyond those built-in capabilities. This course offers a collection of useful tips and technical details for intermediate-level programmers.",
+  "body_html": "<article id=\"364\">Mathematica is a computing application used in engineering, mathematics, finance, science, and a wide range of other fields. It is ideal for course lecture slideshows, student exploratory projects (to support a text, faculty, or student computations), and other projects requiring scientific information visualization. Mathematica is available for Windows, Mac, and Linux computers. As a complement to Mathematica, Wolfram Alpha Pro lets you enter plain English input to compute and visualize answers online through your web browser. For professors, Wolfram Alpha Pro makes it easy to introduce students to computation across a wide array of disciplines. Students also get access to features like the Problem Generator and Solutions help. <h2 id=\"371\">Table of Contents</h2><ul><li><a id=\"376\">Access Mathematica</a></li><li><a id=\"379\">Get started with Mathematica</a><ul><li><a id=\"383\">Accessibility</a></li><li><a id=\"386\">Resources</a></li></ul></li><li><a id=\"389\">Support and training</a><ul><li><a id=\"393\">Help</a></li><li><a id=\"396\">Training</a></li></ul></li></ul><h2 id=\"399\">Access Mathematica</h2><ul><li>Faculty, staff, and students are eligible to use products on campus or personal machines. Northeastern University's agreement supports using products for instruction and academic research. Licensing is renewed annually for active faculty, staff, and students. For information on requesting a license, see <a id=\"404\">How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?</a> for more information.</li></ul><h2 id=\"411\">Get started with Mathematica</h2><h3 id=\"413\">Accessibility</h3><ul><li>Accessibility: <a id=\"418\">Wolfram Voluntary Product Accessibility Template</a>.</li></ul><h3 id=\"421\">Resources</h3><ul><li><a id=\"425\">How do I activate Wolfram products using SSO?</a></li><li><a id=\"428\">How do I troubleshoot SSO login or access issues?</a></li><li><a id=\"431\">Mathematica.</a></li><li><a id=\"434\">Mathematica Online.</a></li><li><a id=\"437\">Wolfram Alpha Pro.</a></li></ul><h2 id=\"443\">Support and training</h2><h3 id=\"445\">Help</h3>Please contact Wolfram support for further information about tool-specific information. They have a dedicated support center for questions and help. Email and phone options are available to support instructors and students.<ul><li>Wolfram phone support: 1.800.WOLFRAM.</li><li><a id=\"453\">Wolfram email support.</a></li></ul><h3 id=\"455\">Training</h3><ul><li><a id=\"459\">Wolfram Webinars & Training (Wolfram U)</a>.</li><li><a id=\"463\">Hands-on Start to Mathematica Online</a>: Get started with Mathematica Online.</li><li><a id=\"467\">Fast Introduction to Mathematica for Programmers</a>: Learn to program in Wolfram Language—fast.</li><li><a id=\"471\">A Guide to Programming with Wolfram Language (Mathematica)</a>: Go beyond the basics of programming in Wolfram Language.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Mathematica is a computing application used in engineering, mathematics, finance, science, and a wide range of other fields. It is ideal for course lecture slideshows, student exploratory projects (to support a text, faculty, or student computations), and other projects requiring scientific information visualization. Mathematica is available for Windows, Mac, and Linux computers. As a complement to Mathematica, Wolfram Alpha Pro lets you enter plain English input to compute and visualize answers online through your web browser. For professors, Wolfram Alpha Pro makes it easy to introduce students to computation across a wide array of disciplines. Students also get access to features like the Problem Generator and Solutions help. Table of Contents: Access Mathematica, Get started with Mathematica, Accessibility, Resources, Support and training, Help, Training. Access Mathematica: Faculty, staff, and students are eligible to use products on campus or personal machines. Northeastern University's agreement supports using products for instruction and academic research. Licensing is renewed annually for active faculty, staff, and students. For information on requesting a license, see How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software? for more information. Get started with Mathematica: This section contains information on accessibility and resources for getting started. Accessibility: Accessibility: Wolfram Voluntary Product Accessibility Template. Resources: How do I activate Wolfram products using SSO? How do I troubleshoot SSO login or access issues? Mathematica. Mathematica Online. Wolfram Alpha Pro. Support and training: This section provides help and training information. Help: Please contact Wolfram support for further information about tool-specific information. They have a dedicated support center for questions and help. Email and phone options are available to support instructors and students. Wolfram phone support: 1.800.WOLFRAM. Wolfram email support. Training: Wolfram Webinars & Training (Wolfram U). Hands-on Start to Mathematica Online: Get started with Mathematica Online. Fast Introduction to Mathematica for Programmers: Learn to program in Wolfram Language—fast. A Guide to Programming with Wolfram Language (Mathematica): Go beyond the basics of programming in Wolfram Language.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012562"
+    },
+    {
+      "text": "Wolfram Voluntary Product Accessibility Template",
+      "url": "https://www.wolfram.com/legal/accessibility/wolframalpha"
+    },
+    {
+      "text": "How do I activate Wolfram products using SSO?",
+      "url": "https://support.wolfram.com/54713"
+    },
+    {
+      "text": "How do I troubleshoot SSO login or access issues?",
+      "url": "https://support.wolfram.com/54945"
+    },
+    {
+      "text": "Mathematica.",
+      "url": "https://www.wolfram.com/mathematica/"
+    },
+    {
+      "text": "Mathematica Online.",
+      "url": "https://www.wolfram.com/mathematica/online/"
+    },
+    {
+      "text": "Wolfram Alpha Pro.",
+      "url": "https://www.wolframalpha.com/pro/"
+    },
+    {
+      "text": "Wolfram email support.",
+      "url": "https://www.wolfram.com/support/contact/"
+    },
+    {
+      "text": "Wolfram Webinars & Training (Wolfram U)",
+      "url": "https://www.wolfram.com/wolfram-u/calendar/?source=nav"
+    },
+    {
+      "text": "Hands-on Start to Mathematica Online",
+      "url": "https://www.wolfram.com/wolfram-u/courses/wolfram-language/hands-on-start-to-mathematica-wl005/"
+    },
+    {
+      "text": "Fast Introduction to Mathematica for Programmers",
+      "url": "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.wolfram.com%2Fwolfram-u%2Fcourses%2Fprogramming-applications%2Ffast-introduction-for-programmers-dev901%2F&data=05%7C01%7Cl.wright%40northeastern.edu%7Cc99607583763423386e608db5d505e53%7Ca8eec281aaa34daeac9b9a398b9215e7%7C0%7C0%7C638206372015816490%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Hml8WdP%2BVICjoNaCV6qOgMwg1PoHjONqoH67B%2Fc6d8o%3D&reserved=0"
+    },
+    {
+      "text": "A Guide to Programming with Wolfram Language (Mathematica)",
+      "url": "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.wolfram.com%2Fwolfram-u%2Fcourses%2Fprogramming-applications%2Fguide-to-programming%2F&data=05%7C01%7Cl.wright%40northeastern.edu%7Cc99607583763423386e608db5d505e53%7Ca8eec281aaa34daeac9b9a398b9215e7%7C0%7C0%7C638206372015816490%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=EZqXoDDObFGz%2B8QZUbkWaB%2BI3iqHna5Bgj6WGWO9e3o%3D&reserved=0"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing - Software and Application Distribution - Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

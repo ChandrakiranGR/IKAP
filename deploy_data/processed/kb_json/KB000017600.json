@@ -1,0 +1,159 @@
+{
+  "article_id": "KB000017600",
+  "title": "How do I ensure my Canvas course is ready at the start of the term?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017600",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017600",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017600",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "Canvas provides a central hub for students accessing your course from around campus or across the globe. To help prepare your course, download the Canvas Start of the Term Readiness Checklist. Ensure your course is ready. Follow the steps in the Canvas Readiness Checklist to prepare your course before the term begins. Set up the Canvas Homepage. Use the course homepage to welcome students and provide essential information about the course, including where to begin. Refer to How do I set the stage for learning in Canvas (Faculty)? for guidance. Add a syllabus to the course. Post your syllabus in Canvas to outline course expectations, communication plans, and deliverables. The Canvas Syllabus tool allows students to easily access course information in one location. Refer to How do I post a syllabus and course summary in Canvas? for more information. Organize content using modules. Use modules to structure weekly content, topics, and activities. Modules help students navigate course materials in a clear, sequential format. Refer to How do I organize Canvas content using Northeastern's Standard Template? for more information. Link course materials in Canvas. Post and link files, videos, and library materials within Canvas modules to centralize access to course content. Refer to How do I post content to Canvas Modules? and How do I record a lecture in Panopto from a Canvas course? for more information. Create and grade Assignments through Canvas. Set due dates for digital assignments so they appear in the student calendar. Assignments may be submitted through Canvas assignments, quizzes, or approved external tools. For more information on assignments and quizzes on Canvas, refer to How do I create and grade an assignment in Canvas? and How do I create and grade a quiz in Canvas? for more information. Schedule online class meetings. Set up Zoom or Microsoft Teams meetings that students can access directly through Canvas. The integration automatically adds meeting details to students’ Canvas calendars. Refer to How do I create a Zoom meeting in Canvas? and How do I create a Teams meeting in Canvas? for more information. Publish your course on Canvas. Publish your course before the start of the term so students can access materials and prepare. Faculty can publish or unpublish entire courses, modules, or individual items. Refer to How do I publish courses and modules in Canvas? for guidance. Communicate with students. Use Canvas announcements and messaging tools to communicate with your students outside of class meetings. Refer to How do I send an announcement to students in Canvas? and How do I send messages to students on Canvas? for more information.",
+  "body_html": "<article id=\"364\"><p>Canvas provides a central hub for students accessing your course from around campus or across the globe. To help prepare your course, download the <a id=\"366\">Canvas Start of the Term Readiness Checklist</a>.</p><hr id=\"370\"><h2 id=\"ensure-your-course-is-ready\">Ensure your course is ready</h2><p>Follow the steps in the <a id=\"375\">Canvas Readiness Checklist</a> to prepare your course before the term begins.</p><ul><li>Set up the Canvas Homepage. Use the course homepage to welcome students and provide essential information about the course, including where to begin. Refer to <a id=\"385\">How do I set the stage for learning in Canvas (Faculty)?</a> for guidance.</li><li>Add a syllabus to the course. Post your syllabus in Canvas to outline course expectations, communication plans, and deliverables. The Canvas Syllabus tool allows students to easily access course information in one location. Refer to <a id=\"393\">How do I post a syllabus and course summary in Canvas?</a> for more information.</li><li>Organize content using modules. Use modules to structure weekly content, topics, and activities. Modules help students navigate course materials in a clear, sequential format. Refer to <a id=\"401\">How do I organize Canvas content using Northeastern's Standard Template?</a> for more information.</li><li>Link course materials in Canvas. Post and link files, videos, and library materials within Canvas modules to centralize access to course content. Refer to <a id=\"411\">How do I post content to Canvas Modules?</a> and <a id=\"414\">How do I record a lecture in Panopto from a Canvas course?</a> for more information.</li><li>Create and grade Assignments through Canvas. Set due dates for digital assignments so they appear in the student calendar. Assignments may be submitted through Canvas assignments, quizzes, or approved external tools. For more information on assignments and quizzes on Canvas, refer to <a id=\"425\">How do I create and grade an assignment in Canvas?</a> and <a id=\"428\">How do I create and grade a quiz in Canvas?</a> for more information.</li><li>Schedule online class meetings. Set up Zoom or Microsoft Teams meetings that students can access directly through Canvas. The integration automatically adds meeting details to students’ Canvas calendars. Refer to <a id=\"434\">How do I create a Zoom meeting in Canvas?</a> and <a id=\"437\">How do I create a Teams meeting in Canvas?</a> for more information.</li><li>Publish your course on Canvas. Publish your course before the start of the term so students can access materials and prepare. Faculty can publish or unpublish entire courses, modules, or individual items. Refer to <a id=\"443\">How do I publish courses and modules in Canvas?</a> for guidance.</li><li>Communicate with students. Use Canvas announcements and messaging tools to communicate with your students outside of class meetings. Refer to <a id=\"451\">How do I send an announcement to students in Canvas?</a> and <a id=\"454\">How do I send messages to students on Canvas?</a> for more information.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Canvas provides a central hub for students accessing your course from around campus or across the globe. To help prepare your course, download the Canvas Start of the Term Readiness Checklist.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Ensure your course is ready",
+      "text": "Follow the steps in the Canvas Readiness Checklist to prepare your course before the term begins.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Set up the Canvas Homepage. Refer to How do I set the stage for learning in Canvas (Faculty)? for guidance.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Add a syllabus to the course. Refer to How do I post a syllabus and course summary in Canvas? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Organize content using modules. Refer to How do I organize Canvas content using Northeastern's Standard Template? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Link course materials in Canvas. Refer to How do I post content to Canvas Modules? and How do I record a lecture in Panopto from a Canvas course? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Create and grade Assignments through Canvas. Refer to How do I create and grade an assignment in Canvas? and How do I create and grade a quiz in Canvas? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Schedule online class meetings. Refer to How do I create a Zoom meeting in Canvas? and How do I create a Teams meeting in Canvas? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Publish your course on Canvas. Refer to How do I publish courses and modules in Canvas? for guidance.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Introduction",
+      "text": "Communicate with students. Refer to How do I send an announcement to students in Canvas? and How do I send messages to students on Canvas? for more information.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/files/2022/03/Canvas-Readiness-Checklist-Fall-2021.docx"
+    },
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/start-of-the-term-checklist/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014597"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014580"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014596"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014581"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014589"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014484"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014668"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014602"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014582"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "How do I set account time zones in Canvas?",
+      "url": null
+    }
+  ]
+}

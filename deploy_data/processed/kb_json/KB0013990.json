@@ -1,0 +1,70 @@
+{
+  "article_id": "KB0013990",
+  "title": "How do I access think-cell software?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013990",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013990",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013990",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Think-cell helps to create stunning charts in minutes, boosts slide layout, and automates regular reports. This software, used by top consulting and investment firms, is offered at no cost to Northeastern students, instructors, and staff. Table of Contents Download think-cell Resources and support Download think-cell Navigate to the to the think-cell download page . Enter your Northeastern email address and select 'Request download information'. Select the download link sent to your inbox. Select the operating system and follow the instructions. When asked for a license key, copy the license key below and paste it into the license key dialog. License key: JZ78-CS3LW-EF3BJ-ZX7GW-3JGJE This key will be valid until 10/31/2026 Resources and support To find personalized think-cell help, a searchable user manual, and targeted video tutorials, visit the think-cell Support page . Watch video tutorials for a step-by-step demonstration. Watch the video overview of think-cell. Learn about 40+ chart types and features to create your first chart. Learn how to link an Excel file to your think-cell PowerPoint chart and automate data updates. Read the latest updates and new features on What's new in think-cell? for more information.",
+  "body_html": "<article id=\"364\">Think-cell helps to create stunning charts in minutes, boosts slide layout, and automates regular reports. This software, used by top consulting and investment firms, is offered at no cost to Northeastern students, instructors, and staff.<hr><h2>Table of Contents</h2><ul><li><a id=\"373\">Download think-cell</a></li><li><a id=\"376\">Resources and support</a></li></ul><hr><h2>Download think-cell</h2><ul><li>Navigate to the to the <a id=\"385\">think-cell download page</a>.</li><li>Enter your Northeastern email address and select 'Request download information'.</li><li>Select the download link sent to your inbox.</li><li>Select the operating system and follow the instructions.</li><li>When asked for a license key, copy the license key below and paste it into the license key dialog.</li></ul>License key: JZ78-CS3LW-EF3BJ-ZX7GW-3JGJE This key will be valid until 10/31/2026<hr><h2>Resources and support</h2>To find personalized think-cell help, a searchable user manual, and targeted video tutorials, visit the <a id=\"419\">think-cell Support page</a>.<ul><li>Watch <a id=\"426\">video tutorials</a> for a step-by-step demonstration.</li><li>Watch the <a id=\"431\">video overview of think-cell.</a></li><li>Learn about <a id=\"435\">40+ chart types and features</a> to create your first chart.</li><li>Learn how to link an Excel file to your think-cell PowerPoint chart and <a id=\"440\">automate data updates.</a></li><li>Read the latest updates and new features on <a id=\"444\">What's new in think-cell?</a> for more information.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Think-cell helps to create stunning charts in minutes, boosts slide layout, and automates regular reports. This software, used by top consulting and investment firms, is offered at no cost to Northeastern students, instructors, and staff.; Table of Contents: Download think-cell; Resources and support; Download think-cell: Navigate to the to the think-cell download page. Enter your Northeastern email address and select 'Request download information'. Select the download link sent to your inbox. Select the operating system and follow the instructions. When asked for a license key, copy the license key below and paste it into the license key dialog. License key: JZ78-CS3LW-EF3BJ-ZX7GW-3JGJE This key will be valid until 10/31/2026; Resources and support: To find personalized think-cell help, a searchable user manual, and targeted video tutorials, visit the think-cell Support page. Watch video tutorials for a step-by-step demonstration. Watch the video overview of think-cell. Learn about 40+ chart types and features to create your first chart. Learn how to link an Excel file to your think-cell PowerPoint chart and automate data updates. Read the latest updates and new features on What's new in think-cell? for more information.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "think-cell download page",
+      "url": "https://server.think-cell.com/portal/en/downloads.srf"
+    },
+    {
+      "text": "think-cell Support page",
+      "url": "https://www.think-cell.com/support"
+    },
+    {
+      "text": "video tutorials",
+      "url": "https://www.think-cell.com/en/resources/videos.html"
+    },
+    {
+      "text": "video overview of think-cell.",
+      "url": "https://www.think-cell.com/"
+    },
+    {
+      "text": "40+ chart types and features",
+      "url": "https://www.think-cell.com/en/product/features.shtml"
+    },
+    {
+      "text": "automate data updates.",
+      "url": "https://www.think-cell.com/en/product/features.shtml"
+    },
+    {
+      "text": "What's new in think-cell?",
+      "url": "https://www.think-cell.com/whats-new"
+    }
+  ],
+  "categories": [
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Other Applications"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access AutoCAD?",
+      "url": null
+    },
+    {
+      "title": "How do I access ChemDraw?",
+      "url": null
+    },
+    {
+      "title": "How do I use 7-Zip to encrypt files and folders on Windows?",
+      "url": null
+    }
+  ]
+}

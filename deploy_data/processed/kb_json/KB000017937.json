@@ -1,0 +1,107 @@
+{
+  "article_id": "KB000017937",
+  "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017937",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017937",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017937",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2 months ago",
+  "plain_text": "If you encounter page-loading or page-freezing issues during an exam, the only solution, in many cases, is to reload the browser or quit and restart the exam. You will find solutions to many online exam problems in this article. Table of Contents What actions can I take to prepare my computer before an exam? How can I prepare my computer before a Respondus exam? What if my Wi-Fi has a connection issue? What if the page does not load or the browser freezes in a non-Respondus exam? What if I cannot restart an exam? Will my exam auto-submit? What if I experience a technical issue in a Respondus exam? What actions can I take to prepare my computer before an exam? Check for computer software updates the day before the exam to ensure that you are running the latest software or that you have time to upgrade. Upgrade your browser as well if needed. Restart your computer before each exam and close any applications running in the background that cause pop-ups or may slow down your computer. How can I prepare my computer before a Respondus exam? If your exam uses Respondus Lockdown Browser, update your software before each exam. Updates come out frequently, and older versions can cause issues that are difficult to recover from. Restart your computer before each exam and close any applications running in the background that cause pop-ups or may slow down your computer. Take the Respondus Tech Check quiz ahead of time to ensure that your computer and software are compatible with Respondus. Refer to How do I take a test using Respondus LockDown Browser and Monitor? for directions. What if my Wi-Fi has a connection issue? Plug into Ethernet if that is an option, or move as close to the Wi-Fi router as possible. What if the page does not load or the browser freezes in a non-Respondus exam? If you encounter an issue with page loading in a Canvas quiz, reload the page. If the browser is frozen, restart the browser or the computer if necessary. Do this quickly so that you minimize time lost to technical challenges. Email your instructor after the exam to let them know that you had trouble if you lost time. What if I cannot restart an exam? If you are unable to restart the exam because of the exam settings: Contact your instructor immediately via email and let them know you are locked out of the exam. They may choose to unlock the exam re-entry setting for all students or provide you with an additional attempt. You may recommend that the instructor read How do I help a student who is having problems during an exam or who got locked out of an exam? for more information. Will my exam auto-submit? The exam will not auto-submit unless time has run out, the availability or due date has passed, or the instructor is using Respondus Lockdown Browser and the settings lock students into the exam until it is submitted. The exam will auto-submit if a student selects the Submit button. What if I experience a technical issue in a Respondus exam? Exam freezes: If your exam freezes while you are using Respondus Lockdown Browser, there is no way to reload the page. You will need to close the browser and provide a reason in the Respondus pop-up for your exit. Do this quickly because, in many cases, you will be able to start Respondus again and continue taking the exam in any remaining time allotted to the exam window. Cannot restart the exam: If you have lost more than a few minutes, email your instructor and ask for an extension on the exam. They may or may not provide it, but get started again with your exam regardless. Issues with Respondus: If you have an issue with Respondus during the exam or need assistance with Respondus, please contact Respondus support directly to submit a ticket. Issues with Respondus Lockdown Browser with Monitor: If you are using Respondus Lockdown Browser with Monitor, there will be a chat option available to you. Note: Because of software security measures inherent in Respondus software, the service desk is not able to troubleshoot issues.",
+  "body_html": "<article id=\"364\"><div id=\"365\">If you encounter page-loading or page-freezing issues during an exam, the only solution, in many cases, is to reload the browser or quit and restart the exam. You will find solutions to many online exam problems in this article.</div><hr id=\"368\"><h2>Table of Contents</h2><ul><li>What actions can I take to prepare my computer before an exam? <a id=\"375\">...</a></li><li>How can I prepare my computer before a Respondus exam? <a id=\"378\">...</a></li><li>What if my Wi-Fi has a connection issue? <a id=\"381\">...</a></li><li>What if the page does not load or the browser freezes in a non-Respondus exam? <a id=\"384\">...</a></li><li>What if I cannot restart an exam? <a id=\"387\">...</a></li><li>Will my exam auto-submit? <a id=\"390\">...</a></li><li>What if I experience a technical issue in a Respondus exam? <a id=\"393\">...</a></li></ul><hr id=\"395\"><h3>What actions can I take to prepare my computer before an exam?</h3><ul><li>Check for computer software updates...</li><li>Restart your computer...</li></ul><hr id=\"403\"><h3>How can I prepare my computer before a Respondus exam?</h3><ul><li>If your exam uses Respondus Lockdown Browser, <a id=\"409\">update your software before each exam</a>.</li><li>Restart your computer...</li><li>Take the Respondus Tech Check quiz... Refer to <a id=\"416\">How do I take a test using Respondus LockDown Browser and Monitor?</a> for directions.</li></ul><hr id=\"419\"><h3>What if my Wi-Fi has a connection issue?</h3>Plug into Ethernet...<hr id=\"423\"><h3>What if the page does not load or the browser freezes in a non-Respondus exam?</h3><ul><li>If you encounter an issue with page loading...</li><li>If the browser is frozen...</li><li>Email your instructor...</li></ul><hr id=\"438\"><h3>What if I cannot restart an exam?</h3>If you are unable to restart...<ul><li>Contact your instructor...</li><li>You may recommend that the instructor read <a id=\"450\">How do I help a student who is having problems during an exam or who got locked out of an exam?</a> for more information.</li></ul><hr id=\"453\"><h3>Will my exam auto-submit?</h3><ul><li>The exam will not auto-submit...</li><li>The exam will auto-submit...</li></ul><hr id=\"461\"><h3>What if I experience a technical issue in a Respondus exam?</h3><ul><li>Exam freezes...</li><li>Cannot restart the exam...</li><li>Issues with Respondus: ... <a id=\"471\">submit a ticket</a>.</li><li>Issues with Respondus Lockdown Browser with Monitor: ... there will be a <a id=\"476\">chat</a> option available to you.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "If you encounter page-loading or page-freezing issues during an exam, the only solution, in many cases, is to reload the browser or quit and restart the exam. You will find solutions to many online exam problems in this article.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What actions can I take to prepare my computer before an exam?",
+      "text": "Check for computer software updates the day before the exam to ensure that you are running the latest software or that you have time to upgrade. Upgrade your browser as well if needed. Restart your computer before each exam and close any applications running in the background that cause pop-ups or may slow down your computer.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How can I prepare my computer before a Respondus exam?",
+      "text": "If your exam uses Respondus Lockdown Browser, update your software before each exam. Updates come out frequently, and older versions can cause issues that are difficult to recover from. Restart your computer before each exam and close any applications running in the background that cause pop-ups or may slow down your computer. Take the Respondus Tech Check quiz ahead of time to ensure that your computer and software are compatible with Respondus. Refer to How do I take a test using Respondus LockDown Browser and Monitor? for directions.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What if my Wi-Fi has a connection issue?",
+      "text": "Plug into Ethernet if that is an option, or move as close to the Wi-Fi router as possible.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What if the page does not load or the browser freezes in a non-Respondus exam?",
+      "text": "If you encounter an issue with page loading in a Canvas quiz, reload the page. If the browser is frozen, restart the browser or the computer if necessary. Do this quickly so that you minimize time lost to technical challenges. Email your instructor after the exam to let them know that you had trouble if you lost time.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What if I cannot restart an exam?",
+      "text": "If you are unable to restart the exam because of the exam settings: Contact your instructor immediately via email and let them know you are locked out of the exam. They may choose to unlock the exam re-entry setting for all students or provide you with an additional attempt. You may recommend that the instructor read How do I help a student who is having problems during an exam or who got locked out of an exam? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Will my exam auto-submit?",
+      "text": "The exam will not auto-submit unless time has run out, the availability or due date has passed, or the instructor is using Respondus Lockdown Browser and the settings lock students into the exam until it is submitted. The exam will auto-submit if a student selects the Submit button.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What if I experience a technical issue in a Respondus exam?",
+      "text": "Exam freezes: If your exam freezes while you are using Respondus Lockdown Browser, there is no way to reload the page. You will need to close the browser and provide a reason in the Respondus pop-up for your exit. Do this quickly because, in many cases, you will be able to start Respondus again and continue taking the exam in any remaining time allotted to the exam window. Cannot restart the exam: If you have lost more than a few minutes, email your instructor and ask for an extension on the exam. They may or may not provide it, but get started again with your exam regardless. Issues with Respondus: If you have an issue with Respondus during the exam or need assistance with Respondus, please contact Respondus support directly to submit a ticket. Issues with Respondus Lockdown Browser with Monitor: If you are using Respondus Lockdown Browser with Monitor, there will be a chat option available to you. Note: Because of software security measures inherent in Respondus software, the service desk is not able to troubleshoot issues.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "update your software before each exam",
+      "url": "https://support.respondus.com/hc/en-us/articles/4409607243035-How-to-update-LockDown-Browser"
+    },
+    {
+      "text": "How do I take a test using Respondus LockDown Browser and Monitor?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477"
+    },
+    {
+      "text": "How do I help a student who is having problems during an exam or who got locked out of an exam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016372"
+    },
+    {
+      "text": "submit a ticket",
+      "url": "https://support.respondus.com/hc/en-us"
+    },
+    {
+      "text": "chat",
+      "url": "https://web.respondus.com/student-help-livechat/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

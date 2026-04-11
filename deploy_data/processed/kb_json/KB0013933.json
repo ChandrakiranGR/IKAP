@@ -1,0 +1,108 @@
+{
+  "article_id": "KB0013933",
+  "title": "What is eduroam?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013933",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013933",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013933",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "eduroam is a wireless service available in academic and administrative buildings. eduroam has two main components – a wireless network on our campuses and reciprocal access to this wireless network wherever it is broadcast around the world. This reciprocal system enables Northeastern students, instructors, and staff to securely access the eduroam wireless network off-campus at more than 5,000 participating locations worldwide. Additionally, visitors from any participating eduroam institution can securely connect to the eduroam wireless network while at Northeastern using their credentials. Access Participating locations A full list of the over 350 participating US Institutions is available on the eduroam website. An international map is also available. Since eduroam was initially developed and launched in Europe, this continent boasts the most locations, with thousands of participating colleges, universities, and research facilities. Northeastern visitors Visiting instructors, researchers, students, and other individuals from participating eduroam organizations can securely access the eduroam wireless network in our academic and administrative buildings using their home organization's credentials. Read How do I connect to eduroam? for more information. Help If you have issues accessing eduroam, contact Northeastern's IT Service Desk at 617.373.4357 or help@northeastern.edu.",
+  "body_html": "<article id=\"364\">\n  <p>eduroam is a wireless service available in academic and administrative buildings. eduroam has two main components – a wireless network on our campuses and reciprocal access to this wireless network wherever it is broadcast around the world. This reciprocal system enables Northeastern students, instructors, and staff to securely access the eduroam wireless network off-campus at more than 5,000 participating locations worldwide. Additionally, visitors from any participating eduroam institution can securely connect to the eduroam wireless network while at Northeastern using their credentials.</p>\n  <hr id=\"366\">\n  <h2 id=\"access\">Access</h2>\n  <h3 id=\"participating-locations\">Participating locations</h3>\n  <ul>\n    <li>A full list of the over 350 participating US Institutions is available on the <a href=\"https://incommon.org/eduroam/\">eduroam website</a>.</li>\n    <li>An <a href=\"https://monitor.eduroam.org/map_service_loc.php\">international map</a> is also available. Since eduroam was initially developed and launched in Europe, this continent boasts the most locations, with thousands of participating colleges, universities, and research facilities.</li>\n  </ul>\n  <h3 id=\"northeastern-visitors\">Northeastern visitors</h3>\n  <p>Visiting instructors, researchers, students, and other individuals from participating eduroam organizations can securely access the eduroam wireless network in our academic and administrative buildings using their home organization's credentials. Read <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114\">How do I connect to eduroam?</a> for more information.</p>\n  <hr id=\"390\">\n  <h2 id=\"help\">Help</h2>\n  <p>If you have issues accessing eduroam, contact Northeastern's IT Service Desk at 617.373.4357 or <a href=\"mailto:help@northeastern.edu\">help@northeastern.edu</a>.</p>\n</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "eduroam is a wireless service available in academic and administrative buildings. eduroam has two main components – a wireless network on our campuses and reciprocal access to this wireless network wherever it is broadcast around the world. This reciprocal system enables Northeastern students, instructors, and staff to securely access the eduroam wireless network off-campus at more than 5,000 participating locations worldwide. Additionally, visitors from any participating eduroam institution can securely connect to the eduroam wireless network while at Northeastern using their credentials.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Access",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Participating locations",
+      "text": "A full list of the over 350 participating US Institutions is available on the eduroam website. An international map is also available. Since eduroam was initially developed and launched in Europe, this continent boasts the most locations, with thousands of participating colleges, universities, and research facilities.",
+      "steps": [],
+      "links": [
+        {
+          "text": "eduroam website",
+          "url": "https://incommon.org/eduroam/"
+        },
+        {
+          "text": "international map",
+          "url": "https://monitor.eduroam.org/map_service_loc.php"
+        }
+      ]
+    },
+    {
+      "heading": "Northeastern visitors",
+      "text": "Visiting instructors, researchers, students, and other individuals from participating eduroam organizations can securely access the eduroam wireless network in our academic and administrative buildings using their home organization's credentials. Read How do I connect to eduroam? for more information.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I connect to eduroam?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+        }
+      ]
+    },
+    {
+      "heading": "Help",
+      "text": "If you have issues accessing eduroam, contact Northeastern's IT Service Desk at 617.373.4357 or help@northeastern.edu.",
+      "steps": [],
+      "links": [
+        {
+          "text": "help@northeastern.edu",
+          "url": "mailto:help@northeastern.edu"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "eduroam website",
+      "url": "https://incommon.org/eduroam/"
+    },
+    {
+      "text": "international map",
+      "url": "https://monitor.eduroam.org/map_service_loc.php"
+    },
+    {
+      "text": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:help@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

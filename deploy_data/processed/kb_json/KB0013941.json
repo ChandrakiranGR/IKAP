@@ -1,0 +1,76 @@
+{
+  "article_id": "KB0013941",
+  "title": "How do I connect to NUwave-guest with a username and password?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013941",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013941",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013941",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "NUwave-guest is an open-access, unsecured wireless network that is available in all Northeastern buildings and residence halls. It is intended for those who are visiting Northeastern University and need temporary internet access. This article describes how to connect to NUwave-guest after registering for a guest account. Connect to NUwave-guest: 1. Connect to NUwave-guest from the list of available networks. You will be directed to the login page. 2. Enter the username and password of your guest wireless account. 3. Select 'Log In'. 4. You will be granted 30 days of access to NUwave-guest, and once it expires, you will have to re-register for continued access.",
+  "body_html": "<article>NUwave-guest is an open-access, unsecured wireless network that is available in all Northeastern buildings and residence halls. It is intended for those who are visiting Northeastern University and need temporary internet access. This article describes how to connect to NUwave-guest after <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0012760\">registering for a guest account</a>. <h2>Connect to NUwave-guest</h2><ul><li>Connect to NUwave-guest from the list of available networks. You will be directed to the login page. <button>NUwave Guest Sign On.png</button></li><li>Enter the username and password of your guest wireless account.</li><li>Select 'Log In'.</li><li>You will be granted 30 days of access to NUwave-guest, and once it expires, you will have to <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0012760\">re-register for continued access</a>.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NUwave-guest is an open-access, unsecured wireless network that is available in all Northeastern buildings and residence halls. It is intended for those who are visiting Northeastern University and need temporary internet access. This article describes how to connect to NUwave-guest after registering for a guest account.",
+      "steps": [],
+      "links": [
+        {
+          "text": "registering for a guest account",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+        }
+      ]
+    },
+    {
+      "heading": "Connect to NUwave-guest",
+      "text": "",
+      "steps": [
+        "Connect to NUwave-guest from the list of available networks. You will be directed to the login page.",
+        "Enter the username and password of your guest wireless account.",
+        "Select 'Log In'.",
+        "You will be granted 30 days of access to NUwave-guest, and once it expires, you will have to re-register for continued access."
+      ],
+      "links": [
+        {
+          "text": "re-register for continued access",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "registering for a guest account",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+    },
+    {
+      "text": "re-register for continued access",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management",
+    "Wireless Networks",
+    "Guest"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I register for individual NUwave-guest access?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+    },
+    {
+      "title": "FAQ: NUwave-guest access",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013939"
+    },
+    {
+      "title": "How do I connect to NUwave-guest with a conference code?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013940"
+    },
+    {
+      "title": "How do I provide Wi-Fi to conference and event guests?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018442"
+    }
+  ]
+}

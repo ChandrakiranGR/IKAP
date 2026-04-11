@@ -1,0 +1,65 @@
+{
+  "article_id": "KB000019402",
+  "title": "How do I connect to NUwave on Chromebook?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019402",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019402",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019402",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "2026-03-04",
+  "plain_text": "NUwave is one of Northeastern University's secure wireless networks available at the Boston campus for instructors, staff, and students. Connect to NUwave on Chromebook 1. Select the Wi-Fi icon located on the bottom-right taskbar. 2. Choose NUwave or eduroam. 3. Ensure that the correct authentication methods are selected. 4. Select PEAP under 'EAP method'. 5. Select MSCHAPV2 under 'Phase 2 authentication'. 6. Choose Default under 'CA certificate'. 7. Leave the 'Anonymous Identity' field blank. 8. Type your Northeastern username under Identity. 9. Type your Northeastern password under Password.",
+  "body_html": "<div><p>NUwave is one of Northeastern University's secure wireless networks available at the Boston campus for instructors, staff, and students.</p><h2>Connect to NUwave on Chromebook</h2><ul><li>Select the Wi-Fi icon located on the bottom-right taskbar.</li><li>Choose NUwave or eduroam.</li><li>Ensure that the correct authentication methods are selected.</li><li>Select PEAP under 'EAP method'.</li><li>Select MSCHAPV2 under 'Phase 2 authentication'.</li><li>Choose Default under 'CA certificate'.</li><li>Leave the 'Anonymous Identity' field blank.</li><li>Type your Northeastern username under Identity.</li><li>Type your Northeastern password under Password.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NUwave is one of Northeastern University's secure wireless networks available at the Boston campus for instructors, staff, and students.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Connect to NUwave on Chromebook",
+      "text": "",
+      "steps": [
+        "Select the Wi-Fi icon located on the bottom-right taskbar.",
+        "Choose NUwave or eduroam.",
+        "Ensure that the correct authentication methods are selected.",
+        "Select PEAP under 'EAP method'.",
+        "Select MSCHAPV2 under 'Phase 2 authentication'.",
+        "Choose Default under 'CA certificate'.",
+        "Leave the 'Anonymous Identity' field blank.",
+        "Type your Northeastern username under Identity.",
+        "Type your Northeastern password under Password."
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "Infrastructure",
+    "Network and Connectivity Management",
+    "Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

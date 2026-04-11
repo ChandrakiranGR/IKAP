@@ -1,0 +1,77 @@
+{
+  "article_id": "KB0014212",
+  "title": "How do I download LabVIEW, Multisim & Ultiboard?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014212",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014212",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014212",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "2026/01/01",
+  "plain_text": "National Instruments LabVIEW is a system-design platform and development environment for creating custom applications that interact with real-world data or signals in fields such as science and engineering. Table of Contents Student access Faculty & staff access Student access 1. Connect to the to the Northeastern VPN. 2. Navigate to the to the LabVIEW site. 3. LabVIEW only supports the Windows operating system. Select '2025 Q1' for the version and 'Community Edition'. 4. Log in to your account to initiate the download. If you do not have an account, select the link under email to create one. 5. Check your email to approve the request. 6. Select the downloaded file, then select Install. Accept the default permissions. 7. After installation is completed, restart your computer. 8. Launch 'NI LabView software program' from the Start menu. 9. On the 'Let’s get started' screen, select 'Log in to Activate'. 10. On the Hello screen, use the drop-down menu and select 'Connect to a volume license server'. 11. Enter 129.10.32.197:27000 and select Connect. 12. On the 'Admin request' page, fill out the following: - Full Name. - Phone. - Dept (use COE). - Cost Center (COE). - City. - State. - Country. 13. Check 'Use the same information for computer and user groups'. 14. Select Next. If prompted, enter required information on the next page. 15. Once the Administrator approves the request, you will be able to use the software. Faculty & staff access Requestors should send an email to help@coe.northeastern.edu requesting access. COE will then send the relevant files for software installation.",
+  "body_html": "<article id=\"364\"><div id=\"365\">National Instruments LabVIEW is a system-design platform and development environment for creating custom applications that interact with real-world data or signals in fields such as science and engineering.</div><hr id=\"368\"><h2 id=\"370\">Table of Contents</h2><ul><li>Student access <a id=\"375\">Student access</a></li><li>Faculty & staff access <a id=\"378\">Faculty & staff access</a></li></ul><hr id=\"380\"><h2 id=\"382\">Student access</h2><ul><li>Connect to the to the <a id=\"387\">Northeastern VPN.</a></li><li>Navigate to the to the <a id=\"392\">LabVIEW</a> site.</li><li>LabVIEW only supports the Windows operating system. Select '2025 Q1' for the version and 'Community Edition'.</li><li>Log in to your account to initiate the download. If you do not have an account, select the link under email to create one.</li><li>Check your email to approve the request.</li><li>Select the downloaded file, then select Install. Accept the default permissions.</li><li>After installation is completed, restart your computer.</li><li>Launch 'NI LabView software program' from the Start menu.</li><li>On the 'Let’s get started' screen, select 'Log in to Activate'.</li><li>On the Hello screen, use the drop-down menu and select 'Connect to a volume license server'.</li><li>Enter 129.10.32.197:27000 and select Connect.</li><li>On the 'Admin request' page, fill out the following:<ul><li>Full Name.</li><li>Phone.</li><li>Dept (use COE).</li><li>Cost Center (COE).</li><li>City.</li><li>State.</li><li>Country.</li></ul></li><li>Check 'Use the same information for computer and user groups'.</li><li>Select Next. If prompted, enter required information on the next page.</li><li>Once the Administrator approves the request, you will be able to use the software.</li></ul><a id=\"463\">Back to top</a><hr id=\"466\"><h2 id=\"468\">Faculty & staff access</h2>Requestors should send an email to <a id=\"470\">help@coe.northeastern.edu</a> requesting access. COE will then send the relevant files for software installation. <a id=\"474\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "National Instruments LabVIEW is a system-design platform and development environment for creating custom applications that interact with real-world data or signals in fields such as science and engineering.; Table of Contents: Student access Faculty & staff access; Student access: 1. Connect to the to the Northeastern VPN. 2. Navigate to the to the LabVIEW site. 3. LabVIEW only supports the Windows operating system. Select '2025 Q1' for the version and 'Community Edition'. 4. Log in to your account to initiate the download. If you do not have an account, select the link under email to create one. 5. Check your email to approve the request. 6. Select the downloaded file, then select Install. Accept the default permissions. 7. After installation is completed, restart your computer. 8. Launch 'NI LabView software program' from the Start menu. 9. On the 'Let’s get started' screen, select 'Log in to Activate'. 10. On the Hello screen, use the drop-down menu and select 'Connect to a volume license server'. 11. Enter 129.10.32.197:27000 and select Connect. 12. On the 'Admin request' page, fill out the following: Full Name, Phone, Dept (use COE), Cost Center (COE), City, State, Country. 13. Check 'Use the same information for computer and user groups'. 14. Select Next. If prompted, enter required information on the next page. 15. Once the Administrator approves the request, you will be able to use the software.; Faculty & staff access: Requestors should send an email to help@coe.northeastern.edu requesting access. COE will then send the relevant files for software installation.",
+      "steps": [
+        "Connect to the to the Northeastern VPN.",
+        "Navigate to the to the LabVIEW site.",
+        "LabVIEW only supports the Windows operating system. Select '2025 Q1' for the version and 'Community Edition'.",
+        "Log in to your account to initiate the download. If you do not have an account, select the link under email to create one.",
+        "Check your email to approve the request.",
+        "Select the downloaded file, then select Install. Accept the default permissions.",
+        "After installation is completed, restart your computer.",
+        "Launch 'NI LabView software program' from the Start menu.",
+        "On the 'Let’s get started' screen, select 'Log in to Activate'.",
+        "On the Hello screen, use the drop-down menu and select 'Connect to a volume license server'.",
+        "Enter 129.10.32.197:27000 and select Connect.",
+        "On the 'Admin request' page, fill out the following: Full Name, Phone, Dept (use COE), Cost Center (COE), City, State, Country.",
+        "Check 'Use the same information for computer and user groups'.",
+        "Select Next. If prompted, enter required information on the next page.",
+        "Once the Administrator approves the request, you will be able to use the software.; Faculty & staff access: Requestors should send an email to help@coe.northeastern.edu requesting access. COE will then send the relevant files for software installation."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Northeastern VPN.",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951"
+    },
+    {
+      "text": "LabVIEW",
+      "url": "https://www.ni.com/en/support/downloads/software-products/download.labview.html"
+    },
+    {
+      "text": "help@coe.northeastern.edu",
+      "url": "mailto:help@coe.northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing - Software and Application Distribution - Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

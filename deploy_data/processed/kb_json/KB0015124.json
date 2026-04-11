@@ -1,0 +1,99 @@
+{
+  "article_id": "KB0015124",
+  "title": "How do I customize my applications on the Student/Employee Hub?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015124",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015124",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015124",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "2026/04/01",
+  "plain_text": "The 'My Applications' section of the Student and Employee Hub provides easy access to the tools you use most often. The default list includes Robin, Outlook, and Canvas. Customize your applications: 1. Log in to the to the Student or Employee Hub. 2. Select the pencil icon to the right of the 'My Applications' section on the homepage of the Hub. 3. Select the 'red X' to the right of an application to remove it from the homepage. 4. Select the blue + button or use the search box to browse a list of available applications. Select the checkbox to the left of an application to add it to the homepage. 5. Select X in the top-right corner or select any space outside of the pop-up window to return to the dashboard. The dashboard will automatically update to display the apps you chose.",
+  "body_html": "<article id=\"362\">The 'My Applications' section of the <a id=\"366\">Student and Employee Hub</a> provides easy access to the tools you use most often. The default list includes <a id=\"369\">Robin</a>, <a id=\"372\">Outlook</a>, and <a id=\"375\">Canvas</a>. <h2>Customize your applications</h2><ul><li>Log in to the to the <a id=\"386\">Student or Employee Hub</a>.</li><li>Select the pencil icon to the right of the 'My Applications' section on the homepage of the Hub.</li><li>Select the 'red X' to the right of an application to remove it from the homepage.</li><li>Select the blue + button or use the search box to browse a list of available applications. Select the checkbox to the left of an application to add it to the homepage.</li><li>Select X in the top-right corner or select any space outside of the pop-up window to return to the dashboard. The dashboard will automatically update to display the apps you chose.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The 'My Applications' section of the Student and Employee Hub provides easy access to the tools you use most often. The default list includes Robin, Outlook, and Canvas.",
+      "steps": [],
+      "links": [
+        {
+          "text": "Student and Employee Hub",
+          "url": "https://about.me.northeastern.edu/"
+        },
+        {
+          "text": "Robin",
+          "url": "https://dashboard.robinpowered.com/Northeastern/"
+        },
+        {
+          "text": "Outlook",
+          "url": "https://outlook.office.com/"
+        },
+        {
+          "text": "Canvas",
+          "url": "https://canvas.northeastern.edu/"
+        }
+      ]
+    },
+    {
+      "heading": "Customize your applications",
+      "text": "Log in to the to the Student or Employee Hub. Select the pencil icon to the right of the 'My Applications' section on the homepage of the Hub. Select the 'red X' to the right of an application to remove it from the homepage. Select the blue + button or use the search box to browse a list of available applications. Select the checkbox to the left of an application to add it to the homepage. Select X in the top-right corner or select any space outside of the pop-up window to return to the dashboard. The dashboard will automatically update to display the apps you chose.",
+      "steps": [
+        "Log in to the to the Student or Employee Hub.",
+        "Select the pencil icon to the right of the 'My Applications' section on the homepage of the Hub.",
+        "Select the 'red X' to the right of an application to remove it from the homepage.",
+        "Select the blue + button or use the search box to browse a list of available applications. Select the checkbox to the left of an application to add it to the homepage.",
+        "Select X in the top-right corner or select any space outside of the pop-up window to return to the dashboard. The dashboard will automatically update to display the apps you chose."
+      ],
+      "links": [
+        {
+          "text": "Student or Employee Hub",
+          "url": "https://about.me.northeastern.edu/"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Student and Employee Hub",
+      "url": "https://about.me.northeastern.edu/"
+    },
+    {
+      "text": "Robin",
+      "url": "https://dashboard.robinpowered.com/Northeastern/"
+    },
+    {
+      "text": "Outlook",
+      "url": "https://outlook.office.com/"
+    },
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "Student or Employee Hub",
+      "url": "https://about.me.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business - Student Information Systems - Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub? (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016368)",
+      "url": null
+    },
+    {
+      "title": "FAQ: Student Hub (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018537)",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub? (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018826)",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub? (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019186)",
+      "url": null
+    }
+  ]
+}

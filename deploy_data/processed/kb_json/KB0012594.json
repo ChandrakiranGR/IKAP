@@ -1,0 +1,75 @@
+{
+  "article_id": "KB0012594",
+  "title": "How do I access SPSS Statistics and Modeler?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012594",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012594",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012594",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "2026-03-08",
+  "plain_text": "IBM's SPSS Software is an integrated family of products that consists of SPSS Statistics, SPSS Modeler, and SPSS Amos. Both SPSS Statistics and Modeler enable users to build predictive models and execute other analytics tasks, and were built to help users perform complex statistical analyses to solve research problems quickly and efficiently. SPSS Statistics is a powerful statistical software platform with a user-friendly interface and a robust set of features that enable you to quickly dig deeper into your data, making it a much more effective tool than spreadsheets, databases, or standard multidimensional tools for analytics. SPSS Modeler is a leading visual data science and machine learning solution designed to speed up operational tasks such as data preparation and discovery, predictive analytics, and model management and deployment for data scientists. Note: The SPSS Statistics access methods listed below are for academic and administrative use. However, if you install SPSS Statistics on a personal computer, it is restricted to academic use only under the university's license agreement with IBM. Table of contents Download SPSS Statistics Update your SPSS license Download SPSS Modeler Create an IBMid account Install SPSS Modeler Help Download SPSS Statistics Go to the the Student Hub or Employee Hub . From the top banner, navigate to 'Resources' > 'IT Support & Resources', then select 'Software Downloads'. Note: Sponsored accounts cannot access the Software Downloads page. Select the version you want to download and select 'Continue'. Accept the license agreement. Select the installer from the list and select 'Continue'. Select 'Download' and follow the installation instructions. Update your SPSS license The SPSS license expires annually at the end of August. Software on Northeastern-managed computers will renew automatically. Software locally installed on personal computers will require a user update with a new authorization code, which can be found on the Software Downloads page as 'SPSS & AMOS Authorization Codes for License Renewal.' The software does not need to be re-downloaded/re-installed, but the authorization code does need to be updated for a new annual license each year. Go to the the Student Hub or Employee Hub . From the top banner, navigate to 'Resources' > 'IT Support & Resources', then select 'Software Downloads'. Note: Sponsored accounts cannot access the Software Downloads page. Select the 'SPSS & AMOS Authorization Codes for License Renewal (All)' and select 'Continue'. Accept the license agreement, then select 'Continue'. You will see authorization codes for SPSS and AMOS. Those codes are for versions 26 to 28. 25 versions are no longer supported. On your device, run the License Authorization Wizard installed with your product. When prompted, choose 'License my product now.' Windows: Select the 'Start' menu and search for the License Authorization Wizard. macOS: It is located in the product Application folder. Linux: Run the SPSS license file in the bin subdirectory of the installation directory. You will be prompted to enter your authorization or license code(s). Choose the authorization method (internet, phone, or email) and follow the onscreen instructions. To verify the update, run showlic.exe located in your program's installation directory or run the 'Show License syntax' command within the product. Download SPSS Modeler SPSS Modeler is available directly from the vendor. Only the students and instructors of participating academic institutions are eligible for access. Create an IBMid account Navigate to the to the IBM Academic Initiative . Select 'Register now.' Enter your Northeastern email and select 'Submit'. Complete the registration form and select 'Register'. Select 'Proceed'. You will be redirected to the Academic Access Management Tool sign-up page. Complete the account information using the same Northeastern email address from Step 3 and select 'Next'. Enter the 7-digit verification code that's been emailed to you, then select 'Continue'. Review the IBMid Account Privacy and select 'Proceed'. Install SPSS Modeler Navigate to the to the SPSS Modeler download page . Note: You can also access this page by navigating to Topics > Data Science > Software. Select 'Request an SPSS Authorization Code' and copy the provided authorization code. Select the download link appropriate for your operating system. Select the items you want to download in addition to the SPSS Modeler Client. Select 'I agree to the terms of the license agreement' and select 'Download now.' Note: If the download doesn't start automatically, install the Download Director first. Run the downloaded installer. Once the installation is complete, you will be prompted to enter the authorization code. Paste the authorization code from Step 2 to complete the setup. Help If you get an error related to SPSS Statistics license authorization, contact the IT Service Desk at 617.373.4357 .",
+  "body_html": "<article>IBM's SPSS Software is an integrated family of products that consists of <a href=\"https://www.ibm.com/products/spss-statistics\">SPSS Statistics</a>, <a href=\"https://www.ibm.com/products/spss-modeler\">SPSS Modeler</a>, and SPSS Amos. Both SPSS Statistics and Modeler enable users to build predictive models and execute other analytics tasks, and were built to help users perform complex statistical analyses to solve research problems quickly and efficiently.<ul><li>SPSS Statistics is a powerful statistical software platform with a user-friendly interface and a robust set of features that enable you to quickly dig deeper into your data, making it a much more effective tool than spreadsheets, databases, or standard multidimensional tools for analytics.</li><li>SPSS Modeler is a leading visual data science and machine learning solution designed to speed up operational tasks such as data preparation and discovery, predictive analytics, and model management and deployment for data scientists.</li></ul>Note: The SPSS Statistics access methods listed below are for academic and administrative use. However, if you install SPSS Statistics on a personal computer, it is restricted to academic use only under the university's license agreement with IBM. <hr><h2>Table of contents</h2><ul><li><a href=\"https://service.northeastern.edu/tech#mcetoc_1for7leul11\">Download SPSS Statistics</a><ul><li><a href=\"https://service.northeastern.edu/tech#mcetoc_1for7leul15\">Update your SPSS license</a></li></ul></li><li><a href=\"https://service.northeastern.edu/tech#mcetoc_1for7leul16\">Download SPSS Modeler</a><ul><li><a href=\"https://service.northeastern.edu/tech#mcetoc_1g6bhg16da\">Create an IBMid account</a></li><li><a href=\"https://service.northeastern.edu/tech#mcetoc_1g6bhg16db\">Install SPSS Modeler</a></li></ul></li><li><a href=\"https://service.northeastern.edu/tech#mcetoc_1gjkchvht2\">Help</a></li></ul><hr><h2>Download SPSS Statistics</h2><ul><li>Go to the the <a href=\"https://me.northeastern.edu/\">Student Hub</a> or <a href=\"https://me.northeastern.edu/\">Employee Hub</a> .</li><li>From the top banner, navigate to 'Resources' > 'IT Support & Resources', then select 'Software Downloads'. Note: Sponsored accounts cannot access the Software Downloads page.</li><li>Select the version you want to download and select 'Continue'. <button>Software downloads page</button></li><li>Accept the license agreement.</li><li>Select the installer from the list and select 'Continue'.</li><li>Select 'Download' and follow the installation instructions.</li></ul><h3>Update your SPSS license</h3>The SPSS license expires annually at the end of August. Software on Northeastern-managed computers will renew automatically. Software locally installed on personal computers will require a user update with a new authorization code, which can be found on the Software Downloads page as 'SPSS & AMOS Authorization Codes for License Renewal.' The software does not need to be re-downloaded/re-installed, but the authorization code does need to be updated for a new annual license each year.<ul><li>Go to the the <a href=\"https://me.northeastern.edu/\">Student Hub</a> or <a href=\"https://me.northeastern.edu/\">Employee Hub</a> .</li><li>From the top banner, navigate to 'Resources' > 'IT Support & Resources', then select 'Software Downloads'. Note: Sponsored accounts cannot access the Software Downloads page.</li><li>Select the 'SPSS & AMOS Authorization Codes for License Renewal (All)' and select 'Continue'. <button>SPSS authorization code</button></li><li>Accept the license agreement, then select 'Continue'.</li><li>You will see authorization codes for SPSS and AMOS. Those codes are for versions 26 to 28. 25 versions are no longer supported.</li><li>On your device, run the License Authorization Wizard installed with your product. When prompted, choose 'License my product now.'<ul><li>Windows: Select the 'Start' menu and search for the License Authorization Wizard.</li><li>macOS: It is located in the product Application folder.</li><li>Linux: Run the SPSS license file in the bin subdirectory of the installation directory.</li></ul></li><li>You will be prompted to enter your authorization or license code(s). Choose the authorization method (internet, phone, or email) and follow the onscreen instructions.</li><li>To verify the update, run showlic.exe located in your program's installation directory or run the 'Show License syntax' command within the product.</li></ul><a href=\"https://service.northeastern.edu/tech#top\">Back to top</a><hr><h2>Download SPSS Modeler</h2>SPSS Modeler is available directly from the vendor. Only the students and instructors of participating academic institutions are eligible for access.<h3>Create an IBMid account</h3><ul><li>Navigate to the to the <a href=\"https://content-eu-7.content-cms.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/academic/home\">IBM Academic Initiative</a> .</li><li>Select 'Register now.'</li><li>Enter your Northeastern email and select 'Submit'. <button>IBM registration page</button></li><li>Complete the registration form and select 'Register'.</li><li>Select 'Proceed'. You will be redirected to the Academic Access Management Tool sign-up page.</li><li>Complete the account information using the same Northeastern email address from Step 3 and select 'Next'. <button>Academic Access Management Tool signup page IBM</button></li><li>Enter the 7-digit verification code that's been emailed to you, then select 'Continue'.</li><li>Review the IBMid Account Privacy and select 'Proceed'.</li></ul><h3>Install SPSS Modeler</h3><ul><li>Navigate to the to the <a href=\"https://content-eu-7.content-cms.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/academic/topic/data-science?ach_id=a188a713-cd60-4241-a7ca-3fdceadac5b7\">SPSS Modeler download page</a> . Note: You can also access this page by navigating to Topics > Data Science > Software.</li><li>Select 'Request an SPSS Authorization Code' and copy the provided authorization code.</li><li>Select the download link appropriate for your operating system. <button>SPSS Modeler Premium download page</button></li><li>Select the items you want to download in addition to the SPSS Modeler Client.</li><li>Select 'I agree to the terms of the license agreement' and select 'Download now.' Note: If the download doesn't start automatically, <a href=\"https://www-03.ibm.com/isc/esd/dswdown/dldirector/installation_en.html\">install the Download Director</a> first.</li><li>Run the downloaded installer.</li><li>Once the installation is complete, you will be prompted to enter the authorization code. Paste the authorization code from Step 2 to complete the setup. <button>SPSS Licensing authorization code</button></li></ul><a href=\"https://service.northeastern.edu/tech#top\">Back to top</a><hr><h2>Help</h2><ul><li>If you get an error related to SPSS Statistics license authorization, contact the IT Service Desk at 617.373.4357 .</li></ul><a href=\"https://service.northeastern.edu/tech#top\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "SPSS Statistics",
+      "url": "https://www.ibm.com/products/spss-statistics"
+    },
+    {
+      "text": "SPSS Modeler",
+      "url": "https://www.ibm.com/products/spss-modeler"
+    },
+    {
+      "text": "Student Hub",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "Employee Hub",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "IBM Academic Initiative",
+      "url": "https://content-eu-7.content-cms.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/academic/home"
+    },
+    {
+      "text": "SPSS Modeler download page",
+      "url": "https://content-eu-7.content-cms.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/academic/topic/data-science?ach_id=a188a713-cd60-4241-a7ca-3fdceadac5b7"
+    },
+    {
+      "text": "install the Download Director",
+      "url": "https://www-03.ibm.com/isc/esd/dswdown/dldirector/installation_en.html"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

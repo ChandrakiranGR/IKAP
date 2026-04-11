@@ -1,0 +1,89 @@
+{
+  "article_id": "KB000019386",
+  "title": "How do I assign group assignments in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019386",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019386",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019386",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Canvas group assignments at Northeastern enhance collaboration and learning. Create, manage, and grade group projects with flexible grading options. When properly structured, group and group assignments can reinforce skills relevant to the group and individual work, including breaking complex tasks into parts and steps, planning and managing time, and refining understanding through discussion and explanation. Additionally, when students are engaged in group work, there is a show of increased individual achievement compared to working alone. Group work also enhances communication and other professional skills to help tackle the real world. Using Canvas to help create group sets to assign group assignments, and each group within the group set that is assigned to the assignment is required to complete the assignment. When creating or editing a group assignment, you can assign an assignment to specific groups. You can also set different due dates and availability dates for a group within an assignment assigned to the rest of the class. Table of Contents: Create a graded group assignment, Create a graded individual group assignment, Change a graded group assignment to an individual assignment. Create a graded group assignment: To create a group assignment, first, create the assignment details in Canvas. Review How do I create and grade an assignment in Canvas? for more information and details about assignment creation. Group sets should also be assigned to make the process easier; see How do I create Groups in Canvas? for more information. Log in to Canvas and locate the course where the assignment is. Select the assignment title. Select Edit. Scroll to 'Group Assignment' and check 'This is a Group Assignment'. Select the 'Group Set' from the dropdown menu. Select Save or 'Save & Publish'. Create a group assignment that is graded individually: Create the group assignment in Canvas. For more information about creating assignments, refer to How do I create and grade an assignment in Canvas? Group sets should also be assigned to make the process easier; see How do I create Groups in Canvas? for more details. Log in to Canvas and locate the course where the assignment is. Select the assignment title. Select Edit. Scroll to 'Group Assignment' and check 'This is a Group Assignment'. Check 'Assign Grades to Each Student Individually'. Select the 'Group Set' from the dropdown menu. Select Save or 'Save & Publish'. Change a graded group assignment to an individual assignment: If an individual in a group assignment has not done their part of the group work, you can assign individual grades after you have created and graded a group assignment. To create a graded group assignment, follow the instructions above. Read How do I create and grade an assignment in Canvas? to learn more about grading an assignment. Log in to Canvas and select the course in which you want to change the assignment. Select Assignments from the course navigation menu. Locate and select the Assignment title. Select Edit. Scroll to the 'Group Assignment' settings. Select and check 'Assign Grades to Each Student Individually'. Select Save. Select SpeedGrader. Locate the student you wish to change the grade of. Enter the grade in the numerical box. Select Submit.",
+  "body_html": "<article id=\"364\">Canvas group assignments at Northeastern enhance collaboration and learning. Create, manage, and grade group projects with flexible grading options. When properly structured, group and group assignments can reinforce skills relevant to the group and individual work... [HTML content truncated]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Canvas group assignments at Northeastern enhance collaboration and learning. Create, manage, and grade group projects with flexible grading options. When properly structured, group and group assignments can reinforce skills relevant to the group and individual work, including breaking complex tasks into parts and steps, planning and managing time, and refining understanding through discussion and explanation.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a graded group assignment",
+      "text": "To create a group assignment, first, create the assignment details in Canvas. Review How do I create and grade an assignment in Canvas? for more information and details about assignment creation. Group sets should also be assigned to make the process easier",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "see How do I create Groups in Canvas? for more information.",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a group assignment that is graded individually",
+      "text": "Create the group assignment in Canvas. For more information about creating assignments, refer to How do I create and grade an assignment in Canvas? Group sets should also be assigned to make the process easier",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "see How do I create Groups in Canvas? for more details.",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Change a graded group assignment to an individual assignment",
+      "text": "If an individual in a group assignment has not done their part of the group work, you can assign individual grades after you have created and graded a group assignment. To create a graded group assignment, follow the instructions above. Read How do I create and grade an assignment in Canvas? to learn more about grading an assignment.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I create and grade an assignment in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585"
+    },
+    {
+      "text": "How do I create Groups in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018891"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

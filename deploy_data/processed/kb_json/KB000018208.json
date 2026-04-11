@@ -1,0 +1,82 @@
+{
+  "article_id": "KB000018208",
+  "title": "FAQ: SOLIDWORKS installation",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018208",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018208",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018208",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "The following information answers frequently asked questions about downloading and installing SOLIDWORKS. What should I do if my SOLIDWORKS Kit installation does not work correctly? Make sure that you have followed the instructions carefully. Please note that if you have previously installed an SPE (or older Student Engineering Kit) on your computer, then the old installation must be completely removed before attempting the new installation to avoid conflicts. If you are a COE student and you are still having issues, send an email to coehelp@northeastern.edu. Include screenshots of any errors that you see and your availability for a troubleshooting session (typically conducted via Teams). If you are not a COE student and are still having issues, email help@northeastern.edu with as much detail as possible. One of the IT Service Desk staff will do their best to assist you. Can I run SOLIDWORKS on macOS or Linux? SOLIDWORKS runs on Windows only (not macOS or Linux). To install the SOLIDWORKS Student Engineering Kit locally on your Mac or Linux computer, you will need to run Windows on a virtual machine. Read the article How do I install Windows on a Mac? for more information on how to get virtualization software for either macOS or Linux. How can I access SOLIDWORKS if I cannot install it on my computer? COE students can use the COE Virtual Lab to run SOLIDWORKS from any computer or tablet. Read the FAQ: COE Virtual Lab for instructions.",
+  "body_html": "<article id=\"364\"><div id=\"365\">The following information answers frequently asked questions about downloading and installing SOLIDWORKS.</div><hr id=\"368\"><h3 id=\"371\">What should I do if my SOLIDWORKS Kit installation does not work correctly?</h3><p id=\"372\">Make sure that you have followed the instructions carefully. Please note that if you have previously installed an SPE (or older Student Engineering Kit) on your computer, then the old installation must be completely removed before attempting the new installation to avoid conflicts.</p><ul><li>If you are a COE student and you are still having issues, send an email to <a id=\"376\">coehelp@northeastern.edu.</a> Include screenshots of any errors that you see and your availability for a troubleshooting session (typically conducted via Teams).</li><li>If you are not a COE student and are still having issues, email <a id=\"381\">help@northeastern.edu</a> with as much detail as possible. One of the IT Service Desk staff will do their best to assist you.</li></ul><hr id=\"384\"><h3 id=\"385\">Can I run SOLIDWORKS on macOS or Linux?</h3><p id=\"386\">SOLIDWORKS runs on Windows only (not macOS or Linux). To install the SOLIDWORKS Student Engineering Kit locally on your Mac or Linux computer, you will need to run Windows on a virtual machine. Read the article <a id=\"389\">How do I install Windows on a Mac?</a> for more information on how to get virtualization software for either macOS or Linux.</p><hr id=\"393\"><h3 id=\"394\">How can I access SOLIDWORKS if I cannot install it on my computer?</h3><p id=\"395\">COE students can use the COE Virtual Lab to run SOLIDWORKS from any computer or tablet. Read the <a id=\"397\">FAQ: COE Virtual Lab</a> for instructions.</p><a id=\"401\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The following information answers frequently asked questions about downloading and installing SOLIDWORKS.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What should I do if my SOLIDWORKS Kit installation does not work correctly?",
+      "text": "Make sure that you have followed the instructions carefully. Please note that if you have previously installed an SPE (or older Student Engineering Kit) on your computer, then the old installation must be completely removed before attempting the new installation to avoid conflicts.",
+      "steps": [
+        "If you are a COE student and you are still having issues, send an email to coehelp@northeastern.edu.",
+        "If you are not a COE student and are still having issues, email help@northeastern.edu."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Can I run SOLIDWORKS on macOS or Linux?",
+      "text": "SOLIDWORKS runs on Windows only (not macOS or Linux). To install the SOLIDWORKS Student Engineering Kit locally on your Mac or Linux computer, you will need to run Windows on a virtual machine. Read the article How do I install Windows on a Mac? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How can I access SOLIDWORKS if I cannot install it on my computer?",
+      "text": "COE students can use the COE Virtual Lab to run SOLIDWORKS from any computer or tablet. Read the FAQ: COE Virtual Lab for instructions.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "coehelp@northeastern.edu.",
+      "url": "mailto:coehelp@northeastern.edu"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:help@northeastern.edu"
+    },
+    {
+      "text": "How do I install Windows on a Mac?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018408"
+    },
+    {
+      "text": "FAQ: COE Virtual Lab",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019500"
+    }
+  ],
+  "categories": [
+    "College of Engineering",
+    "Software"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I download SOLIDWORKS as a COE student?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018203"
+    },
+    {
+      "title": "How do I get access to Ansys?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018204"
+    },
+    {
+      "title": "How do I access Abaqus?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012541"
+    },
+    {
+      "title": "What Linux software is available on College of Engineering (COE) systems?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018199"
+    }
+  ]
+}

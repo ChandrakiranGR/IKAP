@@ -1,0 +1,124 @@
+{
+  "article_id": "KB0014376",
+  "title": "How do I log in to Canvas on a mobile device?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014376",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014376",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014376",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "Canvas is accessible from any browser on your mobile device. However, for the best user experience, you should access Canvas using the Canvas mobile app. Canvas provides a separate mobile app for students and instructors, giving everyone the access they need on the go. Both apps are available for iOS and Android devices. When searching for Northeastern on the Canvas app, you'll see three schools: Northeastern University for credit courses. Northeastern University London for NU London courses. Northeastern University Stillstack for non-credit experiences. Note: For Northeastern University Skillstack, users with non-Northeastern accounts must select the External Learners login option. You will not have access to the main Northeastern University Canvas. Log in to Canvas Student The Canvas Student app allows students to access their courses and groups using a mobile device. Students can submit assignments, participate in discussions, send messages, view grades, and access course materials. The app also provides access to course calendars, To-Do items, notifications, and Conversations. Refer to How do I begin using Canvas as a student? for more information about using Canvas. 1. Go to the App Store (iOS) or Google Play (Android), search for Canvas Student, and download the app. Note: For operating system-specific user guides, refer to the iOS and Android guides, which address many frequently asked questions. 2. Open the Canvas Student app. 3. Select the 'Find my school' button. 4. Enter Northeastern University in the search field. 5. Select Northeastern University for the main Canvas for-credit courses, Northeastern London, or Northeastern University Skillstack for non-credit courses. 6. Log in to Canvas. Log in to Canvas Teacher Using the Canvas Teacher App, instructors can engage with students whenever and wherever through mobile notifications. Instructors can easily send messages, post announcements, and grade on the go using the SpeedGrader. Refer to How do I use Canvas Speedgrader on the iPad? for more information. 1. Go to the App Store (iOS) or Google Play (Android), search for Canvas Teacher, and download the app. Note: For operating system-specific user guides, refer to the iOS and Android guides, which address many frequently asked questions. 2. Open the Canvas Teacher app. 3. Select the 'Find my school' button. 4. Enter Northeastern University in the search field. 5. Select Northeastern University for the main Canvas for-credit courses, Northeastern University London, or Northeastern University Skillstack for non-credit courses. 6. Log in to Canvas.",
+  "body_html": "<article id=\"364\"><a href=\"#\">Canvas</a> is accessible from any browser on your mobile device. However, for the best user experience, you should access Canvas using the Canvas mobile app. Canvas provides a separate mobile app for students and instructors, giving everyone the access they need on the go. Both apps are available for iOS and Android devices. When searching for Northeastern on the Canvas app, you'll see three schools: <ul><li>Northeastern University for credit courses.</li><li>Northeastern University London for NU London courses.</li><li>Northeastern University Stillstack for non-credit experiences.</li></ul> Note: For Northeastern University Skillstack, users with non-Northeastern accounts must select the External Learners login option. You will not have access to the main Northeastern University Canvas. <hr><h2>Log in to Canvas Student</h2> The <a href=\"#\">Canvas Student app</a> allows students to access their courses and groups using a mobile device. Students can submit assignments, participate in discussions, send messages, view grades, and access course materials. The app also provides access to course calendars, To-Do items, notifications, and Conversations. Refer to <a href=\"#\">How do I begin using Canvas as a student?</a> for more information about using Canvas. <ul><li>Go to the <a href=\"#\">App Store</a> (iOS) or <a href=\"#\">Google Play</a> (Android), search for Canvas Student, and download the app.</li><li>Open the Canvas Student app.</li><li>Select the 'Find my school' button. <button>Canvas Student App open with Find my School button highlighted</button></li><li>Enter Northeastern University in the search field.</li><li>Select Northeastern University for the main Canvas for-credit courses, Northeastern London, or Northeastern University Skillstack for non-credit courses. <button>Canvas Student App Northeastern University Options</button></li><li>Log in to Canvas.</li></ul> <a href=\"#\">Back to top</a> <hr><h2>Log in to Canvas Teacher</h2> Using the <a href=\"#\">Canvas Teacher App,</a> instructors can engage with students whenever and wherever through mobile notifications. Instructors can easily send messages, post announcements, and grade on the go using the SpeedGrader. Refer to <a href=\"#\">How do I use Canvas Speedgrader on the iPad?</a> for more information. <ul><li>Go to the <a href=\"#\">App Store</a> (iOS) or <a href=\"#\">Google Play</a> (Android), search for Canvas Teacher, and download the app.</li><li>Open the Canvas Teacher app.</li><li>Select the 'Find my school' button. <button>iOS Canvas Teacher App Find my School</button></li><li>Enter Northeastern University in the search field.</li><li>Select Northeastern University for the main Canvas for-credit courses, Northeastern University London, or Northeastern University Skillstack for non-credit courses. <button>Canvas Teacher Northeastern University options</button></li><li>Log in to Canvas.</li></ul> <a href=\"#\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "How do I log in to Canvas on a mobile device?",
+      "text": "Canvas is accessible from any browser on your mobile device. However, for the best user experience, you should access Canvas using the Canvas mobile app. Canvas provides a separate mobile app for students and instructors, giving everyone the access they need on the go. Both apps are available for iOS and Android devices. When searching for Northeastern on the Canvas app, you'll see three schools: Northeastern University for credit courses, Northeastern University London for NU London courses, and Northeastern University Stillstack for non-credit experiences. Note: For Northeastern University Skillstack, users with non-Northeastern accounts must select the External Learners login option. You will not have access to the main Northeastern University Canvas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Log in to Canvas Student",
+      "text": "The Canvas Student app allows students to access their courses and groups using a mobile device. Students can submit assignments, participate in discussions, send messages, view grades, and access course materials. The app also provides access to course calendars, To-Do items, notifications, and Conversations.",
+      "steps": [
+        "Go to the App Store (iOS) or Google Play (Android), search for Canvas Student, and download the app.",
+        "Open the Canvas Student app.",
+        "Select the 'Find my school' button.",
+        "Enter Northeastern University in the search field.",
+        "Select Northeastern University for the main Canvas for-credit courses, Northeastern London, or Northeastern University Skillstack for non-credit courses.",
+        "Log in to Canvas."
+      ],
+      "links": [
+        {
+          "text": "community.canvaslms.com",
+          "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Canvas-Student-app/ta-p/31"
+        },
+        {
+          "text": "service.northeastern.edu",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015212"
+        }
+      ]
+    },
+    {
+      "heading": "Log in to Canvas Teacher",
+      "text": "Using the Canvas Teacher App, instructors can engage with students whenever and wherever through mobile notifications. Instructors can easily send messages, post announcements, and grade on the go using the SpeedGrader.",
+      "steps": [
+        "Go to the App Store (iOS) or Google Play (Android), search for Canvas Teacher, and download the app.",
+        "Open the Canvas Teacher app.",
+        "Select the 'Find my school' button.",
+        "Enter Northeastern University in the search field.",
+        "Select Northeastern University for the main Canvas for-credit courses, Northeastern University London, or Northeastern University Skillstack for non-credit courses.",
+        "Log in to Canvas."
+      ],
+      "links": [
+        {
+          "text": "community.canvaslms.com",
+          "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Canvas-Teacher-app/ta-p/69"
+        },
+        {
+          "text": "service.northeastern.edu",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019009"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Canvas-Student-app/ta-p/31"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015212"
+    },
+    {
+      "text": "itunes.apple.com",
+      "url": "https://itunes.apple.com/us/app/canvas-by-instructure/id480883488?mt=8"
+    },
+    {
+      "text": "play.google.com",
+      "url": "https://play.google.com/store/apps/details?id=com.instructure.candroid&hl=en"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Canvas-Teacher-app/ta-p/69"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019009"
+    },
+    {
+      "text": "itunes.apple.com",
+      "url": "https://itunes.apple.com/us/app/canvas-teacher/id1257834464?mt=8"
+    },
+    {
+      "text": "play.google.com",
+      "url": "https://play.google.com/store/apps/details?id=com.instructure.teacher&hl=en"
+    }
+  ],
+  "categories": [
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "What are the different course types in Canvas?",
+      "url": null
+    }
+  ]
+}

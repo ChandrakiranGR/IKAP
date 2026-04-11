@@ -1,0 +1,85 @@
+{
+  "article_id": "KB0012455",
+  "title": "How do I change the username on my Northeastern student account?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012455",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012455",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012455",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "account_and_access_kb.json",
+  "updated_at": "23d ago",
+  "plain_text": "All Northeastern University student account usernames are generated from the official name provided by the Office of the Registrar. Your username can only be changed in a limited number of circumstances: If you have updated your official name through the Office of the Registrar, and would like your username to reflect that change. Note: After the Registrar has made an official name change, it will take 24 hours to become effective. If your assigned username resulted in a vulgar or offensive term. If you fall into one of these categories, you can contact the IT Service Desk at 617.373.4357 to update your username. Update the official name through the Office of the Registrar Navigate to the to the Registrar Service Catalog. Select 'Personal Details Update'. You will be navigated to the 'Personal Details Update' form. Fill out all the required fields and select submit. Contact the the Office of the Registrar for any questions or updates on your name change. Request Northeastern username change Contact the IT Service Desk at 617.373.4357 or help@northeastern.edu to request a username change. Note: If you are updating your official information through the Office of the Registrar, please wait until that initial request is processed before requesting a username change with the IT Service Desk.",
+  "body_html": "<div id=\"364\">All Northeastern University student account usernames are generated from the official name provided by the Office of the Registrar. Your username can only be changed in a limited number of circumstances:<ul><li>If you have updated your official name through the Office of the Registrar, and would like your username to reflect that change. Note: After the Registrar has made an official name change, it will take 24 hours to become effective.</li><li>If your assigned username resulted in a vulgar or offensive term.</li></ul>If you fall into one of these categories, you can contact the IT Service Desk at 617.373.4357 to update your username.<hr><h2>Update the official name through the Office of the Registrar</h2><ul><li>Navigate to the to the <a id=\"384\">Registrar Service Catalog</a>.</li><li>Select 'Personal Details Update'. You will be navigated to the 'Personal Details Update' form.</li><li>Fill out all the required fields and select submit.</li><li>Contact the the <a id=\"400\">Office of the Registrar</a> for any questions or updates on your name change.</li></ul><hr><h2>Request Northeastern username change</h2><ul><li>Contact the IT Service Desk at 617.373.4357 or <a id=\"412\">help@northeastern.edu</a> to request a username change. Note: If you are updating your official information through the Office of the Registrar, please wait until that initial request is processed before requesting a username change with the IT Service Desk.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "All Northeastern University student account usernames are generated from the official name provided by the Office of the Registrar. Your username can only be changed in a limited number of circumstances:",
+      "steps": [
+        "If you have updated your official name through the Office of the Registrar, and would like your username to reflect that change. Note: After the Registrar has made an official name change, it will take 24 hours to become effective.",
+        "If your assigned username resulted in a vulgar or offensive term."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Update the official name through the Office of the Registrar",
+      "text": "",
+      "steps": [
+        "Navigate to the to the Registrar Service Catalog.",
+        "Select 'Personal Details Update'. You will be navigated to the 'Personal Details Update' form.",
+        "Fill out all the required fields and select submit.",
+        "Contact the the Office of the Registrar for any questions or updates on your name change."
+      ],
+      "links": [
+        {
+          "text": "Registrar Service Catalog",
+          "url": "https://service.northeastern.edu/registrar?id=sc_category&catalog_id=9f2e3bcf976e2110beddb4221153afd8"
+        },
+        {
+          "text": "Office of the Registrar",
+          "url": "https://service.northeastern.edu/registrar?id=registrar_contact_us"
+        }
+      ]
+    },
+    {
+      "heading": "Request Northeastern username change",
+      "text": "",
+      "steps": [
+        "Contact the IT Service Desk at 617.373.4357 or help@northeastern.edu to request a username change. Note: If you are updating your official information through the Office of the Registrar, please wait until that initial request is processed before requesting a username change with the IT Service Desk."
+      ],
+      "links": [
+        {
+          "text": "help@northeastern.edu",
+          "url": "mailto:help@northeastern.edu"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Registrar Service Catalog",
+      "url": "https://service.northeastern.edu/registrar?id=sc_category&catalog_id=9f2e3bcf976e2110beddb4221153afd8"
+    },
+    {
+      "text": "Office of the Registrar",
+      "url": "https://service.northeastern.edu/registrar?id=registrar_contact_us"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:help@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access - Northeastern Account Settings"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I find my NUID number?",
+      "url": null
+    },
+    {
+      "title": "How do I change my faculty/staff username?",
+      "url": null
+    }
+  ]
+}

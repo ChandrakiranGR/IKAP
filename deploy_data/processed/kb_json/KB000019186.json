@@ -1,0 +1,67 @@
+{
+  "article_id": "KB000019186",
+  "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019186",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019186",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019186",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "2026-03-04",
+  "plain_text": "Students can add or update their personal email addresses and cell phone numbers on the Student Hub to communicate with Northeastern University in the event of an emergency or when they lose access to their Northeastern accounts. Update personal email address and cell phone number. 1. Log in to Student Hub. 2. Navigate to Resources > Miscellaneous and select 'NU Alerts & Emergency Contacts Form'. 3. Select 'Emergency Contacts' from the list on the left. 4. Update your personal email address and cell phone number and select Submit.",
+  "body_html": "<article id=\"364\"><p>Students can add or update their personal email addresses and cell phone numbers on the Student Hub to communicate with Northeastern University in the event of an emergency or when they lose access to their Northeastern accounts.</p><h2>Update personal email address and cell phone number</h2><ul><li>Log in to <a href=\"#\">Student Hub</a>.</li><li>Navigate to Resources > Miscellaneous and select 'NU Alerts & Emergency Contacts Form'. <button>student hub screenshot</button></li><li>Select 'Emergency Contacts' from the list on the left. <button>Emergency Contacts</button></li><li>Update your personal email address and cell phone number and select Submit.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Students can add or update their personal email addresses and cell phone numbers on the Student Hub to communicate with Northeastern University in the event of an emergency or when they lose access to their Northeastern accounts.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Update personal email address and cell phone number",
+      "text": "Log in to Student Hub. Navigate to Resources > Miscellaneous and select 'NU Alerts & Emergency Contacts Form'. Select 'Emergency Contacts' from the list on the left. Update your personal email address and cell phone number and select Submit.",
+      "steps": [
+        "Log in to Student Hub.",
+        "Navigate to Resources > Miscellaneous and select 'NU Alerts & Emergency Contacts Form'.",
+        "Select 'Emergency Contacts' from the list on the left.",
+        "Update your personal email address and cell phone number and select Submit."
+      ],
+      "links": [
+        {
+          "text": "Student Hub",
+          "url": "https://me.northeastern.edu/"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Student Hub",
+      "url": "https://me.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Student Hub",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "article_id": "KB000017951",
+  "title": "How do I connect to Northeastern VPN?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "vpn_kb.json",
+  "updated_at": "14d ago",
+  "plain_text": "A virtual private network (VPN) allows you to connect securely to the Northeastern University network while off campus. Connections to some campus resources will require a VPN, regardless of location. Table of Contents Software installation Initial setup and connection Connect to Northeastern VPN Disconnect from Northeastern VPN Software installation If you need to install the VPN software GlobalProtect, you can follow these links to install GlobalProtect: Windows macOS Android iOS Initial setup and connection Run 'GlobalProtect client'. Navigate to to and select it. Windows: The GlobalProtect icon will appear in the notification area in the taskbar at the bottom right of your screen. Mac: The GlobalProtect icon will appear on the menu bar at the top of your screen. When prompted, enter the portal address: vpn.northeastern.edu (do not include https://). Note: Northeastern University London's portal address is vpn.nulondon.ac.uk. Connect to Northeastern VPN After connecting the VPN to your personal computer once, the GlobalProtect widget should prompt you to connect by selecting the connect button shown below. Note: VPN will require authentication for every new connection. Run 'GlobalProtect client'. Navigate to the GlobalProtect icon and select it. Windows: The GlobalProtect icon will appear in the notification area in the taskbar at the bottom right of your screen. Mac: The GlobalProtect icon will appear on the menu bar at the top of your screen. Select 'Connect'. On clicking 'Connect', your default browser will open and prompt you to sign in with Single Sign-On. Log in with your Northeastern account. Make sure to check the box to always allow the browser to open GlobalProtect if prompted. If the GlobalProtect client doesn’t open automatically, select 'click here'. Disconnect from Northeastern VPN Navigate to to and select it. Windows: The GlobalProtect icon will appear in the notification area in the taskbar at the bottom right of your screen. Mac: The GlobalProtect icon will appear on the menu bar at the top of your screen. Select 'Disconnect'.",
+  "body_html": "<article id=\"364\">A virtual private network (VPN) allows you to connect securely to the Northeastern University network while off campus. Connections to some campus resources will require a VPN, regardless of location. <h2>Table of Contents</h2><ul><li>Software installation</li><li>Initial setup and connection</li><li>Connect to Northeastern VPN</li><li>Disconnect from Northeastern VPN</li></ul><h2>Software installation</h2>If you need to install the VPN software GlobalProtect, you can follow these links to install GlobalProtect:<ul><li>Windows</li><li>macOS</li><li>Android</li><li>iOS</li></ul><h2>Initial setup and connection</h2><ul><li>Run 'GlobalProtect client'.</li><li>Navigate to and select it.<ul><li>Windows: The GlobalProtect icon will appear in the notification area in the taskbar at the bottom right of your screen.</li><li>Mac: The GlobalProtect icon will appear on the menu bar at the top of your screen.</li></ul></li><li>When prompted, enter the portal address: vpn.northeastern.edu (do not include https://). Note: Northeastern University London's portal address is vpn.nulondon.ac.uk.</li></ul><h2>Connect to Northeastern VPN</h2>After connecting the VPN to your personal computer once, the GlobalProtect widget should prompt you to connect by selecting the connect button shown below. Note: VPN will require authentication for every new connection.<ul><li>Run 'GlobalProtect client'.</li><li>Navigate to the GlobalProtect icon and select it.<ul><li>Windows: The GlobalProtect icon will appear in the notification area in the taskbar at the bottom right of your screen.</li><li>Mac: The GlobalProtect icon will appear on the menu bar at the top of your screen.</li></ul></li><li>Select 'Connect'.</li><li>On clicking 'Connect', your default browser will open and prompt you to sign in with Single Sign-On.</li><li>Log in with your Northeastern account.</li><li>Make sure to check the box to always allow the browser to open GlobalProtect if prompted.</li><li>If the GlobalProtect client doesn’t open automatically, select 'click here'.</li></ul><h2>Disconnect from Northeastern VPN</h2><ul><li>Navigate to and select it.<ul><li>Windows: The GlobalProtect icon will appear in the notification area in the taskbar at the bottom right of your screen.</li><li>Mac: The GlobalProtect icon will appear on the menu bar at the top of your screen.</li></ul></li><li>Select 'Disconnect'.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "A virtual private network (VPN) allows you to connect securely to the Northeastern University network while off campus. Connections to some campus resources will require a VPN, regardless of location.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Software installation",
+      "text": "If you need to install the VPN software GlobalProtect, you can follow these links to install GlobalProtect: Windows, macOS, Android, iOS.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Initial setup and connection",
+      "text": "",
+      "steps": [
+        "Run 'GlobalProtect client'.",
+        "Navigate to and select it (Windows: notification area, Mac: menu bar).",
+        "Enter portal address: vpn.northeastern.edu or vpn.nulondon.ac.uk."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Connect to Northeastern VPN",
+      "text": "",
+      "steps": [
+        "Run 'GlobalProtect client'.",
+        "Navigate to GlobalProtect icon.",
+        "Select 'Connect'.",
+        "Sign in with Single Sign-On using Northeastern account.",
+        "Allow browser to open GlobalProtect."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Disconnect from Northeastern VPN",
+      "text": "",
+      "steps": [
+        "Navigate to GlobalProtect icon.",
+        "Select 'Disconnect'."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Windows",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013799"
+    },
+    {
+      "text": "macOS",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800"
+    },
+    {
+      "text": "Android",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013910"
+    },
+    {
+      "text": "iOS",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013912"
+    },
+    {
+      "text": "Northeastern account",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013501"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Remote Access/VPN"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: VPN and remote access",
+      "url": null
+    },
+    {
+      "title": "How do I Install VPN on a Mac?",
+      "url": null
+    },
+    {
+      "title": "How do I install VPN on Windows?",
+      "url": null
+    },
+    {
+      "title": "How do I set up and connect to VPN on iOS devices?",
+      "url": null
+    }
+  ]
+}

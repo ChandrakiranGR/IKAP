@@ -1,0 +1,66 @@
+{
+  "article_id": "KB000016368",
+  "title": "How do I access the Student Hub?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016368",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016368",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016368",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "2026-03-03",
+  "plain_text": "The Student Hub is a desktop and mobile-friendly launchpad to help students navigate and keep track of their busy and active daily lives as university students. The Hub intelligently integrates insights, notifications, and content across the entire student journey to deliver a centralized experience and drive collaboration and engagement. It connects students based on location, communities, and shared interests. Access Student Hub 1. Visit the Student Hub home page. 2. Enter your Northeastern email and password. 3. Authenticate with Multi-factor authentication (MFA). Note: The website will ask you to wait while it loads. Before being granted access, you may be prompted to complete necessary tasks.",
+  "body_html": "<article id=\"364\"><p>The Student Hub is a desktop and mobile-friendly launchpad to help students navigate and keep track of their busy and active daily lives as university students. The Hub intelligently integrates insights, notifications, and content across the entire student journey to deliver a centralized experience and drive collaboration and engagement. It connects students based on location, communities, and shared interests.</p><hr id=\"366\"><h2>Access Student Hub</h2><ul><li>Visit <a id=\"373\">the Student Hub home page</a>.</li><li>Enter your Northeastern email and password.</li><li>Authenticate with Multi-factor authentication (MFA).</li></ul><p>Note: The website will ask you to wait while it loads. Before being granted access, you may be prompted to complete necessary tasks.</p></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The Student Hub is a desktop and mobile-friendly launchpad to help students navigate and keep track of their busy and active daily lives as university students. The Hub intelligently integrates insights, notifications, and content across the entire student journey to deliver a centralized experience and drive collaboration and engagement. It connects students based on location, communities, and shared interests.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Access Student Hub",
+      "text": "1. Visit the Student Hub home page. 2. Enter your Northeastern email and password. 3. Authenticate with Multi-factor authentication (MFA). Note: The website will ask you to wait while it loads. Before being granted access, you may be prompted to complete necessary tasks.",
+      "steps": [
+        "Visit the Student Hub home page.",
+        "Enter your Northeastern email and password.",
+        "Authenticate with Multi-factor authentication (MFA)."
+      ],
+      "links": [
+        {
+          "text": "the Student Hub home page",
+          "url": "https://me.northeastern.edu/"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "the Student Hub home page",
+      "url": "https://me.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: Student Hub",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+      "url": null
+    }
+  ]
+}

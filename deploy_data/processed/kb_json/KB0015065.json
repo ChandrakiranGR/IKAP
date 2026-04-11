@@ -1,0 +1,157 @@
+{
+  "article_id": "KB0015065",
+  "title": "FAQ: Canvas time zone settings",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015065",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015065",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015065",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "5d ago",
+  "plain_text": "Time zones in Canvas can be set at the course and user account levels. Time zone settings determine how assignment due dates and calendar events are displayed to users enrolled in a course. All Northeastern Canvas courses and accounts default to Eastern Time. Table of contents Can I set a time zone for courses? How do I manage multiple time zones in Canvas courses? How do I choose due dates and times? Can I excuse late work in the Canvas Gradebook? Should I limit synchronous assignments and activities? How do I utilize module features to control the pace of the course? Can I coordinate group work according to time zone? How do I utilize the differentiated due date feature when necessary? Do integrated tools have the same time zone as Canvas? Can I set a time zone for courses? For courses that take place in time zones other than Eastern Time, the course time zone must be set in the 'Course Settings'. Individual users can set a time zone in their user accounts. Please refer to How do I set account time zones in Canvas? for more insights on setting a time zone for a course. This setting will convert the course time zone to the individual's local time zone. For example: An assignment is due at 5 p.m. on Friday for a course that is set to Eastern Time. A student in the course lives on the West Coast and has set their account settings to Pacific Time. The assignment will show as due at 2 p.m. on Friday for that student. Note: After the user correctly sets their Time Zone, all course dates and times will display in the user's local time, as set in their User Time Zone settings, but if they hover over the date and time, they can also see the course date and time. How do I manage multiple time zones in Canvas courses? Even though users can adjust their time zone settings so that Canvas dates and times will display in their local time zone, there may still be some steps you want to take when teaching a course with students across many different time zones. Gather information about your students' locations. A quick survey at the start of the term will let you know where your students are located. Consider creating a quick survey with Canvas Quizzes or creating a discussion to gather this information from your students. How do I choose due dates and times? If you are teaching a class that has students across many different time zones, try to ensure that all students have ample time to complete assignments. Keep in mind when setting due dates that the default time is 11:59 p.m. in the course time zone, and it is usually best to adjust this setting to meet your course's needs. Consider choosing later due dates than you might otherwise to accommodate students in different time zones. For example, if you have students on the West Coast in your course, you may consider having assignments due at 8 p.m. ET / 5 p.m. PT instead of 5 p.m. ET / 2 p.m. PT. State expectations for late policies and extensions. Can I excuse late work in the Canvas Gradebook? If you choose to excuse late work based on a student's time zone, there are a few settings in the Canvas Gradebook that can help you manage this. Assignments submitted past the due date will automatically be marked as late. You can change the submission status to none if you wish to excuse a student for submitting a late assignment. This may be especially useful for courses that have enabled a late policy in the Gradebook. Should I limit synchronous assignments and activities? Try to be intentional about the times when you ask the class to meet as a whole or assign coursework that must be completed during a specific window of time. Asynchronous activities such as Discussions, individual projects, and recorded lectures may be more appropriate for courses with students located throughout the world. Explore the CATLR website for more information about when to leverage asynchronous versus synchronous design in Canvas. How do I utilize module features to control the pace of the course? Canvas allows you to control when module content is released to students by setting a 'Locked Until' date. As with assignment due dates, it is important to be conscientious as to when content is made available to students. For example, if a module contains important information about an upcoming project or final exam, ensure that all students have ample time to review the information before the assignment is due. Setting module requirements and prerequisites can also help you control the pace of the course, regardless of where students are geographically located. When you set a module prerequisite, the module is locked until a student completes the required items. This allows students to move through content at their own pace. Can I coordinate group work according to time zone? If there is a group work component to your course, consider grouping students in like-time zones together to help them coordinate with each other. If you are using the self-sign-up group feature, use a naming convention when creating groups to help students connect with peers in similar time zones. How do I utilize the differentiated due date feature when necessary? Canvas does allow you to set different availability and due dates for individual users, but this must be managed manually. You may consider using the differentiated due date feature for quizzes that have a time limit so that students in other parts of the world can complete the assignment at a time that is convenient for them. If the quiz is timed. It is important to consider academic integrity when enabling differentiated due dates, as this may allow students who have already taken the quiz to share questions or answers with their peers. The Canvas Community has some helpful information for maximizing quiz security in these cases. Do integrated tools have the same time zone as Canvas? All integrated tools, such as Gradescope, are set to Eastern Time Zone. If you use integrated tools in Canvas with separate due dates from Canvas, the Canvas course time zone will not update the integrated tool time zone. You may need to update time zones in integrated tools manually.",
+  "body_html": "<article id=\"364\"><p>Time zones in Canvas can be set at the course and user account levels. Time zone settings determine how assignment due dates and calendar events are displayed to users enrolled in a course. All Northeastern Canvas courses and accounts default to Eastern Time.</p><hr id=\"368\"><h2>Table of contents</h2><ul><li>Can I set a time zone for courses?</li><li>How do I manage multiple time zones in Canvas courses?</li><li>How do I choose due dates and times?</li><li>Can I excuse late work in the Canvas Gradebook?</li><li>Should I limit synchronous assignments and activities?</li><li>How do I utilize module features to control the pace of the course?</li><li>Can I coordinate group work according to time zone?</li><li>How do I utilize the differentiated due date feature when necessary?</li><li>Do integrated tools have the same time zone as Canvas?</li></ul><hr id=\"401\"><h3>Can I set a time zone for courses?</h3><p>For courses that take place in time zones other than Eastern Time, the course time zone must be set in the 'Course Settings'. Individual users can set a time zone in their user accounts. Please refer to <a id=\"405\">How do I set account time zones in Canvas?</a> for more insights on setting a time zone for a course. This setting will convert the course time zone to the individual's local time zone. For example: An assignment is due at 5 p.m. on Friday for a course that is set to Eastern Time. A student in the course lives on the West Coast and has set their account settings to Pacific Time. The assignment will show as due at 2 p.m. on Friday for that student. Note: After the user correctly sets their Time Zone, all course dates and times will display in the user's local time, as set in their User Time Zone settings, but if they hover over the date and time, they can also see the course date and time.</p><hr id=\"415\"><h3>How do I manage multiple time zones in Canvas courses?</h3><p>Even though users can adjust their time zone settings so that Canvas dates and times will display in their local time zone, there may still be some steps you want to take when teaching a course with students across many different time zones. Gather information about your students' locations. A quick survey at the start of the term will let you know where your students are located. Consider <a id=\"420\">creating a quick survey with Canvas Quizzes</a> or <a id=\"424\">creating a discussion</a> to gather this information from your students.</p><hr id=\"431\"><h3>How do I choose due dates and times?</h3><p>If you are teaching a class that has students across many different time zones, try to ensure that all students have ample time to complete assignments. Keep in mind when setting due dates that the default time is 11:59 p.m. in the course time zone, and it is usually best to adjust this setting to meet your course's needs. Consider choosing later due dates than you might otherwise to accommodate students in different time zones. For example, if you have students on the West Coast in your course, you may consider having assignments due at 8 p.m. ET / 5 p.m. PT instead of 5 p.m. ET / 2 p.m. PT. State expectations for late policies and extensions.</p><hr id=\"438\"><h3>Can I excuse late work in the Canvas Gradebook?</h3><p>If you choose to excuse late work based on a student's time zone, there are a few settings in the Canvas Gradebook that can help you manage this. Assignments submitted past the due date will automatically be marked as late. <a id=\"442\">You can change the submission status</a> to none if you wish to excuse a student for submitting a late assignment. This may be especially useful for courses that have <a id=\"446\">enabled a late policy</a> in the Gradebook.</p><hr id=\"453\"><h3>Should I limit synchronous assignments and activities?</h3><p>Try to be intentional about the times when you ask the class to meet as a whole or assign coursework that must be completed during a specific window of time. Asynchronous activities such as Discussions, individual projects, and recorded lectures may be more appropriate for courses with students located throughout the world. Explore the <a id=\"457\">CATLR website</a> for more information about when to leverage asynchronous versus synchronous design in Canvas.</p><hr id=\"464\"><h3>How do I utilize module features to control the pace of the course?</h3><p>Canvas allows you to <a id=\"468\">control when module content is released to students</a> by setting a 'Locked Until' date. As with assignment due dates, it is important to be conscientious as to when content is made available to students. For example, if a module contains important information about an upcoming project or final exam, ensure that all students have ample time to review the information before the assignment is due. Setting module <a id=\"473\">requirements</a> and <a id=\"477\">prerequisites</a> can also help you control the pace of the course, regardless of where students are geographically located. When you set a module prerequisite, the module is locked until a student completes the required items. This allows students to move through content at their own pace.</p><hr id=\"486\"><h3>Can I coordinate group work according to time zone?</h3><p>If there is a group work component to your course, consider grouping students in like-time zones together to help them coordinate with each other. If you are using the <a id=\"490\">self-sign-up group</a> feature, use a naming convention when creating groups to help students connect with peers in similar time zones.</p><hr id=\"497\"><h3>How do I utilize the differentiated due date feature when necessary?</h3><p>Canvas does allow you to <a id=\"501\">set different availability and due dates for individual users,</a> but this must be managed manually. You may consider using the differentiated due date feature for quizzes that have a time limit so that students in other parts of the world can complete the assignment at a time that is convenient for them. If the quiz is timed. It is important to consider academic integrity when enabling differentiated due dates, as this may allow students who have already taken the quiz to share questions or answers with their peers. <a id=\"505\">The Canvas Community has some helpful information</a> for maximizing quiz security in these cases.</p><hr id=\"512\"><h3>Do integrated tools have the same time zone as Canvas?</h3><p>All integrated tools, such as Gradescope, are set to Eastern Time Zone. If you use integrated tools in Canvas with separate due dates from Canvas, the Canvas course time zone will not update the integrated tool time zone. You may need to update time zones in integrated tools manually.</p></article>",
+  "sections": [
+    {
+      "heading": "FAQ: Canvas time zone settings",
+      "text": "Time zones in Canvas can be set at the course and user account levels. Time zone settings determine how assignment due dates and calendar events are displayed to users enrolled in a course. All Northeastern Canvas courses and accounts default to Eastern Time.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Table of contents; Links",
+      "text": "Can I set a time zone for courses?, How do I manage multiple time zones in Canvas courses?, How do I choose due dates and times?, Can I excuse late work in the Canvas Gradebook?, Should I limit synchronous assignments and activities?, How do I utilize module features to control the pace of the course?, Can I coordinate group work according to time zone?, How do I utilize the differentiated due date feature when necessary?, Do integrated tools have the same time zone as Canvas?",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Can I set a time zone for courses?",
+      "text": "For courses that take place in time zones other than Eastern Time, the course time zone must be set in the 'Course Settings'. Individual users can set a time zone in their user accounts. Please refer to 'How do I set account time zones in Canvas?' for more insights on setting a time zone for a course. This setting will convert the course time zone to the individual's local time zone. For example: An assignment is due at 5 p.m. on Friday for a course that is set to Eastern Time. A student in the course lives on the West Coast and has set their account settings to Pacific Time. The assignment will show as due at 2 p.m. on Friday for that student. Note: After the user correctly sets their Time Zone, all course dates and times will display in the user's local time, as set in their User Time Zone settings, but if they hover over the date and time, they can also see the course date and time.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How do I manage multiple time zones in Canvas courses?",
+      "text": "Even though users can adjust their time zone settings so that Canvas dates and times will display in their local time zone, there may still be some steps you want to take when teaching a course with students across many different time zones. Gather information about your students' locations. A quick survey at the start of the term will let you know where your students are located. Consider 'creating a quick survey with Canvas Quizzes' or 'creating a discussion' to gather this information from your students.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How do I choose due dates and times?",
+      "text": "If you are teaching a class that has students across many different time zones, try to ensure that all students have ample time to complete assignments. Keep in mind when setting due dates that the default time is 11:59 p.m. in the course time zone, and it is usually best to adjust this setting to meet your course's needs. Consider choosing later due dates than you might otherwise to accommodate students in different time zones. For example, if you have students on the West Coast in your course, you may consider having assignments due at 8 p.m. ET / 5 p.m. PT instead of 5 p.m. ET / 2 p.m. PT. State expectations for late policies and extensions.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Can I excuse late work in the Canvas Gradebook?",
+      "text": "If you choose to excuse late work based on a student's time zone, there are a few settings in the Canvas Gradebook that can help you manage this. Assignments submitted past the due date will automatically be marked as late. 'You can change the submission status' to none if you wish to excuse a student for submitting a late assignment. This may be especially useful for courses that have 'enabled a late policy' in the Gradebook.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Should I limit synchronous assignments and activities?",
+      "text": "Try to be intentional about the times when you ask the class to meet as a whole or assign coursework that must be completed during a specific window of time. Asynchronous activities such as Discussions, individual projects, and recorded lectures may be more appropriate for courses with students located throughout the world. Explore the 'CATLR website' for more information about when to leverage asynchronous versus synchronous design in Canvas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How do I utilize module features to control the pace of the course?",
+      "text": "Canvas allows you to 'control when module content is released to students' by setting a 'Locked Until' date. As with assignment due dates, it is important to be conscientious as to when content is made available to students. For example, if a module contains important information about an upcoming project or final exam, ensure that all students have ample time to review the information before the assignment is due. Setting module 'requirements' and 'prerequisites' can also help you control the pace of the course, regardless of where students are geographically located. When you set a module prerequisite, the module is locked until a student completes the required items. This allows students to move through content at their own pace.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Can I coordinate group work according to time zone?",
+      "text": "If there is a group work component to your course, consider grouping students in like-time zones together to help them coordinate with each other. If you are using the 'self-sign-up group' feature, use a naming convention when creating groups to help students connect with peers in similar time zones.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How do I utilize the differentiated due date feature when necessary?",
+      "text": "Canvas does allow you to 'set different availability and due dates for individual users,' but this must be managed manually. You may consider using the differentiated due date feature for quizzes that have a time limit so that students in other parts of the world can complete the assignment at a time that is convenient for them. If the quiz is timed. It is important to consider academic integrity when enabling differentiated due dates, as this may allow students who have already taken the quiz to share questions or answers with their peers. 'The Canvas Community has some helpful information' for maximizing quiz security in these cases.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Do integrated tools have the same time zone as Canvas?",
+      "text": "All integrated tools, such as Gradescope, are set to Eastern Time Zone. If you use integrated tools in Canvas with separate due dates from Canvas, the Canvas course time zone will not update the integrated tool time zone. You may need to update time zones in integrated tools manually.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014335"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/661042-how-do-i-create-a-survey-in-my-course"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014583"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/660848-how-do-i-change-the-status-of-a-submission-in-the-gradebook"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/660858-how-do-i-apply-a-late-submission-policy-in-the-gradebook"
+    },
+    {
+      "text": "learning.northeastern.edu",
+      "url": "https://learning.northeastern.edu/"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/660901-how-do-i-lock-a-module"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/660897-how-do-i-add-requirements-to-a-module"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/660896-how-do-i-add-prerequisites-to-a-module"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/660878-how-do-i-create-self-sign-up-groups-in-a-group-set"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/kb/articles/660688-how-do-i-assign-an-assignment-to-everyone-individual-students-differentiated-tags-or-sections"
+    },
+    {
+      "text": "community.instructure.com",
+      "url": "https://community.instructure.com/en/discussion/259456/quiz-settings-to-maximize-security"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "How do I set account time zones in Canvas?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "article_id": "KB0014197",
+  "title": "What is Qwickly Attendance?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014197",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014197",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014197",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026-03-01",
+  "plain_text": "Qwickly Attendance is a course tool that enables instructors to take attendance that automatically syncs to the Canvas Gradebook. Instructors can take attendance using an attendance list on the screen or by establishing a PIN that students can use to check in. Features Instructor list view or roll-call view. Student check-in. Visual interface to quickly see student attendance status. Student summary view. Integrated into the Canvas Gradebook. Get Started Canvas integration To add Qwickly Attendance to Course Navigation, refer to How do I enable External Canvas Tools in course navigation? for more information. Note: If you have a cross-listed (formally merged) course in Canvas, you can adjust the setting in Qwickly Attendance to load by course section so that you can take attendance for one section at a time. Accessibility Qwickly Accessibility Information. Resources How do I take attendance in Canvas using Qwickly Attendance? Demo and how-to videos. Knowledge Base. Support and resources Help Northeastern's license includes access to the Qwickly Support Center. For questions about account or access errors, please email athelp@northeastern.edu and provide: Your name. The course in which you are using Qwickly attendance. The place in a course where you are accessing the Qwickly attendance link. The error message you are receiving. Tutorials Qwickly webinars.",
+  "body_html": "<div class=\"kb-article-body\">Qwickly Attendance is a course tool that enables instructors to take attendance that automatically syncs to the Canvas Gradebook. Instructors can take attendance using an attendance list on the screen or by establishing a PIN that students can use to check in. <h2>Features</h2><ul><li>Instructor list view or roll-call view.</li><li>Student check-in.</li><li>Visual interface to quickly see student attendance status.</li><li>Student summary view.</li><li>Integrated into the Canvas Gradebook.</li></ul><hr><h2>Get Started</h2><h3>Canvas integration</h3><ul><li>To add Qwickly Attendance to Course Navigation, refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022340\">How do I enable External Canvas Tools in course navigation?</a> for more information.</li></ul>Note: If you have a cross-listed (formally merged) course in Canvas, you can adjust the setting in Qwickly Attendance to load by course section so that you can take attendance for one section at a time. <button>Student Grouping Setting in Qwickly Attendance</button> <h3>Accessibility</h3><ul><li><a href=\"https://www.goqwickly.com/accessibility/\">Qwickly Accessibility Information</a>.</li></ul><h3>Resources</h3><ul><li><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016406\">How do I take attendance in Canvas using Qwickly Attendance?</a></li><li><a href=\"https://www.goqwickly.com/demos/\">Demo and how-to videos.</a></li><li><a href=\"https://qwickly.zendesk.com/hc/en-us\">Knowledge Base</a>.</li></ul><hr><h2>Support and resources</h2><h3>Help</h3>Northeastern's license includes access to the <a href=\"https://www.goqwickly.com/support/\">Qwickly Support Center</a>. For questions about account or access errors, please email <a href=\"mailto:athelp@northeastern.edu\">athelp@northeastern.edu</a> and provide: <ul><li>Your name.</li><li>The course in which you are using Qwickly attendance.</li><li>The place in a course where you are accessing the Qwickly attendance link.</li><li>The error message you are receiving.</li></ul><h3>Tutorials</h3><ul><li><a href=\"https://www.goqwickly.com/webinars/\">Qwickly webinars</a>.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Qwickly Attendance is a course tool that enables instructors to take attendance that automatically syncs to the Canvas Gradebook.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Features",
+      "text": "Instructor list view or roll-call view. Student check-in. Visual interface to quickly see student attendance status. Student summary view. Integrated into the Canvas Gradebook.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Get Started",
+      "text": "Canvas integration, Accessibility, Resources.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Support and resources",
+      "text": "Help, Tutorials.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I enable External Canvas Tools in course navigation?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022340"
+    },
+    {
+      "text": "Qwickly Accessibility Information",
+      "url": "https://www.goqwickly.com/accessibility/"
+    },
+    {
+      "text": "How do I take attendance in Canvas using Qwickly Attendance?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016406"
+    },
+    {
+      "text": "Demo and how-to videos.",
+      "url": "https://www.goqwickly.com/demos/"
+    },
+    {
+      "text": "Knowledge Base",
+      "url": "https://qwickly.zendesk.com/hc/en-us"
+    },
+    {
+      "text": "Qwickly Support Center",
+      "url": "https://www.goqwickly.com/support/"
+    },
+    {
+      "text": "athelp@northeastern.edu",
+      "url": "mailto:athelp@northeastern.edu"
+    },
+    {
+      "text": "Qwickly webinars",
+      "url": "https://www.goqwickly.com/webinars/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Qwickly"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I take attendance in Canvas using Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "How do I check in using Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "What are Qwickly Course Tools in Canvas?",
+      "url": null
+    }
+  ]
+}

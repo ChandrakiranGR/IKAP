@@ -1,0 +1,109 @@
+{
+  "article_id": "KB000016536",
+  "title": "How do I view and submit an assignment in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016536",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016536",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016536",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Assignments are used to challenge your understanding by using a variety of media that includes quizzes, graded discussions, and online submissions (i.e. files, images, text, URLs, etc.). The Assignments page in Canvas displays all of the upcoming assignments grouped into four categories and how many points each is worth: Overdue assignments: This category displays assignments and discussions that are past the due date but are still available, have not been submitted, and/or have not been graded. Upcoming assignments: This category displays assignments, discussions, and quizzes that have an upcoming due date. Not-dated assignments: This category displays assignments, discussions, and quizzes that do not have a due date. Past assignments: This category displays assignments and discussions that are past the due date but are not available, have been submitted, or have received a grade. Note: If you do not see the Assignments link in the course navigation menu, you can still access assignments through the course Dashboard, Syllabus, Gradebook, Calendar, or Modules. Table of Contents View assignments Submit an assignment Verify submission Canvas resources for students View assignments Select Assignments from the course navigation menu. You will see a list of assignments. Use the search box to look up a specific assignment or toggle the buttons in the upper right to switch between displaying assignments by date or by type. Each assignment summary displays the assignment name, availability dates (if any), due date (if any), and points possible. If the assignment says 'Not available until (date)', the assignment is locked until the specified date. If the assignment says Closed, then the assignment is no longer accepting submissions. Submit an assignment Assignment submission Select the assignment title to review and submit your work. The assignment description provides the number of points possible, the number of attempts allowed, and assignment details. Be sure to review the assignment details, then select 'Submit Assignment' in the upper right-hand corner. Select 'Choose File' to attach a file to your submission. Note: Change the submission type (Text Entry, Google Drive, Microsoft 365, or Studio) by using the tabs at the top. Select 'Submit Assignment'. Verify submission Check the submission status in the upper-right corner and verify whether the assignment has been submitted successfully. Note: You can resubmit your work only if that option has been enabled by the instructor. Canvas resources for students How do I begin using Canvas as a student? How do I personalize my Canvas experience? Canvas Student Guides",
+  "body_html": "<article id=\"364\">Assignments are used to challenge your understanding by using a variety of media that includes quizzes, graded discussions, and online submissions (i.e. files, images, text, URLs, etc.). The Assignments page in Canvas displays all of the upcoming assignments grouped into four categories and how many points each is worth:<ul><li>Overdue assignments: This category displays assignments and discussions that are past the due date but are still available, have not been submitted, and/or have not been graded.</li><li>Upcoming assignments: This category displays assignments, discussions, and quizzes that have an upcoming due date.</li><li>Not-dated assignments: This category displays assignments, discussions, and quizzes that do not have a due date.</li><li>Past assignments: This category displays assignments and discussions that are past the due date but are not available, have been submitted, or have received a grade.</li></ul>Note: If you do not see the Assignments link in the course navigation menu, you can still access assignments through the course Dashboard, Syllabus, Gradebook, Calendar, or Modules.<hr><h2>Table of Contents</h2><ul><li>View assignments</li><li>Submit an assignment<ul><li>Verify submission</li></ul></li><li>Canvas resources for students</li></ul><hr><h2>View assignments</h2><ul><li>Select Assignments from the course navigation menu.</li><li>You will see a list of assignments. Use the search box to look up a specific assignment or toggle the buttons in the upper right to switch between displaying assignments by date or by type.</li><li>Each assignment summary displays the assignment name, availability dates (if any), due date (if any), and points possible.</li><li>If the assignment says 'Not available until (date)', the assignment is locked until the specified date.</li><li>If the assignment says Closed, then the assignment is no longer accepting submissions.</li></ul><hr><h2>Submit an assignment</h2><h3>Assignment submission</h3><ul><li>Select the assignment title to review and submit your work.</li><li>The assignment description provides the number of points possible, the number of attempts allowed, and assignment details. Be sure to review the assignment details, then select 'Submit Assignment' in the upper right-hand corner.</li><li>Select 'Choose File' to attach a file to your submission. Note: Change the submission type (Text Entry, Google Drive, Microsoft 365, or Studio) by using the tabs at the top.</li><li>Select 'Submit Assignment'.</li></ul><h3>Verify submission</h3><ul><li>Check the submission status in the upper-right corner and verify whether the assignment has been submitted successfully. Note: You can resubmit your work only if that option has been enabled by the instructor.</li></ul><hr><h2>Canvas resources for students</h2><ul><li>How do I begin using Canvas as a student?</li><li>How do I personalize my Canvas experience?</li><li>Canvas Student Guides</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Assignments are used to challenge your understanding by using a variety of media that includes quizzes, graded discussions, and online submissions (i.e. files, images, text, URLs, etc.). The Assignments page in Canvas displays all of the upcoming assignments grouped into four categories and how many points each is worth: Overdue assignments, Upcoming assignments, Not-dated assignments, and Past assignments. Note: If you do not see the Assignments link in the course navigation menu, you can still access assignments through the course Dashboard, Syllabus, Gradebook, Calendar, or Modules.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Submit an assignment",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Verify submission",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Canvas resources for students.",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "View assignments",
+      "text": "Select Assignments from the course navigation menu. You will see a list of assignments. Use the search box to look up a specific assignment or toggle the buttons in the upper right to switch between displaying assignments by date or by type. Each assignment summary displays the assignment name, availability dates (if any), due date (if any), and points possible. If the assignment says 'Not available until (date)', the assignment is locked until the specified date. If the assignment says Closed, then the assignment is no longer accepting submissions.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Submit an assignment",
+      "text": "Assignment submission: Select the assignment title to review and submit your work. Review assignment details, select 'Submit Assignment', 'Choose File', and then 'Submit Assignment' again. Verify submission: Check the submission status in the upper-right corner to verify success.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Canvas resources for students",
+      "text": "How do I begin using Canvas as a student?",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How do I personalize my Canvas experience?",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Canvas Student Guides.",
+      "text": "",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I begin using Canvas as a student?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015212"
+    },
+    {
+      "text": "How do I personalize my Canvas experience?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014594"
+    },
+    {
+      "text": "Canvas Student Guides",
+      "url": "https://community.canvaslms.com/t5/Student-Guide/tkb-p/student"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

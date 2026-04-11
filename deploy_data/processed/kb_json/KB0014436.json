@@ -1,0 +1,61 @@
+{
+  "article_id": "KB0014436",
+  "title": "How do I resolve blocked Duo prompts in macOS, iPadOS, and iOS?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014436",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014436",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014436",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "mfa_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "macOS, iPad, and iOS have configurable content restrictions that can potentially prevent the Duo Prompt from displaying correctly. If a gray box is seen instead of the Duo prompt on an iPhone, iPad, or Mac, check whether they have content restrictions enabled. You can update restrictions on an iPhone or a Mac to allow Duo prompts. Disable content restrictions on iOS and iPad The following instructions are for iOS 12 or newer versions. 1. Navigate to 'Settings' > 'Screen Time' > 'Content & Privacy Restrictions' > 'Content Restrictions' > 'Web Content'. 2. Select 'Unrestricted' to completely disable content restrictions. Note: If you do not want to fully disable content restrictions, 'duosecurity.com' can be added to the 'Allowed Websites' within the 'Content Restrictions' page on the iOS device. This will allow the Duo prompt to display even if content restrictions are enabled. Disable content restrictions on a Mac The following instructions are for macOS 10.15 (Catalina) or higher. 1. Navigate to 'System Settings' > 'Screen Time' > 'Content & Privacy'. Note: If you cannot find 'Content & Privacy' directly on the Screen Time page, you may find it inside Preferences. Also, if you are opening 'Screen Time' for the first time and the features haven't been set up, you will need to turn on 'Screen Time' by selecting 'Turn On' at the top of the page. 2. Navigate to 'Content Restrictions'. 3. Select 'Unrestricted Access' for 'Access to Web Content'. Then select Done to save your changes. Note: If fully disabling content restrictions is not necessary, 'duosecurity.com' can be added to the 'Allowed Websites Only' list within the 'Content & Privacy' page on the macOS device. This will allow the Duo prompt to display even if content restrictions are enabled.",
+  "body_html": "<article id=\"364\"><p>macOS, iPad, and iOS have configurable content restrictions that can potentially prevent the Duo Prompt from displaying correctly. If a gray box is seen instead of the Duo prompt on an iPhone, iPad, or Mac, check whether they have content restrictions enabled. You can update restrictions on an iPhone or a Mac to allow Duo prompts.</p><h2>Disable content restrictions on iOS and iPad</h2><p>The following instructions are for iOS 12 or newer versions.</p><ul><li>Navigate to 'Settings' > 'Screen Time' > 'Content & Privacy Restrictions' > 'Content Restrictions' > 'Web Content'.</li><li>Select 'Unrestricted' to completely disable content restrictions.</li></ul><p>Note: If you do not want to fully disable content restrictions, 'duosecurity.com' can be added to the 'Allowed Websites' within the 'Content Restrictions' page on the iOS device. This will allow the Duo prompt to display even if content restrictions are enabled.</p><h2>Disable content restrictions on a Mac</h2><p>The following instructions are for macOS 10.15 (Catalina) or higher.</p><ul><li>Navigate to 'System Settings' > 'Screen Time' > 'Content & Privacy'. Note: If you cannot find 'Content & Privacy' directly on the Screen Time page, you may find it inside Preferences. Also, if you are opening 'Screen Time' for the first time and the features haven't been set up, you will need to turn on 'Screen Time' by selecting 'Turn On' at the top of the page.</li><li>Navigate to 'Content Restrictions'.</li><li>Select 'Unrestricted Access' for 'Access to Web Content'. Then select Done to save your changes.</li></ul><p>Note: If fully disabling content restrictions is not necessary, 'duosecurity.com' can be added to the 'Allowed Websites Only' list within the 'Content & Privacy' page on the macOS device. This will allow the Duo prompt to display even if content restrictions are enabled.</p></article>",
+  "sections": [
+    {
+      "heading": "Disable content restrictions on iOS and iPad",
+      "text": "The following instructions are for iOS 12 or newer versions. Note: If you do not want to fully disable content restrictions, 'duosecurity.com' can be added to the 'Allowed Websites' within the 'Content Restrictions' page on the iOS device.",
+      "steps": [
+        "Navigate to 'Settings' > 'Screen Time' > 'Content & Privacy Restrictions' > 'Content Restrictions' > 'Web Content'.",
+        "Select 'Unrestricted' to completely disable content restrictions."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Disable content restrictions on a Mac",
+      "text": "The following instructions are for macOS 10.15 (Catalina) or higher. Note: If fully disabling content restrictions is not necessary, 'duosecurity.com' can be added to the 'Allowed Websites Only' list within the 'Content & Privacy' page on the macOS device.",
+      "steps": [
+        "Navigate to 'System Settings' > 'Screen Time' > 'Content & Privacy'.",
+        "Navigate to 'Content Restrictions'.",
+        "Select 'Unrestricted Access' for 'Access to Web Content'. Then select Done to save your changes."
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Accounts and Access - Northeastern Account Access - Multi-Factor Authentication (MFA)"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "title": "How do I manage my Duo account and trusted devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+    },
+    {
+      "title": "How do I update my Duo enrollment when I get a new phone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209"
+    },
+    {
+      "title": "How do I set up passwordless authentication using Authenticator?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021992"
+    },
+    {
+      "title": "FAQ: Multi-factor authentication for retirees",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022997"
+    }
+  ]
+}

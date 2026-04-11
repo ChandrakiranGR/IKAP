@@ -1,0 +1,53 @@
+{
+  "article_id": "KB0013802",
+  "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013802",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013802",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013802",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "More than 50 of Microsoft's advanced products, including Visual Studio, Visio, Project, SQL Server, and Windows Azure, are accessible through Microsoft Azure Dev Tools for Teaching (formerly Imagine and DreamSpark), which can be downloaded and installed on your PC. Note: This license is specifically reserved for students, instructors, and staff in a STEM program at Northeastern University. Access Microsoft Azure Dev Tools Note: While the page addresses students in its first line, Northeastern instructors and staff are also given access to this application. 1. Go to Azure Dev Tools for Teaching. 2. Sign in when prompted. Read the article How do I log in to Northeastern Services? for instructions on how to sign in to your Microsoft account. 3. Enter a phone number to verify your account, and then select 'Text me' or 'Call me'. 4. Enter the verification code you receive from a text or call when prompted. 5. After reviewing the terms, select the checkbox to agree to the subscription agreement and privacy statement, then select 'Accept terms'. 6. Select 'Download software'. Note: Ensure you are on the 'Get Started' tab to see the 'Download Software' link. 7. If you are prompted to accept terms and conditions because they couldn't be confirmed, select 'Please accept the terms here'. 8. Select the checkbox to agree to the terms, and then select 'Accept and continue'. 9. You will be redirected to the downloads page. Select the desired software for your appropriate operating system (Windows, Mac, or Linux). 10. Choose the software you would like to download, and then select 'Download'.",
+  "body_html": "<div id=\"364\">More than 50 of Microsoft's advanced products, including Visual Studio, Visio, Project, SQL Server, and Windows Azure, are accessible through Microsoft Azure Dev Tools for Teaching (formerly Imagine and DreamSpark), which can be downloaded and installed on your PC. Note: This license is specifically reserved for students, instructors, and staff in a STEM program at Northeastern University. <hr id=\"368\"> <h2 id=\"369\">Access Microsoft Azure Dev Tools</h2> Note: While the page addresses students in its first line, Northeastern instructors and staff are also given access to this application. <ul> <li>Go to <a id=\"377\">Azure Dev Tools for Teaching</a>.</li> <li>Sign in when prompted. Read the article <a id=\"383\">How do I log in to Northeastern Services?</a> for instructions on how to sign in to your Microsoft account.</li> <li>Enter a phone number to verify your account, and then select 'Text me' or 'Call me'.</li> <li>Enter the verification code you receive from a text or call when prompted.</li> <li>After reviewing the terms, select the checkbox to agree to the subscription agreement and privacy statement, then select 'Accept terms'.</li> <li>Select 'Download software'. Note: Ensure you are on the 'Get Started' tab to see the 'Download Software' link.</li> <li>If you are prompted to accept terms and conditions because they couldn't be confirmed, select 'Please accept the terms here'.</li> <li>Select the checkbox to agree to the terms, and then select 'Accept and continue'.</li> <li>You will be redirected to the downloads page. Select the desired software for your appropriate operating system (Windows, Mac, or Linux).</li> <li>Choose the software you would like to download, and then select 'Download'.</li> </ul> </div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "More than 50 of Microsoft's advanced products, including Visual Studio, Visio, Project, SQL Server, and Windows Azure, are accessible through Microsoft Azure Dev Tools for Teaching (formerly Imagine and DreamSpark), which can be downloaded and installed on your PC. Note: This license is specifically reserved for students, instructors, and staff in a STEM program at Northeastern University.; Access Microsoft Azure Dev Tools: Note: While the page addresses students in its first line, Northeastern instructors and staff are also given access to this application. Go to Azure Dev Tools for Teaching. Sign in when prompted. Read the article How do I log in to Northeastern Services? for instructions on how to sign in to your Microsoft account. Enter a phone number to verify your account, and then select 'Text me' or 'Call me'. Enter the verification code you receive from a text or call when prompted. After reviewing the terms, select the checkbox to agree to the subscription agreement and privacy statement, then select 'Accept terms'. Select 'Download software'. Note: Ensure you are on the 'Get Started' tab to see the 'Download Software' link. If you are prompted to accept terms and conditions because they couldn't be confirmed, select 'Please accept the terms here'. Select the checkbox to agree to the terms, and then select 'Accept and continue'. You will be redirected to the downloads page. Select the desired software for your appropriate operating system (Windows, Mac, or Linux). Choose the software you would like to download, and then select 'Download'.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Azure Dev Tools for Teaching",
+      "url": "https://azureforeducation.microsoft.com/devtools"
+    },
+    {
+      "text": "How do I log in to Northeastern Services?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013501"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing - Software and Application Distribution - Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

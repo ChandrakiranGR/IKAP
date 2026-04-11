@@ -1,0 +1,71 @@
+{
+  "article_id": "KB000018189",
+  "title": "How do I run Matlab remotely from macOS?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018189",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018189",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018189",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "4mo ago",
+  "plain_text": "This article will provide information on how to run and troubleshoot MATLAB for macOS. You can use your home computer or laptop to run MATLAB in graphical mode remotely on a COE machine. MATLAB can also be run in text mode from the command line on any COE Unix/Linux machine if you don't need to display graphics. If you need to display graphical results, here's how to run MATLAB remotely. Be sure you are on a reliable broadband connection. Table of Contents: Run MATLAB remotely from macOS, Troubleshoot MATLAB issues on macOS. Run MATLAB remotely from macOS: The software you need is already installed on your Mac. Start X11 by following the steps below: Go to the Applications folder. Open the subfolder Utilities. Double-click on X11.app. Open a terminal window: Select the X icon in the Dock to bring X11 to the foreground. Pull down the Applications menu. Choose 'Terminal'. Log in to the Gateway. Type the line below in the xterm window using your COE Username: ssh -Y -l <username> gateway.coe.neu.edu. Type your COE password. Log in to the Linux workstation mu.coe.neu.edu from the Gateway. Type the following in your Gateway terminal: session:ssh -Y -l <username> -p 27 ergs.coe.neu.edu. You can now run MATLAB. Type /COEnet/Linux/MATLAB/R2012a/bin/matlab to start MATLAB. You should get a MATLAB window display after a few seconds. Troubleshoot MATLAB issues on macOS: If you get an error message about X permissions, follow these steps: Open a second terminal window. Type this into the second terminal: xhost + ergs.coe.neu.edu. Type /COEnet/Linux/MATLAB/R2012a/bin/matlab & in your original terminal window.",
+  "body_html": "<article id=\"364\">This article will provide information on how to run and troubleshoot MATLAB for macOS... [Full HTML content based on the article structure]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Information on running and troubleshooting MATLAB for macOS remotely. Table of Contents: Run MATLAB remotely from macOS; Troubleshoot MATLAB issues on macOS.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Run MATLAB remotely from macOS",
+      "text": "The software you need is already installed on your Mac.",
+      "steps": [
+        "Start X11 (Applications > Utilities > X11.app).",
+        "Open terminal window via X11 menu.",
+        "Log in to Gateway: ssh -Y -l <username> gateway.coe.neu.edu.",
+        "Enter password.",
+        "Log in to Linux workstation: session:ssh -Y -l <username> -p 27 ergs.coe.neu.edu.",
+        "Run MATLAB: /COEnet/Linux/MATLAB/R2012a/bin/matlab."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Troubleshoot MATLAB issues on macOS",
+      "text": "",
+      "steps": [
+        "Open second terminal.",
+        "Type: xhost + ergs.coe.neu.edu.",
+        "Restart MATLAB in original terminal."
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "College of Engineering",
+    "Software"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I download SOLIDWORKS as a COE student?",
+      "url": null
+    },
+    {
+      "title": "How do I get access to Ansys?",
+      "url": null
+    },
+    {
+      "title": "How do I access Abaqus?",
+      "url": null
+    },
+    {
+      "title": "FAQ: SOLIDWORKS installation",
+      "url": null
+    },
+    {
+      "title": "What Linux software is available on College of Engineering (COE) systems?",
+      "url": null
+    }
+  ]
+}

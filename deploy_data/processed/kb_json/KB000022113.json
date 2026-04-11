@@ -1,0 +1,48 @@
+{
+  "article_id": "KB000022113",
+  "title": "How do I submit an assignment in Canvas using Lucid?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022113",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022113",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022113",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Lucid for Education is a suite of visual applications that offers a variety of tools to interact and engage with students. Lucidchart is a diagram application that allows for creating and sharing flowcharts, mind maps, and organizational charts. Lucidspark is a virtual whiteboard that allows for just-in-time collaboration for brainstorming, group projects, and collaborating between an entire class. Submit an assignment to Lucid Log in to Canvas and locate the course and module where the assignment is. Select your assignment. Select 'Start Assignment'. View and complete the Lucid assignment directly in Canvas. After completing the assignment, select the 'Submit Assignment' button.",
+  "body_html": "<article id=\"364\">\n  <p>Lucid for Education is a suite of visual applications that offers a variety of tools to interact and engage with students. Lucidchart is a diagram application that allows for creating and sharing flowcharts, mind maps, and organizational charts. Lucidspark is a virtual whiteboard that allows for just-in-time collaboration for brainstorming, group projects, and collaborating between an entire class.</p>\n  <hr id=\"366\">\n  <h1>Submit an assignment to Lucid</h1>\n  <ul>\n    <li>Log in to Canvas and locate the course and module where the assignment is. Select your assignment.</li>\n    <li>Select 'Start Assignment'.</li>\n    <li>View and complete the Lucid assignment directly in Canvas.</li>\n    <li>After completing the assignment, select the 'Submit Assignment' button.</li>\n  </ul>\n</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Lucid for Education is a suite of visual applications that offers a variety of tools to interact and engage with students. Lucidchart is a diagram application that allows for creating and sharing flowcharts, mind maps, and organizational charts. Lucidspark is a virtual whiteboard that allows for just-in-time collaboration for brainstorming, group projects, and collaborating between an entire class. Submit an assignment to Lucid: Log in to Canvas and locate the course and module where the assignment is. Select your assignment. Select 'Start Assignment'. View and complete the Lucid assignment directly in Canvas. After completing the assignment, select the 'Submit Assignment' button.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

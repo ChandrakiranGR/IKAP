@@ -1,0 +1,134 @@
+{
+  "article_id": "KB0014282",
+  "title": "How can I configure Duo to remember me for 30 days?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014282",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014282",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014282",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "mfa_kb.json",
+  "updated_at": "14 days ago",
+  "plain_text": "Multi-factor authentication (MFA) is required to access Northeastern University's most frequently used online services and systems. Northeastern's MFA service provides additional security measures to protect your online identity and personal information, as well as university research, intellectual property, and institutional data. The 'Remember me for 30 days' setting is available per device and web browser. You will need to enable the option on each device and web browser that you are using. Authorize access for 30 days Log in to any Northeastern University service that requires MFA (e.g., Employee Hub, Student Hub). If you have MFA set to automatically send you a push, cancel the request. Note: Be sure to cancel the request by selecting Cancel, NOT 'Cancel this Request' under the MFA window. Check 'Remember me for 30 days'. Once enabled, you will not be required to verify your identity for 30 days. Note: If the box for 'Remember me for 30 days' is grayed out, you need to allow third-party cookies on your browser. For detailed instructions, please refer to the Enable cross-site checking section below. Select your desired authentication method and complete authentication. Repeat these steps on each device and browser you wish to be remembered. Enable cross-site tracking Safari on Mac Open Safari. On the menu bar, navigate to Safari > Settings. Select the Privacy tab. Uncheck 'Prevent cross-site tracking'. Select the Advanced tab. Uncheck 'Block all cookies'. Safari on iOS Navigate to Settings. Scroll down and select Apps > Safari. Scroll to 'PRIVACY & SECURITY'. Toggle off 'Prevent Cross-Site Tracking'. Scroll down and navigate to Advanced. Toggle off 'Block All Cookies'. Microsoft Edge Select More in the upper right of the toolbar. Select Settings. Scroll down and select 'View Advanced Settings'. Scroll down to Cookies and check if it is set to 'Don't block cookies'. Restart Microsoft Edge. Chrome, Firefox, and Opera The 'Remember me for 30 days' feature doesn't work for these browsers unless an exception is made in the browser's security settings for third-party cookies coming from MFA services. Please update your browser settings (generally found under Privacy or Security settings) and use the following format: Chrome and Opera: [*.]duosecurity.com. Firefox: https://duosecurity.com.",
+  "body_html": "<article id=\"364\"><a id=\"365\">Multi-factor authentication (MFA)</a> is required to access Northeastern University's most frequently used online services and systems... <h2 id=\"397\">Authorize access for 30 days</h2><ul><li>Log in to any Northeastern University service that requires MFA (e.g., <a id=\"402\">Employee Hub</a>, <a id=\"405\">Student Hub</a>).</li><li>If you have MFA set to automatically send you a push, cancel the request...</li><li>Check 'Remember me for 30 days'... please refer to the <a id=\"420\">Enable cross-site checking</a> section below.</li><li>Select your desired authentication method and complete authentication.</li></ul>...</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Multi-factor authentication (MFA) is required to access Northeastern University's most frequently used online services and systems. Northeastern's MFA service provides additional security measures to protect your online identity and personal information, as well as university research, intellectual property, and institutional data. The 'Remember me for 30 days' setting is available per device and web browser. You will need to enable the option on each device and web browser that you are using.",
+      "steps": [],
+      "links": [
+        {
+          "text": "Multi-factor authentication (MFA)",
+          "url": "https://security.its.northeastern.edu/mfa/"
+        }
+      ]
+    },
+    {
+      "heading": "Authorize access for 30 days",
+      "text": "",
+      "steps": [
+        "Log in to any Northeastern University service that requires MFA (e.g., Employee Hub, Student Hub).",
+        "If you have MFA set to automatically send you a push, cancel the request. Note: Be sure to cancel the request by selecting Cancel, NOT 'Cancel this Request' under the MFA window.",
+        "Check 'Remember me for 30 days'. Once enabled, you will not be required to verify your identity for 30 days. Note: If the box for 'Remember me for 30 days' is grayed out, you need to allow third-party cookies on your browser.",
+        "Select your desired authentication method and complete authentication. Repeat these steps on each device and browser you wish to be remembered."
+      ],
+      "links": [
+        {
+          "text": "Employee Hub",
+          "url": "https://me.northeastern.edu/"
+        },
+        {
+          "text": "Student Hub",
+          "url": "https://me.northeastern.edu/"
+        }
+      ]
+    },
+    {
+      "heading": "Safari on Mac",
+      "text": "",
+      "steps": [
+        "Open Safari.",
+        "On the menu bar, navigate to Safari > Settings.",
+        "Select the Privacy tab.",
+        "Uncheck 'Prevent cross-site tracking'.",
+        "Select the Advanced tab.",
+        "Uncheck 'Block all cookies'."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Safari on iOS",
+      "text": "",
+      "steps": [
+        "Navigate to Settings.",
+        "Scroll down and select Apps > Safari.",
+        "Scroll to 'PRIVACY & SECURITY'.",
+        "Toggle off 'Prevent Cross-Site Tracking'.",
+        "Scroll down and navigate to Advanced. Toggle off 'Block All Cookies'."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Microsoft Edge",
+      "text": "",
+      "steps": [
+        "Select More in the upper right of the toolbar.",
+        "Select Settings.",
+        "Scroll down and select 'View Advanced Settings'.",
+        "Scroll down to Cookies and check if it is set to 'Don't block cookies'.",
+        "Restart Microsoft Edge."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Chrome, Firefox, and Opera",
+      "text": "The 'Remember me for 30 days' feature doesn't work for these browsers unless an exception is made in the browser's security settings for third-party cookies coming from MFA services.",
+      "steps": [
+        "Chrome and Opera: [*.]duosecurity.com.",
+        "Firefox: https://duosecurity.com."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Multi-factor authentication (MFA)",
+      "url": "https://security.its.northeastern.edu/mfa/"
+    },
+    {
+      "text": "Employee Hub",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "Student Hub",
+      "url": "https://me.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access",
+    "Northeastern Account Access",
+    "Multi-Factor Authentication (MFA)"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "title": "How do I manage my Duo account and trusted devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+    },
+    {
+      "title": "How do I update my Duo enrollment when I get a new phone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209"
+    },
+    {
+      "title": "How do I set up passwordless authentication using Authenticator?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021992"
+    },
+    {
+      "title": "FAQ: Multi-factor authentication for retirees",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022997"
+    }
+  ]
+}

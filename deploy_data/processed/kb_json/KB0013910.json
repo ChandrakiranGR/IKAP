@@ -1,0 +1,98 @@
+{
+  "article_id": "KB0013910",
+  "title": "How do I set up and connect to VPN on an Android device?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013910",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013910",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013910",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "vpn_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. The majority of the systems and services on the Northeastern University network require that you connect securely to access them. If you are not connected to NUnet or NUwave, you will need to use a VPN connection, in addition to your internet connection, to access many Northeastern systems and services. Note: As an additional layer of protection, some resources require that you access them using a VPN in addition to being connected to a Northeastern network. Table of Contents Requirements Install GlobalProtect Connect to VPN Disconnect from VPN Requirements Duo Multi-factor authentication is required to access a VPN. For instructions on setup and use, see the following articles: How do I enroll in Duo multi-factor authentication (MFA)? How do I use Duo multi-factor authentication (MFA)? Install GlobalProtect Search on the Google Play Store for GlobalProtect. Install the app on your device. Connect to VPN Open the GlobalProtect app. Enter VPN.northestern.edu in the Address field and select CONNECT. Log in with your Northeastern email address. Authenticate with Duo two-factor authentication. Check the box to always allow the browser to open GlobalProtect if prompted. If the GlobalProtect client doesn’t open automatically, select 'click here'. Select 'I Trust This Application'. Select OK. The security screen will appear every time you connect to the VPN. Your connection will be live, and you will see the Welcome screen. This appears every time you connect to the VPN. Disconnect from VPN Select the Connection tab on the screen to see your connection information. On the upper left corner of the notifications/status bar, you will see the GlobalProtect globe icon and a key icon. Swipe down the status bar. Select the GlobalProtect globe, then select the Disconnect button.",
+  "body_html": "<div id=\"364\">A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. The majority of the systems and services on the Northeastern University network require that you connect securely to access them. If you are not connected to NUnet or NUwave, you will need to use a VPN connection, in addition to your internet connection, to access many Northeastern systems and services. Note: As an additional layer of protection, some resources require that you access them using a VPN in addition to being connected to a Northeastern network.<h2 id=\"371\">Table of Contents</h2><ul><li>Requirements</li><li>Install GlobalProtect</li><li>Connect to VPN</li><li>Disconnect from VPN</li></ul><h2 id=\"389\">Requirements</h2>Duo Multi-factor authentication is required to access a VPN. For instructions on setup and use, see the following articles:<ul><li>How do I enroll in Duo multi-factor authentication (MFA)?</li><li>How do I use Duo multi-factor authentication (MFA)?</li></ul><h2 id=\"410\">Install GlobalProtect</h2><ul><li>Search on the Google Play Store for GlobalProtect.</li><li>Install the app on your device.</li></ul><h2 id=\"420\">Connect to VPN</h2><ul><li>Open the GlobalProtect app.</li><li>Enter VPN.northestern.edu in the Address field and select CONNECT.</li><li>Log in with your Northeastern email address.</li><li>Authenticate with Duo two-factor authentication.</li><li>Check the box to always allow the browser to open GlobalProtect if prompted.<ul><li>If the GlobalProtect client doesn’t open automatically, select 'click here'.</li></ul></li><li>Select 'I Trust This Application'.</li><li>Select OK. The security screen will appear every time you connect to the VPN.</li><li>Your connection will be live, and you will see the Welcome screen. This appears every time you connect to the VPN.</li></ul><h2 id=\"452\">Disconnect from VPN</h2><ul><li>Select the Connection tab on the screen to see your connection information.</li><li>On the upper left corner of the notifications/status bar, you will see the GlobalProtect globe icon and a key icon. Swipe down the status bar.</li><li>Select the GlobalProtect globe, then select the Disconnect button.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network...",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Requirements",
+      "text": "Duo Multi-factor authentication is required to access a VPN. For instructions on setup and use, see the following articles: How do I enroll in Duo multi-factor authentication (MFA)?, How do I use Duo multi-factor authentication (MFA)?",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Install GlobalProtect",
+      "text": "",
+      "steps": [
+        "Search on the Google Play Store for GlobalProtect.",
+        "Install the app on your device."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Connect to VPN",
+      "text": "",
+      "steps": [
+        "Open the GlobalProtect app.",
+        "Enter VPN.northestern.edu in the Address field and select CONNECT.",
+        "Log in with your Northeastern email address.",
+        "Authenticate with Duo two-factor authentication.",
+        "Check the box to always allow the browser to open GlobalProtect if prompted.",
+        "If the GlobalProtect client doesn’t open automatically, select 'click here'.",
+        "Select 'I Trust This Application'.",
+        "Select OK.",
+        "Your connection will be live."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Disconnect from VPN",
+      "text": "",
+      "steps": [
+        "Select the Connection tab.",
+        "Swipe down the status bar.",
+        "Select the GlobalProtect globe, then select the Disconnect button."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "text": "How do I use Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012648"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Remote Access/VPN"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: VPN and remote access",
+      "url": null
+    },
+    {
+      "title": "How do I connect to Northeastern VPN?",
+      "url": null
+    },
+    {
+      "title": "How do I Install VPN on a Mac?",
+      "url": null
+    },
+    {
+      "title": "How do I install VPN on Windows?",
+      "url": null
+    },
+    {
+      "title": "How do I set up and connect to VPN on iOS devices?",
+      "url": null
+    }
+  ]
+}

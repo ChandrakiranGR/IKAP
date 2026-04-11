@@ -1,0 +1,139 @@
+{
+  "article_id": "KB0015163",
+  "title": "How do I set up Touch ID with Duo multi-factor authentication (MFA) on a Mac?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015163",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015163",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015163",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "mfa_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Using Touch ID on macOS will allow you to secure Duo login approvals that are resistant to phishing attacks while allowing the one-touch convenience you're already used to with Duo Push. If you are not enrolled in Duo, refer to How do I enroll in Duo multi-factor authentication (MFA)? and How do I use Duo multi-factor authentication (MFA)? to get a device enrolled and learn more about how to use Duo. Touch ID requirements Support for Touch ID authentication is limited to web applications that show Duo's online browser prompt. To use Touch ID with Duo, make sure you have the following: - A MacBook Pro or MacBook Air with a Touch ID button. - A fingerprint is enrolled in Touch ID. Read Use Touch ID on Mac to set up Touch ID. - A Chrome browser. Safari and other browsers on macOS are not supported. Note: You must use a normal Chrome browsing window for Touch ID enrollment or authentication. Duo can't use Touch ID in an Incognito window. Add Touch ID as a new authentication device If you are already enrolled in Duo, you can add Touch ID as an additional authentication device through the Northeastern Duo enrollment page. If you have more than one MacBook with which you'd like to approve Duo login requests using Touch ID, you'll need to enroll each of them separately as a new Touch ID device in Duo. 1. Navigate to the the Duo enrollment page and sign in with your Northeastern credentials. You will be prompted to log in with Duo. 2. Select a verification option (either call, passcode, or push). 3. Select '+ Add another device'. 4. Select 'Touch ID' from the list of devices. 5. Select Continue. Make sure that you are not blocking pop-up windows. 6. You'll be prompted to enroll with Touch ID. Select Continue. 7. You may also be asked to verify your identity on duosecurity.com. Use Touch ID or enter your password if prompted. The Touch ID enrollment window will prompt you to tap the Touch ID button for approval. 8. Place your finger on the Touch ID button, and you will be notified of whether the Touch ID was successful or not. 9. You have enrolled in Touch ID. Log in using Touch ID 1. When prompted with Duo MFA, select 'Touch ID' from the drop-down list of your authentication devices. 2. Select 'Use Touch ID'. 3. Place your finger on the Touch ID button when prompted. Resource For further assistance, see Duo's official video guide on How to Enroll and Use Touch ID with Duo for End-users.",
+  "body_html": "<div id=\"364\">Using Touch ID on macOS will allow you to secure Duo login approvals that are resistant to <a id=\"368\">phishing</a> attacks while allowing the one-touch convenience you're already used to with <a id=\"371\">Duo Push</a>. If you are not enrolled in Duo, refer to <a id=\"375\">How do I enroll in Duo multi-factor authentication (MFA)?</a> and <a id=\"379\">How do I use Duo multi-factor authentication (MFA)?</a> to get a device enrolled and learn more about how to use Duo. <h2 id=\"402\">Touch ID requirements</h2> Support for Touch ID authentication is limited to web applications that show Duo's online browser prompt. To use Touch ID with Duo, make sure you have the following: <ul><li>A MacBook Pro or MacBook Air with a Touch ID button.</li><li>A fingerprint is enrolled in Touch ID. Read <a id=\"412\">Use Touch ID on Mac</a> to set up Touch ID.</li><li>A <a id=\"417\">Chrome</a> browser. Safari and other browsers on macOS are not supported.</li></ul> Note: You must use a normal Chrome browsing window for Touch ID enrollment or authentication. Duo can't use Touch ID in an Incognito window. <h2 id=\"428\">Add Touch ID as a new authentication device</h2> If you are already enrolled in Duo, you can add Touch ID as an additional authentication device through the <a id=\"435\">Duo enrollment page</a>. If you have more than one MacBook with which you'd like to approve Duo login requests using Touch ID, you'll need to enroll each of them separately as a new Touch ID device in Duo. <ol><li>Navigate to the the Duo enrollment page and sign in with your Northeastern credentials.</li><li>Select a verification option (either call, passcode, or push).</li><li>Select '+ Add another device'.</li><li>Select 'Touch ID' from the list of devices.</li><li>Select Continue.</li><li>You'll be prompted to enroll with Touch ID. Select Continue.</li><li>You may also be asked to verify your identity on duosecurity.com.</li><li>Place your finger on the Touch ID button.</li><li>You have enrolled in Touch ID.</li></ol> <h2>Log in using Touch ID</h2> <ol><li>When prompted with Duo MFA, select 'Touch ID' from the drop-down list.</li><li>Select 'Use Touch ID'.</li><li>Place your finger on the Touch ID button.</li></ol> <h2>Resource</h2> <ul><li>For further assistance, see <a id=\"504\">How to Enroll and Use Touch ID with Duo for End-users</a>.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Touch ID requirements",
+      "text": "Support for Touch ID authentication is limited to web applications that show Duo's online browser prompt. To use Touch ID with Duo, make sure you have the following: Note: You must use a normal Chrome browsing window for Touch ID enrollment or authentication. Duo can't use Touch ID in an Incognito window.",
+      "steps": [
+        "A MacBook Pro or MacBook Air with a Touch ID button.",
+        "A fingerprint is enrolled in Touch ID. Read Use Touch ID on Mac to set up Touch ID.",
+        "A Chrome browser. Safari and other browsers on macOS are not supported."
+      ],
+      "links": [
+        {
+          "text": "Use Touch ID on Mac",
+          "url": "https://support.apple.com/en-us/HT207054"
+        },
+        {
+          "text": "Chrome",
+          "url": "https://www.google.com/chrome/browser/"
+        }
+      ]
+    },
+    {
+      "heading": "Add Touch ID as a new authentication device",
+      "text": "If you are already enrolled in Duo, you can add Touch ID as an additional authentication device through the Northeastern Duo enrollment page. If you have more than one MacBook with which you'd like to approve Duo login requests using Touch ID, you'll need to enroll each of them separately as a new Touch ID device in Duo.",
+      "steps": [
+        "Navigate to the the Duo enrollment page and sign in with your Northeastern credentials. You will be prompted to log in with Duo.",
+        "Select a verification option (either call, passcode, or push).",
+        "Select '+ Add another device'.",
+        "Select 'Touch ID' from the list of devices.",
+        "Select Continue. Make sure that you are not blocking pop-up windows.",
+        "You'll be prompted to enroll with Touch ID. Select Continue.",
+        "You may also be asked to verify your identity on duosecurity.com. Use Touch ID or enter your password if prompted.",
+        "Place your finger on the Touch ID button, and you will be notified of whether the Touch ID was successful or not.",
+        "You have enrolled in Touch ID."
+      ],
+      "links": [
+        {
+          "text": "Duo enrollment page",
+          "url": "https://neuidmsso.neu.edu/duo/devsvc"
+        }
+      ]
+    },
+    {
+      "heading": "Log in using Touch ID",
+      "text": "",
+      "steps": [
+        "When prompted with Duo MFA, select 'Touch ID' from the drop-down list of your authentication devices.",
+        "Select 'Use Touch ID'.",
+        "Place your finger on the Touch ID button when prompted."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Resource",
+      "text": "",
+      "steps": [
+        "For further assistance, see Duo's official video guide on How to Enroll and Use Touch ID with Duo for End-users ."
+      ],
+      "links": [
+        {
+          "text": "How to Enroll and Use Touch ID with Duo for End-users",
+          "url": "https://youtu.be/LrUzrWOG4VE"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "phishing",
+      "url": "https://security.its.northeastern.edu/phishing/"
+    },
+    {
+      "text": "Duo Push",
+      "url": "https://duo.com/duo-push"
+    },
+    {
+      "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "text": "How do I use Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012648"
+    },
+    {
+      "text": "Use Touch ID on Mac",
+      "url": "https://support.apple.com/en-us/HT207054"
+    },
+    {
+      "text": "Chrome",
+      "url": "https://www.google.com/chrome/browser/"
+    },
+    {
+      "text": "Duo enrollment page",
+      "url": "https://neuidmsso.neu.edu/duo/devsvc"
+    },
+    {
+      "text": "How to Enroll and Use Touch ID with Duo for End-users",
+      "url": "https://youtu.be/LrUzrWOG4VE"
+    }
+  ],
+  "categories": [
+    "Accounts and Access",
+    "Northeastern Account Access",
+    "Multi-Factor Authentication (MFA)"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "title": "How do I manage my Duo account and trusted devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+    },
+    {
+      "title": "How do I update my Duo enrollment when I get a new phone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209"
+    },
+    {
+      "title": "How do I set up passwordless authentication using Authenticator?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021992"
+    },
+    {
+      "title": "FAQ: Multi-factor authentication for retirees",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022997"
+    }
+  ]
+}

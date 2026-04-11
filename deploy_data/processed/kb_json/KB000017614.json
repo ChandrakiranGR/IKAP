@@ -1,0 +1,55 @@
+{
+  "article_id": "KB000017614",
+  "title": "How do I check in using Qwickly Attendance?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017614",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017614",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017614",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026-01-01",
+  "plain_text": "Once instructors have set up Check-In using Qwickly Attendance in your Canvas course, you can check into the class using the instructions below. Check in on Qwickly Select 'Qwickly Attendance' from the course navigation menu. You will be asked to authorize Qwickly the first time you log in. Note: If you encounter a connection error or a 'Domain not Recognized' screen, ensure you enable third-party cookies . Select the 'Check In' button. You will see a confirmation screen verifying that your attendance has been recorded. For additional assistance, please email help@northeastern.edu or contact your instructor.",
+  "body_html": "<article id=\"364\">Once instructors have set up Check-In using Qwickly Attendance in your Canvas course, you can check into the class using the instructions below.<hr id=\"366\"><h2 id=\"368\">Check in on Qwickly</h2><ul><li>Select 'Qwickly Attendance' from the course navigation menu. <button id=\"374\">Course navigation menu - Qwickly Attendance</button></li><li>You will be asked to authorize Qwickly the first time you log in. <button id=\"379\">Authorization pop-up.</button> Note: If you encounter a connection error or a 'Domain not Recognized' screen, ensure you <a id=\"382\">enable third-party cookies</a>.</li><li>Select the 'Check In' button. <button id=\"389\">Check In button</button></li><li>You will see a confirmation screen verifying that your attendance has been recorded. <button id=\"392\">Check In confirmation message.</button> For additional assistance, please email <a id=\"394\">help@northeastern.edu</a> or contact your instructor.</li></ul><a id=\"397\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Once instructors have set up Check-In using Qwickly Attendance in your Canvas course, you can check into the class using the instructions below.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Check in on Qwickly",
+      "text": "Select 'Qwickly Attendance' from the course navigation menu. You will be asked to authorize Qwickly the first time you log in. Select the 'Check In' button. You will see a confirmation screen verifying that your attendance has been recorded.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "enable third-party cookies",
+      "url": "https://qwickly.zendesk.com/hc/en-us/articles/360038646511-Allowing-Third-Part-Cookies-In-Different-Devices"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:help@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Qwickly"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I take attendance in Canvas using Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "What is Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "What are Qwickly Course Tools in Canvas?",
+      "url": null
+    }
+  ]
+}

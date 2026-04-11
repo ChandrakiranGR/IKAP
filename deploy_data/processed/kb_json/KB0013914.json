@@ -1,0 +1,88 @@
+{
+  "article_id": "KB0013914",
+  "title": "How do I update the GlobalProtect VPN client on Windows?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013914",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013914",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013914",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "vpn_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "A Virtual Private Network (VPN) provides a secure connection from your computer to resources on the Northeastern University network. While on campus, Northeastern automatically provides a secure connection to campus network resources, such as printing. If you are not on campus, you will need to use a VPN connection and your internet connection to access Northeastern systems and services with an added layer of security. For more information, see VPN and remote access. Requirements Duo multi-factor authentication is required to access a VPN. For information on setup and use, see the following articles: How do I enroll in Duo multi-factor authentication (MFA)? How do I use Duo multi-factor authentication (MFA)? Update GlobalProtect When an update is available to the GlobalProtect client, a window appears after you connect, informing you of the update. Note: During installation, the client will disconnect. Do not have any applications running that require the VPN for access. Select Yes to download the update in the background. After the download is ready, a pop-up window will ask if you want to install it now. Select Yes. After installation, reconnect to the VPN.",
+  "body_html": "<article id=\"364\"><p>A Virtual Private Network (VPN) provides a secure connection from your computer to resources on the Northeastern University network. While on campus, Northeastern automatically provides a secure connection to campus network resources, such as printing. If you are not on campus, you will need to use a VPN connection and your internet connection to access Northeastern systems and services with an added layer of security. For more information, see <a id=\"366\">VPN and remote access</a>.</p><hr id=\"370\"><h2>Requirements</h2><p>Duo multi-factor authentication is required to access a VPN. For information on setup and use, see the following articles:</p><ul><li><a id=\"377\">How do I enroll in Duo multi-factor authentication (MFA)?</a></li><li><a id=\"380\">How do I use Duo multi-factor authentication (MFA)?</a></li></ul><hr id=\"382\"><h2>Update GlobalProtect</h2><p>When an update is available to the GlobalProtect client, a window appears after you connect, informing you of the update. Note: During installation, the client will disconnect. Do not have any applications running that require the VPN for access.</p><ul><li>Select Yes to download the update in the background. <button id=\"392\">Click yes to update GlobalProtect on Windows</button></li><li>After the download is ready, a pop-up window will ask if you want to install it now. Select Yes. <button id=\"397\">Click yes to install the GlobalProtect update on Windows</button></li><li>After installation, reconnect to the VPN.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "A Virtual Private Network (VPN) provides a secure connection from your computer to resources on the Northeastern University network...",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Heading",
+      "text": "Requirements",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Text",
+      "text": "Duo multi-factor authentication is required to access a VPN. For information on setup and use, see the following articles:",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Steps",
+      "text": "",
+      "steps": [
+        "How do I enroll in Duo multi-factor authentication (MFA)?,",
+        "How do I use Duo multi-factor authentication (MFA)?"
+      ],
+      "links": []
+    },
+    {
+      "heading": "Heading",
+      "text": "Update GlobalProtect",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Text",
+      "text": "When an update is available to the GlobalProtect client, a window appears after you connect, informing you of the update.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Steps",
+      "text": "",
+      "steps": [
+        "Select Yes to download the update in the background.,",
+        "After the download is ready, a pop-up window will ask if you want to install it now. Select Yes.,",
+        "After installation, reconnect to the VPN."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "VPN and remote access",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013983"
+    },
+    {
+      "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "text": "How do I use Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012648"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Remote Access/VPN"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: VPN and remote access, How do I connect to Northeastern VPN?, How do I Install VPN on a Mac?, How do I install VPN on Windows?, How do I set up and connect to VPN on iOS devices?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "article_id": "KB0012666",
+  "title": "How do I access AutoCAD?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012666",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012666",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012666",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "24d ago",
+  "plain_text": "AutoCAD, an industry leader in 3D computer-aided design (CAD), drafting, modeling, and architectural drawing, is an engineering software available to the Northeastern University community at no cost. By confirming your eligibility for educational access, you can also access other Autodesk products such as Revit and Fusion 360. Visit the Autodesk Education Community to learn about free software, training, and the design showcase. Table of contents Access Autodesk products Create an account Install software Access Autodesk products Create an account Visit the the Autodesk Education Community Download Center . Select 'Get started'. Select 'CREATE ACCOUNT'. Complete the educational access form and select NEXT. Sign up for an account using your Northeastern email address. Confirm your eligibility for educational access to Autodesk software and services. You will see a message confirming your eligibility for educational access to Autodesk products. Install software Sign in to the to the Autodesk Education Community Download Center . Complete the two-step verification. You will see a message confirming your eligibility for educational access to Autodesk products. Select the 'Get product' button for the software you want to download. Select the operating system, release version, and language, then select install.",
+  "body_html": "<div id=\"364\">AutoCAD, an industry leader in 3D computer-aided design (CAD), drafting, modeling, and architectural drawing, is an engineering software available to the Northeastern University community at no cost. By confirming your eligibility for educational access, you can also access other Autodesk products such as Revit and Fusion 360. Visit the <a id=\"366\">Autodesk Education Community</a> to learn about free software, training, and the design showcase. <hr id=\"370\"> <h2 id=\"372\">Table of contents</h2> <ul id=\"373\"> <li id=\"374\">Access Autodesk products <a id=\"377\">Access Autodesk products</a> <ul id=\"378\"> <li id=\"379\">Create an account <a id=\"381\">Create an account</a></li> <li id=\"382\">Install software <a id=\"384\">Install software</a></li> </ul> </li> </ul> <hr id=\"386\"> <h2 id=\"388\">Access Autodesk products</h2> <h3 id=\"389\">Create an account</h3> <ul id=\"390\"> <li id=\"391\">Visit the the <a id=\"395\">Autodesk Education Community Download Center</a>.</li> <li id=\"397\">Select 'Get started'.</li> <li id=\"402\">Select 'CREATE ACCOUNT'.</li> <li id=\"406\">Complete the educational access form and select NEXT.</li> <li id=\"408\">Sign up for an account using your Northeastern email address.</li> <li id=\"415\">Confirm your eligibility for educational access to Autodesk software and services.</li> </ul> <h3 id=\"420\">Install software</h3> <ul id=\"421\"> <li id=\"422\">Sign in to the to the <a id=\"425\">Autodesk Education Community Download Center</a>.</li> <li id=\"427\">Complete the two-step verification.</li> <li id=\"432\">You will see a message confirming your eligibility for educational access to Autodesk products.</li> <li id=\"435\">Select the 'Get product' button for the software you want to download.</li> <li id=\"440\">Select the operating system, release version, and language, then select install.</li> </ul> </div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "AutoCAD, an industry leader in 3D computer-aided design (CAD), drafting, modeling, and architectural drawing, is an engineering software available to the Northeastern University community at no cost. By confirming your eligibility for educational access, you can also access other Autodesk products such as Revit and Fusion 360. Visit the Autodesk Education Community to learn about free software, training, and the design showcase.; Table of contents: Access Autodesk products, Create an account, Install software; Access Autodesk products: Create an account; Create an account: Visit the the Autodesk Education Community Download Center. Select 'Get started'. Select 'CREATE ACCOUNT'. Complete the educational access form and select NEXT. Sign up for an account using your Northeastern email address. Confirm your eligibility for educational access to Autodesk software and services.; Install software: Sign in to the to the Autodesk Education Community Download Center. Complete the two-step verification. You will see a message confirming your eligibility for educational access to Autodesk products. Select the 'Get product' button for the software you want to download. Select the operating system, release version, and language, then select install.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Autodesk Education Community",
+      "url": "http://students.autodesk.com/"
+    },
+    {
+      "text": "Autodesk Education Community Download Center",
+      "url": "https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Other Applications"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access think-cell software?",
+      "url": null
+    },
+    {
+      "title": "How do I access ChemDraw?",
+      "url": null
+    },
+    {
+      "title": "How do I use 7-Zip to encrypt files and folders on Windows?",
+      "url": null
+    }
+  ]
+}

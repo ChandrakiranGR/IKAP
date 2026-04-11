@@ -1,0 +1,108 @@
+{
+  "article_id": "KB0012523",
+  "title": "What is NUwave-guest?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012523",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012523",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012523",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "23d ago",
+  "plain_text": "NUwave-guest provides access to the internet. Guest accounts are, by default, valid on up to 3 devices for 30 days. Once an account has expired, re-registration is required. Guests can register individually by following the instructions in NUwave-guest. Read the article How do I register for individual NUwave-guest access? for more information. They will then be provided a conference code or username and password by an event organizer using the instructions in FAQ: NUwave-guest access. Note: It is recommended that guests connect to eduroam for daily guest access. Refer to How do I connect to eduroam? to learn more about how to connect to this network. Limitations Accounts will remain active for 30 days. A registered account can be used with up to 3 personal devices. Locations You can connect to NUwave-guest on up to three devices by following the steps in NUwave-guest. Access is available in: Academic buildings. Administrative locations. Residential Halls. Help For assistance with NUwave-guest, call the IT Service Desk at 617.373.4357.",
+  "body_html": "<article id=\"364\">\n  <p>NUwave-guest provides access to the internet. Guest accounts are, by default, valid on up to 3 devices for 30 days. Once an account has expired, re-registration is required. Guests can register individually by following the instructions in NUwave-guest. Read the article <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760\">How do I register for individual NUwave-guest access?</a> for more information. They will then be provided a conference code or username and password by an event organizer using the instructions in <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0013939\">FAQ: NUwave-guest access.</a></p>\n  <p>Note: It is recommended that guests connect to eduroam for daily guest access. Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB000018114\">How do I connect to eduroam?</a> to learn more about how to connect to this network.</p>\n  <hr id=\"379\" />\n  <h2 id=\"380\">Limitations</h2>\n  <ul>\n    <li>Accounts will remain active for 30 days.</li>\n    <li>A registered account can be used with up to 3 personal devices.</li>\n  </ul>\n  <hr id=\"388\" />\n  <h2 id=\"389\">Locations</h2>\n  <p>You can connect to NUwave-guest on up to three devices by following the steps in <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0012760\">NUwave-guest</a>. Access is available in:</p>\n  <ul>\n    <li>Academic buildings.</li>\n    <li>Administrative locations.</li>\n    <li>Residential Halls.</li>\n  </ul>\n  <hr id=\"403\" />\n  <h2 id=\"404\">Help</h2>\n  <p>For assistance with NUwave-guest, call the IT Service Desk at 617.373.4357.</p>\n</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NUwave-guest provides access to the internet. Guest accounts are, by default, valid on up to 3 devices for 30 days. Once an account has expired, re-registration is required. Guests can register individually by following the instructions in NUwave-guest. Read the article for more information. They will then be provided a conference code or username and password by an event organizer using the instructions in Note: It is recommended that guests connect to eduroam for daily guest access. Refer to to learn more about how to connect to this network.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I register for individual NUwave-guest access?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+        },
+        {
+          "text": "FAQ: NUwave-guest access.",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013939"
+        },
+        {
+          "text": "How do I connect to eduroam?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+        }
+      ]
+    },
+    {
+      "heading": "Limitations",
+      "text": "",
+      "steps": [
+        "Accounts will remain active for 30 days.",
+        "A registered account can be used with up to 3 personal devices."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Locations",
+      "text": "You can connect to NUwave-guest on up to three devices by following the steps in . Access is available in:",
+      "steps": [
+        "Academic buildings.",
+        "Administrative locations.",
+        "Residential Halls."
+      ],
+      "links": [
+        {
+          "text": "NUwave-guest",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+        }
+      ]
+    },
+    {
+      "heading": "Help",
+      "text": "For assistance with NUwave-guest, call the IT Service Desk at 617.373.4357.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I register for individual NUwave-guest access?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+    },
+    {
+      "text": "FAQ: NUwave-guest access.",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013939"
+    },
+    {
+      "text": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "text": "NUwave-guest",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

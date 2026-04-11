@@ -1,0 +1,75 @@
+{
+  "article_id": "KB0014369",
+  "title": "How do I access my Canvas courses as a student?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014369",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014369",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014369",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2mo ago",
+  "plain_text": "Northeastern University's student instance of Canvas is available at https://canvas.northeastern.edu or through the Student Hub. You may log into Canvas immediately after activating your Northeastern credentials. Note: If you have checked Canvas and do not see your course listed in the All-Courses list, there may be an issue with your registration. New adds/registrations update in 1-24 hours in Canvas. If your course is completely missing (not just grayed out) and it has been over 24 hours since you added the course, contact the Northeastern Registrar. Access your Canvas course(s) 1. Once logged into Canvas, select the Global Navigation menu bar. 2. From the Courses menu, select 'All Courses'. 3. Courses with a red link and Yes in the Published column are available for student access. Select the course title to access a course. 4. To add a course to your Canvas Dashboard, select the star to the left of the course title. See How do I add or remove courses on my Canvas dashboard? for further information. Note: If you can see your course but the course link is grayed out, you are enrolled in the course, but the course is not yet published and available for access. Some programs control this setting automatically based on the course term, so access may not be granted until closer to the term's start date and may be revoked after the term is over. Instructors manually control this setting, so contact your instructor with any questions.",
+  "body_html": "<article id=\"364\">Northeastern University's student instance of <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0014565\">Canvas</a> is available at <a href=\"https://canvas.northeastern.edu/\">https://canvas.northeastern.edu</a> or through the <a href=\"https://me.northeastern.edu/#_ga=2.61333803.640401532.1601292568-1913649856.1582897759\">Student Hub</a>. You may log into Canvas immediately after activating your Northeastern credentials. Note: If you have checked Canvas and do not see your course listed in the All-Courses list, there may be an issue with your registration. New adds/registrations update in 1-24 hours in Canvas. If your course is completely missing (not just grayed out) and it has been over 24 hours since you added the course, contact the <a href=\"https://service.northeastern.edu/registrar?id=registrar_contact_us\">Northeastern Registrar</a>.<hr><h2>Access your Canvas course(s)</h2><ul><li>Once logged into Canvas, select the Global Navigation menu bar.</li><li>From the Courses menu, select 'All Courses'.</li><li>Courses with a red link and Yes in the Published column are available for student access. Select the course title to access a course.</li><li>To add a course to your Canvas Dashboard, select the star to the left of the course title. See <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB000016365\">How do I add or remove courses on my Canvas dashboard?</a> for further information. Note: If you can see your course but the course link is grayed out, you are enrolled in the course, but the course is not yet published and available for access. Some programs control this setting automatically based on the course term, so access may not be granted until closer to the term's start date and may be revoked after the term is over. Instructors manually control this setting, so contact your instructor with any questions.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Northeastern University's student instance of Canvas is available at https://canvas.northeastern.edu or through the Student Hub. You may log into Canvas immediately after activating your Northeastern credentials. Note: If you have checked Canvas and do not see your course listed in the All-Courses list, there may be an issue with your registration. New adds/registrations update in 1-24 hours in Canvas. If your course is completely missing (not just grayed out) and it has been over 24 hours since you added the course, contact the Northeastern Registrar.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Access your Canvas course(s)",
+      "text": "Once logged into Canvas, select the Global Navigation menu bar. From the Courses menu, select 'All Courses'. Courses with a red link and Yes in the Published column are available for student access. Select the course title to access a course. To add a course to your Canvas Dashboard, select the star to the left of the course title. See How do I add or remove courses on my Canvas dashboard? for further information. Note: If you can see your course but the course link is grayed out, you are enrolled in the course, but the course is not yet published and available for access. Some programs control this setting automatically based on the course term, so access may not be granted until closer to the term's start date and may be revoked after the term is over. Instructors manually control this setting, so contact your instructor with any questions.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "me.northeastern.edu",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/registrar?id=registrar_contact_us"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016365"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015064",
+      "url": null
+    },
+    {
+      "title": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014376",
+      "url": null
+    },
+    {
+      "title": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015142",
+      "url": null
+    },
+    {
+      "title": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565",
+      "url": null
+    },
+    {
+      "title": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016424",
+      "url": null
+    }
+  ]
+}

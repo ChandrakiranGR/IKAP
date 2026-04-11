@@ -1,0 +1,54 @@
+{
+  "article_id": "KB0013916",
+  "title": "How do I update the GlobalProtect VPN client on a Mac?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013916",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013916",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013916",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "vpn_kb.json",
+  "updated_at": "14d ago",
+  "plain_text": "A Virtual Private Network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. Many of the systems and services on the Northeastern University network require a secure connection for access. While on campus, NUnet and NUwave automatically provide a secure connection to campus network resources, such as the Q: drive. If you are not connected to NUnet or NUwave, you will need to use a VPN connection in addition to your internet connection to access Northeastern systems and services. Some resources require a VPN, in addition to being on NUnet or NUwave, as an added layer of security. Update GlobalProtect Note: During installation, the client will need to disconnect. Do not have any applications running that require the VPN for access. 1. When a GlobalProtect update is available, you will receive a pop-up window informing you that an update is available. Select Yes to download the update in the background. 2. Select Yes to finish. When downloaded, a new window will come up asking if you want to install it now. Select the option convenient to you. 3. Reconnect to the VPN after installation.",
+  "body_html": "<article id=\"364\"><div id=\"365\">A Virtual Private Network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. Many of the systems and services on the Northeastern University network require a secure connection for access. While on campus, NUnet and NUwave automatically provide a secure connection to campus network resources, such as the Q: drive. If you are not connected to NUnet or NUwave, you will need to use a VPN connection in addition to your internet connection to access Northeastern systems and services. Some resources require a VPN, in addition to being on NUnet or NUwave, as an added layer of security.</div><hr id=\"368\"><h2>Update GlobalProtect</h2><p>Note: During installation, the client will need to disconnect. Do not have any applications running that require the VPN for access.</p><ul><li>When a GlobalProtect update is available, you will receive a pop-up window informing you that an update is available. Select Yes to download the update in the background. <button id=\"379\">Update GlobalProtect on a Mac</button></li><li>Select Yes to finish. When downloaded, a new window will come up asking if you want to install it now. Select the option convenient to you.</li><li>Reconnect to the VPN after installation.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "A Virtual Private Network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. Many of the systems and services on the Northeastern University network require a secure connection for access. While on campus, NUnet and NUwave automatically provide a secure connection to campus network resources, such as the Q: drive. If you are not connected to NUnet or NUwave, you will need to use a VPN connection in addition to your internet connection to access Northeastern systems and services. Some resources require a VPN, in addition to being on NUnet or NUwave, as an added layer of security.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Update GlobalProtect | Note",
+      "text": "During installation, the client will need to disconnect. Do not have any applications running that require the VPN for access. | Step 1: When a GlobalProtect update is available, you will receive a pop-up window informing you that an update is available. Select Yes to download the update in the background. | Step 2: Select Yes to finish. When downloaded, a new window will come up asking if you want to install it now. Select the option convenient to you. | Step 3: Reconnect to the VPN after installation.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Remote Access/VPN"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: VPN and remote access",
+      "url": null
+    },
+    {
+      "title": "How do I connect to Northeastern VPN?",
+      "url": null
+    },
+    {
+      "title": "How do I Install VPN on a Mac?",
+      "url": null
+    },
+    {
+      "title": "How do I install VPN on Windows?",
+      "url": null
+    },
+    {
+      "title": "How do I set up and connect to VPN on iOS devices?",
+      "url": null
+    }
+  ]
+}

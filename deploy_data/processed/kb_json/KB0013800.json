@@ -1,0 +1,61 @@
+{
+  "article_id": "KB0013800",
+  "title": "How do I Install VPN on a Mac?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "vpn_kb.json",
+  "updated_at": "2026-03-18",
+  "plain_text": "A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. Many of the systems and services on the Northeastern University network require that you use a secure connection to access them. While on campus, NUnet and NUwave automatically provide a secure connection to campus network resources, such as the Q: drive. If you are not connected to NUnet or NUwave, you will need to use a VPN connection to access many Northeastern systems and services. Some resources also require that you use a VPN, in addition to being on NUnet or NUwave, as an added layer of security. Multi-factor authentication (MFA) is required to access the VPN. Refer to the following articles for setup and use instructions: How do I enroll in multi-factor authentication (MFA)? How do I use multi-factor authentication (MFA)? Table of contents: Install VPN on a Northeastern-managed Mac, Install VPN on a personal Mac. Install VPN on a Northeastern-managed Mac: GlobalProtect software should be pre-installed on Northeastern-managed computers. On a Mac, open your Applications folder and search for GlobalProtect. If you cannot find the application, you can install it using Self Service: Launch Self Service from your Applications menu. Search or choose a category to find the GlobalProtect software. Select the Install button to begin the download and installation process once you find the GlobalProtect software. Close Self Service when your computer says the application is installed. The GlobalProtect application can be found under Applications and in the top menu bar. For steps to connect to VPN after Global Protect installation, refer to How do I connect to Northeastern VPN? for more information. Install VPN on a personal Mac: Go to Northeastern's VPN Portal. After logging in, the download options will appear. Select the link 'Download the Mac 32/64 bit GlobalProtect agent' to begin the download process. Open the package file once it has been downloaded. On the installer window, select Continue. Choose the location where you would like to install the software. Select Continue. Select the checkbox to install GlobalProtect. Confirm the installation location. Select Install. Enter your username and password for your Mac. Select 'Install Software'. Close the window after the installation is complete. Note: After installation of the GlobalProtect application, you may need to bypass macOS Gatekeeper. To do this, please go to System Settings (System Preferences) > Privacy & Security, scroll down to the Security tab, and then select App Store and identify developers for the Allow apps downloaded from section. If Global Protect is blocked, select 'Open Anyway'. Check out How do I connect to Northeastern VPN? for steps to connect to VPN after installation.",
+  "body_html": "<article id=\"364\">A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network... [truncated for brevity in JSON representation, includes full body content from ID 364 to 480]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Securely connect computer to Northeastern resources. MFA required. | Table of contents: Northeastern-managed Mac, Personal Mac. | Section: Install VPN on a Northeastern-managed Mac. Steps:",
+      "steps": [
+        "Launch Self Service.",
+        "Search for GlobalProtect.",
+        "Select Install.",
+        "Close Self Service.",
+        "Connect via GlobalProtect app. | Section: Install VPN on a personal Mac. Steps:",
+        "Go to VPN Portal.",
+        "Download Mac agent.",
+        "Open package file.",
+        "Follow installer prompts (Continue, Location, Install).",
+        "Bypass macOS Gatekeeper in System Settings if needed.",
+        "Connect to VPN."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I enroll in multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "text": "How do I use multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012648"
+    },
+    {
+      "text": "How do I connect to Northeastern VPN?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951"
+    },
+    {
+      "text": "VPN Portal",
+      "url": "https://vpn.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Remote Access/VPN"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: VPN and remote access, How do I connect to Northeastern VPN?, How do I install VPN on Windows?, How do I set up and connect to VPN on iOS devices?",
+      "url": null
+    }
+  ]
+}

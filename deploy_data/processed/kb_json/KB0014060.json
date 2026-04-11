@@ -1,0 +1,70 @@
+{
+  "article_id": "KB0014060",
+  "title": "How do I access MATLAB?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014060",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014060",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014060",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "2026-01-01",
+  "plain_text": "MATLAB by MathWorks is a programming and numeric computing platform used by millions of engineers and scientists to analyze data, develop algorithms, and create models. It includes a Live Editor for creating scripts that combine code, output, and formatted text in an executable notebook. The Northeastern University community can access all MATLAB toolboxes free of charge. Table of Contents: Create a MathWorks account, Download and install MATLAB. Create a MathWorks account: The steps below walk through accessing your MATLAB license through your Northeastern credentials. 1. Navigate to the to the MATLAB Northeastern Portal. 2. Select 'Sign in to get started'. 3. Log in using your Northeastern username and password. 4. Create a MathWorks account with your Northeastern email address. 5. Complete the form to finish creating your profile. 6. Check the box labeled 'I accept the Online Service Agreement', and select Create. 7. You will receive a verification email in your Northeastern inbox. Select the 'Verify email' button in the email. Download and install MATLAB: 1. Sign in to your MathWorks account. You will be redirected to the Downloads page. 2. Select the release version and operating system, and select the Download button. 3. Run the MATLAB installer. 4. Sign in again using your MathWorks account credentials. 5. Accept the license agreement and select Next. 6. Select your academic license and select Next. 7. Choose 'Authorize this computer now' and select Next. 8. Confirm your user information and select Next. 9. Select the destination folder and select Next. 10. Select the products to install and select Next. Note: Recommended products are preselected. 11. Select 'Begin Install'.",
+  "body_html": "<article id=\"364\"><p>MATLAB by MathWorks is a programming and numeric computing platform used by millions of engineers and scientists to analyze data, develop algorithms, and create models. It includes a Live Editor for creating scripts that combine code, output, and formatted text in an executable notebook. The Northeastern University community can access all MATLAB toolboxes free of charge.</p><h2>Table of Contents</h2><ul><li>Create a MathWorks account</li><li>Download and install MATLAB</li></ul><h2>Create a MathWorks account</h2><p>The steps below walk through accessing your MATLAB license through your Northeastern credentials.</p><ol><li>Navigate to the to the <a href=\"https://www.mathworks.com/academia/tah-portal/northeastern-university-30294223.html\">MATLAB Northeastern Portal</a>.</li><li>Select 'Sign in to get started'.</li><li>Log in using your Northeastern username and password.</li><li>Create a MathWorks account with your Northeastern email address.</li><li>Complete the form to finish creating your profile.</li><li>Check the box labeled 'I accept the Online Service Agreement', and select Create.</li><li>You will receive a verification email in your Northeastern inbox. Select the 'Verify email' button in the email.</li></ol><h2>Download and install MATLAB</h2><ol><li>Sign in to your MathWorks account. You will be redirected to the Downloads page.</li><li>Select the release version and operating system, and select the Download button.</li><li>Run the MATLAB installer.</li><li>Sign in again using your MathWorks account credentials.</li><li>Accept the license agreement and select Next.</li><li>Select your academic license and select Next.</li><li>Choose 'Authorize this computer now' and select Next.</li><li>Confirm your user information and select Next.</li><li>Select the destination folder and select Next.</li><li>Select the products to install and select Next. Note: Recommended products are preselected.</li><li>Select 'Begin Install'.</li></ol></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "MATLAB by MathWorks is a programming and numeric computing platform used by millions of engineers and scientists to analyze data, develop algorithms, and create models. It includes a Live Editor for creating scripts that combine code, output, and formatted text in an executable notebook. The Northeastern University community can access all MATLAB toolboxes free of charge. | Table of Contents: Create a MathWorks account, Download and install MATLAB. | Create a MathWorks account: The steps below walk through accessing your MATLAB license through your Northeastern credentials. 1. Navigate to the to the MATLAB Northeastern Portal. 2. Select 'Sign in to get started'. 3. Log in using your Northeastern username and password. 4. Create a MathWorks account with your Northeastern email address. 5. Complete the form to finish creating your profile. 6. Check the box labeled 'I accept the Online Service Agreement', and select Create. 7. You will receive a verification email in your Northeastern inbox. Select the 'Verify email' button in the email. | Download and install MATLAB: 1. Sign in to your MathWorks account. You will be redirected to the Downloads page. 2. Select the release version and operating system, and select the Download button. 3. Run the MATLAB installer. 4. Sign in again using your MathWorks account credentials. 5. Accept the license agreement and select Next. 6. Select your academic license and select Next. 7. Choose 'Authorize this computer now' and select Next. 8. Confirm your user information and select Next. 9. Select the destination folder and select Next. 10. Select the products to install and select Next. Note: Recommended products are preselected. 11. Select 'Begin Install'.",
+      "steps": [
+        "Navigate to the to the MATLAB Northeastern Portal.",
+        "Select 'Sign in to get started'.",
+        "Log in using your Northeastern username and password.",
+        "Create a MathWorks account with your Northeastern email address.",
+        "Complete the form to finish creating your profile.",
+        "Check the box labeled 'I accept the Online Service Agreement', and select Create.",
+        "You will receive a verification email in your Northeastern inbox. Select the 'Verify email' button in the email. | Download and install MATLAB:",
+        "Sign in to your MathWorks account. You will be redirected to the Downloads page.",
+        "Select the release version and operating system, and select the Download button.",
+        "Run the MATLAB installer.",
+        "Sign in again using your MathWorks account credentials.",
+        "Accept the license agreement and select Next.",
+        "Select your academic license and select Next.",
+        "Choose 'Authorize this computer now' and select Next.",
+        "Confirm your user information and select Next.",
+        "Select the destination folder and select Next.",
+        "Select the products to install and select Next. Note: Recommended products are preselected.",
+        "Select 'Begin Install'."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "MATLAB Northeastern Portal",
+      "url": "https://www.mathworks.com/academia/tah-portal/northeastern-university-30294223.html"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

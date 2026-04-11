@@ -1,0 +1,70 @@
+{
+  "article_id": "KB000018541",
+  "title": "How do I view final exam schedules on Student Hub?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018541",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018541",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018541",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "2026/04/01",
+  "plain_text": "The Student Hub is a desktop-and-mobile-friendly launchpad that helps students navigate busy academic and active daily lives at Northeastern University, including access to classes and exam schedules. Student final exam schedules are only available on Student Hub at certain points throughout each term. If no exam information is displayed, then the information is not yet available. Note: While Northeastern makes every effort to create an accurate schedule, instructors are the final source of information. For questions about a specific exam or scheduling, please contact the respective course instructor. View the final exam schedule. Log in to the to the Student Hub. Under the Classes tab, select the 'View Exam Schedule' button. A new window will pop up, displaying the final exam schedule.",
+  "body_html": "<article id=\"362\"><p>The Student Hub is a desktop-and-mobile-friendly launchpad that helps students navigate busy academic and active daily lives at Northeastern University, including access to classes and exam schedules. Student final exam schedules are only available on Student Hub at certain points throughout each term. If no exam information is displayed, then the information is not yet available. Note: While Northeastern makes every effort to create an accurate schedule, instructors are the final source of information. For questions about a specific exam or scheduling, please contact the respective course instructor.</p><h2 id=\"368\">View the final exam schedule</h2><ul><li>Log in to the to the <a id=\"375\">Student Hub</a>.</li><li>Under the Classes tab, select the 'View Exam Schedule' button. <button id=\"382\">Final exam schedule</button></li><li>A new window will pop up, displaying the final exam schedule. <button id=\"385\">Student Hub final exam schedule window</button></li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The Student Hub is a desktop-and-mobile-friendly launchpad that helps students navigate busy academic and active daily lives at Northeastern University, including access to classes and exam schedules. Student final exam schedules are only available on Student Hub at certain points throughout each term. If no exam information is displayed, then the information is not yet available. Note: While Northeastern makes every effort to create an accurate schedule, instructors are the final source of information. For questions about a specific exam or scheduling, please contact the respective course instructor.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "View the final exam schedule",
+      "text": "Log in to the to the Student Hub. Under the Classes tab, select the 'View Exam Schedule' button. A new window will pop up, displaying the final exam schedule.",
+      "steps": [
+        "Log in to the to the Student Hub.",
+        "Under the Classes tab, select the 'View Exam Schedule' button.",
+        "A new window will pop up, displaying the final exam schedule."
+      ],
+      "links": [
+        {
+          "text": "Student Hub",
+          "url": "https://me.northeastern.edu/"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Student Hub",
+      "url": "https://me.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Student Hub",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+      "url": null
+    }
+  ]
+}

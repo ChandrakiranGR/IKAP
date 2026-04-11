@@ -1,0 +1,111 @@
+{
+  "article_id": "KB0015243",
+  "title": "How do I design an effective online exam that promotes academic integrity?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015243",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015243",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015243",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2 months ago",
+  "plain_text": "It can be challenging for instructors to develop an online exam that maximizes student integrity and maintains exam security. However, there are innovative methods that can make the online exam experience a better assessment of student learning. Table of Contents Design an effective online exam Ensure exam security and promote honesty Resources for Alternative Assessment Design Design an effective online exam There are several ways to foster students' understanding of academic integrity, including adopting technical changes to the exam process and considering how exams and their alternatives can best assess student learning. You may choose more than one technique, and you are encouraged to work with a learning scientist in CATLR or an academic instructional technologist in Academic Technologies to refine the process of designing assessments. Ask application-based questions or pose other authentic tasks. Complex, real-world questions and tasks require students to demonstrate their knowledge in action and are more challenging to copy or adapt answers from other, more generic sources. Creating an open-book or open-note exam helps students understand the value of transforming information into understanding. For knowledge-check questions, create multiple-response questions that prompt students to think more critically about different aspects or nuances of the material and create a timed exam that will provide an advantage to those students who know the content over those who would need to look it up. Refer to What are the test, exam, and quiz options in Canvas? for more information on creating exams in Canvas. If you are using timed exams, know how to provide students working with the Disability Resource Center with additional time accommodations. Refer to How do I give students more time on a Canvas quiz? for more information on how to give students more time on exams. Use Canvas question groups to shuffle questions, show one question at a time, shuffle answers, and prevent review of questions that the student has already answered to minimize the ability of students to collaborate in real time if your exam was not designed for collaboration. Ask students to explain or reflect on their answers or performance. Asking students to share how they determined an answer, or to self-assess their performance, can deepen learning and give instructors insight into a student's understanding. These explanations and reflections may be required, but don't have to be graded. Students can show their work for math problems using Gradescope, or they can write out their responses and take a picture to upload it if they take the assessment through the Canvas mobile app. Refer to What is Gradescope? for more information on Gradescope. Ensure exam security and promote honesty When exams move to an online format, instructors sometimes worry that students may use additional sources or other infringements on academic honesty. Research shows that less cheating occurs in online courses. In the exam instructions, remind students of their responsibility under the Northeastern Academic Integrity Policy. Use the Respondus Lockdown Browser to prevent students from accessing additional resources. Refer to How do I use Respondus LockDown Browser and Monitor to proctor exams? for more information on using the Respondus Lockdown Browser. Using the additional option for Respondus Monitor is not recommended since the Monitor requires students to take exams on video. Unless a program has previously set the expectation that students will have computers with webcams, the Monitor solution may be a barrier for students. Respondus Lockdown Browser requires students to download software to take the exam and may require some extra effort and troubleshooting. It is recommended that you let students know about the Respondus Tech Check Quiz Course two weeks ahead of time so that they can have time to troubleshoot, get help from Respondus support, and update computer software if necessary. Refer to How do I add the Respondus Lockdown and the Respondus Tech Check Module to my Canvas course? for instructions. Set and reinforce expectations for student behavior. Explicit communication with reinforcement in announcements, instructions, etc., in online settings can be especially valuable because there may be fewer informal opportunities to remind students of expected behaviors. For example, you can describe appropriate and inappropriate use of resources during an exam, or ask students to always show their work. Resources for alternative assessment design Check out the following suggestions for alternative assessment methods: 7 Ways to Assess Students Online and Minimize Cheating. How to Reduce Cheating in Online Exams.",
+  "body_html": "<article id=\"364\">\n  <p>It can be challenging for instructors to develop an online exam that maximizes student integrity and maintains exam security. However, there are innovative methods that can make the online exam experience a better assessment of student learning.</p>\n  <hr id=\"366\">\n  <h2 id=\"367\">Table of Contents</h2>\n  <ul id=\"368\">\n    <li id=\"369\">Design an effective online exam <a id=\"373\">Design an effective online exam</a></li>\n    <li id=\"374\">Ensure exam security and promote honesty <a id=\"376\">Ensure exam security and promote honesty</a></li>\n    <li id=\"377\">Resources for Alternative Assessment Design <a id=\"379\">Resources for Alternative Assessment Design</a></li>\n  </ul>\n  <hr id=\"381\">\n  <h2 id=\"382\">Design an effective online exam</h2>\n  <p id=\"383\">There are several ways to foster students' understanding of academic integrity, including adopting technical changes to the exam process and considering how exams and their alternatives can best assess student learning. You may choose more than one technique, and you are encouraged to work with <a id=\"385\">a learning scientist in CATLR</a> or an <a id=\"389\">academic instructional technologist in Academic Technologies</a> to refine the process of designing assessments.</p>\n  <ul id=\"391\">\n    <li id=\"392\">Ask application-based questions or pose other authentic tasks. Complex, real-world questions and tasks require students to demonstrate their knowledge in action and are more challenging to copy or adapt answers from other, more generic sources. Creating an open-book or open-note exam helps students understand the value of transforming information into understanding.</li>\n    <li id=\"396\">For knowledge-check questions, create multiple-response questions that prompt students to think more critically about different aspects or nuances of the material and create a timed exam that will provide an advantage to those students who know the content over those who would need to look it up. Refer to <a id=\"401\">What are the test, exam, and quiz options in Canvas?</a> for more information on creating exams in Canvas.</li>\n    <li id=\"403\">If you are using timed exams, know how to provide students working with the Disability Resource Center with additional time accommodations. Refer to <a id=\"408\">How do I give students more time on a Canvas quiz?</a> for more information on how to give students more time on exams.</li>\n    <li id=\"410\">Use <a id=\"413\">Canvas question groups</a> to shuffle questions, show one question at a time, shuffle answers, and prevent review of questions that the student has already answered to minimize the ability of students to collaborate in real time if your exam was not designed for collaboration.</li>\n    <li id=\"415\">Ask students to explain or reflect on their answers or performance... Refer to <a id=\"419\">What is Gradescope?</a> for more information on Gradescope.</li>\n  </ul>\n  <a id=\"422\">Back to top</a>\n  <hr id=\"425\">\n  <h2 id=\"426\">Ensure exam security and promote honesty</h2>\n  <p id=\"427\">When exams move to an online format, instructors sometimes worry that students may use additional sources or other infringements on academic honesty. Research shows that less cheating occurs in online courses.</p>\n  <ul id=\"429\">\n    <li id=\"430\">In the exam instructions, remind students of their responsibility under the <a id=\"435\">Northeastern Academic Integrity Policy</a>.</li>\n    <li id=\"437\">Use the Respondus Lockdown Browser to prevent students from accessing additional resources. Refer to <a id=\"441\">How do I use Respondus LockDown Browser and Monitor to proctor exams?</a> for more information on using the Respondus Lockdown Browser.\n      <ul id=\"443\">\n        <li id=\"444\">Using the additional option for Respondus Monitor is not recommended...</li>\n        <li id=\"446\">Respondus Lockdown Browser requires students to download software... Refer to <a id=\"449\">How do I add the Respondus Lockdown and the Respondus Tech Check Module to my Canvas course?</a> for instructions.</li>\n      </ul>\n    </li>\n    <li id=\"452\">Set and reinforce expectations for student behavior...</li>\n  </ul>\n  <a id=\"457\">Back to top</a>\n  <hr id=\"460\">\n  <h2 id=\"461\">Resources for alternative assessment design</h2>\n  <p id=\"462\">Check out the following suggestions for alternative assessment methods:</p>\n  <ul id=\"463\">\n    <li id=\"464\"><a id=\"466\">7 Ways to Assess Students Online and Minimize Cheating.</a></li>\n    <li id=\"467\"><a id=\"469\">How to Reduce Cheating in Online Exams.</a></li>\n  </ul>\n  <a id=\"471\">Back to top</a>\n</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "It can be challenging for instructors to develop an online exam that maximizes student integrity and maintains exam security. However, there are innovative methods that can make the online exam experience a better assessment of student learning.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Design an effective online exam",
+      "text": "There are several ways to foster students' understanding of academic integrity, including adopting technical changes to the exam process and considering how exams and their alternatives can best assess student learning. You may choose more than one technique, and you are encouraged to work with a learning scientist in CATLR or an academic instructional technologist in Academic Technologies to refine the process of designing assessments.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Ensure exam security and promote honesty",
+      "text": "When exams move to an online format, instructors sometimes worry that students may use additional sources or other infringements on academic honesty. Research shows that less cheating occurs in online courses.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Resources for alternative assessment design",
+      "text": "Check out the following suggestions for alternative assessment methods: 7 Ways to Assess Students Online and Minimize Cheating, How to Reduce Cheating in Online Exams.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "a learning scientist in CATLR",
+      "url": "https://learning.northeastern.edu/engage/consultations/"
+    },
+    {
+      "text": "academic instructional technologist in Academic Technologies",
+      "url": "https://outlook.office365.com/owa/calendar/AcademicTechnologies1@northeastern.onmicrosoft.com/bookings/"
+    },
+    {
+      "text": "What are the test, exam, and quiz options in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017922"
+    },
+    {
+      "text": "How do I give students more time on a Canvas quiz?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014530"
+    },
+    {
+      "text": "Canvas question groups",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-quiz-with-a-question-group-to-randomize-quiz/ta-p/1032"
+    },
+    {
+      "text": "What is Gradescope?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014928"
+    },
+    {
+      "text": "Northeastern Academic Integrity Policy",
+      "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/integrity-policy/"
+    },
+    {
+      "text": "How do I use Respondus LockDown Browser and Monitor to proctor exams?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014476"
+    },
+    {
+      "text": "How do I add the Respondus Lockdown and the Respondus Tech Check Module to my Canvas course?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016370"
+    },
+    {
+      "text": "7 Ways to Assess Students Online and Minimize Cheating.",
+      "url": "https://www-chronicle-com.ezproxy.neu.edu/article/7-ways-to-assess-students-online-and-minimize-cheating"
+    },
+    {
+      "text": "How to Reduce Cheating in Online Exams.",
+      "url": "https://www.chronicle.com/newsletter/teaching/2020-10-01"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

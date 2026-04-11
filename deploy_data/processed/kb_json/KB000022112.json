@@ -1,0 +1,68 @@
+{
+  "article_id": "KB000022112",
+  "title": "How do I fix the Local Computer error on SPSS on macOS?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022112",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022112",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022112",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Northeastern University offers students and instructors the IBM software SPSS Statistics, a comprehensive set of data and predictive analytics tools. Refer to How do I access SPSS Statistics and Modeler? to access SPSS Statistics. When starting up SPSS, you may encounter the Local Computer error. This article shows how to troubleshoot it. The Local Computer error looks like the following image. Troubleshoot SPSS Startup on macOS Note: Make sure that SPSS is closed before completing the following steps. 1. Navigate to Applications > 'IBM Statistics'. 2. Right-click on 'SPSS Statistics'. 3. Select 'Show Package Contents'. 4. Navigate to Contents > lib. 5. Download the fix file. 6. Move the fix file to Contents > lib. 7. Select Replace. 8. Close all windows and start SPSS again.",
+  "body_html": "<article id=\"364\"><p>Northeastern University offers students and instructors the IBM software SPSS Statistics, a comprehensive set of data and predictive analytics tools. Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012594\">How do I access SPSS Statistics and Modeler?</a> to access SPSS Statistics. When starting up SPSS, you may encounter the Local Computer error. This article shows how to troubleshoot it. The Local Computer error looks like the following image.</p><button id=\"371\">Image of SPSS Local Computer error</button><hr id=\"373\"><h2 id=\"374\">Troubleshoot SPSS Startup on macOS</h2><p>Note: Make sure that SPSS is closed before completing the following steps.</p><ul><li>Navigate to Applications > 'IBM Statistics'.</li><li>Right-click on 'SPSS Statistics'.</li><li>Select 'Show Package Contents'. <button id=\"389\">Image</button></li><li>Navigate to Contents > lib. <button id=\"393\">Image</button></li><li>Download the <a href=\"https://northeastern.sharepoint.com/:u:/r/sites/ITSCSRandom/Shared%20Documents/Interactions%20Team/SPSS%2028%20Fix.zip?csf=1&web=1&e=zi386u\">fix file</a>.</li><li>Move the fix file to Contents > lib. <button id=\"403\">Image</button></li><li>Select Replace. <button id=\"407\">Image</button></li><li>Close all windows and start SPSS again.</li></ul><a href=\"https://service.northeastern.edu/tech#top\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Northeastern University offers students and instructors the IBM software SPSS Statistics, a comprehensive set of data and predictive analytics tools. Refer to How do I access SPSS Statistics and Modeler? to access SPSS Statistics. When starting up SPSS, you may encounter the Local Computer error. This article shows how to troubleshoot it. The Local Computer error looks like the following image.; Troubleshoot SPSS Startup on macOS: Note: Make sure that SPSS is closed before completing the following steps. 1. Navigate to Applications > 'IBM Statistics'. 2. Right-click on 'SPSS Statistics'. 3. Select 'Show Package Contents'. 4. Navigate to Contents > lib. 5. Download the fix file. 6. Move the fix file to Contents > lib. 7. Select Replace. 8. Close all windows and start SPSS again.",
+      "steps": [
+        "Navigate to Applications > 'IBM Statistics'.",
+        "Right-click on 'SPSS Statistics'.",
+        "Select 'Show Package Contents'.",
+        "Navigate to Contents > lib.",
+        "Download the fix file.",
+        "Move the fix file to Contents > lib.",
+        "Select Replace.",
+        "Close all windows and start SPSS again."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I access SPSS Statistics and Modeler?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012594"
+    },
+    {
+      "text": "fix file",
+      "url": "https://northeastern.sharepoint.com/:u:/r/sites/ITSCSRandom/Shared%20Documents/Interactions%20Team/SPSS%2028%20Fix.zip?csf=1&web=1&e=zi386u"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

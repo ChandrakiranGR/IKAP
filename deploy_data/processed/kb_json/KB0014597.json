@@ -1,0 +1,182 @@
+{
+  "article_id": "KB0014597",
+  "title": "How do I (faculty) set the stage for learning in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014597",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014597",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014597",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Just as you arrive before class starts to prepare a physical classroom, you can prepare your digital Canvas classroom to create a welcoming and organized space for learning. This article provides recommendations to help you set up your course for learning. You may also want to schedule a Course Design Consultation. Table of Contents Leverage a Home Page template Customize the Home Page Set the Home Page as the course landing page Show recent Announcements at the top of the Home Page Add syllabus to Canvas Set the Course Time Zone Leverage Canvas Modules to facilitate learning Customize the Course Navigation menu Leverage a Home Page template Creating an informative homepage sets the stage for an intentionally inviting online environment. A well-designed home page provides centrally located course information that facilitates communication and reduces questions, reducing stress on instructors and students. Create a clear and consistent structure offering intuitive navigation in less than three clicks to key information and course elements. Choose one of three Northeastern templates, ranging from using Canvas native tools to create a modern course to leveraging Cidi Labs' advanced design tools to create a highly polished course. Each of these templates will help you start designing your course in Canvas and can always be adjusted according to your specific needs. Read What are Northeastern Canvas templates? to learn about template options. When you have decided on a template, read How do I import and use the Northeastern Standard Canvas Course Template? or book a Canvas+ Design Tools consultation to learn how to import and use one of the two Design Tools Plus Home Page templates. Note: The Cidi Labs DesignPLUS tools should only be used by intermediate to advanced Canvas users who have completed Cidi Labs Design+ training, as the Northeastern IT Service Desk and integrated Canvas support will be unable to answer anything other than fundamental questions about this tool. Customize the Home Page Edit the Home Page to add essential information, including your name and title, preferred contact method, office hours, and office location. Include a short course overview highlighting your perspective on the value and application of course goals and desired learning outcomes. Personalize the Overview by creating a Welcome Video using Panopto. Including an introduction video on your course's home page helps create a positive first impression, builds rapport, and establishes credibility. Instructors can use Panopto to create a personalized welcome video, course tour, and more! Read How do I add a Panopto video in a Canvas course? to learn how to create videos using Panopto. Create hyperlinks to content or content areas to facilitate intuitive course navigation; doing so helps improve transparency and reduce questions and missteps. As an advanced option, use DesignPlus tools to create and customize a link button or buttons to allow quick access to content from the Homepage. Read How do I add content using Cidi Labs DesignPlus? to learn more. Set the Home Page as the course landing page Set the Homepage as the course landing page as a reminder about course logistics, due dates, and workflow each time students log into the course. Select 'Choose Home Page' on the right-side navigation bar. Next, select the 'Pages Front Page Home Page Option.' Select 'Save'. Note: The Landing Page can be changed to reflect one of five layout options; read How do I set up my Canvas Home Page? to learn more. Show recent Announcements at the top of the Home Page Leverage Canvas Announcements to connect with students and share important information. Students can access announcements directly within the course site (through the course navigation Announcements link or at the top of the Homepage), within the Canvas Student App, or by email. All formatting and content are retained when viewing the announcement within the course site or the app; however, some formatting and content, such as images or embedded video, do not appear in the email message/notification. To further facilitate course communication, enable Announcements to appear at the top of the Home Page. Add syllabus to Canvas Canvas has a designated Syllabus area accessible in the left-hand menu. This section in Canvas comprises two components: the course Syllabus and the Course Summary. The Course Syllabus area provides a space for instructors to post their syllabi. Read How do I post a syllabus and course summary in Canvas? for detailed instructions on uploading your course syllabus. The Course Summary lists every assignment or event with a due date and the associated point value. Items within the Course Summary can only be changed by editing or deleting the assignments or events. All assignments (unpublished and published) are listed in the syllabus for instructors, but students only see published assignments. The Course Summary is enabled by default. It is automatically generated based on course assignments and course calendar events. Set the Course Time Zone Canvas has three layers of Time Zones: System Time Zone: This is the overall time zone set for all of Northeastern's Canvas courses, set by the Canvas administrator. Our default Time Zone is Eastern Time. Course Time Zone: This defaults to System Time Zone unless the instructor sets the Course Time Zone. Note: If the course time zone differs from your user timezone, you must be mindful when setting the Due Date and Time for assignments. User Time Zone: If you live outside the Eastern Time zone, you can set your time zone for all of Canvas to match your location. All dates and times throughout Canvas courses are displayed according to a course's respective time zone. However, users can set their time zone for their user account and display their local time zone throughout Canvas. All dates and times throughout a course are displayed according to the course time zone. Courses automatically default to the system Time Zone, which is set to Eastern Time. If you are teaching in another time zone, you can set your Course Time Zone to be different from the System Time Zone. Leverage Canvas Modules to facilitate learning Course design plays a considerable role in the user experience, student success, and preserving instructor sanity during busy semesters. Use modules to develop a clear, consistent structure with intuitive navigation. Remember that each module should follow a consistent layout and header naming conventions. Create a consistent module structure. Download the Northeastern Standard Course Template for inspiration and guidance on module design. Pre-set the Date and Time for Module Availability. If you prefer your modules to become available only after specific dates, pre-setting the date and time for module availability will facilitate course management since you don't need to remember to publish modules throughout the course manually. Add Module Requirements and Module Prerequisites. Direct the flow of movement through modules and make sure students have what they need to complete module items by adding requirements and prerequisites. Once set up, the student's progress releases the Module content. Create a Hidden Instructor Resource Module. Include a hidden (unpublished) module containing instructor resources, how-to guides, and a page to document required updates or ideas for next time. Customize the Course Navigation menu Streamline the Canvas course by cleaning up the navigation course menu, removing redundant or unnecessary links, and customizing the order in which they appear. Read How do I clean up the Canvas course menu? to learn more.",
+  "body_html": "<article id=\"364\">Just as you arrive before class starts to prepare a physical classroom, you can prepare your digital Canvas classroom to create a welcoming and organized space for learning. This article provides recommendations to help you set up your course for learning. You may also want to <a id=\"366\">schedule a Course Design Consultation</a>.<hr id=\"370\"><h2>Table of Contents</h2><ul><li><a id=\"377\">Leverage a Home Page template</a></li><li><a id=\"380\">Customize the Home Page</a></li><li><a id=\"383\">Set the Home Page as the course landing page</a></li><li><a id=\"386\">Show recent Announcements at the top of the Home Page</a></li><li><a id=\"389\">Add syllabus to Canvas</a></li><li><a id=\"392\">Set the Course Time Zone</a></li><li><a id=\"395\">Leverage Canvas Modules to facilitate learning</a></li><li><a id=\"398\">Customize the Course Navigation menu</a></li></ul><hr id=\"400\"><h2>Leverage a Home Page template</h2><p>Creating an informative homepage sets the stage for an intentionally inviting online environment. A well-designed home page provides centrally located course information that facilitates communication and reduces questions, reducing stress on instructors and students. Create a clear and consistent structure offering intuitive navigation in less than three clicks to key information and course elements.</p><ul><li>Choose one of three Northeastern templates... Read <a id=\"409\">What are Northeastern Canvas templates?</a> to learn about template options.</li><li>When you have decided on a template, read <a id=\"415\">How do I import and use the Northeastern Standard Canvas Course Template?</a> or book a <a id=\"420\">Canvas+ Design Tools consultation</a> to learn how to import and use one of the two Design Tools Plus Home Page templates. Note: The Cidi Labs DesignPLUS tools should only be used by intermediate to advanced Canvas users who have completed <a id=\"425\">Cidi Labs Design+ training</a>...</li></ul><a id=\"429\">Back to top</a><hr id=\"432\"><h2>Customize the Home Page</h2><ul><li>Edit the <a id=\"439\">Home Page</a> to add essential information...</li><li>Include a short course overview... Read <a id=\"448\">How do I add a Panopto video in a Canvas course?</a> to learn how to create videos using Panopto.</li><li>Create <a id=\"453\">hyperlinks</a> to content...</li><li>As an advanced option, use DesignPlus tools... Read <a id=\"459\">How do I add content using Cidi Labs DesignPlus?</a> to learn more.</li></ul><a id=\"462\">Back to top</a><hr id=\"465\"><h2>Set the Home Page as the course landing page</h2><p>Set the Homepage as the course landing page as a reminder about course logistics, due dates, and workflow each time students log into the course.</p><ul><li>Select 'Choose Home Page' on the right-side navigation bar.</li><li>Next, select the 'Pages Front Page Home Page Option.'</li><li>Select 'Save'.</li></ul><p>Note: The Landing Page can be changed to reflect one of five layout options; read <a id=\"482\">How do I set up my Canvas Home Page?</a> to learn more.</p><a id=\"486\">Back to top</a><hr id=\"489\"><h2>Show recent Announcements at the top of the Home Page</h2><p>Leverage <a id=\"493\">Canvas Announcements</a> to connect with students and share important information. Students can access announcements directly within the course site... within the <a id=\"497\">Canvas Student App</a>, or by email.</p><ul><li>To further facilitate course communication, enable Announcements to <a id=\"505\">appear at the top of the Home Page</a>.</li></ul><a id=\"508\">Back to top</a><hr id=\"511\"><h2>Add syllabus to Canvas</h2><p>Canvas has a designated Syllabus area accessible in the left-hand menu...</p><ul><li>Read <a id=\"519\">How do I post a syllabus and course summary in Canvas?</a> for detailed instructions...</li><li>The Course Summary lists every assignment or event with a due date... It is automatically generated based on course assignments and course <a id=\"527\">calendar events</a>.</li></ul><a id=\"531\">Back to top</a><hr id=\"534\"><h2>Set the Course Time Zone</h2><p>Canvas has three layers of Time Zones: System, Course, User...</p><p>If you are teaching in another time zone, <a id=\"551\">you can set your Course Time Zone</a> to be different from the System Time Zone.</p><a id=\"560\">Back to top</a><hr id=\"563\"><h2>Leverage Canvas Modules to facilitate learning</h2><ul><li>Create a consistent module structure. Download the <a id=\"573\">Northeastern Standard Course Template</a> for inspiration...</li><li><a id=\"579\">pre-setting the date and time for module availability</a> will facilitate course management...</li><li>Add <a id=\"586\">Module Requirements</a> and <a id=\"589\">Module Prerequisites</a>.</li><li>Create a Hidden Instructor Resource Module...</li></ul><a id=\"595\">Back to top</a><hr id=\"598\"><h2>Customize the Course Navigation menu</h2><ul><li>Read <a id=\"605\">How do I clean up the Canvas course menu?</a> to learn more.</li></ul><a id=\"608\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Just as you arrive before class starts...",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Table of Contents",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Leverage a Home Page template",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Customize the Home Page",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Set the Home Page as the course landing page",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Show recent Announcements at the top of the Home Page",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Add syllabus to Canvas",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Set the Course Time Zone",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Leverage Canvas Modules to facilitate learning",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Section",
+      "text": "Customize the Course Navigation menu",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "outlook.office365.com",
+      "url": "https://outlook.office365.com/owa/calendar/AcademicTechnologies1@northeastern.onmicrosoft.com/bookings/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019560"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014598"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/canvas-design-consult-h5p-and-cidi-labs/"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-edit-a-page-in-a-course/ta-p/791"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014394"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-hyperlinks-to-course-or-group-content-in-the/ta-p/954"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017985"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015069"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Announcements/ta-p/39"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Canvas-Student-app/ta-p/31"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-show-recent-announcements-in-the-Course-Home-Page/ta-p/983"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014580"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-event-to-a-course-calendar/ta-p/948"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/docs/DOC-26501-how-do-i-set-a-time-zone-for-a-course"
+    },
+    {
+      "text": "northeastern.instructure.com",
+      "url": "https://northeastern.instructure.com/accounts/1/external_tools/64?launch_type=global_navigation"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-lock-a-module/ta-p/1124"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-requirements-to-a-module/ta-p/1131"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-prerequisites-to-a-module/ta-p/1123"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019280"
+    }
+  ],
+  "categories": [
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Differentiation Tags in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I organize Canvas content using Northeastern's Standard Template?",
+      "url": null
+    },
+    {
+      "title": "How do I access and share my NU digital badge?",
+      "url": null
+    },
+    {
+      "title": "How do I add or remove courses on my Canvas dashboard?",
+      "url": null
+    },
+    {
+      "title": "How do I begin using Canvas as a student?",
+      "url": null
+    }
+  ]
+}

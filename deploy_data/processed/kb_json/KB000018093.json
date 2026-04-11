@@ -1,0 +1,108 @@
+{
+  "article_id": "KB000018093",
+  "title": "What is NUwave?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "2026-01-01",
+  "plain_text": "Connect to NUwave, Northeastern's secure wireless network available on the Boston campus. Use your Northeastern credentials for access on all your devices. NUwave is a WPA2-Enterprise secure wireless network that uses 802.1x authentication. This network is available for laptops, phones, and other personal devices in the residence halls, classrooms, and across campus. Note: NUwave is not used at the Oakland and London campuses; however, eduroam is available. See How do I connect to eduroam? for more information. Intended audience The following can use Nuwave: Instructors. Students. Staff. Sponsored account holders. Availability For steps to connect to the wireless network, read the following articles: How do I connect to NUwave on Windows? How do I connect to NUwave on Mac? How do I connect to NUwave on Android? How do I connect to NUwave on iPhone? All instructors, staff, and students must use NUwave, the secure/encrypted wireless network available in: Academic buildings. Administrative locations. University-owned residence halls. Note: NUwave will require a one-time set-up and you must authenticate with your Northeastern username and password.",
+  "body_html": "<div id=\"364\"><p>Connect to NUwave, Northeastern's secure wireless network available on the Boston campus. Use your Northeastern credentials for access on all your devices. NUwave is a WPA2-Enterprise secure wireless network that uses 802.1x authentication. This network is available for laptops, phones, and other personal devices in the residence halls, classrooms, and across campus. Note: NUwave is not used at the Oakland and London campuses; however, eduroam is available. See <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114\">How do I connect to eduroam?</a> for more information.</p><h2>Intended audience</h2><p>The following can use Nuwave:</p><ul><li>Instructors.</li><li>Students.</li><li>Staff.</li><li>Sponsored account holders.</li></ul><h2>Availability</h2><p>For steps to connect to the wireless network, read the following articles:</p><ul><li><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505\">How do I connect to NUwave on Windows?</a></li><li><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071\">How do I connect to NUwave on Mac?</a></li><li><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013814\">How do I connect to NUwave on Android?</a></li><li><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013701\">How do I connect to NUwave on iPhone?</a></li></ul><p>All instructors, staff, and students must use NUwave, the secure/encrypted wireless network available in:</p><ul><li>Academic buildings.</li><li>Administrative locations.</li><li>University-owned residence halls.</li></ul><p>Note: NUwave will require a one-time set-up and you must authenticate with your Northeastern username and password.</p></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Connect to NUwave, Northeastern's secure wireless network available on the Boston campus. Use your Northeastern credentials for access on all your devices. NUwave is a WPA2-Enterprise secure wireless network that uses 802.1x authentication. This network is available for laptops, phones, and other personal devices in the residence halls, classrooms, and across campus. Note: NUwave is not used at the Oakland and London campuses; however, eduroam is available.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I connect to eduroam?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+        }
+      ]
+    },
+    {
+      "heading": "Intended audience",
+      "text": "The following can use Nuwave:",
+      "steps": [
+        "Instructors.",
+        "Students.",
+        "Staff.",
+        "Sponsored account holders."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Availability",
+      "text": "For steps to connect to the wireless network, read the following articles: All instructors, staff, and students must use NUwave, the secure/encrypted wireless network available in: Note: NUwave will require a one-time set-up and you must authenticate with your Northeastern username and password.",
+      "steps": [
+        "Academic buildings.",
+        "Administrative locations.",
+        "University-owned residence halls."
+      ],
+      "links": [
+        {
+          "text": "How do I connect to NUwave on Windows?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+        },
+        {
+          "text": "How do I connect to NUwave on Mac?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071"
+        },
+        {
+          "text": "How do I connect to NUwave on Android?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013814"
+        },
+        {
+          "text": "How do I connect to NUwave on iPhone?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013701"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "text": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    },
+    {
+      "text": "How do I connect to NUwave on Mac?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071"
+    },
+    {
+      "text": "How do I connect to NUwave on Android?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013814"
+    },
+    {
+      "text": "How do I connect to NUwave on iPhone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013701"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

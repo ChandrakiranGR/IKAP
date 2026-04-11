@@ -1,0 +1,67 @@
+{
+  "article_id": "KB000018461",
+  "title": "How do I use Qwickly Course Tools to email students before publishing my Canvas course?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018461",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018461",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018461",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "22d ago",
+  "plain_text": "Instructors can use Qwickly Course Tools to send emails to one or multiple unpublished or published courses at once. Canvas's built-in communication tools, such as Canvas Announcements and Canvas Messages, only work after a course is published. Note: Refer to How do I publish courses and modules in Canvas? to learn how to publish Canvas courses. Please note that CPS courses are automatically published the morning that the term starts. CPS instructors with questions about course auto-publishing should contact their program manager. Using Qwickly Course Tools has certain benefits and limitations that differ from the typical experience of communicating through Canvas. Benefits of using Qwickly Course Tools to communicate with students - Send the same email to multiple courses at once. - Send to published or unpublished courses. - Option to send a copy of the email to instructors. Limitations of using Qwickly Course Tools to communicate with students - The email address in the From field is not editable. Students will see noreply@mail.qwickly.tools. However, the reply-to address is populated with the instructor's email, so if the student replies, the message will be sent to the instructor. - It does not have the Canvas Rich Content Editor (RCE) and will be missing some features available in the RCE. - You can only email the parent course, not the individual sections, for a cross-listed course. Note: If the course is not ready to be published, and you do not want to use the Qwickly Course Tools Send Email feature, instructors can follow the steps outlined in How do I retrieve a summary class list with email addresses in Banner? Send email using Qwickly Course Tools 1. Select the Account section in the left navigation bar and select 'Qwickly Course Tools'. 2. Authorize Qwickly to take action on your behalf. After authorizing once, a login cookie should keep you logged in. 3. Select the Send drop-down menu and choose Email. 4. Select the course(s) you want to communicate with, add the subject title, and compose the message. 5. Select Submit.",
+  "body_html": "<article>Instructors can use Qwickly Course Tools to send emails to one or multiple unpublished or published courses at once. Canvas's built-in communication tools, such as Canvas Announcements and Canvas Messages, only work after a course is published. Note: Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584\">How do I publish courses and modules in Canvas?</a> to learn how to publish Canvas courses. Please note that CPS courses are automatically published the morning that the term starts. CPS instructors with questions about course auto-publishing should contact their program manager. Using Qwickly Course Tools has certain benefits and limitations that differ from the typical experience of communicating through Canvas. <hr> <h2>Benefits of using Qwickly Course Tools to communicate with students</h2> <ul><li>Send the same email to multiple courses at once.</li><li>Send to published or unpublished courses.</li><li>Option to send a copy of the email to instructors.</li></ul> <hr> <h2>Limitations of using Qwickly Course Tools to communicate with students</h2> <ul><li>The email address in the From field is not editable. Students will see <a href=\"mailto:noreply@mail.qwickly.tools\">noreply@mail.qwickly.tools</a>. However, the reply-to address is populated with the instructor's email, so if the student replies, the message will be sent to the instructor.</li><li>It does not have the Canvas Rich Content Editor (RCE) and will be missing some features available in the RCE.</li><li>You can only email the parent course, not the individual sections, for a cross-listed course.</li></ul> Note: If the course is not ready to be published, and you do not want to use the Qwickly Course Tools Send Email feature, instructors can follow the steps outlined in <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015192\">How do I retrieve a summary class list with email addresses in Banner?</a> <hr> <h2>Send email using Qwickly Course Tools</h2> <ul><li>Select the Account section in the left navigation bar and select 'Qwickly Course Tools'.</li><li>Authorize Qwickly to take action on your behalf. After authorizing once, a login cookie should keep you logged in.</li><li>Select the Send drop-down menu and choose Email.</li><li>Select the course(s) you want to communicate with, add the subject title, and compose the message.</li><li>Select Submit.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Instructors can use Qwickly Course Tools to send emails to one or multiple unpublished or published courses at once. Canvas's built-in communication tools, such as Canvas Announcements and Canvas Messages, only work after a course is published. Note: Refer to How do I publish courses and modules in Canvas? to learn how to publish Canvas courses. Please note that CPS courses are automatically published the morning that the term starts. CPS instructors with questions about course auto-publishing should contact their program manager. Using Qwickly Course Tools has certain benefits and limitations that differ from the typical experience of communicating through Canvas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Benefits of using Qwickly Course Tools to communicate with students",
+      "text": "Send the same email to multiple courses at once. Send to published or unpublished courses. Option to send a copy of the email to instructors.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Limitations of using Qwickly Course Tools to communicate with students",
+      "text": "The email address in the From field is not editable. Students will see noreply@mail.qwickly.tools. However, the reply-to address is populated with the instructor's email, so if the student replies, the message will be sent to the instructor. It does not have the Canvas Rich Content Editor (RCE) and will be missing some features available in the RCE. You can only email the parent course, not the individual sections, for a cross-listed course. Note: If the course is not ready to be published, and you do not want to use the Qwickly Course Tools Send Email feature, instructors can follow the steps outlined in How do I retrieve a summary class list with email addresses in Banner?",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Send email using Qwickly Course Tools",
+      "text": "Select the Account section in the left navigation bar and select 'Qwickly Course Tools'. Authorize Qwickly to take action on your behalf. After authorizing once, a login cookie should keep you logged in. Select the Send drop-down menu and choose Email. Select the course(s) you want to communicate with, add the subject title, and compose the message. Select Submit.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I publish courses and modules in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    },
+    {
+      "text": "), How do I retrieve a summary class list with email addresses in Banner?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015192"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Course Communication"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I send an announcement to students through Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I send messages to students on Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I send messages through the Canvas mobile app?",
+      "url": null
+    }
+  ]
+}

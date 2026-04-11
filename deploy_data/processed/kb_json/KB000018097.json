@@ -1,0 +1,56 @@
+{
+  "article_id": "KB000018097",
+  "title": "How do I forget a wireless network on macOS?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018097",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018097",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018097",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "This article provides the steps to forget or remove a wireless network on macOS. Forget a wireless network Select 'Apple Menu' > 'System Settings'... Select 'Network'. Select 'Wi-Fi'. Scroll to the bottom and select 'Advanced..'. Select Three dots icon next to the wireless network you want to forget. Choose 'Remove From List'. Select 'Done'.",
+  "body_html": "<article><div>This article provides the steps to forget or remove a wireless network on macOS.</div><hr><h2>Forget a wireless network</h2><ul><li>Select 'Apple Menu' > 'System Settings'...</li><li>Select 'Network'.</li><li>Select 'Wi-Fi'.</li><li>Scroll to the bottom and select 'Advanced..'.</li><li>Select Three dots icon next to the wireless network you want to forget.</li><li>Choose 'Remove From List'.</li><li>Select 'Done'.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Forget a wireless network",
+      "text": "This article provides the steps to forget or remove a wireless network on macOS.",
+      "steps": [
+        "Select 'Apple Menu' > 'System Settings'...",
+        "Select 'Network'.",
+        "Select 'Wi-Fi'.",
+        "Scroll to the bottom and select 'Advanced..'.",
+        "Select Three dots icon next to the wireless network you want to forget.",
+        "Choose 'Remove From List'.",
+        "Select 'Done'."
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

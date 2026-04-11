@@ -1,0 +1,101 @@
+{
+  "article_id": "KB000017922",
+  "title": "What are the test, exam, and quiz options in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017922",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017922",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017922",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3h ago",
+  "plain_text": "Instructors have several supported options for creating Canvas-integrated online tests, exams, or quizzes. Depending on the instructional methods and desired level of student engagement, choosing the right integrated tool to create an online test, exam, and/or quiz is simple. All possibilities in this article are integrated with Canvas and available at no cost to faculty, staff, and students at Northeastern. An explanation of each test, exam, and/or quiz creation tool is below. Note: Canvas New Quizzes does not yet have full feature parity with Canvas Classic Quizzes. Instructors are encouraged to review the Canvas New Quizzes limitations listed in this article before using Canvas New Quizzes. Instructors can also schedule a consultation with an Academic Technologies team member to get advice on selecting and configuring assessment tools to meet their course test, assignment, and grading needs. Assessment tool comparison Accessibility options Classic quizzes: Works well with accommodations and uses Canvas Accessibility Checker. Gradescope: Voluntary product accessibility templates. New quizzes: Works with the Canvas Accessibility Checker and meets WCAG 2.1 accessibility standards. Canvas Integration Classic quizzes: Integrated as a Quiz, it works with other LTIs (e.g., monitoring and proctoring tools). Works with Canvas Rich Content Editor (allows media uploads). Gradescope: LTI integration as an External tool for Canvas assignment. Group assignment option available within the Gradescope Assignment builder; passing group member grades to Canvas Grade Book. New quizzes: Integrated as an Assignment. Works with select LTIs, including proctoring tools, though some may require an alternative setup process. Works with Canvas Rich Content Editor (supports media uploads, audio/video recording, and LTI tools). New Quizzes supports course copy, QTI import, and Common Cartridge export. Classic Quizzes Classic Quizzes is Canvas's original quiz engine, offering a full range of question types and deep integration with Canvas tools and third-party LTIs. To learn more about creating a quiz and grading a quiz in Canvas, refer to How do I create and grade a quiz in Canvas? Gradescope Gradescope is an assessment, rubric, and grading tool integrated into Canvas that allows faculty to use rubric-based grading for hand-written or code-based assessments. Gradescope supports the following workflow: Allows you to deliver and grade paper-based exams and homework online. Faculty grade assignments using a flexible rubric-based workflow that allows you to make rubric changes as you grade - changes apply to previously graded work to maintain consistency. Write each comment only once - apply previously used comments with a click. Create better rubrics to increase student learning. Students upload their assignments using an app to scan their work. Grades can be made available to students and sent to the Canvas Gradebook. Assignment analytics provide faculty insights into student mastery. Read this article What is Gradescope? to learn how to get started with Gradescope. New Quizzes New Quizzes is Canvas's current quiz engine and is intended to replace Classic Quizzes over time. While Classic Quizzes and New Quizzes share many of the same features, the tools function differently and use different approaches to aid the instructor in quiz development. Some third-party proctoring tools (LTIs) may require an alternative setup process when used with New Quizzes. Classic Quizzes and New Quizzes keep separate question banks and do not share. Migrating question libraries from Classic Quizzes to New Quizzes requires additional steps and is not a direct one-click process. Question banks are shared by person and are not attached to the quiz itself. This requires a more complicated workaround if you are sharing your quiz with other instructors. Read the article How do I create and share a question bank for New Quizzes in Canvas? for more information. New Quizzes supports partial credit for Multiple Answer, Multiple Choice, and Matching questions. Partial credit is not currently available for Fill in the Blank, Ordering, and Categorization question types. New Quizzes supports survey-type quizzes. Surveys can be configured to collect anonymous or non-anonymous feedback, and survey results are viewable in the Reports tab. Once a quiz is created in New Quizzes, it cannot be converted back to Classic Quizzes format. However, both Classic Quizzes and New Quizzes can be used in the same course.",
+  "body_html": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Instructors have several supported options for creating Canvas-integrated online tests, exams, or quizzes. Depending on the instructional methods and desired level of student engagement, choosing the right integrated tool to create an online test, exam, and/or quiz is simple. All possibilities in this article are integrated with Canvas and available at no cost to faculty, staff, and students at Northeastern. An explanation of each test, exam, and/or quiz creation tool is below. Note: Canvas New Quizzes does not yet have full feature parity with Canvas Classic Quizzes. Instructors are encouraged to review the Canvas New Quizzes limitations listed in this article before using Canvas New Quizzes.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Assessment tool comparison",
+      "text": "[Comparison tables for Question Types, Assessment Features, and Assessment Analytics]",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Accessibility options",
+      "text": "Details for Classic quizzes, Gradescope, and New quizzes.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Canvas Integration",
+      "text": "Details on how each tool integrates with Canvas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Classic Quizzes",
+      "text": "Classic Quizzes is Canvas's original quiz engine, offering a full range of question types and deep integration with Canvas tools and third-party LTIs.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Gradescope",
+      "text": "Gradescope is an assessment, rubric, and grading tool integrated into Canvas that allows faculty to use rubric-based grading for hand-written or code-based assessments.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "New Quizzes",
+      "text": "New Quizzes is Canvas's current quiz engine and is intended to replace Classic Quizzes over time.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Instructors can also schedule a consultation with an Academic Technologies team member",
+      "url": "https://outlook.office365.com/owa/calendar/AcademicTechnologies1@northeastern.onmicrosoft.com/bookings/"
+    },
+    {
+      "text": "How do I create and grade a quiz in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587"
+    },
+    {
+      "text": "What is Gradescope?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014928"
+    },
+    {
+      "text": "How do I create and share a question bank for New Quizzes in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017955"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

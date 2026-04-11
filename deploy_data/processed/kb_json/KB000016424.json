@@ -1,0 +1,97 @@
+{
+  "article_id": "KB000016424",
+  "title": "What are the different course types in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016424",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016424",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016424",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Learn about Canvas course shells at Northeastern University. Choose from registrar-enrolled, sandbox, development, manual, blueprint, and source options. A course shell is an empty Canvas course. All course shells contain basic Canvas elements, including a home page, syllabus area, modules area, assignments area, etc. In addition to the standard Canvas elements, each course shell includes third-party tools, including Panopto, Cidi Labs, H5P, Teams, and Zoom, that instructors can use to build their course. Canvas courses typically start as an empty shell that faculty can build from scratch or copy existing content into. At Northeastern, several different types of Canvas course shells can enhance usability but have limitations. Note: Canvas courses should never be used to collect sensitive data, such as social security numbers, credit card information, or health information. Information of this nature should be stored on SharePoint instead. Table of Contents: Registrar-enrolled shell, Personal sandbox, Course development shell, Manually enrolled course, Self-enrolled course, Blueprint course, Source course. Registrar-enrolled shell: A Registrar-enrolled shell is a Banner-enrolled course in Canvas whose registration is managed by the Registrar. All Registrar-enrolled courses have sections that contain five-digit Course Registration Numbers, known as CRNs. These shells are empty of content until content is imported into them. Personal sandbox: A personal sandbox is a course shell provided to instructors to experiment with or learn the Canvas interface and integrated tools. Course development shell: A course development shell is a course shell created to serve as a staging area for a specific course. Manually enrolled course: A manually enrolled course in Canvas contains manual (non-Banner-enrolled) student enrollments that the course instructor can add at any time. Self-enrolled course: A self-enrolled Canvas course is a type of manually created course that differs from an academic Registrar-created course. Blueprint course: A Blueprint course in Canvas enables you to synchronize selected items from a blueprint course into live, associated sections. Source course: A source course (previously referred to as a master course) can host content imported by instructors or a college administrator into the Registrar-enrolled sections of multiple instructors.",
+  "body_html": "<article id=\"364\">Learn about Canvas course shells at Northeastern University. Choose from registrar-enrolled, sandbox, development, manual, blueprint, and source options... [Full body content containing multiple h2 sections for each course type]</article>",
+  "sections": [
+    {
+      "heading": "Table of Contents; Links: Registrar-enrolled shell, Personal sandbox, Course development shell, Manually enrolled course, Self-enrolled course, Blueprint course, Source course. Heading: Registrar-enrolled shell",
+      "text": "A Registrar-enrolled shell is a Banner-enrolled course in Canvas whose registration is managed by the Registrar... Steps: View the 'All Courses' area, Email scheduling@northeastern.edu. Heading: Personal sandbox; Text: A personal sandbox is a course shell provided to instructors to experiment... Steps: Navigate to the Canvas course request form, Fill in college affiliation, Submit the form. Heading: Course development shell; Text: A course development shell is a course shell created to serve as a staging area... Heading: Manually enrolled course; Text: A manually enrolled course in Canvas contains manual student enrollments... Heading: Self-enrolled course; Text: A self-enrolled Canvas course is a type of manually created course... Heading: Blueprint course; Text: A Blueprint course in Canvas enables you to synchronize selected items... Heading: Source course; Text: A source course can host content imported by instructors...",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "northeastern.sharepoint.com",
+      "url": "https://northeastern.sharepoint.com/sites/DA-DataClassification/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015142"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015068"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-all-my-Canvas-courses-as-an-instructor/ta-p/704"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016365"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018906"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Canvas-Commons/How-do-I-import-and-view-a-Commons-resource-in-Canvas/ta-p/1808"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019327"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014392"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018977"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Video-Guide/Blueprint-Courses-Overview/ta-p/383201"
+    },
+    {
+      "text": "forms.office.com",
+      "url": "https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV58rN4wL-LddDgoBrLF5CVspUQ0lHN00zMFk0Vkk4V1VOSVcwTFVRNjNUMCQlQCN0PWcu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "How do I set account time zones in Canvas?",
+      "url": null
+    }
+  ]
+}

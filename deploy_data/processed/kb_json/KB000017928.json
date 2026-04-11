@@ -1,0 +1,70 @@
+{
+  "article_id": "KB000017928",
+  "title": "How do I set up differentiated due dates in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017928",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017928",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017928",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Canvas allows you to assign an activity to individual students or groups of students. You can also set different due and availability dates for student(s) within an activity. This feature helps facilitate make-ups, using different due dates for different course sections in cross-listed courses and assigning work differently to undergraduate and graduate sections. Differentiated due dates are available for any activity type with due dates: assignments, quizzes, or discussions. Set up differentiated due dates in Canvas 1. Navigate to an assignment, quiz, or discussion board that needs differentiated grading. 2. Select the name of the assignment, quiz, or discussion board that needs differentiated grading. 3. Select Edit. 4. Select 'Manage Due Dates and Assign To' for due dates. 5. Under the Assign section, select Add. 6. Type the name of the student or section in the 'Assign to' field. Note: Lists are not scrollable, but the search fields are dynamic. You can search for students by first or last name. When the full name appears, select it. Note: If you remove the default class or section from the “Assign to” field and only add individual students without including the rest of the class, the assignment will become invisible to unlisted students. To avoid this, always include all intended participants (such as the full class section) along with any individual students who require different due dates. 7. Enter the due date and availability dates. 8. Select Save or 'Save & Publish' when you have finished customizing the assignment.",
+  "body_html": "<article id=\"364\"><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565\">Canvas</a> allows you to assign an activity to individual students or groups of students. You can also set different due and availability dates for student(s) within an activity. This feature helps facilitate make-ups, using different due dates for different course sections in cross-listed courses and assigning work differently to undergraduate and graduate sections. Differentiated due dates are available for any activity type with due dates: assignments, quizzes, or discussions.<hr><h2>Set up differentiated due dates in Canvas</h2><ul><li>Navigate to an assignment, quiz, or discussion board that needs differentiated grading.</li><li>Select the name of the assignment, quiz, or discussion board that needs differentiated grading.</li><li>Select Edit. <button>Edit box</button></li><li>Select 'Manage Due Dates and Assign To' for due dates. <button>Manage Due Dates and Assignments</button></li><li>Under the Assign section, select Add. <button>Selection Box</button></li><li>Type the name of the student or section in the 'Assign to' field. Note: Lists are not scrollable, but the search fields are dynamic. You can search for students by first or last name. When the full name appears, select it. <button>Assign to an individual, individual name show in 'Assign to' Field</button> Note: If you remove the default class or section from the “Assign to” field and only add individual students without including the rest of the class, the assignment will become invisible to unlisted students. To avoid this, always include all intended participants (such as the full class section) along with any individual students who require different due dates.</li><li>Enter the due date and availability dates. <button>Assign to and Due Dates fields are populated in Canvas</button></li><li>Select Save or 'Save & Publish' when you have finished customizing the assignment.</li></ul><a href=\"https://service.northeastern.edu/tech#top\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Canvas allows you to assign an activity to individual students or groups of students. You can also set different due and availability dates for student(s) within an activity. This feature helps facilitate make-ups, using different due dates for different course sections in cross-listed courses and assigning work differently to undergraduate and graduate sections. Differentiated due dates are available for any activity type with due dates: assignments, quizzes, or discussions.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Set up differentiated due dates in Canvas",
+      "text": "",
+      "steps": [
+        "Navigate to an assignment, quiz, or discussion board that needs differentiated grading.",
+        "Select the name of the assignment, quiz, or discussion board that needs differentiated grading.",
+        "Select Edit.",
+        "Select 'Manage Due Dates and Assign To' for due dates.",
+        "Under the Assign section, select Add.",
+        "Type the name of the student or section in the 'Assign to' field. Note: Lists are not scrollable, but the search fields are dynamic. You can search for students by first or last name. When the full name appears, select it. Note: If you remove the default class or section from the “Assign to” field and only add individual students without including the rest of the class, the assignment will become invisible to unlisted students.",
+        "Enter the due date and availability dates.",
+        "Select Save or 'Save & Publish' when you have finished customizing the assignment."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "article_id": "KB000019747",
+  "title": "What are Canvas Outcomes?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019747",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019747",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019747",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Canvas has an outcome tool available. For more information, visit What are Outcomes? This tool is separate from HelioCampus and not connected to HelioCampus Assessment outcomes. Using Canvas Outcomes is not recommended because it does not align with or support the Northeastern program assessment process. More information on the Northeastern program assessment strategy can be found under Program Assessment on the Office of Institutional Assessment and Evaluation SharePoint site. Please contact the Provost's Office on Institutional Assessment and Evaluation at assessment@northeastern.edu for any questions or for more support. Canvas Outcomes is not recommended. These are specific reasons why Canvas Outcomes is not recommended: Canvas Outcomes are stand-alone outcomes created and connected only to the section in which they originate. They are not connected to other sections within the course. Canvas Outcomes are not connected to program outcomes and/or accreditor outcomes, if applicable. Any program-level outcomes need to be set by a Canvas administrator, not the faculty member, and there is no hierarchy between course and program-level outcomes. The rubrics (or rubric criteria) used to score Canvas Outcomes are separate from the Canvas grading rubric, resulting in double-scoring work for the faculty. The only reports available through Canvas Outcomes are raw data files that need to be manipulated to see results for the course section. The section-level data are not connected to other sections, programs, or other information that would allow further analyses. Northeastern's supported tool for assessment is HelioCampus. HelioCampus can be used for course, program, and institution-level assessment. See What is the HelioCampus Assessment platform? for more information.",
+  "body_html": "<article>Canvas has an outcome tool available. For more information, visit <a href=\"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Outcomes/ta-p/75\">What are Outcomes?</a> This tool is separate from <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB000018600\">HelioCampus</a> and not connected to HelioCampus Assessment outcomes. Using Canvas Outcomes is not recommended because it does not align with or support the Northeastern program assessment process. More information on the Northeastern program assessment strategy can be found under <a href=\"https://northeastern.sharepoint.com/sites/IAE/SitePages/Program%20Assessment%20Planning-Landing.aspx\">Program Assessment</a> on the Office of Institutional Assessment and Evaluation SharePoint site. Please contact the Provost's Office on Institutional Assessment and Evaluation at <a href=\"mailto:Assessment@northeastern.edu\">assessment@northeastern.edu</a> for any questions or for more support. <h2>Canvas Outcomes is not recommended</h2> These are specific reasons why Canvas Outcomes is not recommended: <ul><li>Canvas Outcomes are stand-alone outcomes created and connected only to the section in which they originate. <ul><li>They are not connected to other sections within the course.</li><li>Canvas Outcomes are not connected to program outcomes and/or accreditor outcomes, if applicable.</li></ul></li><li>Any program-level outcomes need to be set by a Canvas administrator, not the faculty member, and there is no hierarchy between course and program-level outcomes.</li><li>The rubrics (or rubric criteria) used to score Canvas Outcomes are separate from the Canvas grading rubric, resulting in double-scoring work for the faculty.</li><li>The only reports available through Canvas Outcomes are raw data files that need to be manipulated to see results for the course section.</li><li>The section-level data are not connected to other sections, programs, or other information that would allow further analyses.</li></ul> Northeastern's supported tool for assessment is HelioCampus. HelioCampus can be used for course, program, and institution-level assessment. See <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB000018600\">What is the HelioCampus Assessment platform?</a> for more information.</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Canvas has an outcome tool available. For more information, visit What are Outcomes? This tool is separate from HelioCampus and not connected to HelioCampus Assessment outcomes. Using Canvas Outcomes is not recommended because it does not align with or support the Northeastern program assessment process. More information on the Northeastern program assessment strategy can be found under Program Assessment on the Office of Institutional Assessment and Evaluation SharePoint site. Please contact the Provost's Office on Institutional Assessment and Evaluation at assessment@northeastern.edu for any questions or for more support.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Canvas Outcomes is not recommended",
+      "text": "These are specific reasons why Canvas Outcomes is not recommended: Canvas Outcomes are stand-alone outcomes created and connected only to the section in which they originate. They are not connected to other sections within the course. Canvas Outcomes are not connected to program outcomes and/or accreditor outcomes, if applicable. Any program-level outcomes need to be set by a Canvas administrator, not the faculty member, and there is no hierarchy between course and program-level outcomes. The rubrics (or rubric criteria) used to score Canvas Outcomes are separate from the Canvas grading rubric, resulting in double-scoring work for the faculty. The only reports available through Canvas Outcomes are raw data files that need to be manipulated to see results for the course section. The section-level data are not connected to other sections, programs, or other information that would allow further analyses. Northeastern's supported tool for assessment is HelioCampus. HelioCampus can be used for course, program, and institution-level assessment. See What is the HelioCampus Assessment platform? for more information.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "What are Outcomes?",
+      "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Outcomes/ta-p/75"
+    },
+    {
+      "text": "HelioCampus",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018600"
+    },
+    {
+      "text": "Program Assessment",
+      "url": "https://northeastern.sharepoint.com/sites/IAE/SitePages/Program%20Assessment%20Planning-Landing.aspx"
+    },
+    {
+      "text": "), What is the HelioCampus Assessment platform?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018600"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

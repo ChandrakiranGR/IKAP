@@ -1,0 +1,51 @@
+{
+  "article_id": "KB000017804",
+  "title": "How do I use 7-Zip to encrypt files and folders on Windows?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017804",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017804",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017804",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "7-Zip is an open-source software used to compress or zip files secured with encryption. 7-Zip, like WinZip, creates a container called an archive that holds the files to be protected. The archive can be encrypted and protected with a password. 7-Zip is a free program that creates zip files that can be opened with WinZip or similar programs. When you send or transfer files that contain Personal Identifiable Information (PII) or other confidential and sensitive data, the files must be encrypted to ensure they are protected from unauthorized disclosure. Encrypt files and folders: Go to the to the 7-Zip download page and download and install the software for your system. Right-click on the file/folder to be encrypted. Select 7-Zip > Add to archive... In the 'Add to Archive' window, change the name of the archive you wish to create. Change the 'Archive format' to zip. Change the 'Encryption method' to 'AES-256'. Enter and use a strong password. Read the article What are the Northeastern account password requirements? to create a strong password.",
+  "body_html": "<div id=\"364\"><p id=\"365\">7-Zip is an open-source software used to compress or zip files secured with encryption. 7-Zip, like WinZip, creates a container called an archive that holds the files to be protected. The archive can be encrypted and protected with a password. 7-Zip is a free program that creates zip files that can be opened with WinZip or similar programs. When you send or transfer files that contain Personal Identifiable Information (PII) or other confidential and sensitive data, the files must be encrypted to ensure they are protected from unauthorized disclosure.</p><h2 id=\"370\">Encrypt files and folders</h2><ul><li>Go to the to the <a id=\"377\">7-Zip download page</a> and download and install the software for your system.</li><li>Right-click on the file/folder to be encrypted.</li><li>Select 7-Zip > Add to archive...</li><li>In the 'Add to Archive' window, change the name of the archive you wish to create.</li><li>Change the 'Archive format' to zip.</li><li>Change the 'Encryption method' to 'AES-256'.</li><li>Enter and use a strong password. Read the article <a id=\"409\">What are the Northeastern account password requirements?</a> to create a strong password.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "7-Zip is an open-source software used to compress or zip files secured with encryption. 7-Zip, like WinZip, creates a container called an archive that holds the files to be protected. The archive can be encrypted and protected with a password. 7-Zip is a free program that creates zip files that can be opened with WinZip or similar programs. When you send or transfer files that contain Personal Identifiable Information (PII) or other confidential and sensitive data, the files must be encrypted to ensure they are protected from unauthorized disclosure.; Encrypt files and folders: Go to the to the 7-Zip download page and download and install the software for your system. Right-click on the file/folder to be encrypted. Select 7-Zip > Add to archive... In the 'Add to Archive' window, change the name of the archive you wish to create. Change the 'Archive format' to zip. Change the 'Encryption method' to 'AES-256'. Enter and use a strong password. Read the article What are the Northeastern account password requirements? to create a strong password.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "7-Zip download page",
+      "url": "https://www.7-zip.org/download.html"
+    },
+    {
+      "text": "What are the Northeastern account password requirements?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013131"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Other Applications"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access AutoCAD?",
+      "url": null
+    },
+    {
+      "title": "How do I access think-cell software?",
+      "url": null
+    },
+    {
+      "title": "How do I access ChemDraw?",
+      "url": null
+    }
+  ]
+}

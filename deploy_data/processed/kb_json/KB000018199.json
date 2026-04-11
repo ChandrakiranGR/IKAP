@@ -1,0 +1,59 @@
+{
+  "article_id": "KB000018199",
+  "title": "What Linux software is available on College of Engineering (COE) systems?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018199",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018199",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018199",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "4mo ago",
+  "plain_text": "The article provides a list of the available Linux software that is installed on the COE's Gateway machines. Available software: clang -v 3.5, clang++ - version 3.5, dineroIV, eclipse, emacs, epine, gcc 4.8.5 (Gateway), 10.20(COEnet), 8.5.0(Rocky), Intel-cc, lli, llvm-as, llvm-dis, m2s - version 3.4, matlab -version R2018a, Mathematica, pin, Pycharm, QtSpim, Riscy, Simplescalar, SolarsStudio, spim -version 9.0.5, xspim. Note: To install other software available on the gateway machines, search /COEnet/Linux. Additional programs are installed by default on CentOS 7. Help: For additional information, please email help@coe.neu.edu.",
+  "body_html": "<article id=\"364\"><p>The article provides a list of the available <a id=\"366\">Linux</a> software that is installed on the COE's Gateway machines.</p><h2>Available software</h2><ul><li>clang -v 3.5</li><li>clang++ - version 3.5</li><li>dineroIV</li><li>eclipse</li><li>emacs</li><li>epine</li><li>gcc 4.8.5 (Gateway), 10.20(COEnet), 8.5.0(Rocky)</li><li>Intel-cc</li><li>lli</li><li>llvm-as</li><li>llvm-dis</li><li>m2s - version 3.4</li><li>matlab -version R2018a</li><li>Mathematica</li><li>pin</li><li>Pycharm</li><li>QtSpim</li><li>Riscy</li><li>Simplescalar</li><li>SolarsStudio</li><li>spim -version 9.0.5</li><li>xspim</li></ul><p>Note: To install other software available on the gateway machines, search /COEnet/Linux. Additional programs are installed by default on CentOS 7.</p><h2>Help</h2><p>For additional information, please email <a id=\"425\">help@coe.neu.edu</a>.</p></article>",
+  "sections": [
+    {
+      "heading": "Available software",
+      "text": "clang -v 3.5, clang++ - version 3.5, dineroIV, eclipse, emacs, epine, gcc 4.8.5 (Gateway), 10.20(COEnet), 8.5.0(Rocky), Intel-cc, lli, llvm-as, llvm-dis, m2s - version 3.4, matlab -version R2018a, Mathematica, pin, Pycharm, QtSpim, Riscy, Simplescalar, SolarsStudio, spim -version 9.0.5, xspim. Note: To install other software available on the gateway machines, search /COEnet/Linux. Additional programs are installed by default on CentOS 7.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Help",
+      "text": "For additional information, please email help@coe.neu.edu.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Linux",
+      "url": "https://coe.northeastern.edu/computer/general-services/unix-linux"
+    },
+    {
+      "text": "help@coe.neu.edu.",
+      "url": "mailto:help@coe.neu.edu"
+    }
+  ],
+  "categories": [
+    "College of Engineering",
+    "Software"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I download SOLIDWORKS as a COE student?",
+      "url": null
+    },
+    {
+      "title": "How do I get access to Ansys?",
+      "url": null
+    },
+    {
+      "title": "How do I access Abaqus?",
+      "url": null
+    },
+    {
+      "title": "FAQ: SOLIDWORKS installation",
+      "url": null
+    }
+  ]
+}

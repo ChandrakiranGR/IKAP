@@ -1,0 +1,56 @@
+{
+  "article_id": "KB0012505",
+  "title": "How do I connect to NUwave on Windows?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "2026-01-01",
+  "plain_text": "NUwave is Northeastern University's secure wireless network. It is available on the Boston Northeastern campus in academic and administrative buildings, the library, and Northeastern-owned residence halls. Connect to NUwave on Windows Note: The following steps are for Windows 10. 1. From your desktop, select the Wi-Fi symbol on your taskbar. The list of available networks will open. 2. Select NUwave from the list and choose Connect. 3. Sign in using your Northeastern username and password and select OK. 4. If an additional pop-up asks you to accept a certificate or connect to the network, select Connect. 5. You are now connected to NUwave. Check your connection by browsing any website. Note: After the initial connection, you will be able to connect automatically once your computer detects the NUwave network.",
+  "body_html": "<article id=\"364\"><p>NUwave is Northeastern University's secure wireless network. It is available on the Boston Northeastern campus in academic and administrative buildings, the library, and Northeastern-owned residence halls.</p><h2>Connect to NUwave on Windows</h2><p>Note: The following steps are for Windows 10.</p><ul><li>From your desktop, select the Wi-Fi symbol on your taskbar. The list of available networks will open. <button id=\"380\">Connect to NUwave network on Windows</button></li><li>Select NUwave from the list and choose Connect.</li><li>Sign in using your Northeastern username and password and select OK.</li><li>If an additional pop-up asks you to accept a certificate or connect to the network, select Connect. <button id=\"395\">Nuwave certificate on Windows</button></li><li>You are now connected to NUwave. Check your connection by browsing any website.</li></ul><p>Note: After the initial connection, you will be able to connect automatically once your computer detects the NUwave network.</p><a id=\"402\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NUwave is Northeastern University's secure wireless network. It is available on the Boston Northeastern campus in academic and administrative buildings, the library, and Northeastern-owned residence halls.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Connect to NUwave on Windows",
+      "text": "Note: The following steps are for Windows 10.",
+      "steps": [
+        "From your desktop, select the Wi-Fi symbol on your taskbar. The list of available networks will open.",
+        "Select NUwave from the list and choose Connect.",
+        "Sign in using your Northeastern username and password and select OK.",
+        "If an additional pop-up asks you to accept a certificate or connect to the network, select Connect.",
+        "You are now connected to NUwave. Check your connection by browsing any website."
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    }
+  ]
+}

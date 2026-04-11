@@ -1,0 +1,83 @@
+{
+  "article_id": "KB0012562",
+  "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012562",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012562",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012562",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "14d ago",
+  "plain_text": "Mathematica by Wolfram is a computing application used in engineering, mathematics, finance, science, and a wide range of other fields. It is ideal for course lecture slideshows, student exploratory projects (to support text, faculty, or student computations), and other projects requiring scientific information visualization. Mathematica is available for Windows, Mac, and Linux. To complement Mathematica, Wolfram Alpha Pro allows you to use simple English input to compute and visualize answers online through your web browser. Wolfram Alpha Pro makes it easy for professors to introduce students to computation across various disciplines. Students also have access to features such as the Problem Generator and Solutions Help. Eligibility: To complement Mathematica, Wolfram Alpha Pro allows you to use simple English input to compute and visualize answers online through your web browser. Wolfram Alpha Pro makes it easy for professors to introduce students to computation across various disciplines. Students also have access to features such as the Problem Generator and Solutions Help. Eligibility: - Faculty, staff, and students can use these products on campus or personal machines. - Licensing supports the use of products for instruction and academic research. - Licensing renews annually and is available to active students, faculty, and staff. Request licensing - Enter your Northeastern email address at Wolfram, agree to the Privacy Policy, and select Continue. - Select the product(s) you want. - For a single-user installation, select the 'Sign In' option under 'Activate through your organization (SSO)'. No activation key is used for this. Note: If you are installing on multiple machines, you must submit a separate form for each machine. One key per machine is needed. Licensing information can be found at the Wolfram User Portal. Resources - Mathematica. - Mathematica Online. - Wolfram|Alpha Pro. Help - How do I activate a Wolfram product using single sign-on (SSO)? - How do I troubleshoot single sign-on (SSO) issues with my Wolfram product? - Contact Wolfram.",
+  "body_html": "<article id=\"368\"><a id=\"371\">Mathematica</a> by Wolfram is a computing application... [content continues] ...<h2 id=\"384\">Request licensing</h2><ul><li>Enter your Northeastern email address at <a id=\"391\">Wolfram</a>...</li></ul><h2 id=\"412\">Resources</h2><ul><li><a id=\"417\">Mathematica</a></li></ul><h2 id=\"428\">Help</h2><ul><li><a id=\"433\">How do I activate...</a></li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Mathematica by Wolfram is a computing application used in engineering, mathematics, finance, science, and a wide range of other fields. It is ideal for course lecture slideshows, student exploratory projects (to support text, faculty, or student computations), and other projects requiring scientific information visualization. Mathematica is available for Windows, Mac, and Linux. To complement Mathematica, Wolfram Alpha Pro allows you to use simple English input to compute and visualize answers online through your web browser. Wolfram Alpha Pro makes it easy for professors to introduce students to computation across various disciplines. Students also have access to features such as the Problem Generator and Solutions Help. Eligibility: Faculty, staff, and students can use these products on campus or personal machines. Licensing supports the use of products for instruction and academic research. Licensing renews annually and is available to active students, faculty, and staff. | Request licensing: Enter your Northeastern email address at Wolfram, agree to the Privacy Policy, and select Continue. Select the product(s) you want. For a single-user installation, select the 'Sign In' option under 'Activate through your organization (SSO)'. No activation key is used for this. Note: If you are installing on multiple machines, you must submit a separate form for each machine. One key per machine is needed. Licensing information can be found at the Wolfram User Portal. | Resources: Mathematica. Mathematica Online. Wolfram|Alpha Pro. | Help: How do I activate a Wolfram product using single sign-on (SSO)? How do I troubleshoot single sign-on (SSO) issues with my Wolfram product? Contact Wolfram.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Mathematica",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018478"
+    },
+    {
+      "text": "Wolfram",
+      "url": "https://www.wolfram.com/siteinfo/"
+    },
+    {
+      "text": "Wolfram User Portal",
+      "url": "https://user.wolfram.com/portal/myProducts.html"
+    },
+    {
+      "text": "Mathematica",
+      "url": "https://www.wolfram.com/mathematica/"
+    },
+    {
+      "text": "Mathematica Online",
+      "url": "https://www.wolfram.com/mathematica/online/"
+    },
+    {
+      "text": "Wolfram|Alpha Pro",
+      "url": "https://www.wolframalpha.com/pro/"
+    },
+    {
+      "text": "How do I activate a Wolfram product using single sign-on (SSO)?",
+      "url": "https://support.wolfram.com/54713"
+    },
+    {
+      "text": "How do I troubleshoot single sign-on (SSO) issues with my Wolfram product?",
+      "url": "https://support.wolfram.com/54945"
+    },
+    {
+      "text": "Contact Wolfram",
+      "url": "https://www.wolfram.com/support/contact/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "article_id": "KB0014477",
+  "title": "How do I take a test using Respondus LockDown Browser and Monitor?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026-03-20",
+  "plain_text": "Access secure online exams at Northeastern with Respondus LockDown Browser. Complete guide for download, setup, and troubleshooting on PC, Mac, iPad. Some courses require the use of a LockDown Browser alone or a LockDown Browser and a webcam for online tests and exams. The webcam can be the type that's built into the computer or one that plugs in with a USB cable. Students will need to download the LockDown Browser software to take these tests and exams. When you use LockDown Browser to access a quiz, you are unable to print, copy, visit other websites, access other applications, or close a quiz until it is submitted for grading. Quizzes created for use with LockDown Browser cannot be accessed with standard browsers. Note: If you are currently taking a quiz Respondus LockDown Browser and are experiencing issues, review the FAQ: Solutions for students experiencing technical problems during online exams. Watch this brief video Introduction to Respondus LockDown Browser for Students to get a basic understanding of LockDown Browser and the webcam feature. Technical requirements: If your instructor requires Respondus Monitor, you will need a video camera and microphone enabled on your computer. Respondus runs on the following operating systems: Windows: 11 and 10. Note: Windows 10/11 'S mode' is not a compatible operating system. Mac: macOS 10.15 to 14.0+. iPadOS: 12.0+ (iPad only). ChromeOS: LockDown Browser for Chromebook minimally requires the version of ChromeOS that Google makes available via their Long Term Support (LTS) channel.",
+  "body_html": "<article id=\"364\">Access secure online exams at Northeastern with Respondus LockDown Browser. Complete guide for download, setup, and troubleshooting on PC, Mac, iPad. Some courses require the use of a LockDown Browser alone or a LockDown Browser and a webcam for online tests and exams... [truncated for brevity]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Access secure online exams at Northeastern with Respondus LockDown Browser. Complete guide for download, setup, and troubleshooting on PC, Mac, iPad. Some courses require the use of a LockDown Browser alone or a LockDown Browser and a webcam for online tests and exams.;Table of contents: Technical requirements; Download Respondus LockDown Browser; Download the Respondus LockDown Browser app for iPad; Take the Respondus Tech Check Quiz; Take the test on a computer; Take the test on an iPad; Guidelines; Help.;Technical requirements: If your instructor requires Respondus Monitor, you will need a video camera and microphone enabled on your computer. Respondus runs on the following operating systems: Windows, Mac, iPadOS, ChromeOS.;Download Respondus LockDown Browser: Navigate to the download page, select 'Install Now', choose location, and run installer.;Download the Respondus LockDown Browser app for iPad: Open App Store, search for 'LockDown Browser', and select Get.;Take the Respondus Tech Check Quiz: Navigate to the quiz course, log in with Canvas credentials, enroll, and take the quiz.;Take the test on a computer: Start LockDown Browser, log in to Canvas, and navigate to the exam.;Take the test on an iPad: Open the app, set up for Northeastern University, authenticate, and start the test.;Guidelines: Test-taking guidelines and Respondus Monitor Webcam guidelines.;Help: Live chat and Troubleshooting and additional help.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017937"
+    },
+    {
+      "text": "Introduction to Respondus LockDown Browser for Students",
+      "url": "https://www.respondus.com/products/lockdown-browser/student-movie.shtml"
+    },
+    {
+      "text": "Respondus LockDown Browser Download Page",
+      "url": "https://download.respondus.com/lockdown/download.php?id=538439877"
+    },
+    {
+      "text": "Respondus Tech Check Quiz Course",
+      "url": "https://northeastern.instructure.com/enroll/NHRB3F"
+    },
+    {
+      "text": "submit a ticket to Respondus LockDown Browser",
+      "url": "https://support.respondus.com/hc/en-us/requests/new"
+    },
+    {
+      "text": "Respondus Knowledge Base",
+      "url": "https://support.respondus.com/hc/en-us"
+    },
+    {
+      "text": "Submit a ticket to Respondus LockDown Browser",
+      "url": "https://support.respondus.com/hc/en-us/requests/new"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Respondus"
+  ],
+  "related_articles": [
+    {
+      "title": "What is Respondus Lockdown Browser and Monitor?",
+      "url": null
+    },
+    {
+      "title": "How do I use Respondus LockDown Browser and Monitor to proctor exams?",
+      "url": null
+    },
+    {
+      "title": "How do I add the Respondus Lockdown and the Respondus Tech Check Quiz module to my Canvas course?",
+      "url": null
+    },
+    {
+      "title": "How do I resolve a Respondus error from copying over a Canvas course?",
+      "url": null
+    }
+  ]
+}

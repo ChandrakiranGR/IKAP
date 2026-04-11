@@ -1,0 +1,88 @@
+{
+  "article_id": "KB0013701",
+  "title": "How do I connect to NUwave on an iPhone?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013701",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013701",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013701",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "NUwave is Northeastern's secure wireless network. It is available on all Northeastern campuses in academic and administrative buildings, the library, and Northeastern-owned residences on the Boston campus. Instructors, staff, and students should use NUwave whenever connecting wirelessly on campus. Connect to NUwave on iPhone 1. Open the Settings app. 2. Select Wi-Fi. 3. Select NUwave from the list of available networks. 4. Sign in using your Northeastern username and password. 5. Accept the certificate and complete authentication. 6. You should be connected to NUwave. In the future, whenever your device detects NUwave, it will automatically connect to the network. Troubleshooting Sites not loading after connecting to NUwave If websites fail to load properly after connecting to NUwave, the 'Limit IP Address Tracking' setting may be enabled on your device. This setting randomizes your IP address, which can prevent sites from loading correctly. To resolve this issue: 1. Open the Settings app. 2. Select Wi-Fi. 3. Tap next to NUwave in the list of available networks. 4. Toggle off 'Limit IP Address Tracking'. 5. Reconnect to NUwave if necessary. Help If you continue to have issues accessing NUwave, contact Northeastern's IT Service Desk at 617.373.4357 or help@northeastern.edu.",
+  "body_html": "<div><p><a href=\"#\">NUwave</a> is Northeastern's secure wireless network. It is available on all Northeastern campuses in academic and administrative buildings, the library, and Northeastern-owned residences on the Boston campus. Instructors, staff, and students should use NUwave whenever connecting wirelessly on campus.</p><h2>Connect to NUwave on iPhone</h2><ul><li>Open the Settings app.</li><li>Select Wi-Fi.</li><li>Select NUwave from the list of available networks.</li><li>Sign in using your Northeastern username and password.</li><li>Accept the certificate and complete authentication.</li><li>You should be connected to NUwave. In the future, whenever your device detects NUwave, it will automatically connect to the network.</li></ul><h2>Troubleshooting</h2><h3>Sites not loading after connecting to NUwave</h3><p>If websites fail to load properly after connecting to NUwave, the 'Limit IP Address Tracking' setting may be enabled on your device. This setting randomizes your IP address, which can prevent sites from loading correctly. To resolve this issue:</p><ul><li>Open the Settings app.</li><li>Select Wi-Fi.</li><li>Tap next to NUwave in the list of available networks.</li><li>Toggle off 'Limit IP Address Tracking'.</li><li>Reconnect to NUwave if necessary.</li></ul><h2>Help</h2><p>If you continue to have issues accessing NUwave, contact <a href=\"#\">Northeastern's IT Service Desk</a> at 617.373.4357 or <a href=\"#\">help@northeastern.edu</a>.</p></div>",
+  "sections": [
+    {
+      "heading": "Connect to NUwave on iPhone",
+      "text": "",
+      "steps": [
+        "Open the Settings app.",
+        "Select Wi-Fi.",
+        "Select NUwave from the list of available networks.",
+        "Sign in using your Northeastern username and password.",
+        "Accept the certificate and complete authentication.",
+        "You should be connected to NUwave."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Troubleshooting",
+      "text": "If websites fail to load properly after connecting to NUwave, the 'Limit IP Address Tracking' setting may be enabled on your device.",
+      "steps": [
+        "Open the Settings app.",
+        "Select Wi-Fi.",
+        "Tap next to NUwave in the list of available networks.",
+        "Toggle off 'Limit IP Address Tracking'.",
+        "Reconnect to NUwave if necessary."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Help",
+      "text": "If you continue to have issues accessing NUwave, contact Northeastern's IT Service Desk at 617.373.4357 or help@northeastern.edu.",
+      "steps": [],
+      "links": [
+        {
+          "text": "help@northeastern.edu",
+          "url": "mailto:help@northeastern.edu"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "NUwave",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:help@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "Infrastructure",
+    "Network and Connectivity Management",
+    "Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

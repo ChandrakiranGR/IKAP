@@ -270,6 +270,16 @@ class LangChainPipelineUnitTests(unittest.TestCase):
         result = classify_request("hi i am aditya")
         self.assertEqual(result["route"], "clarify")
 
+    def test_classify_request_keeps_greeting_as_clarify_even_with_prior_it_context(self) -> None:
+        result = classify_request(
+            "hi",
+            [
+                {"role": "user", "content": "I am having trouble connecting to VPN"},
+                {"role": "assistant", "content": "What device are you using?"},
+            ],
+        )
+        self.assertEqual(result["route"], "clarify")
+
     def test_classify_request_marks_weather_as_unsupported(self) -> None:
         result = classify_request("hi whats the boston weather today like")
         self.assertEqual(result["route"], "unsupported")
@@ -440,6 +450,22 @@ class LangChainPipelineUnitTests(unittest.TestCase):
             structured["references"][0]["url"],
             "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800",
         )
+
+    def test_parse_structured_answer_handles_indented_headers(self) -> None:
+        structured = parse_structured_answer(
+            "  Category: VPN access\n"
+            "  Clarifying question: None\n"
+            "  Steps:\n"
+            "  1. Install GlobalProtect.\n"
+            "  References:\n"
+            "  - Install VPN on a Mac: https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800\n"
+            "  If this does not resolve your issue: Contact Northeastern IT Support and include:\n"
+            "  - Your device/OS\n"
+        )
+
+        self.assertEqual(structured["category"], "VPN access")
+        self.assertEqual(structured["steps"], ["Install GlobalProtect."])
+        self.assertEqual(len(structured["references"]), 1)
 
     def test_link_request_removes_inline_urls_from_steps(self) -> None:
         response = (

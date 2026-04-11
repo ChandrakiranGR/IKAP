@@ -117,6 +117,19 @@ class ApiIntegrationTests(unittest.TestCase):
         self.assertEqual(response.json()["detail"], "Question cannot be empty.")
         get_pipeline_mock.assert_not_called()
 
+    def test_chat_endpoint_rejects_invalid_history_role(self) -> None:
+        with patch("backend.api.app.get_pipeline") as get_pipeline_mock:
+            response = self.client.post(
+                "/api/chat",
+                json={
+                    "question": "How do I connect to VPN on my Mac?",
+                    "history": [{"role": "system", "content": "Bad role"}],
+                },
+            )
+
+        self.assertEqual(response.status_code, 422)
+        get_pipeline_mock.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main()

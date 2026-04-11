@@ -42,6 +42,7 @@ const SAMPLE_PROMPTS = [
   "How do I connect to eduroam on Android?",
   "How do I send messages with Qwickly before I publish my Canvas course?",
 ];
+const API_HISTORY_CONTENT_LIMIT = 4000;
 
 function stripLegacySourceTags(answer: string): string {
   return answer
@@ -82,7 +83,7 @@ function statusClasses(message: ChatMessage): string {
 function buildHistory(messages: ChatMessage[]): HistoryItem[] {
   return messages.slice(-6).map((message) => ({
     role: message.role,
-    content: message.content,
+    content: message.content.slice(0, API_HISTORY_CONTENT_LIMIT),
   }));
 }
 

@@ -5,14 +5,22 @@ from pathlib import Path
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
+from typing import Literal
 
 from backend.orchestration.langchain_pipeline import IKAPLangChainPipeline
 
 
 class HistoryItem(BaseModel):
-    role: str
+    role: Literal["user", "assistant"]
     content: str = Field(min_length=1, max_length=4000)
+
+    @field_validator("role", mode="before")
+    @classmethod
+    def normalize_role(cls, value: str) -> str:
+        if isinstance(value, str):
+            return value.strip().lower()
+        return value
 
 
 class ChatRequest(BaseModel):

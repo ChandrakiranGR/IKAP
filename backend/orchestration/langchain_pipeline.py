@@ -641,29 +641,29 @@ def parse_structured_answer(answer: str) -> Dict[str, Any]:
         if not line:
             continue
 
-        if raw_line.startswith("Category:"):
-            value = raw_line.split(":", 1)[1].strip()
+        if line.startswith("Category:"):
+            value = line.split(":", 1)[1].strip()
             category = value or None
             state = ""
             continue
-        if raw_line.startswith("Clarifying question:"):
-            value = raw_line.split(":", 1)[1].strip()
+        if line.startswith("Clarifying question:"):
+            value = line.split(":", 1)[1].strip()
             clarifying_question = None if value.lower() == "none" else value
             state = ""
             continue
-        if raw_line.startswith("Steps:"):
+        if line.startswith("Steps:"):
             state = "steps"
             continue
-        if raw_line.startswith("References:"):
+        if line.startswith("References:"):
             state = "references"
-            inline = raw_line.split(":", 1)[1].strip()
+            inline = line.split(":", 1)[1].strip()
             ref = _split_reference_line(inline) if inline else None
             if ref:
                 references.append(ref)
             continue
-        if raw_line.startswith("If this does not resolve your issue:"):
+        if line.startswith("If this does not resolve your issue:"):
             state = "support"
-            support_lines = [raw_line]
+            support_lines = [line]
             continue
 
         if state == "steps" and re.match(r"^\d+\.\s+", line):
@@ -677,7 +677,7 @@ def parse_structured_answer(answer: str) -> Dict[str, Any]:
             continue
 
         if state == "support":
-            support_lines.append(raw_line)
+            support_lines.append(line)
 
     return {
         "category": category,
@@ -978,7 +978,7 @@ class IKAPLangChainPipeline:
                 "effective_question": effective_question,
             }
 
-        if route == "clarify" and not _contains_it_scope_signal(effective_question):
+        if route == "clarify":
             payload = build_clarify_response(question)
             return {
                 "answer": payload["answer"],

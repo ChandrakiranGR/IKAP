@@ -355,6 +355,7 @@ def retrieve_kb_chunks(question: str, top_k: int = 4) -> List[Dict[str, Any]]:
         kb_id = _extract_kb_id(row)
         candidate_links = link_map.get(kb_id, [])
         best_link = _pick_best_link(kb_id, candidate_links)
+        kb_payload = load_kb_json(kb_dir, kb_id) if kb_id and kb_dir.exists() else None
 
         title = (
             _extract_title(row)
@@ -372,13 +373,19 @@ def retrieve_kb_chunks(question: str, top_k: int = 4) -> List[Dict[str, Any]]:
         )
 
         precise_text = ""
-        if kb_id and kb_dir.exists():
+        if kb_payload:
             try:
                 precise_text = _build_precise_kb_excerpt(kb_dir, kb_id, question)
             except Exception:
                 precise_text = ""
 
         text = precise_text or _clean_kb_text(_extract_text(row), title)
+        embedded_links = []
+        for link in (kb_payload or {}).get("links", []) or []:
+            text_value = (link.get("text") or "").strip()
+            url_value = (link.get("url") or "").strip()
+            if text_value and url_value:
+                embedded_links.append({"text": text_value, "url": url_value})
 
         adapted.append(
             {
@@ -389,6 +396,7 @@ def retrieve_kb_chunks(question: str, top_k: int = 4) -> List[Dict[str, Any]]:
                 "score": float(row.get("_score") or 0.0),
                 "chunk_id": row.get("chunk_id") or "",
                 "section": row.get("section") or "",
+                "links": embedded_links,
             }
         )
 

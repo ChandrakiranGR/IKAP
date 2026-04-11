@@ -50,6 +50,7 @@ PRIVACY_QUERY_RE = re.compile(
 OUT_OF_SCOPE_QUERY_RE = re.compile(
     r"(?i)\b("
     r"weather|forecast|temperature|rain|snow|boston weather|news|restaurant|movie|recipe|"
+    r"dining|cafeteria|meal plan|food court|"
     r"capital of|stock price|sports score|horoscope|joke|poem|translate"
     r")\b"
 )
@@ -65,23 +66,36 @@ FOLLOW_UP_QUERY_RE = re.compile(
 )
 IT_SCOPE_TERMS = {
     "account",
+    "authenticator",
     "canvas",
     "duo",
     "eduroam",
     "email",
+    "globalprotect",
+    "hub",
+    "labview",
+    "license",
+    "login",
+    "log in",
+    "mathematica",
+    "matlab",
     "mfa",
-    "northeastern",
     "nuwave",
     "password",
+    "passwordless",
+    "portal",
     "qwickly",
     "respondus",
+    "sign in",
     "software",
+    "sso",
     "student hub",
     "studenthub",
     "turnitin",
     "touch id",
     "vpn",
     "wifi",
+    "wolfram",
 }
 AMBIGUOUS_SHORT_TERMS = {
     "windows",
@@ -703,6 +717,87 @@ def _fallback_references_from_chunks(chunks: List[Dict[str, Any]], limit: int = 
     return references
 
 
+def _linkify_step_text(step: str, links: List[Dict[str, str]]) -> str:
+    if not step or "[" in step or "](" in step:
+        return step
+    if "follow the detailed instructions in" in step.lower():
+        return step
+
+    generic_labels = {
+        "canvas",
+        "eduroam",
+        "macos",
+        "northeastern account",
+        "turnitin",
+        "turnitin's",
+        "quick submit",
+        "globalprotect",
+    }
+
+    def candidate_score(link: Dict[str, str]) -> int:
+        label = (link.get("text") or "").strip()
+        url = (link.get("url") or "").strip()
+        label_l = label.lower()
+        url_l = url.lower()
+
+        if not label or not url or "@" in label or url_l.startswith("mailto:"):
+            return -1
+        if label_l in generic_labels or label.endswith("'s") or label.endswith("’s"):
+            return -1
+        if len(label) < 6 or label.startswith(")") or label.startswith(","):
+            return -1
+        if not re.search(rf"(?i)\b{re.escape(label)}\b", step):
+            return -1
+
+        score = 0
+        if "kb_article_view" not in url_l:
+            score += 3
+        if any(term in label_l for term in ["portal", "website", "site", "management", "page"]):
+            score += 2
+        if " " in label.strip():
+            score += 1
+        return score
+
+    best_link = None
+    best_score = -1
+    for link in links:
+        score = candidate_score(link)
+        if score > best_score:
+            best_score = score
+            best_link = link
+
+    if not best_link or best_score < 3:
+        return step
+
+    label = (best_link.get("text") or "").strip()
+    url = (best_link.get("url") or "").strip()
+    pattern = re.compile(rf"(?i)\b({re.escape(label)})\b")
+    return pattern.sub(lambda match: f"[{match.group(1)}]({url})", step, count=1)
+
+
+def _enrich_structured_links(structured: Dict[str, Any], chunks: List[Dict[str, Any]]) -> Dict[str, Any]:
+    embedded_links: List[Dict[str, str]] = []
+    seen = set()
+    for chunk in chunks[:1]:
+        for link in chunk.get("links") or []:
+            label = (link.get("text") or "").strip()
+            url = (link.get("url") or "").strip()
+            key = (label.lower(), url)
+            if not label or not url or key in seen:
+                continue
+            seen.add(key)
+            embedded_links.append({"text": label, "url": url})
+
+    if not embedded_links:
+        return structured
+
+    structured["steps"] = [
+        _linkify_step_text(step, embedded_links)
+        for step in (structured.get("steps") or [])
+    ]
+    return structured
+
+
 def _render_answer(structured: Dict[str, Any]) -> str:
     category = structured.get("category") or "General Northeastern IT support"
     clarifying_question = structured.get("clarifying_question") or "None"
@@ -1030,9 +1125,10 @@ class IKAPLangChainPipeline:
         structured = parse_structured_answer(response)
         if not structured.get("category"):
             structured["category"] = infer_category(question)
+        structured = _enrich_structured_links(structured, chunks)
         if not structured.get("references"):
             structured["references"] = _fallback_references_from_chunks(chunks)
-            response = _render_answer(structured)
+        response = _render_answer(structured)
 
         return {
             "answer": response,

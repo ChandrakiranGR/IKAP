@@ -98,6 +98,28 @@ function hasStructuredContent(structured?: StructuredAnswer): boolean {
   );
 }
 
+function MarkdownInline({ content }: { content: string }) {
+  return (
+    <ReactMarkdown
+      components={{
+        p: ({ children }) => <>{children}</>,
+        a: ({ href, children }) => (
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline hover:text-primary/80"
+          >
+            {children}
+          </a>
+        ),
+      }}
+    >
+      {content}
+    </ReactMarkdown>
+  );
+}
+
 export default function ChatPage() {
   const [searchParams] = useSearchParams();
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -276,22 +298,7 @@ export default function ChatPage() {
     if (!hasStructuredContent(structured)) {
       return (
         <div className="prose prose-sm max-w-none text-sm leading-relaxed">
-          <ReactMarkdown
-            components={{
-              a: ({ href, children }) => (
-                <a
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary underline hover:text-primary/80"
-                >
-                  {children}
-                </a>
-              ),
-            }}
-          >
-            {message.content}
-          </ReactMarkdown>
+          <MarkdownInline content={message.content} />
         </div>
       );
     }
@@ -326,7 +333,7 @@ export default function ChatPage() {
             <ol className="space-y-2 pl-5">
               {structured.steps.map((step, idx) => (
                 <li key={`${message.id}-step-${idx}`} className="list-decimal">
-                  {step}
+                  <MarkdownInline content={step} />
                 </li>
               ))}
             </ol>

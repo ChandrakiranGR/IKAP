@@ -17,7 +17,12 @@ import { Navbar } from "@/components/Navbar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-import { postChatMessage, type Source } from "@/lib/api";
+import {
+  postChatMessage,
+  type HistoryItem,
+  type Source,
+  type StructuredAnswer,
+} from "@/lib/api";
 
 interface ChatMessage {
   id: string;
@@ -25,6 +30,8 @@ interface ChatMessage {
   content: string;
   sources?: Source[];
   confidence?: "low" | "medium" | "high";
+  mode?: "grounded" | "clarify" | "unsupported" | "unsafe";
+  structured?: StructuredAnswer;
 }
 
 const SAMPLE_PROMPTS = [
@@ -49,14 +56,45 @@ function confidenceLabel(confidence?: ChatMessage["confidence"]): string {
   return "Medium confidence";
 }
 
-function confidenceClasses(confidence?: ChatMessage["confidence"]): string {
-  if (confidence === "high") {
+function statusLabel(message: ChatMessage): string {
+  if (message.mode === "clarify") return "Needs clarification";
+  if (message.mode === "unsupported") return "Out of scope";
+  if (message.mode === "unsafe") return "Cannot help with that";
+  return confidenceLabel(message.confidence);
+}
+
+function statusClasses(message: ChatMessage): string {
+  if (message.mode === "unsafe") {
+    return "border-rose-200 bg-rose-50 text-rose-700";
+  }
+  if (message.mode === "clarify" || message.mode === "unsupported") {
+    return "border-slate-200 bg-slate-50 text-slate-700";
+  }
+  if (message.confidence === "high") {
     return "border-emerald-200 bg-emerald-50 text-emerald-700";
   }
-  if (confidence === "low") {
+  if (message.confidence === "low") {
     return "border-amber-200 bg-amber-50 text-amber-700";
   }
   return "border-sky-200 bg-sky-50 text-sky-700";
+}
+
+function buildHistory(messages: ChatMessage[]): HistoryItem[] {
+  return messages.slice(-6).map((message) => ({
+    role: message.role,
+    content: message.content,
+  }));
+}
+
+function hasStructuredContent(structured?: StructuredAnswer): boolean {
+  if (!structured) return false;
+  return Boolean(
+    structured.category ||
+      structured.clarifying_question ||
+      structured.steps?.length ||
+      structured.references?.length ||
+      structured.support_message,
+  );
 }
 
 export default function ChatPage() {
@@ -109,7 +147,7 @@ export default function ChatPage() {
     abortControllerRef.current = controller;
 
     try {
-      const data = await postChatMessage(text, controller.signal);
+      const data = await postChatMessage(text, buildHistory(messages), controller.signal);
       if (controller.signal.aborted) return;
 
       const assistantMsg: ChatMessage = {
@@ -120,6 +158,8 @@ export default function ChatPage() {
           "I couldn't find relevant information in the knowledge base.",
         sources: data.sources || [],
         confidence: data.confidence || "medium",
+        mode: data.mode,
+        structured: data.structured,
       };
 
       setMessages((prev) => [...prev, assistantMsg]);
@@ -230,6 +270,106 @@ export default function ChatPage() {
     );
   };
 
+  const renderStructuredContent = (message: ChatMessage) => {
+    const structured = message.structured;
+    if (!hasStructuredContent(structured)) {
+      return (
+        <div className="prose prose-sm max-w-none text-sm leading-relaxed">
+          <ReactMarkdown
+            components={{
+              a: ({ href, children }) => (
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline hover:text-primary/80"
+                >
+                  {children}
+                </a>
+              ),
+            }}
+          >
+            {message.content}
+          </ReactMarkdown>
+        </div>
+      );
+    }
+
+    const supportLines = (structured?.support_message || "")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean);
+
+    return (
+      <div className="space-y-4 text-sm leading-relaxed">
+        {structured?.category && (
+          <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+            {structured.category}
+          </div>
+        )}
+
+        {structured?.clarifying_question && (
+          <div className="rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sky-900">
+            <div className="mb-1 text-xs font-semibold uppercase tracking-[0.12em] text-sky-700">
+              Clarifying question
+            </div>
+            <div>{structured.clarifying_question}</div>
+          </div>
+        )}
+
+        {!!structured?.steps?.length && (
+          <div>
+            <div className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+              Steps
+            </div>
+            <ol className="space-y-2 pl-5">
+              {structured.steps.map((step, idx) => (
+                <li key={`${message.id}-step-${idx}`} className="list-decimal">
+                  {step}
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+
+        {!!structured?.references?.length && (
+          <div>
+            <div className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+              References
+            </div>
+            <div className="space-y-2">
+              {structured.references.map((reference, idx) => (
+                <a
+                  key={`${message.id}-reference-${idx}`}
+                  href={reference.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between rounded-xl border px-3 py-2 transition hover:border-primary/40 hover:bg-primary/5"
+                >
+                  <span className="pr-3">{reference.label}</span>
+                  <ExternalLink className="h-4 w-4 shrink-0 text-muted-foreground" />
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {!!supportLines.length && (
+          <div className="rounded-xl border border-border/70 bg-secondary/30 px-4 py-3">
+            <div className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+              Need more help?
+            </div>
+            <div className="space-y-1 text-sm text-muted-foreground">
+              {supportLines.map((line, idx) => (
+                <div key={`${message.id}-support-${idx}`}>{line}</div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
   const renderMessage = (msg: ChatMessage) => {
     const isUser = msg.role === "user";
     const isEditing = editingMsgId === msg.id;
@@ -276,38 +416,21 @@ export default function ChatPage() {
             <div className="mb-3 flex flex-wrap items-center gap-2">
               <Badge
                 variant="outline"
-                className={confidenceClasses(msg.confidence)}
+                className={statusClasses(msg)}
               >
-                {confidenceLabel(msg.confidence)}
+                {statusLabel(msg)}
               </Badge>
-              {msg.sources?.length ? (
+              {msg.mode === "grounded" && msg.sources?.length ? (
                 <span className="text-xs text-muted-foreground">
                   {msg.sources.length} source{msg.sources.length === 1 ? "" : "s"}
                 </span>
-              ) : (
+              ) : msg.mode === "grounded" ? (
                 <span className="text-xs text-muted-foreground">No source cards returned</span>
-              )}
+              ) : null}
             </div>
           )}
 
-          <div className="prose prose-sm max-w-none text-sm leading-relaxed">
-            <ReactMarkdown
-              components={{
-                a: ({ href, children }) => (
-                  <a
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary underline hover:text-primary/80"
-                  >
-                    {children}
-                  </a>
-                ),
-              }}
-            >
-              {msg.content}
-            </ReactMarkdown>
-          </div>
+          {renderStructuredContent(msg)}
 
           {isUser && !loading && (
             <div className="mt-1 flex justify-end opacity-0 transition-opacity group-hover:opacity-100">
@@ -321,7 +444,7 @@ export default function ChatPage() {
             </div>
           )}
 
-          {!isUser && renderSources(msg.sources)}
+          {!isUser && msg.mode === "grounded" && renderSources(msg.sources)}
         </div>
       </div>
     );

@@ -17,25 +17,46 @@ describe("postChatMessage", () => {
         answer: "Test answer",
         sources: [],
         confidence: "high",
+        mode: "grounded",
+        structured: {
+          category: "VPN access",
+          clarifying_question: null,
+          steps: ["Install GlobalProtect."],
+          references: [],
+          support_message: "Contact support.",
+        },
       }),
     });
 
     global.fetch = fetchMock as typeof fetch;
 
-    const result = await postChatMessage("How do I connect to VPN on my Mac?");
+    const result = await postChatMessage("How do I connect to VPN on my Mac?", [
+      { role: "user", content: "I need help with VPN" },
+    ]);
 
     expect(fetchMock).toHaveBeenCalledWith(
       "/api/chat",
       expect.objectContaining({
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: "How do I connect to VPN on my Mac?" }),
+        body: JSON.stringify({
+          question: "How do I connect to VPN on my Mac?",
+          history: [{ role: "user", content: "I need help with VPN" }],
+        }),
       }),
     );
     expect(result).toEqual({
       answer: "Test answer",
       sources: [],
       confidence: "high",
+      mode: "grounded",
+      structured: {
+        category: "VPN access",
+        clarifying_question: null,
+        steps: ["Install GlobalProtect."],
+        references: [],
+        support_message: "Contact support.",
+      },
     });
   });
 

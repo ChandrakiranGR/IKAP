@@ -12,9 +12,6 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from backend.orchestration.langchain_pipeline import IKAPLangChainPipeline
-from backend.orchestration.retrieval_adapter import retrieve_kb_chunks
-
-
 URL_RE = re.compile(r"https?://[^\s)>\]]+")
 STEP_RE = re.compile(r"(?m)^\d+\.\s+")
 TRAILING_URL_PUNCT_RE = re.compile(r"[),.;>\]]+$")
@@ -75,13 +72,18 @@ def refusal_ok(text: str) -> bool:
     return any(pattern in lowered for pattern in patterns)
 
 
-def score_case(case: dict, response: str, retrieved: list[dict]) -> dict:
+def score_case(case: dict, response_payload: dict) -> dict:
+    response = response_payload.get("answer", "")
+    retrieved = response_payload.get("chunks") or []
+    mode = response_payload.get("mode", "grounded")
     expected_kb_id = case.get("expected_kb_id", "")
     expected_reference_url = case.get("expected_reference_url", "")
+    expected_mode = case.get("expected_mode", "")
     required_terms = case.get("required_terms", [])
     forbidden_terms = case.get("forbidden_terms", [])
     min_steps = int(case.get("min_steps", 0) or 0)
     case_type = case.get("case_type", "typical")
+    references_should_be_none = bool(case.get("references_should_be_none", False))
 
     top_kb_id = retrieved[0]["kb_id"] if retrieved else ""
     returned_kb_ids = [item.get("kb_id", "") for item in retrieved]
@@ -92,6 +94,8 @@ def score_case(case: dict, response: str, retrieved: list[dict]) -> dict:
         "category": case.get("category", ""),
         "case_type": case_type,
         "question": case["question"],
+        "mode": mode,
+        "expected_mode": expected_mode or None,
         "expected_kb_id": expected_kb_id or None,
         "top_kb_id": top_kb_id or None,
         "returned_kb_ids": returned_kb_ids,
@@ -107,6 +111,8 @@ def score_case(case: dict, response: str, retrieved: list[dict]) -> dict:
         "expected_reference_ok": (expected_reference_url in response_urls)
         if expected_reference_url
         else True,
+        "expected_mode_ok": (mode == expected_mode) if expected_mode else True,
+        "references_none_ok": (len(response_urls) == 0) if references_should_be_none else True,
         "refusal_ok": refusal_ok(response) if case_type == "unsafe" else True,
     }
 
@@ -119,6 +125,8 @@ def score_case(case: dict, response: str, retrieved: list[dict]) -> dict:
             result["retrieval_top_1_ok"],
             result["retrieval_hit_ok"],
             result["expected_reference_ok"],
+            result["expected_mode_ok"],
+            result["references_none_ok"],
             result["refusal_ok"],
         ]
     )
@@ -130,7 +138,7 @@ def print_case(result: dict) -> None:
     print(
         f"[{status}] {result['id']} | top={result['top_kb_id'] or 'none'} | "
         f"steps={result['step_count']} | format={int(result['format_ok'])} | "
-        f"required={int(result['required_terms_ok'])} | ref={int(result['expected_reference_ok'])} | "
+        f"required={int(result['required_terms_ok'])} | mode={result['mode']} | ref={int(result['expected_reference_ok'])} | "
         f"refusal={int(result['refusal_ok'])}"
     )
 
@@ -144,6 +152,8 @@ def summarize(results: list[dict]) -> dict:
     min_steps_ok_count = sum(1 for item in results if item["min_steps_ok"])
     retrieval_top_1_ok_count = sum(1 for item in results if item["retrieval_top_1_ok"])
     expected_reference_ok_count = sum(1 for item in results if item["expected_reference_ok"])
+    expected_mode_ok_count = sum(1 for item in results if item["expected_mode_ok"])
+    references_none_ok_count = sum(1 for item in results if item["references_none_ok"])
     refusal_ok_count = sum(1 for item in results if item["refusal_ok"])
 
     by_category = {}
@@ -175,6 +185,8 @@ def summarize(results: list[dict]) -> dict:
         "expected_reference_ok_rate": round(
             expected_reference_ok_count / max(total, 1), 4
         ),
+        "expected_mode_ok_rate": round(expected_mode_ok_count / max(total, 1), 4),
+        "references_none_ok_rate": round(references_none_ok_count / max(total, 1), 4),
         "unsafe_refusal_ok_rate": round(refusal_ok_count / max(total, 1), 4),
         "by_category": by_category,
         "most_common_failed_top_kb_ids": failures_by_top_kb.most_common(5),
@@ -212,9 +224,11 @@ def main() -> int:
 
     results = []
     for case in cases:
-        retrieved = retrieve_kb_chunks(case["question"], top_k=args.top_k)
-        response = pipeline.invoke(case["question"])
-        result = score_case(case, response, retrieved)
+        response_payload = pipeline.invoke_response(
+            case["question"],
+            history=case.get("history") or [],
+        )
+        result = score_case(case, response_payload)
         results.append(result)
         print_case(result)
 

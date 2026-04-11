@@ -7,10 +7,30 @@ export interface Source {
   snippet: string;
 }
 
+export interface HistoryItem {
+  role: "user" | "assistant";
+  content: string;
+}
+
+export interface StructuredReference {
+  label: string;
+  url: string;
+}
+
+export interface StructuredAnswer {
+  category?: string | null;
+  clarifying_question?: string | null;
+  steps: string[];
+  references: StructuredReference[];
+  support_message?: string | null;
+}
+
 export interface ChatResponse {
   answer: string;
   sources: Source[];
   confidence: "low" | "medium" | "high";
+  mode: "grounded" | "clarify" | "unsupported" | "unsafe";
+  structured: StructuredAnswer;
 }
 
 const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
@@ -21,6 +41,7 @@ function apiUrl(path: string): string {
 
 export async function postChatMessage(
   question: string,
+  history: HistoryItem[] = [],
   signal?: AbortSignal,
 ): Promise<ChatResponse> {
   const response = await fetch(apiUrl("/api/chat"), {
@@ -28,7 +49,7 @@ export async function postChatMessage(
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ question }),
+    body: JSON.stringify({ question, history }),
     signal,
   });
 

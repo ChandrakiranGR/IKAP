@@ -348,6 +348,9 @@ def retrieve_kb_chunks(question: str, top_k: int = 4) -> List[Dict[str, Any]]:
                 "url": url,
                 "text": text,
                 "kb_id": kb_id,
+                "score": float(row.get("_score") or 0.0),
+                "chunk_id": row.get("chunk_id") or "",
+                "section": row.get("section") or "",
             }
         )
 

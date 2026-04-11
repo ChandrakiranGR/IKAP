@@ -11,7 +11,7 @@ from langchain_openai import ChatOpenAI
 
 from backend.orchestration.prompt_loader import load_v4_system_prompt
 from backend.orchestration.retrieval_adapter import retrieve_kb_chunks
-
+from backend.orchestration.security_constants import INJECTION_PATTERNS
 
 # Keep the stronger base-RAG path as the production default for now.
 # The latest fine-tuned checkpoint remains available through IKAP_FINAL_MODEL overrides.
@@ -28,7 +28,7 @@ UNSAFE_QUERY_RE = re.compile(
     r"bypass(?:ing)?\s+(?:duo|mfa|multi[- ]factor)|"
     r"disable\s+(?:duo|mfa|multi[- ]factor)|"
     r"internal\s+(?:steps?|process|procedure|workflow)|"
-    r"(?:admin|administrator|administrative)\s+(?:steps?|process|procedure|workflow)|"
+    r"(?:admin|administrator|administrative)(?:-only)?[\s-]+(?:steps?|process|procedure|workflow|information)|"
     r"reset\s+duo\s+for\s+(?:any|another|other)\s+user|"
     r"cracked?\s+(?:license|licence|key)|"
     r"keygen|serial key|pirated?|"
@@ -95,6 +95,72 @@ AMBIGUOUS_SHORT_TERMS = {
     "help",
 }
 
+def detect_injection(question: str) -> bool:
+    """
+    Checks user input for injection-style attack patterns.
+    Returns True if any pattern is found.
+    This runs BEFORE retrieval so the KB index is never queried
+    for known attack inputs.
+    """
+    lowered = (question or "").lower()
+    return any(pattern in lowered for pattern in INJECTION_PATTERNS)
+
+
+def is_unsafe_request(question: str) -> bool:
+    """
+    Combined check: operational unsafe patterns OR injection patterns.
+    """
+    return bool(UNSAFE_QUERY_RE.search(question or "")) or detect_injection(question)
+
+def validate_input(question: str) -> tuple[bool, str]:
+    if not question or not question.strip():
+        return False, "empty"
+    stripped = question.strip()
+        
+    if len(stripped) > 2000:
+        return False, "too_long"
+    return True, ""
+
+def build_validation_response(reason: str, question: str) -> str:
+    category = infer_category(question)
+    if reason == "empty":
+        step = "1. Please enter a valid IT support question."
+    elif reason == "malformed":
+        step = "1. The input could not be understood. Please enter a clear IT support question."
+    else:
+        step = "1. The input is too long. Please summarize your question and try again."
+    return (
+        f"Category: {category}\n"
+        "Clarifying question: None\n"
+        f"Steps:\n{step}\n"
+        "References:\nNone\n"
+        "If this does not resolve your issue: Contact Northeastern IT Support and include:\n"
+        "- Your device/OS\n"
+        "- The step where the issue occurred\n"
+        "- Any error message shown"
+    )
+
+def build_injection_response(question: str) -> str:
+    """
+    Returns a formatted refusal specifically for injection attempts.
+    Distinct from build_unsafe_response so the report can show
+    different handling for different attack types.
+    """
+    category = infer_category(question)
+    return (
+        f"Category: {category}\n"
+        "Clarifying question: None\n"
+        "Steps:\n"
+        "1. This request appears to contain instructions that attempt to modify "
+        "IKAP's behavior or access restricted information. IKAP cannot process it.\n"
+        "2. If you have a genuine IT support question, please rephrase and ask again.\n"
+        "References:\n"
+        "None\n"
+        "If this does not resolve your issue: Contact Northeastern IT Support and include:\n"
+        "- Your device/OS\n"
+        "- The step where the issue occurred\n"
+        "- Any error message shown"
+    )
 
 def _project_root() -> Path:
     return Path(__file__).resolve().parents[2]
@@ -549,7 +615,6 @@ def _rewrite_explicit_link_request_steps(
     end = references_match.start()
     return response[:start] + replacement + response[end:]
 
-
 def _split_reference_line(line: str) -> Dict[str, str] | None:
     cleaned = line.strip().lstrip("-").strip()
     if not cleaned or cleaned.lower() == "none":
@@ -740,12 +805,6 @@ def _build_unsafe_payload(question: str, reason: str) -> Dict[str, Any]:
         clarifying_question=None,
         steps=steps,
     )
-
-
-def is_unsafe_request(question: str) -> bool:
-    return bool(UNSAFE_QUERY_RE.search(question or ""))
-
-
 def _lexical_overlap_count(question: str, chunk: Dict[str, Any]) -> int:
     q_tokens = {
         token
@@ -866,6 +925,31 @@ class IKAPLangChainPipeline:
         question: str,
         history: List[Dict[str, str]] | None = None,
     ) -> Dict[str, Any]:
+        is_valid, validation_reason = validate_input(question)
+        if not is_valid:
+            answer = build_validation_response(validation_reason, question)
+            structured = parse_structured_answer(answer)
+            return {
+                "answer": answer,
+                "mode": "clarify",
+                "structured": structured,
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": question.strip(),
+            }
+
+        if detect_injection(question):
+            answer = build_injection_response(question)
+            structured = parse_structured_answer(answer)
+            return {
+                "answer": answer,
+                "mode": "unsafe",
+                "structured": structured,
+                "confidence": "low",
+                "chunks": [],
+                "effective_question": question.strip(),
+            }
+
         normalized_history = _normalize_history(history)
         classification = classify_request(question, normalized_history)
         effective_question = classification["effective_question"]

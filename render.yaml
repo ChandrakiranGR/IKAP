@@ -11,8 +11,9 @@ services:
       - key: IKAP_CORS_ORIGINS
         value: "*"
 
-  - type: static
+  - type: web
     name: ikap-web
+    runtime: static
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: frontend/dist
     envVars:

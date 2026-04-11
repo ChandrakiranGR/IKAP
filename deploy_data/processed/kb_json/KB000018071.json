@@ -1,0 +1,62 @@
+{
+  "article_id": "KB000018071",
+  "title": "How do I connect to NUwave on a Mac?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "NUwave is Northeastern University's secure wireless network. It is available at the Boston Northeastern campus in academic and administrative buildings, the library, and in Northeastern-owned residence halls. Connect to NUwave on a Mac 1. From your desktop, select the wireless icon on the upper right-hand side of the screen. Choose NUwave from the menu that appears. 2. When the login window appears, enter your Northeastern username and password. Check 'Remember this network', and then select Join. 3. When the authentication certificate appears, select 'Show Certificate'. 4. In the expanded window, verify that it is from wireless.northeastern.edu and that the certificate is selected. 5. Check the 'Always trust wireless.northeastern.edu' option. 6. To finish, select Continue. 7. The device is now connected to NUwave. Check your connection by browsing any website. Whenever your computer detects NUwave, you will be able to connect automatically.",
+  "body_html": "<article>NUwave is Northeastern University's secure wireless network. It is available at the Boston Northeastern campus in academic and administrative buildings, the library, and in Northeastern-owned residence halls. <hr> <h2>Connect to NUwave on a Mac</h2> <ul><li>From your desktop, select the wireless icon on the upper right-hand side of the screen. Choose NUwave from the menu that appears.</li><li>When the login window appears, enter your Northeastern username and password. Check 'Remember this network', and then select Join.</li><li>When the authentication certificate appears, select 'Show Certificate'.</li><li>In the expanded window, verify that it is from wireless.northeastern.edu and that the certificate is selected.</li><li>Check the 'Always trust wireless.northeastern.edu' option.</li><li>To finish, select Continue.</li><li>The device is now connected to NUwave. Check your connection by browsing any website. Whenever your computer detects NUwave, you will be able to connect automatically.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NUwave is Northeastern University's secure wireless network. It is available at the Boston Northeastern campus in academic and administrative buildings, the library, and in Northeastern-owned residence halls.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Connect to NUwave on a Mac",
+      "text": "",
+      "steps": [
+        "From your desktop, select the wireless icon on the upper right-hand side of the screen. Choose NUwave from the menu that appears.",
+        "When the login window appears, enter your Northeastern username and password. Check 'Remember this network', and then select Join.",
+        "When the authentication certificate appears, select 'Show Certificate'.",
+        "In the expanded window, verify that it is from wireless.northeastern.edu and that the certificate is selected.",
+        "Check the 'Always trust wireless.northeastern.edu' option.",
+        "To finish, select Continue.",
+        "The device is now connected to NUwave. Check your connection by browsing any website. Whenever your computer detects NUwave, you will be able to connect automatically."
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

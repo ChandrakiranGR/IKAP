@@ -1,0 +1,51 @@
+{
+  "article_id": "KB0015064",
+  "title": "How do I sync Canvas calendar to Outlook?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015064",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015064",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015064",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "Mar 27, 2026",
+  "plain_text": "All future events, and past events (within 30 days), are included when exporting a Canvas calendar to Outlook. Outlook periodically updates but may take up to 24 hours to sync with the Canvas calendar, so Canvas updates may not be immediately visible in Outlook. Sync calendar Select Calendar Icon in the navigation menu in Canvas. Select 'Calendar Feed' at the bottom right of the page and copy its link. Open Outlook. Select the Calendar icon. Select 'Add calendar'. Select 'Subscribe from web' and paste the link you copied in Step 2. You can add a calendar name, icon, and color. When you have selected your options, select Import to add the Canvas calendar to your Outlook account. View your Outlook calendar with the events, assignments, and appointments from your Canvas calendar. Note: The calendar may take up to 24 hours to sync with Canvas. For scheduler items, appointments must be viewed in the Canvas calendar for full appointment details.",
+  "body_html": "<div id=\"364\">All future events, and past events (within 30 days), are included when exporting a Canvas calendar to Outlook. Outlook periodically updates but may take up to 24 hours to sync with the Canvas calendar, so Canvas updates may not be immediately visible in Outlook.<hr id=\"368\"><h2 id=\"370\">Sync calendar</h2><ul><li>Select Calendar Icon in the navigation menu in <a href=\"#\">Canvas</a>.</li><li>Select 'Calendar Feed' at the bottom right of the page and copy its link.</li><li>Open Outlook. Select the Calendar icon.</li><li>Select 'Add calendar'.</li><li>Select 'Subscribe from web' and paste the link you copied in Step 2.</li><li>You can add a calendar name, icon, and color. When you have selected your options, select Import to add the Canvas calendar to your Outlook account.</li><li>View your Outlook calendar with the events, assignments, and appointments from your Canvas calendar.</li></ul>Note: The calendar may take up to 24 hours to sync with Canvas. For scheduler items, appointments must be viewed in the Canvas calendar for full appointment details.</div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "All future events, and past events (within 30 days), are included when exporting a Canvas calendar to Outlook. Outlook periodically updates but may take up to 24 hours to sync with the Canvas calendar, so Canvas updates may not be immediately visible in Outlook.; Steps: []; Links: []. Heading: Sync calendar; Text: Select Calendar Icon in the navigation menu in Canvas. Select 'Calendar Feed' at the bottom right of the page and copy its link. Open Outlook. Select the Calendar icon. Select 'Add calendar'. Select 'Subscribe from web' and paste the link you copied in Step",
+      "steps": [
+        "You can add a calendar name, icon, and color. When you have selected your options, select Import to add the Canvas calendar to your Outlook account. View your Outlook calendar with the events, assignments, and appointments from your Canvas calendar. Note: The calendar may take up to 24 hours to sync with Canvas. For scheduler items, appointments must be viewed in the Canvas calendar for full appointment details.; Steps: [\"Select Calendar Icon in the navigation menu in Canvas.\", \"Select 'Calendar Feed' at the bottom right of the page and copy its link.\", \"Open Outlook. Select the Calendar icon.\", \"Select 'Add calendar'.\", \"Select 'Subscribe from web' and paste the link you copied in Step 2.\", \"You can add a calendar name, icon, and color. When you have selected your options, select Import to add the Canvas calendar to your Outlook account.\", \"View your Outlook calendar with the events, assignments, and appointments from your Canvas calendar.\"]; Links: [{\"text\": \"Canvas\", \"url\": \"https://canvas.northeastern.edu/\"}]."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "How do I set account time zones in Canvas?",
+      "url": null
+    }
+  ]
+}

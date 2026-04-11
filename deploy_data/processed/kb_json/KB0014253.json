@@ -1,0 +1,76 @@
+{
+  "article_id": "KB0014253",
+  "title": "How do I use Turnitin's quick submit as a faculty?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014253",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014253",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014253",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026-01-01",
+  "plain_text": "Turnitin's plagiarism prevention Quick Submit tool generates similarity reports that show how much of a document is original, how much is properly cited from other sources, and whether any parts are unoriginal or improperly cited. Quick Submit bypasses the Canvas integration and allows an instructor to submit any document (e.g., their work) for analysis. Note: This article is for faculty only. Please read the article How do I use Turnitin as a student? for more information about using Turnitin as a student. To use Quick Submit, you will be accessing Turnitin directly instead of through Canvas. There are two steps to setting up access to Turnitin directly: establishing your account and setting your password. If you have created an assignment in Canvas using Turnitin, your Turnitin account has been established, though a Turnitin password needs to be set. If you have never created an assignment in Canvas using the Turnitin integration, create one (e.g., in a Canvas sandbox), or email athelp@northeastern.edu to request that a Turnitin account be established for you. Once the account is established, a Turnitin password needs to be set. Navigate to to Turnitin's website . Select 'Log in'. 3. Select 'Forgot your password?'. 4. Enter your Northeastern email address and complete the steps in the email from Turnitin. Log in to to Turnitin . To activate the quick submit feature in your Turnitin account, select 'User Info' from the top navigation menu. Select Yes from the 'Activate quick submit' drop-down menu under 'User Information/Account Settings'. Select Submit at the bottom of the page. Select the 'Quick Submit' tab. Select Submit on the left-hand side of the screen. Select the database(s) that the submitted paper will be checked against, then select Submit. Fill in the author's first and last name as well as the Submission title. Then, choose the file you want to upload to Turnitin. Select Upload. Preview the submission and select Confirm. Select the 'Quick Submit' tab and choose the Similarity percentage to generate a report. Once the report opens, select the loose paper icon Similarity tools icon. Read the article about Navigating the Similarity Report to learn more about how to analyze the paper's similarity results.",
+  "body_html": "<article id=\"364\"><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172\">Turnitin's</a> plagiarism prevention Quick Submit tool generates similarity reports that show how much of a document is original, how much is properly cited from other sources, and whether any parts are unoriginal or improperly cited. Quick Submit bypasses the Canvas integration and allows an instructor to submit any document (e.g., their work) for analysis. Note: This article is for faculty only. Please read the article <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019410\">How do I use Turnitin as a student?</a> for more information about using Turnitin as a student. <h2 id=\"400\">Set up your Turnitin account</h2> To use Quick Submit, you will be accessing Turnitin directly instead of through Canvas. There are two steps to setting up access to Turnitin directly: establishing your account and setting your password. <h3 id=\"403\">Establish your account</h3> <ul><li>If you have created an assignment in Canvas using Turnitin, your Turnitin account has been established, though a Turnitin password needs to be set.</li><li>If you have never created an assignment in Canvas using the Turnitin integration, create one (e.g., in a Canvas sandbox), or email <a href=\"mailto:athelp@northeastern.edu\">athelp@northeastern.edu</a> to request that a Turnitin account be established for you. Once the account is established, a Turnitin password needs to be set.</li></ul> <h3 id=\"417\">Set your Turnitin password</h3> <ul><li>Navigate to to <a href=\"https://www.turnitin.com/\">Turnitin's website</a>.</li><li>Select 'Log in'. 3. Select 'Forgot your password?'. 4. Enter your Northeastern email address and complete the steps in the email from Turnitin.</li></ul> <h2 id=\"440\">Activate quick submit</h2> <ul><li>Log in to to <a href=\"http://www.turnitin.com/\">Turnitin</a>.</li><li>To activate the <a href=\"https://guides.turnitin.com/hc/en-us/articles/22046016193165-Quick-submit\">quick submit</a> feature in your Turnitin account, select 'User Info' from the top navigation menu. Select Yes from the 'Activate quick submit' drop-down menu under 'User Information/Account Settings'.</li><li>Select Submit at the bottom of the page.</li></ul> <h2 id=\"466\">Submit a paper</h2> <ul><li>Select the 'Quick Submit' tab.</li><li>Select Submit on the left-hand side of the screen.</li><li>Select the database(s) that the submitted paper will be checked against, then select Submit.</li><li>Fill in the author's first and last name as well as the Submission title. Then, choose the file you want to upload to Turnitin.</li><li>Select Upload.</li><li>Preview the submission and select Confirm.</li></ul> <h2 id=\"498\">Review similarity results</h2> <ul><li>Select the 'Quick Submit' tab and choose the Similarity percentage to generate a report.</li><li>Once the report opens, select the loose paper icon <button id=\"509\">Similarity tools icon</button>.</li><li>Read the article about <a href=\"https://guides.turnitin.com/hc/en-us/articles/23438306524173-Navigating-the-Similarity-Report\">Navigating the Similarity Report</a> to learn more about how to analyze the paper's similarity results.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Turnitin's plagiarism prevention Quick Submit tool generates similarity reports that show how much of a document is original, how much is properly cited from other sources, and whether any parts are unoriginal or improperly cited. Quick Submit bypasses the Canvas integration and allows an instructor to submit any document (e.g., their work) for analysis. Note: This article is for faculty only. Please read the article How do I use Turnitin as a student? for more information about using Turnitin as a student.; Set up your Turnitin account: To use Quick Submit, you will be accessing Turnitin directly instead of through Canvas. There are two steps to setting up access to Turnitin directly: establishing your account and setting your password.; Establish your account: If you have created an assignment in Canvas using Turnitin, your Turnitin account has been established, though a Turnitin password needs to be set. If you have never created an assignment in Canvas using the Turnitin integration, create one (e.g., in a Canvas sandbox), or email athelp@northeastern.edu to request that a Turnitin account be established for you. Once the account is established, a Turnitin password needs to be set.; Set your Turnitin password: Navigate to to Turnitin's website . Select 'Log in'. 3. Select 'Forgot your password?'. 4. Enter your Northeastern email address and complete the steps in the email from Turnitin.; Activate quick submit: Log in to to Turnitin . To activate the quick submit feature in your Turnitin account, select 'User Info' from the top navigation menu. Select Yes from the 'Activate quick submit' drop-down menu under 'User Information/Account Settings'. Select Submit at the bottom of the page.; Submit a paper: Select the 'Quick Submit' tab. Select Submit on the left-hand side of the screen. Select the database(s) that the submitted paper will be checked against, then select Submit. Fill in the author's first and last name as well as the Submission title. Then, choose the file you want to upload to Turnitin. Select Upload. Preview the submission and select Confirm.; Review similarity results: Select the 'Quick Submit' tab and choose the Similarity percentage to generate a report. Once the report opens, select the loose paper icon Similarity tools icon. Read the article about Navigating the Similarity Report to learn more about how to analyze the paper's similarity results.",
+      "steps": [
+        "Select 'Forgot your password?'.",
+        "Enter your Northeastern email address and complete the steps in the email from Turnitin.; Activate quick submit: Log in to to Turnitin . To activate the quick submit feature in your Turnitin account, select 'User Info' from the top navigation menu. Select Yes from the 'Activate quick submit' drop-down menu under 'User Information/Account Settings'. Select Submit at the bottom of the page.; Submit a paper: Select the 'Quick Submit' tab. Select Submit on the left-hand side of the screen. Select the database(s) that the submitted paper will be checked against, then select Submit. Fill in the author's first and last name as well as the Submission title. Then, choose the file you want to upload to Turnitin. Select Upload. Preview the submission and select Confirm.; Review similarity results: Select the 'Quick Submit' tab and choose the Similarity percentage to generate a report. Once the report opens, select the loose paper icon Similarity tools icon. Read the article about Navigating the Similarity Report to learn more about how to analyze the paper's similarity results."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Turnitin's",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172"
+    },
+    {
+      "text": "How do I use Turnitin as a student?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019410"
+    },
+    {
+      "text": "athelp@northeastern.edu",
+      "url": "mailto:athelp@northeastern.edu"
+    },
+    {
+      "text": "Turnitin's website",
+      "url": "https://www.turnitin.com/"
+    },
+    {
+      "text": "Turnitin",
+      "url": "http://www.turnitin.com/"
+    },
+    {
+      "text": "quick submit",
+      "url": "https://guides.turnitin.com/hc/en-us/articles/22046016193165-Quick-submit"
+    },
+    {
+      "text": "Navigating the Similarity Report",
+      "url": "https://guides.turnitin.com/hc/en-us/articles/23438306524173-Navigating-the-Similarity-Report"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Turnitin"
+  ],
+  "related_articles": [
+    {
+      "title": "What is Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do students access the Turnitin Similarity Report panel in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I allow students or staff to complete a self-check using Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I add a Turnitin assignment to my Canvas course?",
+      "url": null
+    }
+  ]
+}

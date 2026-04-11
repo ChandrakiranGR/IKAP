@@ -1,0 +1,63 @@
+{
+  "article_id": "KB000019247",
+  "title": "How do I allow individual students to resubmit an assignment after the deadline?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019247",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019247",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019247",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "If a student or several students need to resubmit an assignment that is locked because the 'Available from/Until' dates have passed, instructors can update the assignment's settings to provide these students access to resubmit their work. Individual students may need extra time to resubmit an assignment for a variety of reasons, including: Accessibility accommodations. Instructor-approved extension. Multiple draft submissions. Incorrect/corrupted file submission. Allow resubmission: Log in to Canvas. Select 'Assignments' from the course navigation menu. Select the title of the assignment you would like to edit. Select 'Edit'. In the 'Submission Attempts' section, change 'Allowed Attempts' to: Unlimited to provide unlimited attempts or Limited to specify the number of attempts allowed. Scroll down to the 'Assign' section. Select '+ Add'. Select the name of the student(s) who need to resubmit the assignment. Select the 'Due' and 'Available from/Until' dates. Select 'Save'. Note: Make sure that if you have course end dates in your course, the assignment due date and the 'available until' date fall within the course participation dates. Refer to the article How do I restrict students from accessing a published Canvas course? for more information.",
+  "body_html": "<article id=\"364\"><div id=\"365\">If a student or several students need to resubmit an assignment that is locked because the 'Available from/Until' dates have passed, instructors can update the assignment's settings to provide these students access to resubmit their work. Individual students may need extra time to resubmit an assignment for a variety of reasons, including:<ul><li>Accessibility accommodations.</li><li>Instructor-approved extension.</li><li>Multiple draft submissions.</li><li>Incorrect/corrupted file submission.</li></ul><hr id=\"379\"><h2>Allow resubmission</h2><ul><li>Log in to to <a id=\"386\">Canvas</a>.</li><li>Select 'Assignments' from the course navigation menu. <button id=\"392\">Assignment from course navigation menu on Canvas</button></li><li>Select the title of the assignment you would like to edit.</li><li>Select 'Edit'. <button id=\"399\">Edit button for an assignment on Canvas</button></li><li>In the 'Submission Attempts' section, change 'Allowed Attempts' to:<ul><li>Unlimited to provide unlimited attempts.</li><li>Limited to specify the number of attempts allowed. <button id=\"409\">Limited Selection</button></li></ul></li><li>Scroll down to the 'Assign' section.</li><li>Select '+ Add'. <button id=\"417\">The Assign section in assignment details</button></li><li>Select the name of the student(s) who need to resubmit the assignment.</li><li>Select the 'Due' and 'Available from/Until' dates.</li><li>Select 'Save'.</li></ul>Note: Make sure that if you have course end dates in your course, the assignment due date and the 'available until' date fall within the course participation dates. Refer to the article <a id=\"429\">How do I restrict students from accessing a published Canvas course?</a> for more information. <a id=\"433\">Back to top</a></div></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "If a student or several students need to resubmit an assignment that is locked because the 'Available from/Until' dates have passed, instructors can update the assignment's settings to provide these students access to resubmit their work. Individual students may need extra time to resubmit an assignment for a variety of reasons, including: Accessibility accommodations, Instructor-approved extension, Multiple draft submissions, Incorrect/corrupted file submission.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Allow resubmission",
+      "text": "Log in to Canvas. Select 'Assignments' from the course navigation menu. Select the title of the assignment you would like to edit. Select 'Edit'. In the 'Submission Attempts' section, change 'Allowed Attempts' to: Unlimited or Limited. Scroll down to the 'Assign' section. Select '+ Add'. Select the name of the student(s) who need to resubmit the assignment. Select the 'Due' and 'Available from/Until' dates. Select 'Save'. Note regarding course end dates and reference to 'How do I restrict students from accessing a published Canvas course?'.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "How do I restrict students from accessing a published Canvas course?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016511"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

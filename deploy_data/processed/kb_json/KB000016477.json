@@ -1,0 +1,140 @@
+{
+  "article_id": "KB000016477",
+  "title": "How do I create extra credit options in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016477",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016477",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016477",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Extra credit is currently not a default option in Canvas. However, you can give students extra credit using a variety of options. Table of Contents: Create a new assignment, Add extra points to an existing assignment, Create extra credit within a rubric, Add extra credit within a quiz, Create a bonus question in a quiz, Use extra credit and assignment groups. Create a new assignment: Note: If you haven't created an assignment, refer to How do I create and grade an assignment in Canvas? Create a new assignment with zero points possible. In the 'Submission Type' drop-down field, select 'No Submission'. Input points in the Gradebook. This option may have additional effects on courses using weighted grades and assignment groups. Add extra points to an existing assignment: Add extra points to any assignment by manually entering the extra points in the Gradebook. This option may have additional effects on courses using weighted grades and assignment groups. Create extra credit within a rubric: Note: If you haven't created a rubric, refer to Creating a Rubric for more information. Add criteria to a rubric for extra credit. You can have rubric points worth more than the assignment total. This option may have additional effects on courses using weighted grades and assignment groups. Add extra credit within a quiz: Extra credit options within the quiz tool can be completed in two ways. If you haven't created a quiz, read How do I create and grade a quiz in Canvas? article for more information. Navigate to Fudge Points in SpeedGrader. View the student responses in SpeedGrader. Scroll to the bottom of the students' response, where you will find a box called Fudge Points. Enter positive or negative numbers to adjust the student's score, then select 'Update Scores'. Create a bonus question in a quiz: Create quiz questions worth zero points. Add your extra credit question. In Speedgrader, enter a number to adjust the score. Select 'Update Scores'. Use extra credit and assignment groups: Create quizzes or assignments worth zero points and place them within an existing group that is weighted for a percentage of the grade. Note: If you are weighting your assignment groups, please pay attention to how weighted groups can affect the Gradebook if assignments are worth zero points. You cannot put extra credit assignments into a group of your own unless all extra credit assignments are worth more than 0 points. Note: If you have rules set in an assignment group to drop a score, adding extra points may affect your students' overall scores.",
+  "body_html": "<article>Extra credit is currently not a default option in Canvas. However, you can give students extra credit using a variety of options. <h2>Table of Contents</h2><ul><li>Create a new assignment</li><li>Add extra points to an existing assignment</li><li>Create extra credit within a rubric</li><li>Add extra credit within a quiz</li><li>Create a bonus question in a quiz</li><li>Use extra credit and assignment groups</li></ul><h2>Create a new assignment</h2>Note: If you haven't created an assignment, refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585\">How do I create and grade an assignment in Canvas?</a><ul><li>Create a new assignment with zero points possible. In the 'Submission Type' drop-down field, select 'No Submission'.</li><li>Input points in the Gradebook. This option may have additional effects on courses using <a href=\"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-weight-the-final-course-grade-based-on-assignment/ta-p/746\">weighted grades and assignment groups</a>.</li></ul><h2>Add extra points to an existing assignment</h2><ul><li>Add extra points to any assignment by manually entering the extra points in the Gradebook. This option may have additional effects on courses using <a href=\"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-weight-the-final-course-grade-based-on-assignment/ta-p/746\">weighted grades and assignment groups</a>.</li></ul><h2>Create extra credit within a rubric</h2>Note: If you haven't created a rubric, refer to <a href=\"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-to-an-assignment/ta-p/1058\">Creating a Rubric</a> for more information.<ul><li>Add criteria to a rubric for extra credit. You can have rubric points worth more than the assignment total. This option may have additional effects on courses <a href=\"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-weight-the-final-course-grade-based-on-assignment/ta-p/746\">using weighted grades and assignment groups.</a></li></ul><h2>Add extra credit within a quiz</h2>Extra credit options within the quiz tool can be completed in two ways. If you haven't created a quiz, read <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587\">How do I create and grade a quiz in Canvas?</a> article for more information.<ul><li>Navigate to <a href=\"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-adjust-the-point-value-for-an-entire-quiz-using-fudge/ta-p/939\">Fudge Points</a> in SpeedGrader.</li><li>View the student responses in SpeedGrader.</li><li>Scroll to the bottom of the students' response, where you will find a box called Fudge Points. Enter positive or negative numbers to adjust the student's score, then select 'Update Scores'.</li></ul><h2>Create a bonus question in a quiz</h2><ul><li>Create quiz questions worth zero points.</li><li>Add your extra credit question.</li><li>In Speedgrader, enter a number to adjust the score. Select 'Update Scores'.</li></ul><h2>Use extra credit and assignment groups</h2><ul><li>Create quizzes or assignments worth zero points and place them within an existing group that is weighted for a percentage of the grade. Note: If you are weighting your assignment groups, please pay attention to how weighted groups can affect the Gradebook if assignments are worth zero points. You cannot put extra credit assignments into a group of your own unless all extra credit assignments are worth more than 0 points. Note: If you have rules set in an assignment group to drop a score, adding extra points may affect your students' overall scores.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Extra credit is currently not a default option in Canvas. However, you can give students extra credit using a variety of options.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add extra points to an existing assignment",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create extra credit within a rubric",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add extra credit within a quiz",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a bonus question in a quiz",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Use extra credit and assignment groups.",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a new assignment",
+      "text": "Note: If you haven't created an assignment, refer to How do I create and grade an assignment in Canvas? Create a new assignment with zero points possible. In the 'Submission Type' drop-down field, select 'No Submission'. Input points in the Gradebook. This option may have additional effects on courses using weighted grades and assignment groups.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add extra points to an existing assignment",
+      "text": "Add extra points to any assignment by manually entering the extra points in the Gradebook. This option may have additional effects on courses using weighted grades and assignment groups.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create extra credit within a rubric",
+      "text": "Note: If you haven't created a rubric, refer to Creating a Rubric for more information. Add criteria to a rubric for extra credit. You can have rubric points worth more than the assignment total. This option may have additional effects on courses using weighted grades and assignment groups.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add extra credit within a quiz",
+      "text": "Extra credit options within the quiz tool can be completed in two ways. If you haven't created a quiz, read How do I create and grade a quiz in Canvas? article for more information. Navigate to Fudge Points in SpeedGrader. View the student responses in SpeedGrader. Scroll to the bottom of the students' response, where you will find a box called Fudge Points. Enter positive or negative numbers to adjust the student's score, then select 'Update Scores'.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a bonus question in a quiz",
+      "text": "Create quiz questions worth zero points. Add your extra credit question. In Speedgrader, enter a number to adjust the score. Select 'Update Scores'.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Use extra credit and assignment groups",
+      "text": "Create quizzes or assignments worth zero points and place them within an existing group that is weighted for a percentage of the grade. Note: If you are weighting your assignment groups, please pay attention to how weighted groups can affect the Gradebook if assignments are worth zero points. You cannot put extra credit assignments into a group of your own unless all extra credit assignments are worth more than 0 points. Note: If you have rules set in an assignment group to drop a score, adding extra points may affect your students' overall scores.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I create and grade an assignment in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585"
+    },
+    {
+      "text": "weighted grades and assignment groups",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-weight-the-final-course-grade-based-on-assignment/ta-p/746"
+    },
+    {
+      "text": "Creating a Rubric",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-to-an-assignment/ta-p/1058"
+    },
+    {
+      "text": "using weighted grades and assignment groups.",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-weight-the-final-course-grade-based-on-assignment/ta-p/746"
+    },
+    {
+      "text": "How do I create and grade a quiz in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587"
+    },
+    {
+      "text": "Fudge Points",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-adjust-the-point-value-for-an-entire-quiz-using-fudge/ta-p/939"
+    }
+  ],
+  "categories": [
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

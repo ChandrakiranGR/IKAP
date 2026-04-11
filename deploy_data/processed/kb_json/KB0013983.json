@@ -1,0 +1,196 @@
+{
+  "article_id": "KB0013983",
+  "title": "FAQ: VPN and remote access",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013983",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013983",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013983",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "vpn_kb.json",
+  "updated_at": "14 days ago",
+  "plain_text": "This article answers frequently asked questions about accessing, installing, and troubleshooting the VPN on the Northeastern University network. What is a virtual private network (VPN)? A Virtual Private Network (VPN) allows you to securely connect your computer to resources on the Northeastern network. Many of the systems and services on the Northeastern network require a secure connection to access them. While on campus, NUnet and NUwave automatically provide a secure connection to campus network resources, such as the Q: drive. If you are not connected to NUnet or NUwave, you will need to use a VPN connection in addition to your internet connection to access many Northeastern systems and services. Some resources also require that you access them using a VPN in addition to being on NUnet or NUwave as an added layer of security. Who can use the VPN? VPN access is available to instructors, staff, students, and sponsored account holders. Note: Retirees who need access to VPN should submit a request for a sponsored account. What is GlobalProtect? GlobalProtect is a software app that you run on your computer or mobile device to access the Northeastern network resources that require a secure network connection. How do I install GlobalProtect? Follow the instructions for installing and setting up GlobalProtect for your operating system: How do I install VPN on Windows? How do I Install VPN on a Mac? How do I install and connect to VPN on Linux? How do I set up and connect to VPN on an Android device? How do I set up and connect to VPN on iOS devices? What are the requirements to use the VPN? To use the university's VPN, you must: Be a Northeastern faculty, staff, student, or sponsored account holder. Have GlobalProtect installed on your device. Be enrolled in MFA. How do I connect to VPN? Launch the GlobalProtect spftware on your computer or mobile device. Sign in using your Northeastern username and password. Please see How do I connect to Northeastern VPN? for more information. Note: GlobalProtect requires two-factor authentication to complete the connection. After you enter your login credentials and select 'Connect', you need to open the Duo Mobile app and accept the MFA request. GlobalProtect will then connect you to the VPN. How do I disconnect from VPN? Select the GlobalProtect icon from your computer or mobile device. Select 'Disconnect'. Note: For additional operating systems and details, please see the installation articles for Windows, Mac, Linux, Android, or iOS. How do I reconnect to the VPN if I get disconnected? Select the GlobalProtect icon in your system tray (Windows) or taskbar (Mac). Select 'Connect' to reconnect if you are disconnected and re-login if prompted. Open the Duo Mobile app and authenticate your session again. You will be reconnected to the VPN. What should I do if the GlobalProtect app asks me to update it? ITS periodically pushes updates and bug fixes to the app. When you open the app, you'll see a request to upgrade now or later. It is recommended that you install the update as soon as possible so that you'll always have the latest fixes to the app. Occasionally, ITS pushes updates in the background. In this case, you'll only see a notice that the app was updated, and you can proceed with using the app after acknowledging the notice. Refer to the following articles to update the GlobalProtect VPN client: How do I update the GlobalProtect VPN client on Windows? How do I update the GlobalProtect VPN client on a Mac? What do I do if GlobalProtect stops working after updating the operating system? If you upgraded your operating system, you must uninstall GlobalProtect and reinstall it. How do I know what sites or resources require VPN? As a general guideline, if you're working remotely and can't get to a Northeastern resource or website, try using the VPN to see if it fixes the problem. Here are some examples of resources that require a Northeastern VPN for access: Facilities and Residential Life Work Request. Event Services Request Form. Green Office Challenge. Capital Project and Space Request. Does Northeastern have security requirements for VPN use? Yes. Refer to FAQ: VPN requirements for critical systems for further guidance.",
+  "body_html": "<article id=\"364\">This article answers frequently asked questions about accessing, installing, and troubleshooting the VPN on the Northeastern University network.<hr id=\"366\"><h2>Table of contents</h2><ul><li>What is a virtual private network (VPN)?</li><li>Who can use the VPN?</li><li>What is GlobalProtect?</li><li>How do I install GlobalProtect?</li><li>What are the requirements to use the VPN?</li><li>How do I connect to VPN?</li><li>How do I disconnect from VPN?</li><li>How do I reconnect to the VPN if I get disconnected?</li><li>What should I do if the GlobalProtect app asks me to update it?</li><li>What do I do if GlobalProtect stops working after updating the operating system?</li><li>How do I know what sites or resources require VPN?</li><li>Does Northeastern have security requirements for VPN use?</li></ul><hr id=\"408\"><h3>What is a virtual private network (VPN)?</h3><p>A Virtual Private Network (VPN) allows you to securely connect your computer to resources on the Northeastern network...</p><h3>Who can use the VPN?</h3><p>VPN access is available to instructors, staff, students, and sponsored account holders. Note: Retirees who need access to VPN should submit a request for a <a id=\"418\">sponsored account</a>.</p><h3>What is GlobalProtect?</h3><p>GlobalProtect is a software app that you run on your computer or mobile device to access the Northeastern network resources that require a secure network connection.</p><h3>How do I install GlobalProtect?</h3><p>Follow the instructions for installing and setting up GlobalProtect for your operating system:</p><ul><li><a id=\"438\">How do I install VPN on Windows?</a></li><li><a id=\"441\">How do I Install VPN on a Mac?</a></li><li><a id=\"444\">How do I install and connect to VPN on Linux?</a></li><li><a id=\"447\">How do I set up and connect to VPN on an Android device?</a></li><li><a id=\"450\">How do I set up and connect to VPN on iOS devices?</a></li></ul><h3>What are the requirements to use the VPN?</h3><ul><li>Be a Northeastern faculty, staff, student, or sponsored account holder.</li><li>Have GlobalProtect installed on your device.</li><li>Be enrolled in MFA.</li></ul><h3>How do I connect to VPN?</h3><ul><li>Launch the GlobalProtect spftware on your computer or mobile device.</li><li>Sign in using your Northeastern username and password. Please see <a id=\"479\">How do I connect to Northeastern VPN?</a> for more information...</li></ul><h3>How do I disconnect from VPN?</h3><ul><li>Select the GlobalProtect icon from your computer or mobile device.</li><li>Select 'Disconnect'. Note: For additional operating systems and details, please see the installation articles for <a id=\"499\">Windows</a>, <a id=\"503\">Mac</a>, <a id=\"506\">Linux</a>, <a id=\"509\">Android</a>, or <a id=\"512\">iOS</a>.</li></ul><h3>How do I reconnect to the VPN if I get disconnected?</h3><ul><li>Select the GlobalProtect icon in your system tray (Windows) or taskbar (Mac).</li><li>Select 'Connect' to reconnect...</li><li>Open the Duo Mobile app and authenticate your session again.</li></ul><h3>What should I do if the GlobalProtect app asks me to update it?</h3><p>ITS periodically pushes updates... Refer to the following articles to update the GlobalProtect VPN client:</p><ul><li><a id=\"540\">How do I update the GlobalProtect VPN client on Windows?</a></li><li><a id=\"543\">How do I update the GlobalProtect VPN client on a Mac?</a></li></ul><h3>What do I do if GlobalProtect stops working after updating the operating system?</h3><p>If you upgraded your operating system, you must uninstall GlobalProtect and reinstall it.</p><h3>How do I know what sites or resources require VPN?</h3><p>...Here are some examples of resources that require a Northeastern VPN for access:</p><ul><li>Facilities and Residential Life Work Request.</li><li>Event Services Request Form.</li><li>Green Office Challenge.</li><li>Capital Project and Space Request.</li></ul><h3>Does Northeastern have security requirements for VPN use?</h3><p>Yes. Refer to <a id=\"575\">FAQ: VPN requirements for critical systems</a> for further guidance.</p></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "This article answers frequently asked questions about accessing, installing, and troubleshooting the VPN on the Northeastern University network.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What is a virtual private network (VPN)?",
+      "text": "A Virtual Private Network (VPN) allows you to securely connect your computer to resources on the Northeastern network.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Who can use the VPN?",
+      "text": "VPN access is available to instructors, staff, students, and sponsored account holders. Retirees should request a sponsored account.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What is GlobalProtect?",
+      "text": "GlobalProtect is a software app that you run on your computer or mobile device to access Northeastern network resources.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How do I install GlobalProtect?",
+      "text": "Follow OS-specific instructions for Windows, Mac, Linux, Android, or iOS.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What are the requirements to use the VPN?",
+      "text": "",
+      "steps": [
+        "Be a Northeastern faculty, staff, student, or sponsored account holder.",
+        "Have GlobalProtect installed.",
+        "Be enrolled in MFA."
+      ],
+      "links": []
+    },
+    {
+      "heading": "How do I connect to VPN?",
+      "text": "",
+      "steps": [
+        "Launch GlobalProtect.",
+        "Sign in with Northeastern credentials.",
+        "Complete MFA via Duo Mobile app."
+      ],
+      "links": []
+    },
+    {
+      "heading": "How do I disconnect from VPN?",
+      "text": "",
+      "steps": [
+        "Select GlobalProtect icon.",
+        "Select 'Disconnect'."
+      ],
+      "links": []
+    },
+    {
+      "heading": "How do I reconnect to the VPN if I get disconnected?",
+      "text": "",
+      "steps": [
+        "Select GlobalProtect icon.",
+        "Select 'Connect'.",
+        "Re-authenticate via Duo."
+      ],
+      "links": []
+    },
+    {
+      "heading": "What should I do if the GlobalProtect app asks me to update it?",
+      "text": "ITS periodically pushes updates. It is recommended to install them as soon as possible.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "What do I do if GlobalProtect stops working after updating the operating system?",
+      "text": "Uninstall and reinstall GlobalProtect.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "How do I know what sites or resources require VPN?",
+      "text": "Guidelines and examples of resources (Facilities, Event Services, Green Office, Capital Project) requiring VPN.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Does Northeastern have security requirements for VPN use?",
+      "text": "Yes, refer to FAQ: VPN requirements for critical systems.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "sponsored account",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013989"
+    },
+    {
+      "text": "How do I install VPN on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013799"
+    },
+    {
+      "text": "How do I Install VPN on a Mac?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800"
+    },
+    {
+      "text": "How do I install and connect to VPN on Linux?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012573"
+    },
+    {
+      "text": "How do I set up and connect to VPN on an Android device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013910"
+    },
+    {
+      "text": "How do I set up and connect to VPN on iOS devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013912"
+    },
+    {
+      "text": "How do I connect to Northeastern VPN?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951"
+    },
+    {
+      "text": "Windows",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013799"
+    },
+    {
+      "text": "Mac",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800"
+    },
+    {
+      "text": "Linux",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012573"
+    },
+    {
+      "text": "Android",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013910"
+    },
+    {
+      "text": "iOS",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013912"
+    },
+    {
+      "text": "How do I update the GlobalProtect VPN client on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013914"
+    },
+    {
+      "text": "How do I update the GlobalProtect VPN client on a Mac?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013916"
+    },
+    {
+      "text": "FAQ: VPN requirements for critical systems",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000024127"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Remote Access/VPN"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: VPN and remote access (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013983)",
+      "url": null
+    },
+    {
+      "title": "How do I connect to Northeastern VPN? (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951)",
+      "url": null
+    },
+    {
+      "title": "How do I Install VPN on a Mac? (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013800)",
+      "url": null
+    },
+    {
+      "title": "How do I install VPN on Windows? (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013799)",
+      "url": null
+    },
+    {
+      "title": "How do I set up and connect to VPN on iOS devices? (https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013912)",
+      "url": null
+    }
+  ]
+}

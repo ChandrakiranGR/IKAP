@@ -1,0 +1,72 @@
+{
+  "article_id": "KB0014579",
+  "title": "How do I access my Canvas course as an instructor?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014579",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014579",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014579",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "Feb 1, 2026",
+  "plain_text": "When logging in to Canvas, the landing page is the default Dashboard page that shows current courses. You will access courses from this page. Refer to the article What is Canvas Learning Management System? for more information. Note: You must be the instructor on record with the Registrar. You will only be able to view the courses that are listed under your name. If, for any reason, a course is not displayed, then you may contact the Registrar for assistance. Access course 1. Go to Canvas. 2. Select 'Log in to Canvas'. 3. Log in with your Northeastern credentials. See How do I log in to Northeastern services? for more information. 4. You will be brought to the Dashboard, where the current term's courses are located. Select a course card to access the course. Note: Students will not be able to access the course until it's published. Refer to How do I publish courses and modules in Canvas? for more information. 5. You can select the 'Courses' icon to view additional, past, and future courses.",
+  "body_html": "<article>When logging in to Canvas, the landing page is the default Dashboard page that shows current courses. You will access courses from this page. Refer to the article <a href=\"https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0014565\">What is Canvas Learning Management System?</a> for more information. Note: You must be the instructor on record with the Registrar. You will only be able to view the courses that are listed under your name. If, for any reason, a course is not displayed, then you may contact the Registrar for assistance. <hr> <h2>Access course</h2> <ul> <li>Go to <a href=\"https://canvas.northeastern.edu/\">Canvas</a>.</li> <li>Select 'Log in to Canvas'.</li> <li>Log in with your Northeastern credentials. See <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013501\">How do I log in to Northeastern services?</a> for more information.</li> <li>You will be brought to the Dashboard, where the current term's courses are located. Select a course card to access the course. Note: Students will not be able to access the course until it's published. Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584\">How do I publish courses and modules in Canvas?</a> for more information.</li> <li>You can select the 'Courses' icon to view additional, past, and future courses.</li> </ul> </article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "When logging in to Canvas, the landing page is the default Dashboard page that shows current courses. You will access courses from this page. Refer to the article What is Canvas Learning Management System? for more information. Note: You must be the instructor on record with the Registrar. You will only be able to view the courses that are listed under your name. If, for any reason, a course is not displayed, then you may contact the Registrar for assistance.; Steps: []; Links: [{text: 'What is Canvas Learning Management System?', url: 'https://service.northeastern.edu/tech?id=kb_article&sysparm_article=KB0014565'}]",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Access course",
+      "text": "Go to Canvas. Select 'Log in to Canvas'. Log in with your Northeastern credentials. See How do I log in to Northeastern services? for more information. You will be brought to the Dashboard, where the current term's courses are located. Select a course card to access the course. Note: Students will not be able to access the course until it's published. Refer to How do I publish courses and modules in Canvas? for more information. You can select the 'Courses' icon to view additional, past, and future courses.; Steps: ['Go to Canvas.', 'Select \\'Log in to Canvas\\'.', 'Log in with your Northeastern credentials.', 'Select a course card to access the course.', 'Select the \\'Courses\\' icon to view additional, past, and future courses.']; Links: [{text: 'Canvas', url: 'https://canvas.northeastern.edu/'}, {text: 'How do I log in to Northeastern services?', url: 'https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013501'}, {text: 'How do I publish courses and modules in Canvas?', url: 'https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584'}]",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "What is Canvas Learning Management System?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "How do I log in to Northeastern services?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013501"
+    },
+    {
+      "text": "How do I publish courses and modules in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    }
+  ],
+  "categories": [
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Differentiation Tags in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I organize Canvas content using Northeastern's Standard Template?",
+      "url": null
+    },
+    {
+      "title": "How do I access and share my NU digital badge?",
+      "url": null
+    },
+    {
+      "title": "How do I add or remove courses on my Canvas dashboard?",
+      "url": null
+    },
+    {
+      "title": "How do I begin using Canvas as a student?",
+      "url": null
+    }
+  ]
+}

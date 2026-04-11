@@ -1,0 +1,63 @@
+{
+  "article_id": "KB0013799",
+  "title": "How do I install VPN on Windows?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013799",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013799",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013799",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "vpn_kb.json",
+  "updated_at": "2 months ago",
+  "plain_text": "A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. Many systems and services on the Northeastern University network require a secure connection for access. While on campus, NUnet and NUwave automatically provide a secure connection to the campus network. If you are not connected to NUnet or NUwave, a VPN connection, in addition to your internet connection, will be required to access many Northeastern systems and services with an added layer of security. Table of Contents Northeastern-managed computer Personal computer Without administrator credentials Northeastern-managed computer The GlobalProtect software should be pre-installed on Northeastern-managed computers. On Windows, select the Start button and search for GlobalProtect. If the application does not come up in the search, you can install the software through the Windows Software Center by following the steps below: 1. Select the Start button. 2. In the search box, type 'Software Center' or 'Company Portal' to display a list of applications. 3. Select GlobalProtect from the list of software. If you cannot find it, use the search box at the top of the screen. 4. Select the Install button in the new window. You will see the installation status below. Note: See How do I connect to Northeastern VPN? for information on connecting to the VPN after installation. Personal computer 1. Navigate to the Northeastern VPN Portal. 2. Log in using your Northeastern username and password. 3. Authenticate with Duo. For authentication, see How do I use Duo multi-factor authentication (MFA)? for more details. 4. Select the version you want to download. 5. Launch the downloaded file, then select Run. 6. Select Next and follow the steps in the setup wizard without changing the options. 7. When the installation is complete, select Close. Note: See How do I connect to Northeastern VPN? for information on connecting to the VPN after installation. Without administrator credentials 1. In the Windows search bar, open 'Microsoft Store'. 2. Search for GlobalProtect. 3. Select Get.",
+  "body_html": "<div id=\"364\"><p>A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network. Many systems and services on the Northeastern University network require a secure connection for access. While on campus, NUnet and NUwave automatically provide a secure connection to the campus network. If you are not connected to NUnet or NUwave, a VPN connection, in addition to your internet connection, will be required to access many Northeastern systems and services with an added layer of security.</p><h2>Table of Contents</h2><ul><li>Northeastern-managed computer</li><li>Personal computer</li><li>Without administrator credentials</li></ul><h2>Northeastern-managed computer</h2><p>The GlobalProtect software should be pre-installed on Northeastern-managed computers. On Windows, select the Start button and search for GlobalProtect. If the application does not come up in the search, you can install the software through the Windows Software Center by following the steps below:</p><ul><li>Select the Start button.</li><li>In the search box, type 'Software Center' or 'Company Portal' to display a list of applications.</li><li>Select GlobalProtect from the list of software.</li><li>Select the Install button in the new window. Note: See How do I connect to Northeastern VPN?</li></ul><h2>Personal computer</h2><ul><li>Navigate to the Northeastern VPN Portal.</li><li>Log in using your Northeastern username and password.</li><li>Authenticate with Duo. See How do I use Duo multi-factor authentication (MFA)?</li><li>Select the version you want to download.</li><li>Launch the downloaded file, then select Run.</li><li>Select Next and follow the steps.</li><li>When the installation is complete, select Close. Note: See How do I connect to Northeastern VPN?</li></ul><h2>Without administrator credentials</h2><ul><li>In the Windows search bar, open 'Microsoft Store'.</li><li>Search for GlobalProtect.</li><li>Select Get.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "A virtual private network (VPN) allows you to securely connect your computer to resources on the Northeastern University network...",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Northeastern-managed computer",
+      "text": "Steps to install via Software Center",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Personal computer",
+      "text": "Steps to install via VPN Portal",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Without administrator credentials",
+      "text": "Steps to install via Microsoft Store.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I connect to Northeastern VPN?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017951"
+    },
+    {
+      "text": "Northeastern VPN Portal",
+      "url": "https://vpn.northeastern.edu/"
+    },
+    {
+      "text": "How do I use Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012648"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Remote Access/VPN"
+  ],
+  "related_articles": [
+    {
+      "title": "FAQ: VPN and remote access, How do I connect to Northeastern VPN?, How do I Install VPN on a Mac?, How do I install VPN on Windows?, How do I set up and connect to VPN on iOS devices?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "article_id": "KB0014582",
+  "title": "How do I send messages to students on Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014582",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014582",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014582",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026/04/01",
+  "plain_text": "As an instructor in a course, you can send messages to the entire course or individual students using the Inbox tool in Canvas. Note: You will need to first publish your course before you can send messages to your students in Canvas. Otherwise, you may encounter a Recipient Invalid error message. If you need to send a message before your course is published, you can do so using the Qwickly Course Tool. Refer to the articles, How do I use Qwickly Course Tools to email students before publishing my Canvas course? and How do I publish courses and modules in Canvas? for more information. Send a message on Canvas 1. Select the inbox icon from the global navigation. 2. Select the compose message icon. 3. Choose the course from which you would like to send a message. 4. Select courses using the drop-down ('Favorite Courses', 'More Courses'). 5. Enter the course name to search. 6. Select the contact book icon to select recipients. 7. Select by recipient's role (Teachers, Students). 8. Select specific 'Course Sections' if your course is cross-listed. 9. Type the recipient's name to search for specific users. 10. Type the subject line and the body of the message. Note: If you are sending sensitive information to multiple recipients and do not wish to disclose who's on the distribution list, check the box for 'Send an individual message to each recipient'. 11. Select 'Send'. Note: If you would like additional formatting or multimedia options to send a message to an entire course, consider using the Announcements feature. Refer to How do I send an announcement to students through Canvas? for more information.",
+  "body_html": "<article id=\"362\">As an instructor in a course, you can send messages to the entire course or individual students using the Inbox tool in <a href=\"#\">Canvas</a>. Note: You will need to first publish your course before you can send messages to your students in Canvas. Otherwise, you may encounter a Recipient Invalid error message. If you need to send a message before your course is published, you can do so using the Qwickly Course Tool. Refer to the articles, <a href=\"#\">How do I use Qwickly Course Tools to email students before publishing my Canvas course?</a> and <a href=\"#\">How do I publish courses and modules in Canvas?</a> for more information.<hr><h2>Send a message on Canvas</h2><ul><li>Select the inbox icon from the global navigation.</li><li>Select the compose message icon.</li><li>Choose the course from which you would like to send a message.</li><li>Select courses using the drop-down ('Favorite Courses', 'More Courses').</li><li>Enter the course name to search.</li><li>Select the contact book icon to select recipients.</li><li>Select by recipient's role (Teachers, Students).</li><li>Select specific 'Course Sections' if your course is cross-listed.</li><li>Type the recipient's name to search for specific users.</li><li>Type the subject line and the body of the message. Note: If you are sending sensitive information to multiple recipients and do not wish to disclose who's on the distribution list, check the box for 'Send an individual message to each recipient'.</li><li>Select 'Send'. Note: If you would like additional formatting or multimedia options to send a message to an entire course, consider using the Announcements feature. Refer to <a href=\"#\">How do I send an announcement to students through Canvas?</a> for more information.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "As an instructor in a course, you can send messages to the entire course or individual students using the Inbox tool in Canvas. Note: You will need to first publish your course before you can send messages to your students in Canvas. Otherwise, you may encounter a Recipient Invalid error message. If you need to send a message before your course is published, you can do so using the Qwickly Course Tool. Refer to the articles, How do I use Qwickly Course Tools to email students before publishing my Canvas course? and How do I publish courses and modules in Canvas? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Send a message on Canvas",
+      "text": "Select the inbox icon from the global navigation. Select the compose message icon. Choose the course from which you would like to send a message. Select courses using the drop-down ('Favorite Courses', 'More Courses'). Enter the course name to search. Select the contact book icon to select recipients. Select by recipient's role (Teachers, Students). Select specific 'Course Sections' if your course is cross-listed. Type the recipient's name to search for specific users. Type the subject line and the body of the message. Note: If you are sending sensitive information to multiple recipients and do not wish to disclose who's on the distribution list, check the box for 'Send an individual message to each recipient'. Select 'Send'. Note: If you would like additional formatting or multimedia options to send a message to an entire course, consider using the Announcements feature. Refer to How do I send an announcement to students through Canvas? for more information.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "How do I use Qwickly Course Tools to email students before publishing my Canvas course?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018461"
+    },
+    {
+      "text": "How do I publish courses and modules in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    },
+    {
+      "text": "How do I send an announcement to students through Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014602"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Course Communication"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Qwickly Course Tools to email students before publishing my Canvas course?",
+      "url": null
+    },
+    {
+      "title": "How do I send an announcement to students through Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I send messages through the Canvas mobile app?",
+      "url": null
+    }
+  ]
+}

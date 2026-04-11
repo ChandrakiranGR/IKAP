@@ -1,0 +1,87 @@
+{
+  "article_id": "KB000020085",
+  "title": "What is Wolfram Alpha Pro?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000020085",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000020085",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000020085",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "2026-03-24",
+  "plain_text": "Wolfram Alpha Pro lets you enter plain English input to compute and visualize answers to almost any quantitative query through your web browser. For professors, Wolfram Alpha Pro makes it easy to introduce students to computation across a wide array of disciplines. For students, the site provides step-by-step solutions and a problem generator. Access Faculty, staff, and students are eligible to access Wolfram Alpha Pro. Northeastern University's agreement supports the use of products for instruction and academic research. Licensing is renewed annually for active faculty, staff, and students. Refer to How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software? for information on requesting access. Get started Accessibility Wolfram Voluntary Product Accessibility Template . Resources Web Apps . Problem Generator . Mobile Apps . Support and training Help Please contact Wolfram support for further information about tool-specific information. They have a dedicated support center for questions and help. Email and phone options are available to support instructors and students. Wolfram phone support: 1.800.WOLFRAM. Wolfram email support . Training Take an interactive tour and explore Wolfram Alpha Pro examples in mathematics, science and technology, society and culture, and everyday life. Wolfram U Course Catalog . Schedule a consultation with an Academic Technologies expert to get advice on using tools to support science, technology, engineering, and math curricula.",
+  "body_html": "<article id=\"364\">Wolfram Alpha Pro lets you enter plain English input to compute and visualize answers to almost any quantitative query through your web browser. For professors, Wolfram Alpha Pro makes it easy to introduce students to computation across a wide array of disciplines. For students, the site provides step-by-step solutions and a problem generator. <hr id=\"366\"> <h2 id=\"371\">Table of contents</h2> <ul><li>Access</li><li>Get started</li><ul><li>Accessibility</li><li>Resources</li></ul><li>Support and training</li><ul><li>Help</li><li>Training</li></ul></ul> <hr id=\"395\"> <h2 id=\"397\">Access</h2> <ul><li>Faculty, staff, and students are eligible to access Wolfram Alpha Pro.</li><li>Northeastern University's agreement supports the use of products for instruction and academic research.</li><li>Licensing is renewed annually for active faculty, staff, and students. Refer to <a id=\"405\">How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?</a> for information on requesting access.</li></ul> <hr id=\"408\"> <h2 id=\"410\">Get started</h2> <h3>Accessibility</h3> <ul><li><a id=\"415\">Wolfram Voluntary Product Accessibility Template</a>.</li></ul> <h3>Resources</h3> <ul><li><a id=\"422\">Web Apps</a>.</li><li><a id=\"426\">Problem Generator</a>.</li><li><a id=\"430\">Mobile Apps</a>.</li></ul> <hr id=\"433\"> <h2 id=\"435\">Support and training</h2> <h3>Help</h3> Please contact Wolfram support for further information about tool-specific information. They have a dedicated support center for questions and help. Email and phone options are available to support instructors and students. <ul><li>Wolfram phone support: 1.800.WOLFRAM.</li><li><a id=\"443\">Wolfram email support</a>.</li></ul> <h3>Training</h3> <ul><li>Take an <a id=\"451\">interactive tour</a> and explore Wolfram Alpha Pro examples in mathematics, science and technology, society and culture, and everyday life.</li><li><a id=\"455\">Wolfram U Course Catalog</a>.</li><li><a id=\"459\">Schedule a consultation</a> with an Academic Technologies expert to get advice on using tools to support science, technology, engineering, and math curricula.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Wolfram Alpha Pro lets you enter plain English input to compute and visualize answers to almost any quantitative query through your web browser. For professors, Wolfram Alpha Pro makes it easy to introduce students to computation across a wide array of disciplines. For students, the site provides step-by-step solutions and a problem generator.; Table of contents: Access, Get started (Accessibility, Resources), Support and training (Help, Training); Access: Faculty, staff, and students are eligible to access Wolfram Alpha Pro. Northeastern University's agreement supports the use of products for instruction and academic research. Licensing is renewed annually for active faculty, staff, and students. Refer to How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software? for information on requesting access.; Get started: Accessibility: Wolfram Voluntary Product Accessibility Template. Resources: Web Apps, Problem Generator, Mobile Apps.; Support and training: Help: Please contact Wolfram support for further information about tool-specific information. They have a dedicated support center for questions and help. Email and phone options are available to support instructors and students. Wolfram phone support: 1.800.WOLFRAM. Wolfram email support. Training: Take an interactive tour and explore Wolfram Alpha Pro examples in mathematics, science and technology, society and culture, and everyday life. Wolfram U Course Catalog. Schedule a consultation with an Academic Technologies expert to get advice on using tools to support science, technology, engineering, and math curricula.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012562"
+    },
+    {
+      "text": "Wolfram Voluntary Product Accessibility Template",
+      "url": "https://www.wolfram.com/legal/accessibility/wolframalpha"
+    },
+    {
+      "text": "Web Apps",
+      "url": "https://www.wolframalpha.com/web-apps"
+    },
+    {
+      "text": "Problem Generator",
+      "url": "https://www.wolframalpha.com/problem-generator/"
+    },
+    {
+      "text": "Mobile Apps",
+      "url": "https://products.wolframalpha.com/mobile/"
+    },
+    {
+      "text": "Wolfram email support",
+      "url": "https://www.wolfram.com/support/contact/"
+    },
+    {
+      "text": "interactive tour",
+      "url": "https://www.wolframalpha.com/tour"
+    },
+    {
+      "text": "Wolfram U Course Catalog",
+      "url": "https://www.wolfram.com/wolfram-u/courses/catalog/"
+    },
+    {
+      "text": "Schedule a consultation",
+      "url": "https://bit.ly/BookAT"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

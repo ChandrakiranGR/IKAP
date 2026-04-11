@@ -1,0 +1,71 @@
+{
+  "article_id": "KB0012541",
+  "title": "How do I access Abaqus?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012541",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012541",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012541",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "5mo ago",
+  "plain_text": "Abaqus is a finite element analysis and multi-physics engineering simulation software. Student Edition Software is available free of charge for personal and educational use. It's only accessible on the Windows platform and supports structural models up to 1000 nodes. Download Abaqus: The Student Edition Software is available directly from the vendor after registration. 1. Visit the vendor website at https://edu.3ds.com/en/software/abaqus-student-edition. 2. Select 'DOWNLOAD FOR FREE'. 3. Sign in with your '3DEXPERIENCE ID' or 'SOLIDWORKS ID'. Note: If visiting for the first time, register your account by selecting 'Create your 3DEXPERIENCE ID'. 4. Scroll to the 'Abaqus Student Edition Download' section. 5. Download the version that is needed. Note: Installation instructions are available on the website. These engineering-specific applications are available in the College of Engineering Virtual Lab Environment (VLAB). Help: For information regarding these applications, contact the College of Engineering at help@coe.northeastern.edu.",
+  "body_html": "<div id=\"364\">Abaqus is a finite element analysis and multi-physics engineering simulation software. Student Edition Software is available free of charge for personal and educational use. It's only accessible on the Windows platform and supports structural models up to 1000 nodes.</div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Abaqus is a finite element analysis and multi-physics engineering simulation software. Student Edition Software is available free of charge for personal and educational use. It's only accessible on the Windows platform and supports structural models up to 1000 nodes.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Download Abaqus",
+      "text": "The Student Edition Software is available directly from the vendor after registration. Additional Info: These engineering-specific applications are available in the College of Engineering Virtual Lab Environment (VLAB).",
+      "steps": [
+        "Visit the vendor website at https://edu.3ds.com/en/software/abaqus-student-edition.",
+        "Select 'DOWNLOAD FOR FREE'.",
+        "Sign in with your '3DEXPERIENCE ID' or 'SOLIDWORKS ID'. Note: If visiting for the first time, register your account by selecting 'Create your 3DEXPERIENCE ID'.",
+        "Scroll to the 'Abaqus Student Edition Download' section.",
+        "Download the version that is needed. Note: Installation instructions are available on the website."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Help",
+      "text": "For information regarding these applications, contact the College of Engineering at help@coe.northeastern.edu.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "https://edu.3ds.com/en/software/abaqus-student-edition.",
+      "url": "https://edu.3ds.com/en/software/abaqus-student-edition"
+    },
+    {
+      "text": "help@coe.northeastern.edu",
+      "url": "mailto:help@coe.northeastern.edu"
+    }
+  ],
+  "categories": [
+    "College of Engineering",
+    "Software"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access AutoCAD?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012666"
+    },
+    {
+      "title": "How do I access think-cell software?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013990"
+    },
+    {
+      "title": "How do I access ChemDraw?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012646"
+    },
+    {
+      "title": "How do I use 7-Zip to encrypt files and folders on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017804"
+    }
+  ]
+}

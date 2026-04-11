@@ -1,0 +1,126 @@
+{
+  "article_id": "KB000018114",
+  "title": "How do I connect to eduroam?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "2026-03-27",
+  "plain_text": "eduroam is a wireless service that is available in academic and administrative buildings. Northeastern students, instructors, and staff can securely access the eduroam network at more than 5,000 participating locations worldwide. Connect to eduroam 1. Select eduroam as your wireless network. 2. Enter your Northeastern credentials: - Username is your Northeastern username + @northeastern.edu. - Password is your Northeastern account password. Note: From off-campus locations, the VPN is still required to access several university resources, including shared departmental (Q:) drives, certain library databases, personal workstations, and data centers. If you have issues accessing eduroam at an off-campus location, contact IT Services at 617.373.4357 or help@northeastern.edu. Connect to eduroam on Android Android devices handle certificate validation differently depending on your Android version. Follow the instructions that match your device's Android version. Android 10 (Pie) and earlier 1. Navigate to wireless settings and select eduroam. 2. Keep the 'EAP Method' as PEAP. 3. Enter your Northeastern username + @northeastern.edu in the Identity field. 4. Enter your Northeastern password in the Password field. 5. Set the CA Certificate to Unspecified. If Unspecified is not available, set the CA Certificate to 'Do not validate'. 6. Set 'Online certificate status' to 'Don't validate'. 7. Enter the domain wireless.northeastern.edu in the Domain field. 8. Toggle 'Auto reconnect on'. 9. Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'. Note: Android 10 and earlier versions allow you to skip certificate validation by selecting 'Unspecified' or 'Do not validate' for the CA Certificate field. Do not select 'Use system certificates' on these older Android versions. Android 11 (with security update) 1. Navigate to wireless settings and select eduroam. 2. Keep the 'EAP Method' as PEAP. 3. Enter your Northeastern username + @northeastern.edu in the Identity field. 4. Enter your Northeastern password in the Password field. 5. Select 'Use system certificates'. 6. Set 'Online certificate status' to 'Don't validate'. 7. Enter the domain wireless.northeastern.edu in the Domain field. 8. Toggle 'Auto reconnect on'. 9. Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'. Note: Beginning with the December 2020 Android 11 QPR1 update, Google Pixel 3 and newer models no longer allow the 'Do not validate' option. These devices require a valid CA certificate or use the 'Trust on First Use' (TOFU) prompt. Other manufacturers' devices on Android 11 may not have received this security patch yet, and they may still show the Unspecified option. Android 12 and newer 1. Navigate to wireless settings and select eduroam. 2. Keep the 'EAP Method' as PEAP. 3. Enter your Northeastern username + @northeastern.edu in the Identity field. 4. Enter your Northeastern password in the Password field. 5. Select 'Use system certificates'. 6. Set 'Online certificate status' to 'Don't validate'. 7. Enter the domain wireless.northeastern.edu in the Domain field. 8. Toggle 'Auto reconnect on'. 9. Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'. Note: Android 12 and newer versions require server certificate validation for enterprise Wi-Fi networks. The 'Unspecified' or 'Do not validate' CA Certificate option has been removed. Instead, Android 12+ devices use a 'Trust on First Use' (TOFU) prompt that automatically validates the certificate on your first connection. You must select 'Use system certificates' on Android 12 and newer devices. Help If you have any issues connecting to eduroam or need further assistance, contact IT Services at 617.373.4357 or email help@northeastern.edu.",
+  "body_html": "<article id=\"364\"><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013933\">eduroam</a> is a wireless service that is available in academic and administrative buildings. Northeastern students, instructors, and staff can securely access the eduroam network at more than 5,000 participating locations worldwide.<hr><h2>Connect to eduroam</h2><ul><li>Select eduroam as your wireless network.</li><li>Enter your Northeastern credentials:<ul><li>Username is your Northeastern username + @northeastern.edu.</li><li>Password is your Northeastern account password.</li></ul></li></ul>Note: From off-campus locations, the VPN is still required to access several university resources, including shared departmental (Q:) drives, certain library databases, personal workstations, and data centers. If you have issues accessing eduroam at an off-campus location, contact IT Services at 617.373.4357 or <a href=\"mailto:help@northeastern.edu\">help@northeastern.edu</a>.<hr><h2>Connect to eduroam on Android</h2>Android devices handle certificate validation differently depending on your Android version. Follow the instructions that match your device's Android version.<h3>Android 10 (Pie) and earlier</h3><ul><li>Navigate to wireless settings and select eduroam.</li><li>Keep the 'EAP Method' as PEAP.</li><li>Enter your Northeastern username + @northeastern.edu in the Identity field.</li><li>Enter your Northeastern password in the Password field.</li><li>Set the CA Certificate to Unspecified. If Unspecified is not available, set the CA Certificate to 'Do not validate'.</li><li>Set 'Online certificate status' to 'Don't validate'.</li><li>Enter the domain <code>wireless.northeastern.edu</code> in the Domain field.</li><li>Toggle 'Auto reconnect on'.</li><li>Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'.</li></ul>Note: Android 10 and earlier versions allow you to skip certificate validation by selecting 'Unspecified' or 'Do not validate' for the CA Certificate field. Do not select 'Use system certificates' on these older Android versions.<h3>Android 11 (with security update)</h3><ul><li>Navigate to wireless settings and select eduroam.</li><li>Keep the 'EAP Method' as PEAP.</li><li>Enter your Northeastern username + @northeastern.edu in the Identity field.</li><li>Enter your Northeastern password in the Password field.</li><li>Select 'Use system certificates'.</li><li>Set 'Online certificate status' to 'Don't validate'.</li><li>Enter the domain <code>wireless.northeastern.edu</code> in the Domain field.</li><li>Toggle 'Auto reconnect on'.</li><li>Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'.</li></ul>Note: Beginning with the December 2020 Android 11 QPR1 update, Google Pixel 3 and newer models no longer allow the 'Do not validate' option. These devices require a valid CA certificate or use the 'Trust on First Use' (TOFU) prompt. Other manufacturers' devices on Android 11 may not have received this security patch yet, and they may still show the Unspecified option.<h3>Android 12 and newer</h3><ul><li>Navigate to wireless settings and select eduroam.</li><li>Keep the 'EAP Method' as PEAP.</li><li>Enter your Northeastern username + @northeastern.edu in the Identity field.</li><li>Enter your Northeastern password in the Password field.</li><li>Select 'Use system certificates'.</li><li>Set 'Online certificate status' to 'Don't validate'.</li><li>Enter the domain <code>wireless.northeastern.edu</code> in the Domain field.</li><li>Toggle 'Auto reconnect on'.</li><li>Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'.</li></ul>Note: Android 12 and newer versions require server certificate validation for enterprise Wi-Fi networks. The 'Unspecified' or 'Do not validate' CA Certificate option has been removed. Instead, Android 12+ devices use a 'Trust on First Use' (TOFU) prompt that automatically validates the certificate on your first connection. You must select 'Use system certificates' on Android 12 and newer devices.<h2>Help</h2>If you have any issues connecting to eduroam or need further assistance, contact IT Services at 617.373.4357 or email <a href=\"mailto:help@northeastern.edu\">help@northeastern.edu</a>.</article>",
+  "sections": [
+    {
+      "heading": "Connect to eduroam",
+      "text": "Note: From off-campus locations, the VPN is still required to access several university resources...",
+      "steps": [
+        "Select eduroam as your wireless network.",
+        "Enter your Northeastern credentials: Username is your Northeastern username + @northeastern.edu, Password is your Northeastern account password."
+      ],
+      "links": [
+        {
+          "text": "help@northeastern.edu",
+          "url": "mailto:help@northeastern.edu"
+        }
+      ]
+    },
+    {
+      "heading": "Connect to eduroam on Android",
+      "text": "Android devices handle certificate validation differently depending on your Android version. Follow the instructions that match your device's Android version.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Android 10 (Pie) and earlier",
+      "text": "Note: Android 10 and earlier versions allow you to skip certificate validation...",
+      "steps": [
+        "Navigate to wireless settings and select eduroam.",
+        "Keep the 'EAP Method' as PEAP.",
+        "Enter your Northeastern username + @northeastern.edu in the Identity field.",
+        "Enter your Northeastern password in the Password field.",
+        "Set the CA Certificate to Unspecified. If Unspecified is not available, set the CA Certificate to 'Do not validate'.",
+        "Set 'Online certificate status' to 'Don't validate'.",
+        "Enter the domain wireless.northeastern.edu in the Domain field.",
+        "Toggle 'Auto reconnect on'.",
+        "Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Android 11 (with security update)",
+      "text": "Note: Beginning with the December 2020 Android 11 QPR1 update, Google Pixel 3 and newer models no longer allow the 'Do not validate' option...",
+      "steps": [
+        "Navigate to wireless settings and select eduroam.",
+        "Keep the 'EAP Method' as PEAP.",
+        "Enter your Northeastern username + @northeastern.edu in the Identity field.",
+        "Enter your Northeastern password in the Password field.",
+        "Select 'Use system certificates'.",
+        "Set 'Online certificate status' to 'Don't validate'.",
+        "Enter the domain wireless.northeastern.edu in the Domain field.",
+        "Toggle 'Auto reconnect on'.",
+        "Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Android 12 and newer",
+      "text": "Note: Android 12 and newer versions require server certificate validation for enterprise Wi-Fi networks...",
+      "steps": [
+        "Navigate to wireless settings and select eduroam.",
+        "Keep the 'EAP Method' as PEAP.",
+        "Enter your Northeastern username + @northeastern.edu in the Identity field.",
+        "Enter your Northeastern password in the Password field.",
+        "Select 'Use system certificates'.",
+        "Set 'Online certificate status' to 'Don't validate'.",
+        "Enter the domain wireless.northeastern.edu in the Domain field.",
+        "Toggle 'Auto reconnect on'.",
+        "Once connected to eduroam, select the gear icon > Advanced > Privacy > 'Use Device MAC'."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Help",
+      "text": "If you have any issues connecting to eduroam or need further assistance, contact IT Services at 617.373.4357 or email help@northeastern.edu.",
+      "steps": [],
+      "links": [
+        {
+          "text": "help@northeastern.edu",
+          "url": "mailto:help@northeastern.edu"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "eduroam",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013933"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:help@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

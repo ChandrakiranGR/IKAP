@@ -1,0 +1,67 @@
+{
+  "article_id": "KB000017955",
+  "title": "How do I create and share a question bank for New Quizzes in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017955",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017955",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017955",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Instructors can share item banks in Canvas New Quizzes with other instructors, TAs, admins, and across courses. Sharing an item bank allows other users to view, edit, and use the item bank with personalized permissions you set. If you wish to share questions, enter one or more names and authorize the bank's access. You can give others permission to view the item bank with read-only access or to view, edit, modify, and delete the item bank for everyone. Note: Unless shared with other specific users, New Quizzes and associated item banks can only be shared and imported from one course to another by the individual who created them. In addition, faculty and departments can use a Canvas sandbox course to share tests and other preparation resources. Benefits include: The shared repository sandbox course would house all the resources currently dispersed across multiple courses and test banks in one accessible location. Access to the assessments and item banks through the Canvas site would allow different instructors to view test construction, including instructions. Instructors can review question structure and content before including it in a New Quizzes assessment. You can create a repository Canvas course from which you share New Quizzes item banks. To learn more, read What are the different course types in Canvas? Note: You can submit the Request Canvas Sandbox, Development, Source Course, or Manual Course form to request a Canvas sandbox, development, master shell, or manual course. Create and share a question and test bank repository Log in to your Canvas Test Bank Repository Course. Navigate to the course Home Page and select 'Import Existing Content'. Select 'Copy a Canvas Course', enter the desired course name, choose 'Select specific content', then select Import. Choose 'Select Content'. Select the Assignments menu expander icon. Expand the Assignments folder, select all the New Quizzes assignments you want to import, then choose 'Select Content'. You will see a notification when the import is complete. If needed, complete the 'Share an Item Bank in New Quizzes' steps. Refer to to How do I share an item bank in New Quizzes? for instructions on sharing.",
+  "body_html": "<article id=\"364\">Instructors can share item banks in <a id=\"366\">Canvas</a> New Quizzes with other instructors, TAs, admins, and across courses. Sharing an item bank allows other users to view, edit, and use the item bank with personalized permissions you set. If you wish to share questions, enter one or more names and authorize the bank's access. You can give others permission to view the item bank with read-only access or to view, edit, modify, and delete the item bank for everyone. Note: Unless shared with other specific users, New Quizzes and associated item banks can only be shared and imported from one course to another by the individual who created them. In addition, faculty and departments can use a Canvas sandbox course to share tests and other preparation resources. Benefits include:<ul><li>The shared repository sandbox course would house all the resources currently dispersed across multiple courses and test banks in one accessible location.</li><li>Access to the assessments and item banks through the Canvas site would allow different instructors to view test construction, including instructions.</li><li>Instructors can review question structure and content before including it in a New Quizzes assessment.</li></ul>You can create a repository Canvas course from which you share New Quizzes item banks. To learn more, read <a id=\"382\">What are the different course types in Canvas?</a> Note: You can submit the <a id=\"387\">Request Canvas Sandbox, Development, Source Course, or Manual Course form</a> to request a Canvas sandbox, development, master shell, or manual course. <h2 id=\"393\">Create and share a question and test bank repository</h2><ul><li>Log in to your Canvas Test Bank Repository Course.</li><li>Navigate to the course Home Page and select 'Import Existing Content'.</li><li>Select 'Copy a Canvas Course', enter the desired course name, choose 'Select specific content', then select Import.</li><li>Choose 'Select Content'.</li><li>Select the Assignments menu expander icon.</li><li>Expand the Assignments folder, select all the New Quizzes assignments you want to import, then choose 'Select Content'.</li><li>You will see a notification when the import is complete.</li><li>If needed, complete the 'Share an Item Bank in New Quizzes' steps.</li><li>Refer to to <a id=\"443\">How do I share an item bank in New Quizzes?</a> for instructions on sharing.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Instructors can share item banks in Canvas New Quizzes with other instructors, TAs, admins, and across courses. Sharing an item bank allows other users to view, edit, and use the item bank with personalized permissions you set. If you wish to share questions, enter one or more names and authorize the bank's access. You can give others permission to view the item bank with read-only access or to view, edit, modify, and delete the item bank for everyone. Note: Unless shared with other specific users, New Quizzes and associated item banks can only be shared and imported from one course to another by the individual who created them. In addition, faculty and departments can use a Canvas sandbox course to share tests and other preparation resources. Benefits include: The shared repository sandbox course would house all the resources currently dispersed across multiple courses and test banks in one accessible location. Access to the assessments and item banks through the Canvas site would allow different instructors to view test construction, including instructions. Instructors can review question structure and content before including it in a New Quizzes assessment. You can create a repository Canvas course from which you share New Quizzes item banks. To learn more, read What are the different course types in Canvas? Note: You can submit the Request Canvas Sandbox, Development, Source Course, or Manual Course form to request a Canvas sandbox, development, master shell, or manual course.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create and share a question and test bank repository",
+      "text": "Log in to your Canvas Test Bank Repository Course. Navigate to the course Home Page and select 'Import Existing Content'. Select 'Copy a Canvas Course', enter the desired course name, choose 'Select specific content', then select Import. Choose 'Select Content'. Select the Assignments menu expander icon. Expand the Assignments folder, select all the New Quizzes assignments you want to import, then choose 'Select Content'. You will see a notification when the import is complete. If needed, complete the 'Share an Item Bank in New Quizzes' steps. Refer to to How do I share an item bank in New Quizzes? for instructions on sharing.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "What are the different course types in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016424"
+    },
+    {
+      "text": "How do I share an item bank in New Quizzes?",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-share-an-item-bank-in-New-Quizzes/ta-p/910"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

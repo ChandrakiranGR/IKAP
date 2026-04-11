@@ -1,0 +1,105 @@
+{
+  "article_id": "KB000018073",
+  "title": "How do I use the Canvas Math Equation Editor as a student?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018073",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018073",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018073",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "13 days ago",
+  "plain_text": "Create digital math formulas in Canvas using the built-in Math Editor. The Math Editor can be used in assignments, discussions, quizzes, announcements, and other areas that support text entry. Canvas includes an integrated Math Editor within the Rich Content Editor. This tool allows you to create formatted mathematical and chemistry equations anywhere text can be entered. The Math Editor supports basic notation as well as more advanced mathematical and chemical expressions suitable for higher-level coursework. Use the Math Equation Editor to enter equations into any text entry field like 'Assignment submissions' or 'Discussion posts' and edit after creation. Open the text entry editor and select Insert > Equation. Note: An alternative option is selecting the vertical ellipsis and selecting the Math Equation Editor icon. The Math Equation Editor opens to the Basic Math Editor window. Select a different tab option to switch between editor windows as needed. Select the symbols needed from the Basic window toolbar to enter a basic equation. Next, select Done to save your work and before adding another equation. You have the option to edit equations saved to the Text Entry Editor; hover over the equation that needs editing, and select 'Edit Equation'. Modify the equation as needed. When you're satisfied, select Done. Add text around your equations by typing directly in the Text Entry Editor. When you're ready, select 'Submit Assignment'. If your instructor has allowed it, you can submit another attempt by selecting 'Try Again'. Use the LaTeX view of the Math Equation Editor to input more complicated mathematical text such as matrices, interval notation, piecewise functions, and chemical formulas. Select the 'Directly Edit LaTeX' toggle to access the LaTeX Editor. Switch to the LaTeX mode and type the LaTeX code. The editor will show the equation below to review before saving. When you are satisfied with the equation, select Done. Add text around your equations by typing directly in the Text Entry Editor. When you're ready, select 'Submit Assignment'. Note: Learn more about Equation Editor Tips: Math Expressions and Chemistry Formulas. When LaTeX is pasted or typed into the equation editor, the equations will read properly to screen readers. MathML Fonts Your browser should have a MathML font installed, including symbols used to build different equation types. Cambria Math from Microsoft, STIX font, Asana Math. Browser requirements: Firefox, Safari, Opera, Google Chrome, Internet Explorer/JAWS, VoiceOver iOS.",
+  "body_html": "<article id=\"364\"><p>Create digital math formulas in Canvas using the built-in Math Editor. The Math Editor can be used in assignments, discussions, quizzes, announcements, and other areas that support text entry. <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565\">Canvas</a> includes an integrated Math Editor within the Rich Content Editor. This tool allows you to create formatted mathematical and chemistry equations anywhere text can be entered. The Math Editor supports basic notation as well as more advanced mathematical and chemical expressions suitable for higher-level coursework.</p><h2>Table of Contents</h2><ul><li>Use the Math Equation Editor</li><li>Directly edit LaTeX</li><li>Accessibility: screen reader browser requirements</li><li>Help and support</li></ul><h2>Use the Math Equation Editor</h2><p>Use the Math Equation Editor to enter equations into any text entry field like 'Assignment submissions' or 'Discussion posts' and edit after creation.</p><ul><li>Open the text entry editor and select Insert > Equation. Note: An alternative option is selecting the vertical ellipsis and selecting the Math Equation Editor icon.</li><li>The Math Equation Editor opens to the Basic Math Editor window. Select a different tab option to switch between editor windows as needed.</li><li>Select the symbols needed from the Basic window toolbar to enter a basic equation. Next, select Done to save your work and before adding another equation.</li><li>You have the option to edit equations saved to the Text Entry Editor; hover over the equation that needs editing, and select 'Edit Equation'.</li><li>Modify the equation as needed. When you're satisfied, select Done.</li><li>Add text around your equations by typing directly in the Text Entry Editor. When you're ready, select 'Submit Assignment'.</li><li>If your instructor has allowed it, you can submit another attempt by selecting 'Try Again'.</li></ul><h2>Directly edit LaTeX</h2><p>Use the LaTeX view of the Math Equation Editor to input more complicated mathematical text such as matrices, interval notation, piecewise functions, and chemical formulas.</p><ul><li>Select the 'Directly Edit LaTeX' toggle to access the LaTeX Editor. Switch to the LaTeX mode and type the LaTeX code. The editor will show the equation below to review before saving. When you are satisfied with the equation, select Done.</li><li>Add text around your equations by typing directly in the Text Entry Editor. When you're ready, select 'Submit Assignment'.</li></ul><p>Note: Learn more about Equation Editor Tips: <a href=\"https://s3.amazonaws.com/tr-learncanvas/docs/CanvasEquationEditorAdvanced.pdf\">Math Expressions</a> and <a href=\"https://s3.amazonaws.com/tr-learncanvas/docs/CanvasEquationEditorChemistry.pdf\">Chemistry Formulas</a>.</p><h2>Accessibility: screen reader browser requirements</h2><p>When LaTeX is pasted or typed into the equation editor, the equations will read properly to screen readers. MathML Fonts Your browser should have a MathML font installed, including symbols used to build different equation types.</p><ul><li><a href=\"https://docs.microsoft.com/en-us/typography/font-list/cambria-math\">Cambria Math from Microsoft.</a></li><li><a href=\"https://www.stixfonts.org/\">STIX font.</a></li><li><a href=\"https://ctan.org/tex-archive/fonts/Asana-Math/\">Asana Math</a></li></ul><p>Browser requirements: Firefox, Safari, Opera, Google Chrome, Internet Explorer/JAWS, VoiceOver iOS.</p><h2>Help and support</h2><ul><li><a href=\"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66\">What are the browser and computer requirements for Canvas?</a></li><li><a href=\"https://download.respondus.com/lockdown/download.php?id=538439877\">Update the Respondus Lockdown Browser</a> before each exam or quiz that requires Respondus.</li><li>Contact IT Service Desk: 617.373.4357.</li><li><a href=\"https://service.northeastern.edu/tech?id=its_contact_us\">Contact IT Services</a>.</li><li>Email Academic Technologies support (<a href=\"mailto:athelp@northeastern.edu\">athelp@northeastern.edu</a>).</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Create digital math formulas in Canvas using the built-in Math Editor. The Math Editor can be used in assignments, discussions, quizzes, announcements, and other areas that support text entry. Canvas includes an integrated Math Editor within the Rich Content Editor.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Use the Math Equation Editor",
+      "text": "Use the Math Equation Editor to enter equations into any text entry field like 'Assignment submissions' or 'Discussion posts' and edit after creation.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Directly edit LaTeX",
+      "text": "Use the LaTeX view of the Math Equation Editor to input more complicated mathematical text such as matrices, interval notation, piecewise functions, and chemical formulas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Accessibility",
+      "text": "screen reader browser requirements: When LaTeX is pasted or typed into the equation editor, the equations will read properly to screen readers. MathML Fonts Your browser should have a MathML font installed, including symbols used to build different equation types.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Help and support",
+      "text": "List of support resources including IT Service Desk and Academic Technologies email.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "Math Expressions",
+      "url": "https://s3.amazonaws.com/tr-learncanvas/docs/CanvasEquationEditorAdvanced.pdf"
+    },
+    {
+      "text": "Chemistry Formulas",
+      "url": "https://s3.amazonaws.com/tr-learncanvas/docs/CanvasEquationEditorChemistry.pdf"
+    },
+    {
+      "text": "Cambria Math from Microsoft.",
+      "url": "https://docs.microsoft.com/en-us/typography/font-list/cambria-math"
+    },
+    {
+      "text": "STIX font.",
+      "url": "https://www.stixfonts.org/"
+    },
+    {
+      "text": "Asana Math",
+      "url": "https://ctan.org/tex-archive/fonts/Asana-Math/"
+    },
+    {
+      "text": "What are the browser and computer requirements for Canvas?",
+      "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66"
+    },
+    {
+      "text": "Update the Respondus Lockdown Browser",
+      "url": "https://download.respondus.com/lockdown/download.php?id=538439877"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "article_id": "KB0013126",
+  "title": "How do I register a device on NURes-device?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "NURes-device is the unsecured, wireless network in university-owned residence halls specifically for devices not supported by NUwave. These could be smart TVs, gaming consoles, and more. This network will not support devices that can connect to NUwave such as tablets, phones, or computers. For security reasons, some network restrictions are in place that may impact gaming. In addition, devices cannot communicate with each other on this network, but can directly communicate with the internet. Note: Devices will be registered for up to 1 year and must be re-registered after that time. Register your device Registering devices to NURes-device can only be done on campus and connected to the Northeastern network. 1. Select Self Registration for NURes-device. 2. Log in using your Northeastern username and password. 3. Select 'Create New Device'. 4. Select the device type. 5. Enter the device's MAC address with the following format: xx-xx-xx-xx-xx-xx. Note: Your device's wireless MAC address can usually be found in the network settings menu of your device. Please refer to How do I find the Media Access Control (MAC) address on my devices? for instructions. 6. Select 'Create Device'. 7. Power off the device for up to 1 hour (most connection times will be shorter than this). 8. Reconnect the device to NURes-device.",
+  "body_html": "<article><div><a href=\"#\">NURes-device</a> is the unsecured, wireless network in university-owned residence halls specifically for devices not supported by NUwave. These could be smart TVs, gaming consoles, and more. This network will not support devices that can connect to NUwave such as tablets, phones, or computers. For security reasons, some network restrictions are in place that may impact gaming. In addition, devices cannot communicate with each other on this network, but can directly communicate with the internet. Note: Devices will be registered for up to 1 year and must be re-registered after that time.</div><hr><h2>Register your device</h2><div>Registering devices to NURes-device can only be done on campus and connected to the Northeastern network.</div><ul><li>Select <a href=\"#\">Self Registration for NURes-device</a>.</li><li>Log in using your Northeastern username and password.</li><li>Select 'Create New Device'.</li><li>Select the device type.</li><li>Enter the device's MAC address with the following format: xx-xx-xx-xx-xx-xx. Note: Your device's wireless MAC address can usually be found in the network settings menu of your device. Please refer to <a href=\"#\">How do I find the Media Access Control (MAC) address on my devices?</a> for instructions.</li><li>Select 'Create Device'.</li><li>Power off the device for up to 1 hour (most connection times will be shorter than this).</li><li>Reconnect the device to NURes-device.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NURes-device is the unsecured, wireless network in university-owned residence halls specifically for devices not supported by NUwave. These could be smart TVs, gaming consoles, and more. This network will not support devices that can connect to NUwave such as tablets, phones, or computers. For security reasons, some network restrictions are in place that may impact gaming. In addition, devices cannot communicate with each other on this network, but can directly communicate with the internet. Note: Devices will be registered for up to 1 year and must be re-registered after that time.",
+      "steps": [],
+      "links": [
+        {
+          "text": "NURes-device",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+        }
+      ]
+    },
+    {
+      "heading": "Register your device",
+      "text": "Registering devices to NURes-device can only be done on campus and connected to the Northeastern network.",
+      "steps": [
+        "Select Self Registration for NURes-device.",
+        "Log in using your Northeastern username and password.",
+        "Select 'Create New Device'.",
+        "Select the device type.",
+        "Enter the device's MAC address with the following format: xx-xx-xx-xx-xx-xx. Note: Your device's wireless MAC address can usually be found in the network settings menu of your device. Please refer to How do I find the Media Access Control (MAC) address on my devices? for instructions.",
+        "Select 'Create Device'.",
+        "Power off the device for up to 1 hour (most connection times will be shorter than this).",
+        "Reconnect the device to NURes-device."
+      ],
+      "links": [
+        {
+          "text": "Self Registration for NURes-device",
+          "url": "https://wifi-guest-mgmt.neu.edu/guest/auth_login.php"
+        },
+        {
+          "text": "How do I find the Media Access Control (MAC) address on my devices?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018253"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "NURes-device",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "text": "Self Registration for NURes-device",
+      "url": "https://wifi-guest-mgmt.neu.edu/guest/auth_login.php"
+    },
+    {
+      "text": "How do I find the Media Access Control (MAC) address on my devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018253"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

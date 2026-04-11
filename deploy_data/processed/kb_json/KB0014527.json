@@ -1,0 +1,79 @@
+{
+  "article_id": "KB0014527",
+  "title": "How do I set a quiz time limit and availability window in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014527",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014527",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014527",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2 months ago",
+  "plain_text": "On Canvas, you can set quiz settings, allowing you to give students a specific window of time to start and submit a quiz. When you are creating a quiz in Canvas, you can adjust the settings to allow you to set a time limit and to allow the quiz to only appear within a certain time frame. For directions on creating a quiz in Canvas, refer to How do I create and grade a quiz in Canvas? for more information. Table of Contents Set quiz time limit Set quiz availability window Notifications to students in quizzes Set quiz time limit Timed quizzes begin once a student starts the exam and do not pause if the student navigates away from the quiz. If quizzes are given in a non-proctored environment, the time limit can be used to reduce the time students have to look up answers to questions and/or share the questions with other students. 1. Create a new quiz inside your course. See the article How do I create and grade a quiz in Canvas? for detailed instructions. 2. Scroll down to the 'Options' section. 3. Select the 'Time Limit' checkbox and enter the duration students have to take this quiz. Note: When determining a time limit, estimate the average time a student should need to answer each question, considering the various types of quiz questions. Once the student starts the quiz, the quiz will automatically submit when the time is up. If a student needs extended time after you publish the quiz, please refer to How do I give students more time on a Canvas quiz? if you also set the availability window under the Assign section (see the Set quiz availability window section in this article), the quiz will automatically submit at the time of the 'Until' field. 4. Modify other options to set students' visibility on their results and correct answers. Note: The only way to stop students from viewing their quiz results is to have both the 'Let Students See Their Quiz Responses' and 'Let Students See The Correct Answers' boxes unchecked. If you want students to see their results only once, immediately after the quiz, check the 'Only Once After Each Attempt' and uncheck 'Allow Multiple Attempts.' Once they leave the page, they do not get to see their answers again, but quiz answers can get out before it is closed. Set quiz availability window In general, to maximize quiz security, it is best to have a quiz open for the least amount of time possible. Below is information on the quiz availability options and how they can be used to enhance quiz security. 1. On the quiz creation page, scroll down to the 'Assign' section. 2. In the 'Assign to' field, you can assign the quiz to everyone, a course section, or an individual student. Note: In general, unless you have students in different sections taking the quiz on different days/times, this will be left as Everyone (which is the default). This feature can not be used with students who need testing accommodations or who are in different groups. For students who need different availability than the rest of the class, it is recommended to manually unlock the quiz using the Moderate Quiz page in conjunction with an Access Code. See the article Once I publish a quiz, how do I use the Moderate Quiz page? for steps to manually unlock quizzes. 3. In the 'Due' field, you can set the day and time that the quiz is due. After the due time, students can still take the quiz, but their submissions will be marked as late in Speedgrader and the Gradebook. Note: For best quiz security, it is recommended to set the 'Due' field and 'Until' fields the same so students cannot take the quiz after the due time. If you want to allow students to take quizzes after the due date, either leave the 'Until' field blank or set it to the latest day and time that you will accept late submissions. 4. In the 'Available from' field, set the date and time you want the quiz to become available to students. Note: Students will not be able to access the quiz before this day and time unless the quiz has been manually unlocked. See the article Once I publish a quiz, how do I use the Moderate Quiz page? for steps to manually unlock the quiz. 5. If some students need to take the quiz earlier, the 'Available from' field will need to be set to the time when the first group of students is taking the quiz. Note: For best quiz security, it is recommended to use the 'Require an Access Code' option to keep the rest of the students out of the quiz until they have access to it. If a quiz is not published (has a gray cloud instead of green), then students will not be able to access or even see the quiz, even after the 'Available from' time. 6. In the 'Until' field, set the date and time that the students will no longer be able to take the quiz after the time. Note: For best quiz security, you should set the 'Until' field to be the same as the 'Due' field because it prevents students from taking the quiz after it is due. Yet, this will cut students off in the middle of taking the quiz because the quiz will be auto-submitted at the 'Until' time, even if students have just started the quiz. - If the 'Until' field is set beyond the 'Due' field, students will still be able to take the quiz between the 'Due' time and the 'Until' time, but it will show up as late in SpeedGrader and the Gradebook. - Canvas will auto-submit the quiz at the 'Until' time regardless of whether the student is taking the quiz or not. - If the 'Until' field is blank, the quiz will not auto-submit until the end of the course. Notifications to students in quizzes - For quizzes that are close to auto-submitting (using the time limit and/or the 'Until' time), the quiz displays a notification banner to let students know when the quiz will auto-submit (30 minutes prior, 5 minutes prior, 1 minute prior, and 10 seconds prior). - For timed quizzes, the browser displays a notification banner if students are not able to complete the quiz within the full allotted time. The quiz sidebar also displays a timer indicating how many minutes remain to complete the quiz. For example, if a 60-minute quiz has an 'Until' time of 11:59 p.m. and a student begins the quiz at 11:30 p.m., the student will only have 30 minutes to complete the quiz.",
+  "body_html": "<article id=\"364\">On Canvas, you can set quiz settings, allowing you to give students a specific window of time to start and submit a quiz. When you are creating a quiz in Canvas, you can adjust the settings to allow you to set a time limit and to allow the quiz to only appear within a certain time frame. For directions on creating a quiz in Canvas, refer to <a id=\"368\">How do I create and grade a quiz in Canvas?</a> for more information. <hr id=\"371\"> <h2>Table of Contents</h2> <ul><li><a id=\"378\">Set quiz time limit</a></li><li><a id=\"381\">Set quiz availability window</a></li><li><a id=\"384\">Notifications to students in quizzes</a></li></ul> <hr id=\"386\"> <h2>Set quiz time limit</h2> Timed quizzes begin once a student starts the exam and do not pause if the student navigates away from the quiz. If quizzes are given in a non-proctored environment, the time limit can be used to reduce the time students have to look up answers to questions and/or share the questions with other students. <ul><li>Create a new quiz inside your course. See the article <a id=\"397\">How do I create and grade a quiz in Canvas?</a> for detailed instructions.</li><li>Scroll down to the 'Options' section.</li><li>Select the 'Time Limit' checkbox and enter the duration students have to take this quiz. Note: When determining a time limit, estimate the average time a student should need to answer each question, considering the various types of quiz questions. Once the student starts the quiz, the quiz will automatically submit when the time is up. If a student needs extended time after you publish the quiz, please refer to <a id=\"411\">How do I give students more time on a Canvas quiz?</a> if you also set the availability window under the Assign section (see the <a id=\"416\">Set quiz availability window</a> section in this article), the quiz will automatically submit at the time of the 'Until' field.</li><li>Modify other options to set students' visibility on their results and correct answers.</li></ul> <hr id=\"429\"> <h2>Set quiz availability window</h2> In general, to maximize quiz security, it is best to have a quiz open for the least amount of time possible. <ul><li>On the quiz creation page, scroll down to the 'Assign' section.</li><li>In the 'Assign to' field, you can assign the quiz to <a id=\"443\">everyone, a course section, or an individual student</a>. See <a id=\"448\">Once I publish a quiz, how do I use the Moderate Quiz page?</a></li><li>In the 'Due' field, you can set the day and time that the quiz is due.</li><li>In the 'Available from' field, set the date and time you want the quiz to become available. See <a id=\"464\">Once I publish a quiz, how do I use the Moderate Quiz page?</a></li><li>In the 'Until' field, set the date and time that the students will no longer be able to take the quiz.</li></ul> <hr id=\"492\"> <h2>Notifications to students in quizzes</h2> <ul><li>For quizzes that are close to auto-submitting, the quiz displays a notification banner.</li><li>For timed quizzes, the browser displays a notification banner if students are not able to complete the quiz within the full allotted time.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "On Canvas, you can set quiz settings, allowing you to give students a specific window of time to start and submit a quiz. When you are creating a quiz in Canvas, you can adjust the settings to allow you to set a time limit and to allow the quiz to only appear within a certain time frame.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Set quiz time limit",
+      "text": "Timed quizzes begin once a student starts the exam and do not pause if the student navigates away from the quiz. If quizzes are given in a non-proctored environment, the time limit can be used to reduce the time students have to look up answers to questions and/or share the questions with other students. Steps include creating a quiz, scrolling to Options, selecting Time Limit, and modifying result visibility.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Set quiz availability window",
+      "text": "In general, to maximize quiz security, it is best to have a quiz open for the least amount of time possible. Includes settings for 'Assign to', 'Due' date, 'Available from' date, and 'Until' date.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Notifications to students in quizzes",
+      "text": "For quizzes that are close to auto-submitting (using the time limit and/or the 'Until' time), the quiz displays a notification banner to let students know when the quiz will auto-submit (30 minutes prior, 5 minutes prior, 1 minute prior, and 10 seconds prior). For timed quizzes, the browser displays a notification banner if students are not able to complete the quiz within the full allotted time.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I create and grade a quiz in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587"
+    },
+    {
+      "text": "How do I give students more time on a Canvas quiz?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014530"
+    },
+    {
+      "text": "everyone, a course section, or an individual student",
+      "url": "https://community.instructure.com/en/kb/articles/661025-how-do-i-assign-a-quiz-to-everyone-individual-students-differentiation-tags-or-sections"
+    },
+    {
+      "text": "Once I publish a quiz, how do I use the Moderate Quiz page?",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/Once-I-publish-a-quiz-how-do-I-use-the-Moderate-Quiz-page/ta-p/761"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

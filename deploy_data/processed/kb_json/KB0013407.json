@@ -1,0 +1,84 @@
+{
+  "article_id": "KB0013407",
+  "title": "How do I connect to NUwave on Linux?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013407",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013407",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013407",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "The following article describes how to connect to Northeastern University's NUwave wireless network on Linux through network settings or the command line. The example screenshots below are from Ubuntu. Connect to NUwave on Linux 1. Open System Settings. 2. Select Network. 3. Select Wireless. This may already be preselected. 4. Select the orange arrow on the right to open network editing. 5. Use the following configuration to connect: - Security: WPA & WPA2 Enterprise. - Authentication: Protected EAP (PEAP). - CA certificate: No CA certificate is required. - PEAP version: Automatic. - Inner authentication: MSCHAPv2. - Username: Northeastern username. - Password: Northeastern password. 6. Select Save. Update network settings and wpa_supplicant Note: wpa_supplicant can only be used if no other network utility is controlling the network interface. It is not recommended as the primary configuration on systems with a pre-existing network controller (for example, the graphical Network settings on Ubuntu). If your Linux system does not include a built-in method to connect to a wireless network, use the steps below. This configuration is correct regardless of the operating system and is commonly prompted on older Android devices, Chromebooks, and many Linux distributions. The following steps configure a NUwave connection using the command-line utility wpa_supplicant on generic Linux systems without a graphical interface or network manager: 1. Create a file named wpa_supplicant.conf with your preferred text editor. 2. Enter the following configuration: network={ ssid=\"NUwave\" key_mgmt=WPA-EAP eap=PEAP phase1=\"peaplabel=0\" phase2=\"auth=MSCHAPV2\" identity=\"YOUR_USERNAME\" password=\"YOUR_PASSWORD\" } 3. Run ip link in a terminal to determine your wireless interface name (wireless interfaces generally start with wl). 4. Connect to the network using wpa_supplicant: wpa_supplicant -B -i YOUR_INTERFACE -c /path/to/wpa_supplicant.conf 5. Obtain an IP address with a DHCP client, if needed: dhcpcd YOUR_INTERFACE Configure with iwd (Intel Wireless Daemon) The following iwd / iwctl instructions work only if NetworkManager is not managing your wireless interface. On Ubuntu, NetworkManager is installed by default and is a load-bearing component; these steps apply only if you have disabled NetworkManager for Wi-Fi or are using a Linux distribution that does not include it. 1. Create a file named NUwave.8021x in the following directory: /var/lib/iwd/NUwave.8021x 2. Enter the following configuration: [Security] EAP-Method=PEAP EAP-PEAP-Phase2-Method=MSCHAPV2 EAP-Identity=YOUR_USERNAME EAP-Password=YOUR_PASSWORD 3. Restart the iwd service: sudo systemctl restart iwd 4. Connect to NUwave with iwctl: iwctl station YOUR_INTERFACE connect NUwave",
+  "body_html": "<article>The following article describes how to connect to Northeastern University's NUwave wireless network on Linux through network settings or the command line. The example screenshots below are from Ubuntu.<h2>Connect to NUwave on Linux</h2><ul><li>Open System Settings.</li><li>Select Network.</li><li>Select Wireless. This may already be preselected.</li><li>Select the orange arrow on the right to open network editing.</li><li>Use the following configuration to connect:<ul><li>Security: WPA & WPA2 Enterprise.</li><li>Authentication: Protected EAP (PEAP).</li><li>CA certificate: No CA certificate is required.</li><li>PEAP version: Automatic.</li><li>Inner authentication: MSCHAPv2.</li><li>Username: Northeastern username.</li><li>Password: Northeastern password.</li></ul></li><li>Select Save.</li></ul><h2>Update network settings and wpa_supplicant</h2><p>Note: wpa_supplicant can only be used if no other network utility is controlling the network interface. It is not recommended as the primary configuration on systems with a pre-existing network controller (for example, the graphical Network settings on Ubuntu). If your Linux system does not include a built-in method to connect to a wireless network, use the steps below. This configuration is correct regardless of the operating system and is commonly prompted on older Android devices, Chromebooks, and many Linux distributions. The following steps configure a NUwave connection using the command-line utility wpa_supplicant on generic Linux systems without a graphical interface or network manager:</p><ul><li>Create a file named <code>wpa_supplicant.conf</code> with your preferred text editor.</li><li>Enter the following configuration: <code>network={ ssid=\"NUwave\" key_mgmt=WPA-EAP eap=PEAP phase1=\"peaplabel=0\" phase2=\"auth=MSCHAPV2\" identity=\"YOUR_USERNAME\" password=\"YOUR_PASSWORD\" }</code></li><li>Run <code>ip link</code> in a terminal to determine your wireless interface name (wireless interfaces generally start with <code>wl</code>).</li><li>Connect to the network using wpa_supplicant: <code>wpa_supplicant -B -i YOUR_INTERFACE -c /path/to/wpa_supplicant.conf</code></li><li>Obtain an IP address with a DHCP client, if needed: <code>dhcpcd YOUR_INTERFACE</code></li></ul><h2>Configure with iwd (Intel Wireless Daemon)</h2><p>The following iwd / <code>iwctl</code> instructions work only if NetworkManager is not managing your wireless interface. On Ubuntu, NetworkManager is installed by default and is a load-bearing component; these steps apply only if you have disabled NetworkManager for Wi-Fi or are using a Linux distribution that does not include it.</p><ul><li>Create a file named <code>NUwave.8021x</code> in the following directory: <code>/var/lib/iwd/NUwave.8021x</code></li><li>Enter the following configuration: <code>[Security] EAP-Method=PEAP EAP-PEAP-Phase2-Method=MSCHAPV2 EAP-Identity=YOUR_USERNAME EAP-Password=YOUR_PASSWORD</code></li><li>Restart the iwd service: <code>sudo systemctl restart iwd</code></li><li>Connect to NUwave with <code>iwctl</code>: <code>iwctl station YOUR_INTERFACE connect NUwave</code></li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The following article describes how to connect to Northeastern University's NUwave wireless network on Linux through network settings or the command line. The example screenshots below are from Ubuntu.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Connect to NUwave on Linux",
+      "text": "",
+      "steps": [
+        "Open System Settings.",
+        "Select Network.",
+        "Select Wireless. This may already be preselected.",
+        "Select the orange arrow on the right to open network editing.",
+        "Use the following configuration to connect: Security: WPA & WPA2 Enterprise, Authentication: Protected EAP (PEAP), CA certificate: No CA certificate is required, PEAP version: Automatic, Inner authentication: MSCHAPv2, Username: Northeastern username, Password: Northeastern password.",
+        "Select Save."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Update network settings and wpa_supplicant",
+      "text": "Note: wpa_supplicant can only be used if no other network utility is controlling the network interface. It is not recommended as the primary configuration on systems with a pre-existing network controller...",
+      "steps": [
+        "Create a file named wpa_supplicant.conf with your preferred text editor.",
+        "Enter the following configuration: network={ ssid=\"NUwave\" key_mgmt=WPA-EAP eap=PEAP phase1=\"peaplabel=0\" phase2=\"auth=MSCHAPV2\" identity=\"YOUR_USERNAME\" password=\"YOUR_PASSWORD\" }",
+        "Run ip link in a terminal to determine your wireless interface name.",
+        "Connect to the network using wpa_supplicant: wpa_supplicant -B -i YOUR_INTERFACE -c /path/to/wpa_supplicant.conf",
+        "Obtain an IP address with a DHCP client, if needed: dhcpcd YOUR_INTERFACE"
+      ],
+      "links": []
+    },
+    {
+      "heading": "Configure with iwd (Intel Wireless Daemon)",
+      "text": "The following iwd / iwctl instructions work only if NetworkManager is not managing your wireless interface.",
+      "steps": [
+        "Create a file named NUwave.8021x in the following directory: /var/lib/iwd/NUwave.8021x",
+        "Enter the following configuration: [Security] EAP-Method=PEAP EAP-PEAP-Phase2-Method=MSCHAPV2 EAP-Identity=YOUR_USERNAME EAP-Password=YOUR_PASSWORD",
+        "Restart the iwd service: sudo systemctl restart iwd",
+        "Connect to NUwave with iwctl: iwctl station YOUR_INTERFACE connect NUwave"
+      ],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing - Desktop and Mobile Device Support - Linux"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": null
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": null
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": null
+    },
+    {
+      "title": "What is NUwave?",
+      "url": null
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": null
+    }
+  ]
+}

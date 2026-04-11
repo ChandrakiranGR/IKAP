@@ -1,0 +1,99 @@
+{
+  "article_id": "KB000016406",
+  "title": "How do I take attendance in Canvas using Qwickly Attendance?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016406",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016406",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016406",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "22d ago",
+  "plain_text": "Qwickly Attendance is a course tool that enables faculty to take attendance and automatically update it to Canvas. Instructors can take attendance using an on-screen list or allow students to check in independently with a PIN. Table of contents Enable Qwickly attendance in Canvas Customize Qwickly attendance settings Take attendance Using the full list Using student check in View attendance record Customize automatic grading Session-based grading Absence-based grading Additional resources for Qwickly attendance Enable Qwickly attendance in Canvas Select Settings from the Course Navigation menu. Select Navigation from the Settings tab. Find 'Qwickly Attendance' in the hidden links area, select the vertical ellipses, and select Enable. Scroll to the bottom of the page and select Save. Qwickly Attendance will now appear in the Course Navigation toolbar. After selecting 'Qwickly Attendance' from Course Navigation, a new tab will open. You may see a prompt asking you to authorize Qwickly. Select Authorize. Customize Qwickly attendance settings Select 'Begin Set-Up'. Select 'User Sorting' preferences, 'View preferences', and Check-in options, then select 'Save Settings'. Select one of the three Qwickly's Attendance modes. Check-In Mode: Starting student check-in will allow students to check in on their own devices, but will prevent you from manually taking attendance. Watch Take Attendance with Student Check-In Mode. List Mode: Take attendance by scrolling through a list of students. One-by-one Mode: One-by-one Mode allows instructors to click through students individually while reviewing photos to simulate the most traditional roll call version of attendance-taking. Take attendance Using the full list Select Qwickly from the navigation menu. Select List and choose 'Current Time' or 'Past Time' to record attendance for a past date and time. You can mark attendance status for all students or individual students. When you are ready, select 'Submit Attendance'. Using student check in Select 'Qwickly Attendance' from the Course Navigation menu. Select 'Check In', provide a session title, and select 'Start Check In'. Select 'End Check In' to end the check-in period. Note: Students need to download and install the free Canvas Student App for iOS or Android before they can verify their attendance through the Check-In tool on their mobile devices. View attendance record Select 'Qwickly Attendance' from the course menu. Select Records. The Attendance Record window will open. You can view the total absences in the far right column for each student in the class or search for an individual student by typing a name in the Search student's field. Select the download button at the top right of the attendance record to access a class's CSV file with a complete attendance record. Select the cell for a student record to modify an individual record in the grid. A window will appear to modify. Select Update to save changes. Customize automatic grading Qwickly Attendance syncs to the Canvas Gradebook to facilitate automatic grading for participation or attendance. This feature creates a single grade column that is automatically maintained and updated immediately upon taking attendance or editing the student's record. Instructors can enter a value for the entire semester or customize the number of points each session is worth. Set up automatic grading following these steps: Select 'Qwickly Attendance' from the course navigation. Select Settings. Select the check box for session-based or absence-based grading if you plan to assign an attendance grade. If you do not want to assign an attendance grade, leave the boxes unchecked. Select 'Save Settings' at the bottom of the page. Session-based grading Select 'Total Points' to define the total number of points that attendance will be worth, or select 'Points Per Session' to define a point value for each session. Absence-based grading Select 'Absence Based Grading Column' if you want to award or subtract points per absence. Select 'Save Settings' at the bottom of the page. Note: If you make changes to the grading options after you have started tracking attendance, you will need to select 'Sync Grades' to update the Attendance Record. Additional resources for Qwickly attendance Qwickly Attendance Classic Course Settings Overview. Qwickly Attendance Classic: Custom Course Statuses. Qwickly Attendance Classic.",
+  "body_html": "<div id=\"364\">Qwickly Attendance is a course tool that enables faculty to take attendance and automatically update it to Canvas. Instructors can take attendance using an on-screen list or allow students to check in independently with a PIN. <h2 id=\"370\">Table of contents</h2><ul><li>Enable Qwickly attendance in Canvas</li><li>Customize Qwickly attendance settings</li><li>Take attendance<ul><li>Using the full list</li><li>Using student check in</li></ul></li><li>View attendance record</li><li>Customize automatic grading<ul><li>Session-based grading</li><li>Absence-based grading</li></ul></li><li>Additional resources for Qwickly attendance</li></ul><h2 id=\"408\">Enable Qwickly attendance in Canvas</h2><ul><li>Select Settings from the Course Navigation menu.</li><li>Select Navigation from the Settings tab.</li><li>Find 'Qwickly Attendance' in the hidden links area, select the vertical ellipses, and select Enable.</li><li>Scroll to the bottom of the page and select Save.</li><li>Select Authorize.</li></ul><h2 id=\"440\">Customize Qwickly attendance settings</h2><ul><li>Select 'Begin Set-Up'.</li><li>Select preferences and 'Save Settings'.</li><li>Select one of the three Qwickly's Attendance modes: Check-In Mode, List Mode, One-by-one Mode.</li></ul><h2 id=\"476\">Take attendance</h2><h3>Using the full list</h3><ul><li>Select Qwickly from the navigation menu.</li><li>Select List and record attendance.</li><li>Select 'Submit Attendance'.</li></ul><h3>Using student check in</h3><ul><li>Select 'Qwickly Attendance'.</li><li>Select 'Check In' and 'Start Check In'.</li><li>Select 'End Check In'.</li></ul><h2 id=\"521\">View attendance record</h2><ul><li>Select Records.</li><li>View or modify records.</li></ul><h2 id=\"549\">Customize automatic grading</h2><p>Qwickly Attendance syncs to the Canvas Gradebook.</p><ul><li>Select Settings.</li><li>Choose grading method and Save.</li></ul><h2 id=\"594\">Additional resources for Qwickly attendance</h2><ul><li>Qwickly Attendance Classic Course Settings Overview.</li><li>Qwickly Attendance Classic: Custom Course Statuses.</li><li>Qwickly Attendance Classic.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Enable Qwickly attendance in Canvas",
+      "text": "Steps to enable the tool in course settings and authorize it",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Customize Qwickly attendance settings",
+      "text": "Information on setup, sorting, and the three attendance modes (Check-In, List, One-by-one)",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Take attendance",
+      "text": "Instructions for using the full list or student check-in with a PIN",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "View attendance record",
+      "text": "How to view absences, search students, download CSVs, and modify records",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Customize automatic grading",
+      "text": "Details on session-based and absence-based grading synchronization with Canvas",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Additional resources for Qwickly attendance",
+      "text": "Links to classic course settings and status overviews",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Qwickly Attendance",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014197"
+    },
+    {
+      "text": "Qwickly's Attendance modes.",
+      "url": "https://www.goqwickly.com/attendance/modes/"
+    },
+    {
+      "text": "Take Attendance with Student Check-In Mode.",
+      "url": "https://vimeo.com/714145462/6ec8f64ba2"
+    },
+    {
+      "text": "Canvas Student App",
+      "url": "https://community.canvaslms.com/t5/Mobile/ct-p/apps"
+    },
+    {
+      "text": "Qwickly Attendance Classic Course Settings Overview",
+      "url": "https://qwickly.zendesk.com/hc/en-us/articles/360029793911-Qwickly-Attendance-LTI-Course-Settings-Overview"
+    },
+    {
+      "text": "Qwickly Attendance Classic: Custom Course Statuses",
+      "url": "https://qwickly.zendesk.com/hc/en-us/articles/360038274992-Qwickly-Attendance-LTI-Custom-Course-Statuses"
+    },
+    {
+      "text": "Qwickly Attendance Classic",
+      "url": "https://qwickly.zendesk.com/hc/en-us/sections/360010431691-Qwickly-Attendance-Classic"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Qwickly"
+  ],
+  "related_articles": [
+    {
+      "title": "What is Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "How do I check in using Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "What are Qwickly Course Tools in Canvas?",
+      "url": null
+    }
+  ]
+}

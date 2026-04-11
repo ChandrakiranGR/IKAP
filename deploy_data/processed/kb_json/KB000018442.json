@@ -1,0 +1,106 @@
+{
+  "article_id": "KB000018442",
+  "title": "How do I provide Wi-Fi to conference and event guests?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018442",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018442",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018442",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "Wireless access can be obtained for event planners and conference guests at Northeastern. Table of contents One-day event/conference attendees Multi-day event/conference attendees Conference and event planners For a one-day event For multi-day events Additional access One-day event/conference attendees When you arrive for your conference/event, you will be given a code by the event organizers. This code will allow you access to the NUwave-guest network for the duration of the conference/event. Refer to to How do I connect to NUwave-guest with a conference code? for directions. Multi-day event/conference attendees When you arrive for your conference/event, you will be provided with a unique login for access to NUwave-guest. Your access is valid for the duration of the conference/event. Refer to to How do I connect to NUwave-guest with a username and password? for directions. Conference and event planners For a one-day event At least one week before the event, log in to the 'Tech Service Portal' to submit a request. In the 'Short Description' field, enter 'guest wireless one-day event pass'. In the 'Description' field, enter the conference name, the primary contact's contact information, and the date of the event. After submitting the request, the organizer will receive a single-day event wireless access code to distribute to the attendees. For multi-day events Note: As part of the request, organizers must fill out and attach a guest wireless conference accounts spreadsheet, which must include attendee names and contact information. At least one week before the event, log in to the 'Tech Service Portal' to submit a request. In the 'Short Description' field, enter 'guest wireless conference accounts'. Following the completion of the request, IT Services (ITS) will send organizers a list of guest wireless conference accounts with individual usernames and passwords for each attendee. They may use this information to access NUwave-guest for the duration of the event. Note: Recognizing that some conference/event attendees may register late, organizers can submit the contact information for late registrants to ITS at the end of each conference day. This request can be submitted through the Tech Service Portal using the same process as the initial list. A wireless conference account (individual username and password) will be generated for each late registrant within one business day. While the late registrant awaits a wireless conference account, they can access NUwave-guest through the standard guest wireless registration process, which will provide wireless access for 72 hours at a time. Additional access NUwave-guest provides restricted access to the internet, such as limited access to web browsers, email clients, and VPN applications. ITS can provide additional access to conference attendees with advance notice. Note: As part of the request, organizers must fill out and attach a guest wireless conference accounts spreadsheet, which must include attendee names and contact information. Please note on the request any additional access that your conference attendees require. ITS will confirm if additional access can be provided. At least two weeks before the event, log in to the 'Tech Service Portal' to submit a request. In the 'Short Description' field, enter 'guest wireless conference accounts – additional access'. Following the completion of the request, ITS will send organizers a list of guest wireless conference accounts with individual usernames and passwords for attendees. They may use this information to access NUwave-guest for the duration of the event.",
+  "body_html": "<article><div>Wireless access can be obtained for event planners and conference guests at Northeastern.</div><hr><h2>Table of contents</h2><ul><li>One-day event/conference attendees</li><li>Multi-day event/conference attendees</li><li>Conference and event planners<ul><li>For a one-day event</li><li>For multi-day events</li></ul></li><li>Additional access</li></ul><hr><h2>One-day event/conference attendees</h2><div>When you arrive for your conference/event, you will be given a code by the event organizers. This code will allow you access to the NUwave-guest network for the duration of the conference/event.</div><ul><li>Refer to to <a href=\"#\">How do I connect to NUwave-guest with a conference code?</a> for directions.</li></ul><hr><h2>Multi-day event/conference attendees</h2><div>When you arrive for your conference/event, you will be provided with a unique login for access to NUwave-guest. Your access is valid for the duration of the conference/event.</div><ul><li>Refer to to <a href=\"#\">How do I connect to NUwave-guest with a username and password?</a> for directions.</li></ul><hr><h2>Conference and event planners</h2><h3>For a one-day event</h3><ul><li>At least one week before the event, log in to the 'Tech Service Portal' to submit a <a href=\"#\">request</a>.</li><li>In the 'Short Description' field, enter 'guest wireless one-day event pass'.</li><li>In the 'Description' field, enter the conference name, the primary contact's contact information, and the date of the event.</li><li>After submitting the request, the organizer will receive a single-day event wireless access code to distribute to the attendees.</li></ul><h3>For multi-day events</h3><div>Note: As part of the request, organizers must fill out and attach a <a href=\"#\">guest wireless conference accounts spreadsheet</a>, which must include attendee names and contact information.</div><ul><li>At least one week before the event, log in to the 'Tech Service Portal' to submit a <a href=\"#\">request</a>.</li><li>In the 'Short Description' field, enter 'guest wireless conference accounts'.</li><li>Following the completion of the request, IT Services (ITS) will send organizers a list of guest wireless conference accounts with individual usernames and passwords for each attendee. They may use this information to access NUwave-guest for the duration of the event.</li></ul><div>Note: Recognizing that some conference/event attendees may register late...</div><hr><h2>Additional access</h2><div>NUwave-guest provides restricted access to the internet... Note: As part of the request, organizers must fill out and attach a <a href=\"#\">guest wireless conference accounts spreadsheet</a>...</div><ul><li>At least two weeks before the event, log in to the 'Tech Service Portal' to submit a <a href=\"#\">request</a>.</li><li>In the 'Short Description' field, enter 'guest wireless conference accounts – additional access'.</li><li>Following the completion of the request, ITS will send organizers a list of guest wireless conference accounts with individual usernames and passwords for attendees.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "One-day event/conference attendees",
+      "text": "When you arrive for your conference/event, you will be given a code by the event organizers. This code will allow you access to the NUwave-guest network for the duration of the conference/event.",
+      "steps": [
+        "Refer to to How do I connect to NUwave-guest with a conference code? for directions."
+      ],
+      "links": [
+        {
+          "text": "How do I connect to NUwave-guest with a conference code?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013940"
+        }
+      ]
+    },
+    {
+      "heading": "Multi-day event/conference attendees",
+      "text": "When you arrive for your conference/event, you will be provided with a unique login for access to NUwave-guest. Your access is valid for the duration of the conference/event.",
+      "steps": [
+        "Refer to to How do I connect to NUwave-guest with a username and password? for directions."
+      ],
+      "links": [
+        {
+          "text": "How do I connect to NUwave-guest with a username and password?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013941"
+        }
+      ]
+    },
+    {
+      "heading": "Conference and event planners - For a one-day event",
+      "text": "",
+      "steps": [
+        "At least one week before the event, log in to the 'Tech Service Portal' to submit a request.",
+        "In the 'Short Description' field, enter 'guest wireless one-day event pass'.",
+        "In the 'Description' field, enter the conference name, the primary contact's contact information, and the date of the event.",
+        "After submitting the request, the organizer will receive a single-day event wireless access code to distribute to the attendees."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Conference and event planners - For multi-day events",
+      "text": "Note: As part of the request, organizers must fill out and attach a guest wireless conference accounts spreadsheet, which must include attendee names and contact information.",
+      "steps": [
+        "At least one week before the event, log in to the 'Tech Service Portal' to submit a request.",
+        "In the 'Short Description' field, enter 'guest wireless conference accounts'.",
+        "Following the completion of the request, IT Services (ITS) will send organizers a list of guest wireless conference accounts with individual usernames and passwords for each attendee."
+      ],
+      "links": [
+        {
+          "text": "guest wireless conference accounts spreadsheet",
+          "url": "https://service.northeastern.edu/sys_attachment.do?sys_id=9da386ac93232e909e7d321b6aba10e6&sysparm_this_url=kb_knowledge.do%3Fsys_id%3D5b5470b187f231d03b170e96cebb3582%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull"
+        }
+      ]
+    },
+    {
+      "heading": "Additional access",
+      "text": "NUwave-guest provides restricted access to the internet, such as limited access to web browsers, email clients, and VPN applications. ITS can provide additional access to conference attendees with advance notice.",
+      "steps": [
+        "At least two weeks before the event, log in to the 'Tech Service Portal' to submit a request.",
+        "In the 'Short Description' field, enter 'guest wireless conference accounts – additional access'.",
+        "Following the completion of the request, ITS will send organizers a list of guest wireless conference accounts with individual usernames and passwords for attendees."
+      ],
+      "links": [
+        {
+          "text": "guest wireless conference accounts spreadsheet",
+          "url": "https://express.northeastern.edu/its/files/2019/09/ITS_GuestWirelessConferences_Template_092019.xlsx"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I connect to NUwave-guest with a conference code?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013940"
+    },
+    {
+      "text": "How do I connect to NUwave-guest with a username and password?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013941"
+    },
+    {
+      "text": "guest wireless conference accounts spreadsheet",
+      "url": "https://service.northeastern.edu/sys_attachment.do?sys_id=9da386ac93232e909e7d321b6aba10e6&sysparm_this_url=kb_knowledge.do%3Fsys_id%3D5b5470b187f231d03b170e96cebb3582%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull"
+    },
+    {
+      "text": "guest wireless conference accounts spreadsheet",
+      "url": "https://express.northeastern.edu/its/files/2019/09/ITS_GuestWirelessConferences_Template_092019.xlsx"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management",
+    "Wireless Networks - Guest"
+  ],
+  "related_articles": []
+}

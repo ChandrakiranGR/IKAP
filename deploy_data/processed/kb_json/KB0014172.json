@@ -1,0 +1,97 @@
+{
+  "article_id": "KB0014172",
+  "title": "What is Turnitin?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "The Turnitin integration in Canvas provides a comprehensive tool for plagiarism prevention (Originality Checking), online grading and feedback to students (GradeMark), and peer review (PeerMark). Turnitin's plagiarism prevention tool creates originality reports that show how much of a document is original, how much is properly cited from other sources, and whether any parts are unoriginal or cited improperly. Students learn the importance of original writing and attribution and foster critical thinking skills that are important to student success. Turnitin's online grading feature streamlines the process of leaving feedback for students. Feedback can include voice comments, drag-and-drop comments, and rubric-associated comments to engage students in the feedback process. Features of the integration: Allows access to Turnitin functionality from within Canvas. Allows rubric-based grading (Rubric Manager). Includes standard correction comments and the ability to add your comments and markings (QuickMark). Supports multi-part assignments, allowing draft and revision submissions. Updates the Canvas gradebook with grades entered in GradeMark. Supports group-based assignments. Supports Turnitin Originality Checking, GradeMark, and PeerMark. Reports on late assignments. Note: Questions about Northeastern's Academic Integrity Policy may be answered on the Office of Student Conduct and Conflict Resolution's website . Access Turnitin Faculty and students access Turnitin via the Canvas integration in their courses rather than directly at Turnitin. Canvas is available at Northeastern's Canvas page or through the Student Hub . Faculty can refer to How do I add a Turnitin assignment to my Canvas course? for directions. Get started with Turnitin Accessibility Turnitin's Commitment to Accessibility . Resources Northeastern Knowledge Base articles . Canvas Turnitin for Instructors . Canvas Turnitin for Students . Help The license grants support via email with Turnitin experts. The Canvas Plagiarism Framework and LTI integration are used at Northeastern. Turnitin's System Requirements . Turnitin's System Status . Note: Safari is not well-supported for student file submissions. For questions about account or access errors, please email athelp@northeastern.edu and provide: Your name. The course in which you are using Turnitin. Where in the course are you accessing Turnitin? The error message you are receiving.",
+  "body_html": "<article id=\"364\"><p>The <a id=\"368\">Turnitin</a> integration in <a id=\"371\">Canvas</a> provides a comprehensive tool for plagiarism prevention (Originality Checking), online grading and feedback to students (GradeMark), and peer review (PeerMark). Turnitin's plagiarism prevention tool creates originality reports that show how much of a document is original, how much is properly cited from other sources, and whether any parts are unoriginal or cited improperly. Students learn the importance of original writing and attribution and foster critical thinking skills that are important to student success. Turnitin's online grading feature streamlines the process of leaving feedback for students. Feedback can include voice comments, drag-and-drop comments, and rubric-associated comments to engage students in the feedback process.</p><ul><li>Allows access to Turnitin functionality from within Canvas.</li><li>Allows rubric-based grading (Rubric Manager).</li><li>Includes standard correction comments and the ability to add your comments and markings (QuickMark).</li><li>Supports multi-part assignments, allowing draft and revision submissions.</li><li>Updates the Canvas gradebook with grades entered in GradeMark.</li><li>Supports group-based assignments.</li><li>Supports Turnitin Originality Checking, GradeMark, and PeerMark.</li><li>Reports on late assignments.</li></ul><p>Note: Questions about Northeastern's Academic Integrity Policy may be answered on the <a id=\"396\">Office of Student Conduct and Conflict Resolution's website</a>.</p><h2>Access Turnitin</h2><ul><li>Faculty and students access Turnitin via the Canvas integration in their courses rather than directly at Turnitin. Canvas is available at <a id=\"408\">Northeastern's Canvas page</a> or through the <a id=\"411\">Student Hub</a>.</li><li>Faculty can refer to <a id=\"416\">How do I add a Turnitin assignment to my Canvas course?</a> for directions.</li></ul><h2>Get started with Turnitin</h2><h3>Accessibility</h3><ul><li><a id=\"428\">Turnitin's Commitment to Accessibility</a>.</li></ul><h3>Resources</h3><ul><li><a id=\"437\">Northeastern Knowledge Base articles</a>.</li><li><a id=\"441\">Canvas Turnitin for Instructors</a>.</li><li><a id=\"445\">Canvas Turnitin for Students</a>.</li></ul><h2>Help</h2><ul><li>The license grants <a id=\"459\">support via email</a> with Turnitin experts. The Canvas Plagiarism Framework and LTI integration are used at Northeastern.</li><li><a id=\"463\">Turnitin's System Requirements</a>.</li><li><a id=\"467\">Turnitin's System Status</a>. Note: Safari is not well-supported for student file submissions.</li></ul><p>For questions about account or access errors, please email <a id=\"473\">athelp@northeastern.edu</a> and provide:<ul><li>Your name.</li><li>The course in which you are using Turnitin.</li><li>Where in the course are you accessing Turnitin?</li><li>The error message you are receiving.</li></ul></p></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The Turnitin integration in Canvas provides a comprehensive tool for plagiarism prevention (Originality Checking), online grading and feedback to students (GradeMark), and peer review (PeerMark).; Access Turnitin: Faculty and students access Turnitin via the Canvas integration in their courses rather than directly at Turnitin.; Get started with Turnitin: Accessibility and Resources for Turnitin users.; Help: Support via email with Turnitin experts and system requirements.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Turnitin",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172"
+    },
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "Office of Student Conduct and Conflict Resolution's website",
+      "url": "https://osccr.sites.northeastern.edu/academic-integrity-policy/"
+    },
+    {
+      "text": "Northeastern's Canvas page",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "Student Hub",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "How do I add a Turnitin assignment to my Canvas course?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014244"
+    },
+    {
+      "text": "Turnitin's Commitment to Accessibility",
+      "url": "https://turnitin.com/about/accessibility"
+    },
+    {
+      "text": "Canvas Turnitin for Instructors",
+      "url": "https://help.turnitin.com/feedback-studio/canvas/plagiarism-framework/teacher/teacher-category.htm"
+    },
+    {
+      "text": "Canvas Turnitin for Students",
+      "url": "https://help.turnitin.com/feedback-studio/canvas/plagiarism-framework/student/student-category.htm"
+    },
+    {
+      "text": "support via email",
+      "url": "https://www.turnitin.com/self-service/support-form.html?okay=ok"
+    },
+    {
+      "text": "Turnitin's System Requirements",
+      "url": "https://guides.turnitin.com/hc/en-us/articles/27911463857677-System-requirements"
+    },
+    {
+      "text": "Turnitin's System Status",
+      "url": "https://turnitin.statuspage.io/"
+    },
+    {
+      "text": "athelp@northeastern.edu",
+      "url": "mailto:athelp@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Turnitin"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Turnitin's quick submit as a faculty?",
+      "url": null
+    },
+    {
+      "title": "How do students access the Turnitin Similarity Report panel in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I allow students or staff to complete a self-check using Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I add a Turnitin assignment to my Canvas course?",
+      "url": null
+    }
+  ]
+}

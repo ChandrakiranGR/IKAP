@@ -1,0 +1,49 @@
+{
+  "article_id": "KB000016370",
+  "title": "How do I add the Respondus Lockdown and the Respondus Tech Check Quiz module to my Canvas course?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016370",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016370",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016370",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "28d ago",
+  "plain_text": "Access Respondus Lockdown Browser tools via Canvas Commons. This ready-to-import module helps instructors secure exams and students test their setup. The Respondus Lockdown and Respondus Tech Check Quiz module is available for import into your course via Canvas Commons. This module provides help for instructors and students using Respondus Lockdown Browser in their courses. It also provides a link for students to enroll in the Respondus Lockdown Tech Check Quiz, which helps students identify and solve problems early. Import the module from Canvas Commons The Respondus Lockdown and Respondus Tech Check Quiz modules are available in Canvas Commons for import. You can follow the steps below to import the module: Log in to to Canvas . Select the Commons link on the left-hand menu. the Commons link on the left-hand menu. commons link Once the Commons is opened, use the Search Bar to search for the 'Respondus Lockdown and Respondus Tech Check Quiz' module. search for the 'Respondus Lockdown and Respondus Tech Check Quiz' module. Respondus Locate and select the 'Respondus Lockdown and Respondus Tech Check Quiz' course module. and select the 'Respondus Lockdown and Respondus Tech Check Quiz' course module. Respondus On the 'Respondus Lockdown and Respondus Tech Check Quiz' Module, locate and select the 'Import/Download' link located on the right-hand side of the page. locate and select the 'Import/Download' link located on the right-hand side of the page. click import/download From the 'Import/Download' slide-out panel, locate and select the course(s) in which you would like to add the 'Respondus Lockdown and Respondus Tech Check Quiz' module, and select the 'Import into Course' button to initiate the import process. locate and select the course(s) in which you would like to add the 'Respondus Lockdown and Respondus Tech Check Quiz' module, and select the 'Import into Course' button to initiate the import process. selection Once the import is complete, you will see a green box indicating success. The 'Respondus Lockdown and Respondus Tech Check Quiz' module will be available in the module section of your course.",
+  "body_html": "<article id=\"364\">\n  <p>Access Respondus Lockdown Browser tools via Canvas Commons. This ready-to-import module helps instructors secure exams and students test their setup.</p>\n  <p>The Respondus Lockdown and Respondus Tech Check Quiz module is available for import into your course via Canvas Commons. This module provides help for instructors and students using Respondus Lockdown Browser in their courses. It also provides a link for students to enroll in the Respondus Lockdown Tech Check Quiz, which helps students identify and solve problems early.</p>\n  <h2 id=\"369\">Import the module from Canvas Commons</h2>\n  <p>The Respondus Lockdown and Respondus Tech Check Quiz modules are available in Canvas Commons for import. You can follow the steps below to import the module:</p>\n  <ul>\n    <li>Log in to to <a id=\"378\">Canvas</a>.</li>\n    <li>Select the Commons link on the left-hand menu. the Commons link on the left-hand menu. <button id=\"384\">commons link</button></li>\n    <li>Once the Commons is opened, use the Search Bar to search for the 'Respondus Lockdown and Respondus Tech Check Quiz' module. search for the 'Respondus Lockdown and Respondus Tech Check Quiz' module. <button id=\"389\">Respondus</button></li>\n    <li>Locate and select the 'Respondus Lockdown and Respondus Tech Check Quiz' course module. and select the 'Respondus Lockdown and Respondus Tech Check Quiz' course module. <button id=\"395\">Respondus</button></li>\n    <li>On the 'Respondus Lockdown and Respondus Tech Check Quiz' Module, locate and select the 'Import/Download' link located on the right-hand side of the page. locate and select the 'Import/Download' link located on the right-hand side of the page. <button id=\"402\">click import/download</button></li>\n    <li>From the 'Import/Download' slide-out panel, locate and select the course(s) in which you would like to add the 'Respondus Lockdown and Respondus Tech Check Quiz' module, and select the 'Import into Course' button to initiate the import process. <button id=\"411\">selection</button></li>\n    <li>Once the import is complete, you will see a green box indicating success. The 'Respondus Lockdown and Respondus Tech Check Quiz' module will be available in the module section of your course.</li>\n  </ul>\n</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Access Respondus Lockdown Browser tools via Canvas Commons. This ready-to-import module helps instructors secure exams and students test their setup. The Respondus Lockdown and Respondus Tech Check Quiz module is available for import into your course via Canvas Commons. This module provides help for instructors and students using Respondus Lockdown Browser in their courses. It also provides a link for students to enroll in the Respondus Lockdown Tech Check Quiz, which helps students identify and solve problems early.;Import the module from Canvas Commons: The Respondus Lockdown and Respondus Tech Check Quiz modules are available in Canvas Commons for import. You can follow the steps below to import the module: Log in to to Canvas. Select the Commons link on the left-hand menu. Once the Commons is opened, use the Search Bar to search for the 'Respondus Lockdown and Respondus Tech Check Quiz' module. Locate and select the 'Respondus Lockdown and Respondus Tech Check Quiz' course module. On the 'Respondus Lockdown and Respondus Tech Check Quiz' Module, locate and select the 'Import/Download' link located on the right-hand side of the page. From the 'Import/Download' slide-out panel, locate and select the course(s) in which you would like to add the 'Respondus Lockdown and Respondus Tech Check Quiz' module, and select the 'Import into Course' button to initiate the import process. Once the import is complete, you will see a green box indicating success. The 'Respondus Lockdown and Respondus Tech Check Quiz' module will be available in the module section of your course.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://northeastern.instructure.com/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Respondus"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I take a test using Respondus LockDown Browser and Monitor?",
+      "url": null
+    },
+    {
+      "title": "What is Respondus Lockdown Browser and Monitor?",
+      "url": null
+    },
+    {
+      "title": "How do I use Respondus LockDown Browser and Monitor to proctor exams?",
+      "url": null
+    },
+    {
+      "title": "How do I resolve a Respondus error from copying over a Canvas course?",
+      "url": null
+    }
+  ]
+}

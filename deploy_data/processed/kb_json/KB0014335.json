@@ -1,0 +1,63 @@
+{
+  "article_id": "KB0014335",
+  "title": "How do I set account time zones in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014335",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014335",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014335",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "Mar 18, 2026",
+  "plain_text": "Canvas supports global teaching and learning and allows users to change their time zone from Account Settings. If you live outside of Eastern Time (ET), changing your account time zone will display all course dates and times in your local time. For instance, if an assignment deadline is 11:59 p.m. on the East Coast and a student in the course is on the West Coast, they will see the assignment due at 8:59 p.m. PT. To learn about Time Zones in Canvas, review the article FAQ: Canvas time zone settings. Review the article How do I set my Canvas Course Time Zone? to learn more about how instructors can set a course time zone. Set time zone 1. Log in to to Canvas. 2. Select Account from the navigation menu. Then, select Settings. 3. Select 'Edit Settings'. 4. Select your time zone from the 'Time Zone' drop-down menu. 5. Select 'Update Settings'. 6. You will now see all course times and dates in the Canvas interface translated into your local time. Note: After you update your Time Zone, all course dates and times will display in local time. To see the course date and time, hover over the date and time as displayed in the image above. Anyone teaching or taking a course from a different time zone other than the Canvas course will see different Local and Course times. Anyone teaching or taking a course from the same time zone as the Canvas course will see these dates and times as identical.",
+  "body_html": "<article><div>Canvas supports global teaching and learning and allows users to change their time zone from Account Settings. If you live outside of Eastern Time (ET), changing your account time zone will display all course dates and times in your local time. For instance, if an assignment deadline is 11:59 p.m. on the East Coast and a student in the course is on the West Coast, they will see the assignment due at 8:59 p.m. PT. To learn about Time Zones in Canvas, review the article <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015065\">FAQ: Canvas time zone settings</a>. Review the article <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019332\">How do I set my Canvas Course Time Zone?</a> to learn more about how instructors can set a course time zone.</div><hr><h2>Set time zone</h2><ul><li>Log in to to <a href=\"https://canvas.northeastern.edu/\">Canvas</a>.</li><li>Select Account from the navigation menu. Then, select Settings.</li><li>Select 'Edit Settings'.</li><li>Select your time zone from the 'Time Zone' drop-down menu.</li><li>Select 'Update Settings'.</li><li>You will now see all course times and dates in the Canvas interface translated into your local time. Note: After you update your Time Zone, all course dates and times will display in local time. To see the course date and time, hover over the date and time as displayed in the image above. Anyone teaching or taking a course from a different time zone other than the Canvas course will see different Local and Course times. Anyone teaching or taking a course from the same time zone as the Canvas course will see these dates and times as identical.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Canvas supports global teaching and learning and allows users to change their time zone from Account Settings. If you live outside of Eastern Time (ET), changing your account time zone will display all course dates and times in your local time. For instance, if an assignment deadline is 11:59 p.m. on the East Coast and a student in the course is on the West Coast, they will see the assignment due at 8:59 p.m. PT. To learn about Time Zones in Canvas, review the article FAQ: Canvas time zone settings. Review the article How do I set my Canvas Course Time Zone? to learn more about how instructors can set a course time zone.; Steps: []; Links: [{\"text\": \"FAQ: Canvas time zone settings\", \"url\": \"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015065\"}, {\"text\": \"How do I set my Canvas Course Time Zone?\", \"url\": \"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019332\"}]",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Set time zone",
+      "text": "Log in to to Canvas. Select Account from the navigation menu. Then, select Settings. Select 'Edit Settings'. Select your time zone from the 'Time Zone' drop-down menu. Select 'Update Settings'. You will now see all course times and dates in the Canvas interface translated into your local time. Note: After you update your Time Zone, all course dates and times will display in local time. To see the course date and time, hover over the date and time as displayed in the image above. Anyone teaching or taking a course from a different time zone other than the Canvas course will see different Local and Course times. Anyone teaching or taking a course from the same time zone as the Canvas course will see these dates and times as identical.; Steps: [\"Log in to to Canvas.\", \"Select Account from the navigation menu. Then, select Settings.\", \"Select 'Edit Settings'.\", \"Select your time zone from the 'Time Zone' drop-down menu.\", \"Select 'Update Settings'.\", \"You will now see all course times and dates in the Canvas interface translated into your local time.\"]; Links: [{\"text\": \"Canvas\", \"url\": \"https://canvas.northeastern.edu/\"}]",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "FAQ: Canvas time zone settings",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015065"
+    },
+    {
+      "text": "How do I set my Canvas Course Time Zone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019332"
+    },
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    }
+  ]
+}

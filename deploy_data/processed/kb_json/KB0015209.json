@@ -1,0 +1,109 @@
+{
+  "article_id": "KB0015209",
+  "title": "How do I update my Duo enrollment when I get a new phone?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&table=kb_knowledge&sys_kb_id=8a6cb737979bbed04b5736d11153af08&recordUrl=kb_view.do%3Fsysparm_article%3DKB0015209",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "mfa_kb.json",
+  "updated_at": "",
+  "plain_text": "Update your Duo enrollment when you get a new phone by signing in to the Northeastern MFA website from a computer, authenticating with Call Me, and then either reactivating Duo Mobile if you kept the same phone number or deleting the old device and adding a new device if your number changed. Contact the IT Service Desk if you cannot complete the update.",
+  "body_html": "",
+  "sections": [
+    {
+      "heading": "If you kept the same phone number",
+      "text": "Sign in to the Northeastern MFA website from a computer, authenticate with Call Me, and reactivate Duo Mobile for the phone that kept the same number.",
+      "steps": [
+        "From a computer, go to the Northeastern MFA website.",
+        "Sign in with your Northeastern username and password.",
+        "Select 'Call Me' for authentication. Duo will call your registered phone. The Duo app will not receive a push on the new device until it is activated on your new phone.",
+        "Answer the call and follow the instructions to complete authentication.",
+        "On the Device Management page, select 'Call Me' again if prompted and complete authentication.",
+        "Find your phone number in the list of registered devices.",
+        "Select the settings icon next to your phone number, and then select 'Reactivate Duo Mobile'.",
+        "Follow the prompts.",
+        "If you have already downloaded the Duo app from the App Store or Google Play, select the checkbox at the bottom of the page when prompted.",
+        "Launch the app on your mobile device and use the in-app camera to scan the barcode shown on your computer monitor."
+      ],
+      "links": [
+        {
+          "text": "Northeastern MFA website",
+          "url": "https://neuidmsso.neu.edu/duo/devsvc"
+        }
+      ]
+    },
+    {
+      "heading": "If your phone number changed",
+      "text": "Authenticate into the Northeastern MFA website, delete the old device, and then add your new device.",
+      "steps": [
+        "Go to the Northeastern MFA website.",
+        "Sign in with your Northeastern username and password.",
+        "Select 'Call Me' for authentication and complete the call verification.",
+        "On the Device Management page, repeat authentication if prompted.",
+        "Find your phone number in the list of registered devices.",
+        "Select the settings icon next to your number, then select 'Delete Device'.",
+        "Select '+ Add a new device'.",
+        "Follow the enrollment steps to register the new device."
+      ],
+      "links": [
+        {
+          "text": "Northeastern MFA website",
+          "url": "https://neuidmsso.neu.edu/duo/devsvc"
+        },
+        {
+          "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+        }
+      ]
+    },
+    {
+      "heading": "If you need help",
+      "text": "If your new phone cannot receive calls or you are unable to complete the update, contact the IT Service Desk for assistance.",
+      "steps": [
+        "If your new phone is not active or cannot receive calls with your number, contact the IT Service Desk for further assistance.",
+        "If you are unable to complete these steps, contact the IT Service Desk for assistance."
+      ],
+      "links": [
+        {
+          "text": "How do I report a technical problem to the IT Service Desk?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012658"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Northeastern MFA website",
+      "url": "https://neuidmsso.neu.edu/duo/devsvc"
+    },
+    {
+      "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "text": "How do I report a technical problem to the IT Service Desk?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012658"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access",
+    "Northeastern Account Access",
+    "Multi-Factor Authentication (MFA)"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "title": "How do I manage my Duo account and trusted devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+    },
+    {
+      "title": "How do I set up passwordless authentication using Authenticator?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021992"
+    }
+  ]
+}

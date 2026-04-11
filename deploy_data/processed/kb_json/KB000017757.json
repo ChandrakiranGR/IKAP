@@ -1,0 +1,62 @@
+{
+  "article_id": "KB000017757",
+  "title": "How do I access Tableau?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017757",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017757",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017757",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "2026-03-08",
+  "plain_text": "Tableau is a visual analytics platform that can improve learning and research through data by creatively engaging users with easy-to-use analytics, reporting, and presentation tools. Students, instructors, and academic researchers at Northeastern can access Tableau by requesting a one-year renewable license. Table of Contents Request a Tableau license For students For Instructors Request a Tableau license For students Navigate to to Tableau for Students . Select 'Get Tableau for Free.' Complete the form using your Northeastern email address to verify your student status. Check your inbox for an email from SheerID Verification. You can activate both Tableau Desktop and Tableau Prep using the enclosed product key, which will expire in one year. Note: To extend or renew your student license, resubmit the Tableau for Students form to verify you're still enrolled. Note: If you requested a license and were prompted to upload documentation to verify your student status, it can take 1-3 business days to receive a response. Make sure to check your spam/junk folder. If you still haven't received an email after 3 days, email CustomerService@SheerID.com for a status update. Refer to Tableau for Students FAQs for more information on requesting a student license. For Instructors Navigate to to Tableau for Teaching , or request a license by filling out the Tableau Request Form . Select 'Request Individual License' or 'Request Course Software.' Note: An individual license provides a free one-year license to activate Tableau Desktop and Tableau Prep for teaching and non-commercial academic research. Course software offers options to request lab and student licenses in addition to Tableau Online. Learn more about different license types from Tableau for Teaching FAQs . Complete the form using your Northeastern email address to verify your status as an instructor or academic researcher. Check your inbox. Note: An individual instructor license will be delivered within 5-7 business days and is valid for one year. If you also requested lab and student licenses or access to the Tableau Online site, learn more about when the licenses will be delivered and for how long they will be valid on the Tableau for Teaching FAQs page.",
+  "body_html": "<article id=\"364\"><p>Tableau is a visual analytics platform that can improve learning and research through data by creatively engaging users with easy-to-use analytics, reporting, and presentation tools. Students, instructors, and academic researchers at Northeastern can access Tableau by requesting a one-year renewable license.</p><hr id=\"366\"><h2 id=\"368\">Table of Contents</h2><ul><li><a id=\"373\">Request a Tableau license</a><ul><li><a id=\"377\">For students</a></li><li><a id=\"380\">For Instructors</a></li></ul></li></ul><hr id=\"382\"><h2 id=\"384\">Request a Tableau license</h2><h3 id=\"386\">For students</h3><ul><li>Navigate to to <a id=\"391\">Tableau for Students</a>.</li><li>Select 'Get Tableau for Free.'</li><li>Complete the form using your Northeastern email address to verify your student status.</li><li>Check your inbox for an email from SheerID Verification. You can activate both Tableau Desktop and Tableau Prep using the enclosed product key, which will expire in one year. Note: To extend or renew your student license, resubmit the <a id=\"407\">Tableau for Students form</a> to verify you're still enrolled.</li><li>Note: If you requested a license and were prompted to upload documentation to verify your student status, it can take 1-3 business days to receive a response. Make sure to check your spam/junk folder. If you still haven't received an email after 3 days, email <a id=\"414\">CustomerService@SheerID.com</a> for a status update. Refer to <a id=\"418\">Tableau for Students FAQs</a> for more information on requesting a student license.</li></ul><h3 id=\"426\">For Instructors</h3><ul><li>Navigate to to <a id=\"431\">Tableau for Teaching</a>, or request a license by filling out the <a id=\"434\">Tableau Request Form</a>.</li><li>Select 'Request Individual License' or 'Request Course Software.' Note: An individual license provides a free one-year license to activate Tableau Desktop and Tableau Prep for teaching and non-commercial academic research. Course software offers options to request lab and student licenses in addition to Tableau Online. Learn more about different license types from <a id=\"442\">Tableau for Teaching FAQs</a>.</li><li>Complete the form using your Northeastern email address to verify your status as an instructor or academic researcher.</li><li>Check your inbox. Note: An individual instructor license will be delivered within 5-7 business days and is valid for one year. If you also requested lab and student licenses or access to the Tableau Online site, learn more about when the licenses will be delivered and for how long they will be valid on the <a id=\"456\">Tableau for Teaching FAQs</a> page.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Tableau is a visual analytics platform that can improve learning and research through data by creatively engaging users with easy-to-use analytics, reporting, and presentation tools. Students, instructors, and academic researchers at Northeastern can access Tableau by requesting a one-year renewable license.; Table of Contents: Request a Tableau license For students For Instructors; Request a Tableau license:",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "For students",
+      "text": "Navigate to to Tableau for Students . Select 'Get Tableau for Free.' Complete the form using your Northeastern email address to verify your student status. Check your inbox for an email from SheerID Verification. You can activate both Tableau Desktop and Tableau Prep using the enclosed product key, which will expire in one year. Note: To extend or renew your student license, resubmit the Tableau for Students form to verify you're still enrolled. Note: If you requested a license and were prompted to upload documentation to verify your student status, it can take 1-3 business days to receive a response. Make sure to check your spam/junk folder. If you still haven't received an email after 3 days, email CustomerService@SheerID.com for a status update. Refer to Tableau for Students FAQs for more information on requesting a student license.; For Instructors: Navigate to to Tableau for Teaching , or request a license by filling out the Tableau Request Form . Select 'Request Individual License' or 'Request Course Software.' Note: An individual license provides a free one-year license to activate Tableau Desktop and Tableau Prep for teaching and non-commercial academic research. Course software offers options to request lab and student licenses in addition to Tableau Online. Learn more about different license types from Tableau for Teaching FAQs . Complete the form using your Northeastern email address to verify your status as an instructor or academic researcher. Check your inbox. Note: An individual instructor license will be delivered within 5-7 business days and is valid for one year. If you also requested lab and student licenses or access to the Tableau Online site, learn more about when the licenses will be delivered and for how long they will be valid on the Tableau for Teaching FAQs page.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Tableau for Students",
+      "url": "https://www.tableau.com/academic/students"
+    },
+    {
+      "text": "Tableau for Students form",
+      "url": "https://www.tableau.com/academic/students"
+    },
+    {
+      "text": "CustomerService@SheerID.com",
+      "url": "mailto:CustomerService@SheerID.com"
+    },
+    {
+      "text": "Tableau for Students FAQs",
+      "url": "https://community.tableau.com/s/news/a0A4T000002O0vLUAS/tableau-for-students-faqs"
+    },
+    {
+      "text": "Tableau for Teaching",
+      "url": "https://www.tableau.com/academic/teaching"
+    },
+    {
+      "text": "Tableau Request Form",
+      "url": "https://forms.office.com/pages/responsepage.aspx?id=gcLuqKOqrk2sm5o5i5IV56yNBbQVtApPlqGstZ6-3aRURjRPN1Q0RDNOQ0RYQlMzQjNYWDNXNVo5Mi4u&origin=lprLink&route=shorturl"
+    },
+    {
+      "text": "Tableau for Teaching FAQs",
+      "url": "https://community.tableau.com/s/news/a0A4T000002O0vaUAC/tableau-for-teaching-faqs?_ga=2.158567164.732309082.1645158834-1415924715.1644937409"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing - Software and Application Distribution - Statistical and Computational"
+  ],
+  "related_articles": []
+}

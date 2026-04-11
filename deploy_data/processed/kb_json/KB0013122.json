@@ -1,0 +1,146 @@
+{
+  "article_id": "KB0013122",
+  "title": "How do I connect to the Internet?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013122",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013122",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013122",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Northeastern offers free, high-speed internet to students and staff while on campus. Refer to What devices are compatible with the Northeastern network? to learn which devices are compatible with Northeastern networks. If you are off-campus, you can still access Northeastern's networks if you are connected to the VPN. Wireless networks eduroam eduroam is a secure, roaming wireless network developed for, and used by the international research and education community. Northeastern students, faculty, and staff can securely access the eduroam network at more than 5,000 participating locations worldwide. eduroam is the preferred wireless network for Northeastern faculty, staff, and students as it enhances mobility across Northeastern's global campus system. eduroam is available on all campuses. Read How do I connect to eduroam? for instructions to connect to eduroam. NUwave NUwave is a secure wireless network for laptops, phones, and other personal devices in residence halls, classrooms, and across campus. Refer to How do I connect to NUwave on Windows? or How do I connect to NUwave on a Mac? for directions. NUwave-guest NUwave-guest is an open-access (unsecured) wireless network and is available in administrative and classroom buildings, as well as libraries. Learn more about connecting to NUwave-guest by reading the article FAQ: NUwave-guest access. NURes-Device NURes-Device is an open, Wi-Fi network that requires registration and is available in the residence halls to support certain devices that are not compatible with NUwave. Amazon Echo and Fire devices, smart TVs, and gaming consoles must connect to NURes-Device. Refer to How do I register a device on NURes-device? to learn more about accessing the network. Wired networks ResNet ResNet is a high-bandwidth, high-speed, wired network available in the residence halls. It is intended for computers, game consoles, and smart TVs. Refer to How do I connect a device to the ResNet wired network? for directions. NUnet NUnet is a redundant, high-bandwidth, high-availability wired network available in the academic, research, and administrative buildings on all campuses. To connect to NUnet, simply connect your device to the active port using an Ethernet cable.",
+  "body_html": "<div><p>Northeastern offers free, high-speed internet to students and staff while on campus. Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014017\">What devices are compatible with the Northeastern network?</a> to learn which devices are compatible with Northeastern networks. If you are off-campus, you can still access Northeastern's networks if you are connected to the <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013983\">VPN</a>.</p><h2>Wireless networks</h2><h4>eduroam</h4><p>eduroam is a secure, roaming wireless network developed for, and used by the international research and education community. Northeastern students, faculty, and staff can securely access the eduroam network at more than 5,000 participating locations worldwide. eduroam is the preferred wireless network for Northeastern faculty, staff, and students as it enhances mobility across Northeastern's global campus system. eduroam is available on all campuses. Read <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114\">How do I connect to eduroam?</a> for instructions to connect to eduroam.</p><h4>NUwave</h4><p>NUwave is a secure wireless network for laptops, phones, and other personal devices in residence halls, classrooms, and across campus. Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505\">How do I connect to NUwave on Windows?</a> or <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071\">How do I connect to NUwave on a Mac?</a> for directions.</p><h4>NUwave-guest</h4><p>NUwave-guest is an open-access (unsecured) wireless network and is available in administrative and classroom buildings, as well as libraries. Learn more about connecting to NUwave-guest by reading the article <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013939\">FAQ: NUwave-guest access</a>.</p><h4>NURes-Device</h4><p>NURes-Device is an open, Wi-Fi network that requires registration and is available in the residence halls to support certain devices that are not compatible with NUwave. Amazon Echo and Fire devices, smart TVs, and gaming consoles must connect to NURes-Device. Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126\">How do I register a device on NURes-device?</a> to learn more about accessing the network.</p><h2>Wired networks</h2><h4>ResNet</h4><p>ResNet is a high-bandwidth, high-speed, wired network available in the residence halls. It is intended for computers, game consoles, and smart TVs. Refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012609\">How do I connect a device to the ResNet wired network?</a> for directions.</p><h4>NUnet</h4><p>NUnet is a redundant, high-bandwidth, high-availability wired network available in the academic, research, and administrative buildings on all campuses. To connect to NUnet, simply connect your device to the active port using an Ethernet cable.</p></div>",
+  "sections": [
+    {
+      "heading": "Wireless networks",
+      "text": "eduroam is a secure, roaming wireless network developed for, and used by the international research and education community. Northeastern students, faculty, and staff can securely access the eduroam network at more than 5,000 participating locations worldwide. eduroam is the preferred wireless network for Northeastern faculty, staff, and students as it enhances mobility across Northeastern's global campus system. eduroam is available on all campuses. Read How do I connect to eduroam? for instructions to connect to eduroam.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I connect to eduroam?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+        }
+      ]
+    },
+    {
+      "heading": "NUwave",
+      "text": "NUwave is a secure wireless network for laptops, phones, and other personal devices in residence halls, classrooms, and across campus. Refer to How do I connect to NUwave on Windows? or How do I connect to NUwave on a Mac? for directions.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I connect to NUwave on Windows?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+        },
+        {
+          "text": "How do I connect to NUwave on a Mac?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071"
+        }
+      ]
+    },
+    {
+      "heading": "NUwave-guest",
+      "text": "NUwave-guest is an open-access (unsecured) wireless network and is available in administrative and classroom buildings, as well as libraries. Learn more about connecting to NUwave-guest by reading the article FAQ: NUwave-guest access.",
+      "steps": [],
+      "links": [
+        {
+          "text": "FAQ: NUwave-guest access",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013939"
+        }
+      ]
+    },
+    {
+      "heading": "NURes-Device",
+      "text": "NURes-Device is an open, Wi-Fi network that requires registration and is available in the residence halls to support certain devices that are not compatible with NUwave. Amazon Echo and Fire devices, smart TVs, and gaming consoles must connect to NURes-Device. Refer to How do I register a device on NURes-device? to learn more about accessing the network.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I register a device on NURes-device?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+        }
+      ]
+    },
+    {
+      "heading": "Wired networks",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "ResNet",
+      "text": "ResNet is a high-bandwidth, high-speed, wired network available in the residence halls. It is intended for computers, game consoles, and smart TVs. Refer to How do I connect a device to the ResNet wired network? for directions.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I connect a device to the ResNet wired network?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012609"
+        }
+      ]
+    },
+    {
+      "heading": "NUnet",
+      "text": "NUnet is a redundant, high-bandwidth, high-availability wired network available in the academic, research, and administrative buildings on all campuses. To connect to NUnet, simply connect your device to the active port using an Ethernet cable.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "What devices are compatible with the Northeastern network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014017"
+    },
+    {
+      "text": "connected to the VPN",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013983"
+    },
+    {
+      "text": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "text": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    },
+    {
+      "text": "How do I connect to NUwave on a Mac?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018071"
+    },
+    {
+      "text": "FAQ: NUwave-guest access",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013939"
+    },
+    {
+      "text": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "text": "How do I connect a device to the ResNet wired network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012609"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "article_id": "KB000018424",
+  "title": "What are Qwickly Course Tools in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018424",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018424",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018424",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Qwickly Course Tools is integrated into Canvas to provide faculty with a single hub to post announcements, distribute content, and create discussion topics for one or multiple courses. Qwickly Course Tools allows faculty to take action simultaneously across multiple courses, including: Sending email (with customizable subject lines). Posting announcements. Creating calendar events. Creating assignments. Distributing documents. Creating discussions. Validating links in multiple courses. Get started Canvas integration Qwickly Course Tools is available on Canvas's global navigation menu under Account. Accessibility Product Accessibility . Resources How do I use Qwickly Course Tools to communicate with multiple courses at once? How do I use Qwickly Course Tools to email students before publishing my Canvas course? Demos and How-To Videos . Qwickly Knowledge Base . Support and training Help Our license grants us access to the Qwickly Support Center . For questions about an account or access errors, please email athelp@northeastern.edu . Training Live and on-demand webinars can be accessed on the Qwickly Webinars page.",
+  "body_html": "<article id=\"364\"><p>Qwickly Course Tools is integrated into Canvas to provide faculty with a single hub to post announcements, distribute content, and create discussion topics for one or multiple courses. Qwickly Course Tools allows faculty to take action simultaneously across multiple courses, including:</p><ul><li>Sending email (with customizable subject lines).</li><li>Posting announcements.</li><li>Creating calendar events.</li><li>Creating assignments.</li><li>Distributing documents.</li><li>Creating discussions.</li><li>Validating links in multiple courses.</li></ul><hr><h2>Get started</h2><h3>Canvas integration</h3><ul><li>Qwickly Course Tools is available on Canvas's global navigation menu under Account.</li></ul><h3>Accessibility</h3><ul><li><a id=\"399\">Product Accessibility</a>.</li></ul><h3>Resources</h3><ul><li><a id=\"408\">How do I use Qwickly Course Tools to communicate with multiple courses at once?</a></li><li><a id=\"411\">How do I use Qwickly Course Tools to email students before publishing my Canvas course?</a></li><li><a id=\"414\">Demos and How-To Videos</a>.</li><li><a id=\"418\">Qwickly Knowledge Base</a>.</li></ul><hr><h2>Support and training</h2><h3>Help</h3><ul><li>Our license grants us access to the <a id=\"431\">Qwickly Support Center</a>.</li><li>For questions about an account or access errors, please email <a id=\"436\">athelp@northeastern.edu</a>.</li></ul><h3>Training</h3><ul><li>Live and on-demand webinars can be accessed on the <a id=\"446\">Qwickly Webinars</a> page.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Summary",
+      "text": "Qwickly Course Tools is integrated into Canvas to provide faculty with a single hub to post announcements, distribute content, and create discussion topics for one or multiple courses.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Get started",
+      "text": "Canvas integration - Qwickly Course Tools is available on Canvas's global navigation menu under Account. Accessibility - Product Accessibility. Resources - How do I use Qwickly Course Tools... Demos and How-To Videos. Qwickly Knowledge Base.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Support and training",
+      "text": "Help - Our license grants us access to the Qwickly Support Center. For questions about an account or access errors, please email athelp@northeastern.edu. Training - Live and on-demand webinars can be accessed on the Qwickly Webinars page.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Product Accessibility",
+      "url": "https://www.goqwickly.com/accessibility/"
+    },
+    {
+      "text": "How do I use Qwickly Course Tools to communicate with multiple courses at once?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018334"
+    },
+    {
+      "text": "How do I use Qwickly Course Tools to email students before publishing my Canvas course?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018461"
+    },
+    {
+      "text": "Demos and How-To Videos",
+      "url": "https://www.goqwickly.com/demos/"
+    },
+    {
+      "text": "Qwickly Knowledge Base",
+      "url": "https://qwickly.zendesk.com/hc/en-us"
+    },
+    {
+      "text": "Qwickly Support Center",
+      "url": "https://www.goqwickly.com/support/"
+    },
+    {
+      "text": "athelp@northeastern.edu",
+      "url": "mailto:athelp@northeastern.edu"
+    },
+    {
+      "text": "Qwickly Webinars",
+      "url": "https://www.goqwickly.com/webinars/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Qwickly"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I take attendance in Canvas using Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "What is Qwickly Attendance?",
+      "url": null
+    },
+    {
+      "title": "How do I check in using Qwickly Attendance?",
+      "url": null
+    }
+  ]
+}

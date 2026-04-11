@@ -1,0 +1,142 @@
+{
+  "article_id": "KB000018543",
+  "title": "How do I create my profile on the Student Hub?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018543",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018543",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018543",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "2026/04/01",
+  "plain_text": "The Student Hub enables students to create and manage profiles with their academic, professional, and personal information. Profile information can be used to help students find others with similar backgrounds and interests through the Discover page. Students can adjust their privacy settings to hide certain elements of their profile from search results. Refer to How do I update my privacy and visibility profile settings in the Student Hub? to learn more. Table of Contents: Change profile picture, Verify basic information, Add or update information in My Stories, Add or update information in My Tags, Add or update My Interests, Add or update My Places. Change profile picture: The Profile Picture section allows students to choose a photo that will be displayed on their Student Hub profile and across Northeastern's Microsoft services. Steps: 1. Navigate to the Student Hub. 2. Select the Me section in the top right corner. 3. Select your profile icon on the left-hand side to navigate to your Microsoft 365 profile. 4. Select 'Update your profile'. 5. Select the pencil icon in the corner of your original profile icon. 6. Select Upload or click your original profile icon to open your local file library. 7. Browse through your local libraries and select a photo. Select Open. 8. Reposition the photo as necessary. Then, select 'Add to profile'. Note: Please allow up to 24 hours for the photo update on the Hub profile. Verify basic information: The Basic Information section includes contact and additional information about a student's academic journey, professional goals, and more. Students can view and verify that the information listed in 'My Basics' is accurate. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select 'My Profile'. 3. Select 'My Basics'. 4. Verify the personal and academic information. Add or update information in My Stories: The My Stories section allows students to personalize their Northeastern journey with information unique to their interests. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select the arrow next to 'My Profile', and select 'My Stories' from the drop-down menu. 3. Enter information into each field. Changes are saved automatically. Add or update information in My Tags: The My Tags section provides students with the opportunity to further define their interests by creating tags from various categories. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select the arrow next to 'My Profile', and select 'My Tags' from the drop-down menu. 3. Select a tag category from the first drop-down menu. Select the blue plus button. 4. In the Category box, enter the name for a new tag. Add or update My Interests: Information provided in this section generates personalized recommendations in the Student Hub and helps students connect based on their shared interests, experiences, and career objectives. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select 'My Interests'. 3. Select Start to begin taking a survey or select Resume to continue taking a survey. 4. Select Save to save your progress and complete the survey later. Add or update My Places: The My Places section allows students to document all the places they have lived, traveled to, or would like to visit. Steps: 1. Navigate to the Me page of the Hub. 2. Select 'My Places'. 3. To add a place in any category, select the blue plus button. 4. Enter the place information and select 'Save Place'.",
+  "body_html": "<article id=\"362\">The Student Hub enables students to create and manage profiles... [Full article body content including headings for Change profile picture, Verify basic information, Add or update information in My Stories, Add or update information in My Tags, Add or update My Interests, Add or update My Places, and respective procedural steps]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The Student Hub enables students to create and manage profiles with their academic, professional, and personal information. Profile information can be used to help students find others with similar backgrounds and interests through the Discover page. Students can adjust their privacy settings to hide certain elements of their profile from search results. Refer to How do I update my privacy and visibility profile settings in the Student Hub? to learn more.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I update my privacy and visibility profile settings in the Student Hub?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018534"
+        }
+      ]
+    },
+    {
+      "heading": "Change profile picture",
+      "text": "The Profile Picture section allows students to choose a photo that will be displayed on their Student Hub profile and across Northeastern's Microsoft services. Steps: 1. Navigate to the Student Hub. 2. Select the Me section in the top right corner. 3. Select your profile icon on the left-hand side to navigate to your Microsoft 365 profile. 4. Select 'Update your profile'. 5. Select the pencil icon in the corner of your original profile icon. 6. Select Upload or click your original profile icon to open your local file library. 7. Browse through your local libraries and select a photo. Select Open. 8. Reposition the photo as necessary. Then, select 'Add to profile'. Note: Please allow up to 24 hours for the photo update on the Hub profile.",
+      "steps": [
+        "Navigate to the Student Hub.",
+        "Select the Me section in the top right corner.",
+        "Select your profile icon on the left-hand side to navigate to your Microsoft 365 profile.",
+        "Select 'Update your profile'.",
+        "Select the pencil icon in the corner of your original profile icon.",
+        "Select Upload or click your original profile icon to open your local file library.",
+        "Browse through your local libraries and select a photo. Select Open.",
+        "Reposition the photo as necessary. Then, select 'Add to profile'."
+      ],
+      "links": [
+        {
+          "text": "Student Hub",
+          "url": "https://me.northeastern.edu/"
+        }
+      ]
+    },
+    {
+      "heading": "Verify basic information",
+      "text": "The Basic Information section includes contact and additional information about a student's academic journey, professional goals, and more. Students can view and verify that the information listed in 'My Basics' is accurate. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select 'My Profile'. 3. Select 'My Basics'. 4. Verify the personal and academic information.",
+      "steps": [
+        "Navigate to the Me page of the Student Hub.",
+        "Select 'My Profile'.",
+        "Select 'My Basics'.",
+        "Verify the personal and academic information."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Add or update information in My Stories",
+      "text": "The My Stories section allows students to personalize their Northeastern journey with information unique to their interests. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select the arrow next to 'My Profile', and select 'My Stories' from the drop-down menu. 3. Enter information into each field. Changes are saved automatically.",
+      "steps": [
+        "Navigate to the Me page of the Student Hub.",
+        "Select the arrow next to 'My Profile', and select 'My Stories' from the drop-down menu.",
+        "Enter information into each field. Changes are saved automatically."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Add or update information in My Tags",
+      "text": "The My Tags section provides students with the opportunity to further define their interests by creating tags from various categories. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select the arrow next to 'My Profile', and select 'My Tags' from the drop-down menu. 3. Select a tag category from the first drop-down menu. Select the blue plus button. 4. In the Category box, enter the name for a new tag.",
+      "steps": [
+        "Navigate to the Me page of the Student Hub.",
+        "Select the arrow next to 'My Profile', and select 'My Tags' from the drop-down menu.",
+        "Select a tag category from the first drop-down menu. Select the blue plus button.",
+        "In the Category box, enter the name for a new tag."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Add or update My Interests",
+      "text": "Information provided in this section generates personalized recommendations in the Student Hub and helps students connect based on their shared interests, experiences, and career objectives. Steps: 1. Navigate to the Me page of the Student Hub. 2. Select 'My Interests'. 3. Select Start to begin taking a survey or select Resume to continue taking a survey. 4. Select Save to save your progress and complete the survey later.",
+      "steps": [
+        "Navigate to the Me page of the Student Hub.",
+        "Select 'My Interests'.",
+        "Select Start to begin taking a survey or select Resume to continue taking a survey.",
+        "Select Save to save your progress and complete the survey later."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Add or update My Places",
+      "text": "The My Places section allows students to document all the places they have lived, traveled to, or would like to visit. Steps: 1. Navigate to the Me page of the Hub. 2. Select 'My Places'. 3. To add a place in any category, select the blue plus button. 4. Enter the place information and select 'Save Place'.",
+      "steps": [
+        "Navigate to the Me page of the Hub.",
+        "Select 'My Places'.",
+        "To add a place in any category, select the blue plus button.",
+        "Enter the place information and select 'Save Place'."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "The Student Hub",
+      "url": "https://about.me.northeastern.edu/student-hub"
+    },
+    {
+      "text": "How do I update my privacy and visibility profile settings in the Student Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018534"
+    },
+    {
+      "text": "Student Hub",
+      "url": "https://me.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Student Hub",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+      "url": null
+    }
+  ]
+}

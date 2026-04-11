@@ -1,0 +1,121 @@
+{
+  "article_id": "KB000017957",
+  "title": "How do I create accessible equations and formulas in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017957",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017957",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017957",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Make math accessible to all students by providing math in a digital rather than a static image form. Canvas uses MathML (Mathematical Markup Language), an international W3C open standard for encoding math content, providing the highest accessibility to math within digital environments. The Canvas Math Equation Editor combines MathML and MathJax to produce scalable, navigable math objects in any Canvas text entry field. It's common practice to use screenshots of equations or formulas. Unfortunately, screen readers can only read text/equations saved as images, with the instructor writing out the verbal equivalent of the image in alternative text. The Math Equation Editor uses MathJax to render math equations as MathML. The resulting digital math images support visual display and assistive technology access. MathML allows the synthetic speech user to set different complexity levels, automatically adjusts for the user's native language, and supports aural navigation through complex math equations for better understanding. MathML supports various Braille math formats, assisted by Braille translation software. Additionally, creating digital math improves the user experience for all students. Who benefits from accessible equations? Students with disabilities, Students with different learning preferences, Underrepresented minority students, First-generation students, English language learners, Veterans, Students with varying access to technology, Faculty who want to ensure success for all students. The built-in math editor creates accessible equations in Canvas, displayed as scalable vector graphics (SVG) with ALT text and MathML. The LaTeX code is included in the ALT text for screen readers, while MathML is generated in the background for accurate spoken math. LaTeX is also shown on mouseover. To view MathML, check the published page's HTML code. Read How do I use the HTML view in the Rich Content Editor as an instructor? to learn more. Table of Contents: Screen reader browser requirements, Use the Basic Equation Editor, Directly edit LaTeX. Screen reader browser requirements: When LaTeX is pasted or typed into the equation editor, the equations will read properly to screen readers. MathML fonts: Your browser should have a MathML font installed, including symbols used to build different equation types. Example freeware fonts include: Cambria Math from Microsoft, STIX font, Asana Math. Browser requirements: Firefox, Safari, Opera, Google Chrome, Internet Explorer/JAWS, VoiceOver iOS. Use the Basic Equation Editor: Enter equations created using the math editor into any Canvas text field (e.g., Assignment submissions, Discussion posts) and edit after creation. Both students and instructors have access to the editor. Directly edit LaTeX: Use the LaTeX view of the Math Equation Editor to input more complicated mathematical text such as matrices, interval notation, piecewise functions, and chemical formulas.",
+  "body_html": "<article>Make math accessible to all students by providing math in a digital rather than a static image form. Canvas uses MathML (Mathematical Markup Language), an international W3C open standard for encoding math content... [HTML Content Continued]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Make math accessible to all students by providing math in a digital rather than a static image form. Canvas uses MathML (Mathematical Markup Language), an international W3C open standard for encoding math content, providing the highest accessibility to math within digital environments. The Canvas Math Equation Editor combines MathML and MathJax to produce scalable, navigable math objects in any Canvas text entry field.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Who benefits from accessible equations?",
+      "text": "Students with disabilities, Students with different learning preferences, Underrepresented minority students, First-generation students, English language learners, Veterans, Students with varying access to technology, Faculty who want to ensure success for all students.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Screen reader browser requirements",
+      "text": "When LaTeX is pasted or typed into the equation editor, the equations will read properly to screen readers.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "MathML fonts",
+      "text": "Your browser should have a MathML font installed, including symbols used to build different equation types. Example freeware fonts include: Cambria Math from Microsoft, STIX font, Asana Math.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Browser requirements",
+      "text": "Firefox, Safari, Opera, Google Chrome, Internet Explorer/JAWS, Older JAWS versions, VoiceOver iOS.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Use the Basic Equation Editor",
+      "text": "Enter equations created using the math editor into any Canvas text field (e.g., Assignment submissions, Discussion posts) and edit after creation. Both students and instructors have access to the editor.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Directly edit LaTeX",
+      "text": "Use the LaTeX view of the Math Equation Editor to input more complicated mathematical text such as matrices, interval notation, piecewise functions, and chemical formulas.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Mathematical Markup Language",
+      "url": "https://www.w3.org/Math/whatIsMathML.html"
+    },
+    {
+      "text": "W3C open standard",
+      "url": "https://www.w3.org/standards/webdesign/accessibility"
+    },
+    {
+      "text": "MathJax",
+      "url": "https://www.mathjax.org/"
+    },
+    {
+      "text": "How do I use the HTML view in the Rich Content Editor as an instructor?",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-HTML-view-in-the-Rich-Content-Editor-as-an/ta-p/876"
+    },
+    {
+      "text": "Cambria Math from Microsoft.",
+      "url": "https://docs.microsoft.com/en-us/typography/font-list/cambria-math"
+    },
+    {
+      "text": "STIX font.",
+      "url": "https://www.stixfonts.org/"
+    },
+    {
+      "text": "Asana Math.",
+      "url": "https://ctan.org/tex-archive/fonts/Asana-Math/"
+    },
+    {
+      "text": "advanced equations",
+      "url": "https://s3.amazonaws.com/tr-learncanvas/docs/CanvasEquationEditorAdvanced.pdf"
+    },
+    {
+      "text": "chemistry formulas",
+      "url": "https://s3.amazonaws.com/tr-learncanvas/docs/CanvasEquationEditorChemistry.pdf"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

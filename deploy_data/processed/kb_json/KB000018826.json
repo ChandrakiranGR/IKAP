@@ -1,0 +1,83 @@
+{
+  "article_id": "KB000018826",
+  "title": "How do I view and resolve holds and blocks on Student Hub?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018826",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018826",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018826",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "2026-03-03",
+  "plain_text": "A block or a hold is an administrative gap in a student's account that prevents the student from performing certain actions. The type of hold may affect a student's ability to obtain information or perform enrollment-related activities such as registering for courses, obtaining grades or transcripts, or applying for graduation. A student must address all blocks and holds. Table of contents View blocks and holds Soft blocks Hard blocks Resolve blocks and holds View blocks and holds Soft blocks 1. Log in to Student Hub. 2. Select Notifications. A red notification badge indicates the number of blocks, holds, and action items that require your attention. They are listed by their due date, and you can select individual notifications to view additional details. Hard blocks In the case of hard blocks, you will receive a pop-up notification about the block. Please navigate to the block and solve it. You will be able to access the Student Hub only after you've resolved the hard block. Resolve blocks and holds 1. Select 'Banner Self-Service' to be directed to the Northeastern Registrar's website, which details the hold types, dates, reasons, and processes affected by that hold. 2. Select a block to be redirected to the Student Info Dashboard, where the block can be resolved.",
+  "body_html": "<article id=\"364\"><p>A block or a hold is an administrative gap in a student's account that prevents the student from performing certain actions. The type of hold may affect a student's ability to obtain information or perform enrollment-related activities such as registering for courses, obtaining grades or transcripts, or applying for graduation. A student must address all blocks and holds.</p><h2>Table of contents</h2><ul><li>View blocks and holds<ul><li>Soft blocks</li><li>Hard blocks</li></ul></li><li>Resolve blocks and holds</li></ul><h2>View blocks and holds</h2><h3>Soft blocks</h3><ul><li>Log in to <a href=\"#\">Student Hub</a>.</li><li>Select Notifications.</li><li>A red notification badge indicates the number of blocks, holds, and action items that require your attention.</li></ul><h3>Hard blocks</h3><p>In the case of hard blocks, you will receive a pop-up notification about the block. Please navigate to the block and solve it. You will be able to access the Student Hub only after you've resolved the hard block.</p><h2>Resolve blocks and holds</h2><ul><li>Select 'Banner Self-Service' to be directed to the <a href=\"#\">Northeastern Registrar's website</a>, which details the hold types, dates, reasons, and processes affected by that hold.</li><li>Select a block to be redirected to the Student Info Dashboard, where the block can be resolved.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "A block or a hold is an administrative gap in a student's account that prevents the student from performing certain actions. The type of hold may affect a student's ability to obtain information or perform enrollment-related activities such as registering for courses, obtaining grades or transcripts, or applying for graduation. A student must address all blocks and holds.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "View blocks and holds",
+      "text": "Soft blocks: 1. Log in to Student Hub. 2. Select Notifications. A red notification badge indicates the number of blocks, holds, and action items that require your attention. Hard blocks: In the case of hard blocks, you will receive a pop-up notification about the block. Please navigate to the block and solve it. You will be able to access the Student Hub only after you've resolved the hard block.",
+      "steps": [
+        "Log in to Student Hub.",
+        "Select Notifications."
+      ],
+      "links": [
+        {
+          "text": "Student Hub",
+          "url": "https://me.northeastern.edu/"
+        }
+      ]
+    },
+    {
+      "heading": "Resolve blocks and holds",
+      "text": "Select 'Banner Self-Service' to be directed to the Northeastern Registrar's website, which details the hold types, dates, reasons, and processes affected by that hold. Select a block to be redirected to the Student Info Dashboard, where the block can be resolved.",
+      "steps": [
+        "Select 'Banner Self-Service' to be directed to the Northeastern Registrar's website.",
+        "Select a block to be redirected to the Student Info Dashboard."
+      ],
+      "links": [
+        {
+          "text": "Northeastern Registrar's website",
+          "url": "https://registrar.northeastern.edu/article/registration-holds/"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Student Hub",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "Northeastern Registrar's website",
+      "url": "https://registrar.northeastern.edu/article/registration-holds/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Student Hub",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+      "url": null
+    }
+  ]
+}

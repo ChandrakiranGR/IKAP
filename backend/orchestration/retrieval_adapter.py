@@ -1,3 +1,4 @@
+import os
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, List
@@ -21,6 +22,20 @@ def _project_root() -> Path:
     return Path(__file__).resolve().parents[2]
 
 
+def _resolve_runtime_path(env_var: str, *candidates: Path) -> Path:
+    configured = os.getenv(env_var)
+    if configured:
+        configured_path = Path(configured)
+        if not configured_path.is_absolute():
+            configured_path = _project_root() / configured_path
+        return configured_path
+
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return candidates[0]
+
+
 @lru_cache(maxsize=1)
 def _load_runtime():
     root = _project_root()
@@ -28,13 +43,21 @@ def _load_runtime():
 
     client = OpenAI()
 
-    index_path = root / "data" / "rag" / "kb_index.jsonl"
+    index_path = _resolve_runtime_path(
+        "IKAP_INDEX_PATH",
+        root / "data" / "rag" / "kb_index.jsonl",
+        root / "deploy_data" / "rag" / "kb_index.jsonl",
+    )
     if not index_path.exists():
         raise FileNotFoundError(f"RAG index not found: {index_path}")
 
     index = load_index(index_path)
 
-    kb_dir = root / "data" / "processed" / "kb_json"
+    kb_dir = _resolve_runtime_path(
+        "IKAP_KB_DIR",
+        root / "data" / "processed" / "kb_json",
+        root / "deploy_data" / "processed" / "kb_json",
+    )
 
     return client, index, kb_dir
 

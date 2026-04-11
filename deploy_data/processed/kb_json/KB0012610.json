@@ -1,0 +1,72 @@
+{
+  "article_id": "KB0012610",
+  "title": "How do I find my NUID number?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012610",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012610",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012610",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "account_and_access_kb.json",
+  "updated_at": "2mo ago",
+  "plain_text": "Your NUID is a 9-digit number that serves as the key identifier on Northeastern University records and systems. This article provides steps on how to find your NUID. Find your NUID Log in to to Student / Employee Hub with your Northeastern username and password. Authenticate with Duo multi-factor authentication (MFA). Your NUID number should be displayed at the top of the page under your name. Note: Northeastern University alumni can retrieve their ID numbers by contacting the Office of Alumni Relations directly via email at alumni@northeastern.edu or by calling 617-373-2656.",
+  "body_html": "<article id=\"364\">Your NUID is a 9-digit number that serves as the key identifier on Northeastern University records and systems. This article provides steps on how to find your NUID.<hr id=\"366\"><h2>Find your NUID</h2><ul><li>Log in to to <a href=\"https://me.northeastern.edu/\">Student / Employee Hub</a> with your Northeastern username and password.</li><li>Authenticate with Duo multi-factor authentication (MFA).</li><li>Your NUID number should be displayed at the top of the page under your name.</li></ul>Note: Northeastern University alumni can retrieve their ID numbers by contacting the Office of Alumni Relations directly via email at <a href=\"mailto:alumni@northeastern.edu\">alumni@northeastern.edu</a> or by calling <a href=\"https://service.northeastern.edu/617-373-2656\">617-373-2656</a>.</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Your NUID is a 9-digit number that serves as the key identifier on Northeastern University records and systems. This article provides steps on how to find your NUID.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Find your NUID",
+      "text": "Note: Northeastern University alumni can retrieve their ID numbers by contacting the Office of Alumni Relations directly via email at alumni@northeastern.edu or by calling 617-373-2656.",
+      "steps": [
+        "Log in to to Student / Employee Hub with your Northeastern username and password.",
+        "Authenticate with Duo multi-factor authentication (MFA).",
+        "Your NUID number should be displayed at the top of the page under your name."
+      ],
+      "links": [
+        {
+          "text": "Student / Employee Hub",
+          "url": "https://me.northeastern.edu/"
+        },
+        {
+          "text": "alumni@northeastern.edu",
+          "url": "mailto:alumni@northeastern.edu"
+        },
+        {
+          "text": "617-373-2656",
+          "url": "https://service.northeastern.edu/617-373-2656"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Student / Employee Hub",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "alumni@northeastern.edu",
+      "url": "mailto:alumni@northeastern.edu"
+    },
+    {
+      "text": "617-373-2656",
+      "url": "https://service.northeastern.edu/617-373-2656"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access - Northeastern Account Settings"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I change the username on my Northeastern student account?",
+      "url": null
+    },
+    {
+      "title": "How do I change my faculty/staff username?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "article_id": "KB0014565",
+  "title": "What is Canvas Learning Management System?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Canvas is a learning management system (LMS) that facilitates on-the-go teaching and learning. Built from a learner-first perspective, Canvas encourages users to re-contextualize online learning in favor of accessibility and ease of use. You can create learning modules, host interactive assessments, communicate with your students, and much more from the comfort of your laptop or mobile device. Learning can be done at any time and from any place. Access Canvas Canvas is available to members of Northeastern on Northeastern's Canvas website or through the Student Hub. You may log in to Canvas immediately after activating your Northeastern credentials. Users of the following statuses in our identity management system will be able to log in to Canvas: Faculty, Emeritus, Staff, and sponsored account holders. It is not possible to log in to Canvas with a non-Northeastern account, such as a personal Gmail account. Students with a status of deposited, oriented, and enrolled. Alumni will have access to Canvas with their Northeastern credentials for a year after they graduate. Get started View your courses in Canvas: Courses in Canvas are sourced from your enrollments with the Northeastern Office of the Registrar. To add a course in Canvas, register for courses via the Registrar's system or the Northeastern portal. Once you are enrolled, your courses will appear in Canvas within 24 hours or when the term officially starts, whichever comes later. If the term has started and you are enrolled in a course you don't see in Canvas, contact the instructor of the course to verify the course has been made available to students in Canvas. Add members to your course: Co-instructors, observers, TAs, and students can be added manually to Canvas. Refer to How do I add a student, instructor, TA, or observer to a Canvas course? for instructions. To have a co-instructor added to your course site in Canvas, contact the Office of the Registrar at scheduling@northeastern.edu. To have an auditing student added to your course, please review the Registrar's Audit Policies. Canvas best practices: The example course is designed in a way that highlights the best workflows and technology integration. Ready to get started with using our course templates? Book a consultation with an Academic Technologies team member. Enroll in the Canvas Example courses: To enroll in the Academic Technologies Example courses, you will need to send a request through the AT Canvas Example Course Enrollment form. You will be enrolled as a View-Only Teacher. Canvas course anatomy This example Canvas course provides instructors with a clear understanding of how to get started with the Academic Technologies' Standard Course Template. Homepage: The Homepage gives the first impression to students and should make a welcoming impact. Adobe Express is a web-based tool that is available for instructors to use. Additionally, the Homepage also has a clean course menu, showing only what is used in the course. Getting Started module: The Getting Started module sets students up for success with a quick introduction to using and navigating Canvas. For more details, read the article How to add a quiz to a Panopto recording. Modules: The modules in the Example Art History course mimic the same design throughout to avoid confusing the students. Assignments: Each assignment in the course utilizes the Transparent Assignment Design template. Grading is facilitated by a detailed rubric. Discussions: Each discussion is unique to the module itself and embraces the art of open-ended questions. Read the article How do I create a discussion in Canvas? for more information. Accessibility Throughout the course, students have the opportunity to choose how they would like to submit their assignments. All Panopto videos and Canvas Studio videos are captioned. Word documents, Adobe PDFs, and images were checked using UDOIT. For more details, refer to the Canvas Accessibility Statement. Technology used The course incorporated tools like VoiceThread, Panopto, Canvas Studio, and Adobe Express. Cidi Labs and H5P provide additional feedback. Support and training Contact Northeastern IT Services. Book a consultation with an Academic Technologies team member. Email AThelp@northeastern.edu.",
+  "body_html": "<article id=\"364\"><div><a href=\"#\">Canvas</a> is a learning management system (LMS) that facilitates on-the-go teaching and learning... <h2>Table of Contents</h2>... <h2>Access Canvas</h2>... <h2>Get started</h2>... <h3>View your courses in Canvas</h3>... <h3>Add members to your course</h3>... <h3>Canvas best practices</h3>... <h3>Enroll in the Canvas Example courses</h3>... <h2>Canvas course anatomy</h2>... <h3>Homepage</h3>... <h3>Getting Started module</h3>... <h3>Modules</h3>... <h3>Assignments</h3>... <h3>Discussions</h3>... <h2>Canvas Accessibility Statement Accessibility</h2>... <h2>Technology used</h2>... <h2>Support and training</h2>... <h3>All users</h3>... <h3>Instructors and staff</h3>... <h3>Resources</h3>... <h3>Training</h3></div></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "What is Canvas",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Access Canvas",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Get started",
+      "text": "View your courses, Add members, Best practices, Enroll in example courses",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Canvas course anatomy",
+      "text": "Homepage, Getting Started module, Modules, Assignments, Discussions",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Accessibility",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Technology used",
+      "text": "",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Support and training",
+      "text": "All users, Instructors and staff, Resources, Training.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "me.northeastern.edu",
+      "url": "https://me.northeastern.edu/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014392"
+    },
+    {
+      "text": "registrar.northeastern.edu",
+      "url": "https://registrar.northeastern.edu/article/audit-policy/"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/canvas-course-design-consult/"
+    },
+    {
+      "text": "forms.office.com",
+      "url": "https://forms.office.com/r/40LA4dyxZe"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018112"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019280"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014847"
+    },
+    {
+      "text": "learning.northeastern.edu",
+      "url": "https://learning.northeastern.edu/transparent-assignment-design/"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-to-an-assignment/ta-p/1058"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014583"
+    },
+    {
+      "text": "www.instructure.com",
+      "url": "https://www.instructure.com/products/canvas/accessibility"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015083"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016482"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021891"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019319"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/universal-design-for-learning-and-canvas/"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/canvas-transition-strategy-consultation/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019560"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/teach-smarter-not-harder-with-canvas-and-integrated-tools/"
+    },
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/start-of-the-term-checklist/"
+    },
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/canvas-wrap-up-checklist/"
+    },
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/student-resources/"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Canvas-Guides/ct-p/canvas_guides"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/getting-started-with-academic-technologies-at-northeastern/"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/introduction-to-canvas-at-northeastern-for-instructors/"
+    },
+    {
+      "text": "northeastern.hosted.panopto.com",
+      "url": "https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=1cbc691c-483a-4be8-8083-ad8e01207c02"
+    },
+    {
+      "text": "training.its.northeastern.edu",
+      "url": "https://training.its.northeastern.edu/training/creating-accessible-courses-in-canvas/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What are the different course types in Canvas?",
+      "url": null
+    }
+  ]
+}

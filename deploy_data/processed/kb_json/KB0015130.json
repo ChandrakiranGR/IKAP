@@ -1,0 +1,99 @@
+{
+  "article_id": "KB0015130",
+  "title": "How do I update my Student/Employee Hub password and picture?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015130",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015130",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015130",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "",
+  "plain_text": "You can edit or update your Student Hub account details, such as passwords, profile pictures, and other personal information. See How do I access the Student Hub? or How do I access the Employee Hub? for instructions on how to access the Student/Employee Hub. Note: You can follow these steps on a mobile device or in the Student/Employee Hub app for Microsoft Teams. Table of contents: Update password, Update profile picture. Update password: 1. Select Account Settings from the Student/Employee Hub homepage. 2. You will be directed to a page where you can change your password. Enter your current password and a new password that meets the security criteria. 3. Select Save. If the Save button is grayed out, verify that your new password meets all the criteria. Note: Password changes may take up to 5 minutes to sync. See How do I reset my forgotten Northeastern account password? if you are experiencing password-related issues. Update profile picture: 1. Select the profile photo from the Student/Employee Hub homepage. 2. In the new window, select the camera icon to the left of the current profile picture. 3. Select 'Upload a new photo.' 4. Browse your local libraries and select a photo of your choice. 5. Select Apply after positioning the photo. Note: This change will also apply to all your Microsoft 365 apps, including Microsoft Teams. Please allow up to 24 hours for the photo to be processed into the Student/Employee Hub profile.",
+  "body_html": "T:0;E:364",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "You can edit or update your Student Hub account details, such as passwords, profile pictures, and other personal information. See How do I access the Student Hub? or How do I access the Employee Hub? for instructions on how to access the Student/Employee Hub. Note: You can follow these steps on a mobile device or in the Student/Employee Hub app for Microsoft Teams.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I access the Student Hub?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016368"
+        },
+        {
+          "text": "How do I access the Employee Hub?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019367"
+        }
+      ]
+    },
+    {
+      "heading": "Update password",
+      "text": "1. Select Account Settings from the Student/Employee Hub homepage. 2. You will be directed to a page where you can change your password. Enter your current password and a new password that meets the security criteria. 3. Select Save. If the Save button is grayed out, verify that your new password meets all the criteria. Note: Password changes may take up to 5 minutes to sync. See How do I reset my forgotten Northeastern account password? if you are experiencing password-related issues.",
+      "steps": [
+        "Select Account Settings from the Student/Employee Hub homepage.",
+        "Enter your current password and a new password.",
+        "Select Save."
+      ],
+      "links": [
+        {
+          "text": "How do I reset my forgotten Northeastern account password?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012457"
+        }
+      ]
+    },
+    {
+      "heading": "Update profile picture",
+      "text": "1. Select the profile photo from the Student/Employee Hub homepage. 2. In the new window, select the camera icon to the left of the current profile picture. 3. Select 'Upload a new photo.' 4. Browse your local libraries and select a photo of your choice. 5. Select Apply after positioning the photo. Note: This change will also apply to all your Microsoft 365 apps, including Microsoft Teams. Please allow up to 24 hours for the photo to be processed into the Student/Employee Hub profile.",
+      "steps": [
+        "Select the profile photo from the Student/Employee Hub homepage.",
+        "Select the camera icon.",
+        "Select 'Upload a new photo.'",
+        "Browse your local libraries and select a photo.",
+        "Select Apply."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I access the Student Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000016368"
+    },
+    {
+      "text": "How do I access the Employee Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019367"
+    },
+    {
+      "text": "How do I reset my forgotten Northeastern account password?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012457"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Student Hub",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+      "url": null
+    }
+  ]
+}

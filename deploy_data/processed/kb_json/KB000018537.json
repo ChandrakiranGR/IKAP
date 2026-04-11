@@ -1,0 +1,107 @@
+{
+  "article_id": "KB000018537",
+  "title": "FAQ: Student Hub",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018537",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018537",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018537",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "2026/02/01",
+  "plain_text": "This article answers frequently asked questions about Student Hub. Table of Contents: About Student Hub (What is the Student Hub?, Who has access to the Student Hub?, Why should I use the Student Hub?, Is there a mobile app for the Student Hub?, What information is available on the Student Hub?, What tasks can be accomplished on the Student Hub?, Can I personalize my information on the Student Hub?), Main (Can I view my class schedules in the Hub?, Can Northeastern bills be paid on the Hub?, Where can I find my advisors?), My Profile (Where can I go to set up my profile?, Who can create a profile?, Why should I create a profile?, What are the components of the Me page?, Where can I find my followers and who I'm following?, Where can I find my clubs and organizations' memberships on the Student Hub?, Can I change the privacy and visibility settings of my Hub profile?), Discover (What can I search for on the Discover page?, Can I join a club or organization from the Student Hub?), News and Events (What kind of information is posted?, How often is the News and Events page updated?), Resources (What information can be found on the Resources page?). About Student Hub: The Student Hub is a desktop and mobile-friendly launchpad to help students navigate and keep track of their busy and active daily lives as university students. All Northeastern students have access to the Student Hub. Main: Can I view my class schedules in the Hub? Yes. From the main page of the Student Hub, navigate to the Classes tab. My Profile: Students can create their Hub Profiles from the Me page of the Student Hub. Discover: Use the Discover page to search for Northeastern students and clubs. News and Events: Official university announcements are posted to the News and Events page. Resources: The Resources page contains information previously found on the myNortheastern portal.",
+  "body_html": "<div id=\"368\">This article answers frequently asked questions about Student Hub... [Full article body content including headings and lists]</div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "This article answers frequently asked questions about Student Hub.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "About Student Hub",
+      "text": "The Student Hub is a desktop and mobile-friendly launchpad to help students navigate and keep track of their busy and active daily lives as university students. All Northeastern students have access to the Student Hub.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Main",
+      "text": "Can I view my class schedules in the Hub? Yes. From the main page of the Student Hub, navigate to the Classes tab.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "My Profile",
+      "text": "Students can create their Hub Profiles from the Me page of the Student Hub. Components include My Basics, My Stories, My Tags, My Interests, My Places, and My Network.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Discover",
+      "text": "Use the Discover page to search for Northeastern students and clubs.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "News and Events",
+      "text": "Official university announcements are posted to the News and Events page.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Resources",
+      "text": "The Resources page contains information previously found on the myNortheastern portal.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I use the Discover page of the Student Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018539"
+    },
+    {
+      "text": "How do I sync personal and academic calendars on the Student Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015126"
+    },
+    {
+      "text": "How do I view final exam schedules on Student Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018541"
+    },
+    {
+      "text": "How do I create my profile on Student Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018543"
+    },
+    {
+      "text": "How do I update my privacy and visibility profile settings in the Student Hub?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018534"
+    },
+    {
+      "text": "How do I access Student/Employee Hub resources?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018766"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+      "url": null
+    }
+  ]
+}

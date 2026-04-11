@@ -1,0 +1,65 @@
+{
+  "article_id": "KB000017643",
+  "title": "How do I use the What-If Grades feature on Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017643",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017643",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017643",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "10d ago",
+  "plain_text": "What-If Grades allow students to calculate their total grade in a Canvas course by entering hypothetical grades for assignments. Only students can enter and view What-If scores. The total grade is calculated by totaling all assignments according to their weight in the course grading scheme. If a course uses weighted assignment groups, students can also see how each assignment is weighted in the course. To view the total grade in the course, students can deselect the 'Calculate based only on the graded assignments' checkbox. To test a different score for an assignment, students can select an assignment grade and enter a score in the score column. Refer to the article What are What-If Grades? to learn more. Use What-If Grades To get started, log in to log in to Canvas and navigate to your course. Select Grades in the course navigation panel. Grades Select the Assignment/Quiz you want to test for a new score. You can use What-if on an assignment that has already been graded or has yet to be graded. Homework Module Type the hypothetical score to be tested. Module 1 Select the revert button to revert to the original score. Module The total score changes to reflect this hypothetical score. Hypothetical scores can be added to more than one Assignment/Quiz. Total Select 'Revert to Actual Score' to undo all the changes you made.",
+  "body_html": "<article>What-If Grades allow students to calculate their total grade in a Canvas course by entering hypothetical grades for assignments. Only students can enter and view What-If scores. The total grade is calculated by totaling all assignments according to their weight in the course grading scheme. If a course uses weighted assignment groups, students can also see how each assignment is weighted in the course. To view the total grade in the course, students can deselect the 'Calculate based only on the graded assignments' checkbox. To test a different score for an assignment, students can select an assignment grade and enter a score in the score column. Refer to the article <a href=\"#\">What are What-If Grades?</a> to learn more. <h2>Use What-If Grades</h2> <ul> <li>To get started, log in to log in to <a href=\"#\">Canvas</a> and navigate to your course.</li> <li>Select Grades in the course navigation panel. <button>Grades</button></li> <li>Select the Assignment/Quiz you want to test for a new score. <button>Homework Module</button></li> <li>Type the hypothetical score to be tested. <button>Module 1</button></li> <li>Select the revert button to revert to the original score. <button>Module</button></li> <li>The total score changes to reflect this hypothetical score. <button>Total</button></li> <li>Select 'Revert to Actual Score' to undo all the changes you made.</li> </ul> </article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "What-If Grades allow students to calculate their total grade in a Canvas course by entering hypothetical grades for assignments. Only students can enter and view What-If scores. The total grade is calculated by totaling all assignments according to their weight in the course grading scheme. If a course uses weighted assignment groups, students can also see how each assignment is weighted in the course. To view the total grade in the course, students can deselect the 'Calculate based only on the graded assignments' checkbox. To test a different score for an assignment, students can select an assignment grade and enter a score in the score column. Refer to the article What are What-If Grades? to learn more.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Use What-If Grades",
+      "text": "To get started, log in to log in to Canvas and navigate to your course. Select Grades in the course navigation panel. Select the Assignment/Quiz you want to test for a new score. Type the hypothetical score to be tested. Select the revert button to revert to the original score. The total score changes to reflect this hypothetical score. Select 'Revert to Actual Score' to undo all the changes you made.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "What are What-If Grades?",
+      "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-What-If-Grades/ta-p/25"
+    },
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

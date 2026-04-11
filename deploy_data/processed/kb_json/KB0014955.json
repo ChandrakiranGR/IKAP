@@ -1,0 +1,66 @@
+{
+  "article_id": "KB0014955",
+  "title": "How do I fix a refused to connect error in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014955",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014955",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014955",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "12-17-2025",
+  "plain_text": "Certain tools integrated into Canvas need to be displayed in a new tab rather than embedded in the Canvas page, as is the default. If you have added a URL to an external site or tool, such as a Poll Everywhere link, in an assignment, discussion, module, or page, but you are receiving a 'refused to connect' error, follow the steps outlined below. Note: The ways you can edit a link depend on where you embed the URL or tool in Canvas. Load external links in a new tab External tool If you are trying to resolve the error for an external tool URL, edit the assignment that has the Submission Type set as 'External Tool'. 1. Select three vertical dots (more options icon) for an assignment and select 'Edit' in the dropdown. 2. Select 'More Options' in the Edit Assignment box. 3. In the 'Submission Type' section, check the box for 'Load This Tool In A New Tab'. 4. Select 'Save'. External items in a module If you are trying to resolve the error for an item (External Tool or External URL) in a module, edit the item's details. 1. Select three vertical dots (more options icon) for the item in a module and select 'Edit' in the dropdown. 2. Check the box for 'Load in a new tab' in the Edit Item Details box. 3. Select 'Update'.",
+  "body_html": "<div id=\"article-body\"><p>Certain tools integrated into Canvas need to be displayed in a new tab rather than embedded in the Canvas page, as is the default. If you have added a URL to an external site or tool, such as a Poll Everywhere link, in an assignment, discussion, module, or page, but you are receiving a 'refused to connect' error, follow the steps outlined below. Note: The ways you can edit a link depend on where you embed the URL or tool in Canvas.</p><hr><h2>Load external links in a new tab</h2><h3>External tool</h3><p>If you are trying to resolve the error for an external tool URL, edit the assignment that has the Submission Type set as 'External Tool'.</p><ul><li>Select three vertical dots (more options icon) for an assignment and select 'Edit' in the dropdown.</li><li>Select 'More Options' in the Edit Assignment box.</li><li>In the 'Submission Type' section, check the box for 'Load This Tool In A New Tab'.</li><li>Select 'Save'.</li></ul><h3>External items in a module</h3><p>If you are trying to resolve the error for an item (External Tool or External URL) in a module, edit the item's details.</p><ul><li>Select three vertical dots (more options icon) for the item in a module and select 'Edit' in the dropdown.</li><li>Check the box for 'Load in a new tab' in the Edit Item Details box.</li><li>Select 'Update'.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Certain tools integrated into Canvas need to be displayed in a new tab rather than embedded in the Canvas page, as is the default. If you have added a URL to an external site or tool, such as a Poll Everywhere link, in an assignment, discussion, module, or page, but you are receiving a 'refused to connect' error, follow the steps outlined below. Note: The ways you can edit a link depend on where you embed the URL or tool in Canvas.; Steps: []; Links: []",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Load external links in a new tab",
+      "text": "Steps: []; Links: []",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "External tool",
+      "text": "If you are trying to resolve the error for an external tool URL, edit the assignment that has the Submission Type set as 'External Tool'.; Steps: [\"Select three vertical dots (more options icon) for an assignment and select 'Edit' in the dropdown.\", \"Select 'More Options' in the Edit Assignment box.\", \"In the 'Submission Type' section, check the box for 'Load This Tool In A New Tab'.\", \"Select 'Save'.\"]; Links: []",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "External items in a module",
+      "text": "If you are trying to resolve the error for an item (External Tool or External URL) in a module, edit the item's details.; Steps: [\"Select three vertical dots (more options icon) for the item in a module and select 'Edit' in the dropdown.\", \"Check the box for 'Load in a new tab' in the Edit Item Details box.\", \"Select 'Update'.\"]; Links: []",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "How do I set account time zones in Canvas?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "article_id": "KB000019625",
+  "title": "What are the survey tools available to me as an instructor?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019625",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019625",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019625",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Instructors have several different tools available for surveying students. Choose the best survey tool for your purpose based on what information you are gathering and how you will use the information obtained from the responses. Surveys or polls are a quick way to interact with students. You can use a survey to: Increase student engagement in your class. Check for understanding. Create a community in your class. Request feedback on course content. Gather feedback on teaching strategies. Allow students to share ideas. Create anonymous surveys. Canvas Survey within Canvas are created using Classic Quizzes and can be graded or ungraded. Surveys offer 12 types of questions to choose from. Microsoft Polls With the Microsoft Teams Polling tool, you can create polls before a Microsoft Teams meeting and launch the polls during it. Poll Everywhere is a survey tool that allows instructors to develop questions to poll students and obtain results in real time. Qualtrics Survey is available to all current Northeastern faculty, staff, and students.",
+  "body_html": "<div id=\"364\">Instructors have several different tools available for surveying students... [Full body content including Table of Contents, Matrix, and Tool Descriptions]</div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Instructors have several different tools available for surveying students. Choose the best survey tool for your purpose based on what information you are gathering and how you will use the information obtained from the responses. Surveys or polls are a quick way to interact with students. You can use a survey to: Increase student engagement, check for understanding, create community, request feedback, and allow students to share ideas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Survey tool comparison matrix",
+      "text": "A matrix comparing Ease of use, real-time polling, chat features, anonymity, grading, Gradebook import, question types, randomization, accessibility, and result viewing across the four tools.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Canvas Survey in Quizzes",
+      "text": "Surveys within Canvas are created using Classic Quizzes and can be graded or ungraded. Offers 12 types of questions. Results appear in Gradebook when graded. Can be anonymous.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Microsoft Polls",
+      "text": "Using Microsoft Teams Polling tool to create polls before or during meetings. Ad-hoc polls can be created for feedback on the spot.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Poll Everywhere",
+      "text": "Real-time polling tool delivered via web or presentation software (PowerPoint, Keynote, Google Slides). Includes variety of question types and gamification options.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Qualtrics",
+      "text": "Powerful tool for complex surveys available to all Northeastern faculty, staff, and students. Includes extensive resources, templates, and accessibility checker.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I view survey results in a course?",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-survey-results-in-a-course/ta-p/792"
+    },
+    {
+      "text": "How do I get Poll Everywhere participation reports?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018958"
+    },
+    {
+      "text": "How do I create a survey in my course?",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-survey-in-my-course/ta-p/782"
+    },
+    {
+      "text": "What is Microsoft Teams for Teaching and Learning?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014455"
+    },
+    {
+      "text": "Northeastern Poll Everywhere Training",
+      "url": "https://training.its.northeastern.edu/find-training/?text=poll%20everywhere"
+    },
+    {
+      "text": "What is Poll Everywhere?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014180"
+    },
+    {
+      "text": "How do I log in to Poll Everywhere?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014162"
+    },
+    {
+      "text": "Qualtrics Topics From A to Z",
+      "url": "https://www.qualtrics.com/support/survey-platform/getting-started/qualtrics-topics-a-z/"
+    },
+    {
+      "text": "What is Qualtrics?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014316"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

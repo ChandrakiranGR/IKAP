@@ -1,0 +1,79 @@
+{
+  "article_id": "KB000018203",
+  "title": "How do I download SOLIDWORKS as a COE student?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018203",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018203",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018203",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Students, instructors, and staff at the College of Engineering (COE) can download the SOLIDWORKS Student Engineering Kit (SEK) for one personal PC or laptop. The SEK is for personal and educational use by students and instructors. It is not intended for research. Note: For university-owned and managed PCs and laptops, please use the full version of SOLIDWORKS and the campus floating license. Download SOLIDWORKS from COE. Visit the the COE SolidWorks Student Engineering Kit. Sign in with your Northeastern username and password. Follow the prompts to download SOLIDWORKS and receive an activation code. Note: You can only download your code three times a year. View the COE video SolidWorks Download and Installation Instructions on Windows 10 11 for more elaboration. Help. If you encounter any issues while downloading the kit or if you have any questions, email coe@northeastern.edu for assistance. Refer to FAQ: SOLIDWORKS installation for more information.",
+  "body_html": "<article id=\"364\">Students, instructors, and staff at the College of Engineering (COE) can download the SOLIDWORKS Student Engineering Kit (SEK) for one personal PC or laptop. The SEK is for personal and educational use by students and instructors. It is not intended for research. Note: For university-owned and managed PCs and laptops, please use the full version of SOLIDWORKS and the campus floating license.<hr><h2>Download SOLIDWORKS from COE</h2><ul><li>Visit the the <a id=\"379\">COE SolidWorks Student Engineering Kit</a>.</li><li>Sign in with your Northeastern username and password.</li><li>Follow the prompts to download SOLIDWORKS and receive an activation code. Note: You can only download your code three times a year.</li><li>View the COE video <a id=\"393\">SolidWorks Download and Installation Instructions on Windows 10 11</a> for more elaboration.</li></ul><hr><h2>Help</h2><ul><li>If you encounter any issues while downloading the kit or if you have any questions, email <a id=\"402\">coe@northeastern.edu</a> for assistance.</li><li>Refer to <a id=\"407\">FAQ: SOLIDWORKS installation</a> for more information.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Students, instructors, and staff at the College of Engineering (COE) can download the SOLIDWORKS Student Engineering Kit (SEK) for one personal PC or laptop. The SEK is for personal and educational use by students and instructors. It is not intended for research. Note: For university-owned and managed PCs and laptops, please use the full version of SOLIDWORKS and the campus floating license.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Download SOLIDWORKS from COE",
+      "text": "",
+      "steps": [
+        "Visit the the COE SolidWorks Student Engineering Kit.",
+        "Sign in with your Northeastern username and password.",
+        "Follow the prompts to download SOLIDWORKS and receive an activation code. Note: You can only download your code three times a year.",
+        "View the COE video SolidWorks Download and Installation Instructions on Windows 10 11 for more elaboration."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Help",
+      "text": "If you encounter any issues while downloading the kit or if you have any questions, email coe@northeastern.edu for assistance. Refer to FAQ: SOLIDWORKS installation for more information.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "COE SolidWorks Student Engineering Kit",
+      "url": "https://coe.northeastern.edu/computer/coe-solidworks-download/"
+    },
+    {
+      "text": "SolidWorks Download and Installation Instructions on Windows 10 11",
+      "url": "https://youtu.be/x5PVslbGvMA?si=nQ5Ep9U3NhCsSG4X"
+    },
+    {
+      "text": "coe@northeastern.edu",
+      "url": "mailto:coe@northeastern.edu"
+    },
+    {
+      "text": "FAQ: SOLIDWORKS installation",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018208"
+    }
+  ],
+  "categories": [
+    "Knowledge Bases",
+    "College of Engineering",
+    "Software"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I get access to Ansys?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018204"
+    },
+    {
+      "title": "How do I access Abaqus?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012541"
+    },
+    {
+      "title": "FAQ: SOLIDWORKS installation",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018208"
+    },
+    {
+      "title": "What Linux software is available on College of Engineering (COE) systems?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018199"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "article_id": "KB000018706",
+  "title": "How do I prepare to take a quiz or exam in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018706",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018706",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018706",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2mo ago",
+  "plain_text": "This article will help you prepare for your finals with these tips for Canvas exams, tests, or quizzes. Read the article How do I get help with questions about Canvas functionality? for details. Prepare for the exam Check your computer for all system and software updates at least one day before the exam. Plug into Ethernet or move close to your Wi-Fi router for the most stable internet connection. Plug your computer into a power source rather than relying on your battery. Disable all pop-up blockers, close background applications, and upgrade your browser. Firefox and Google Chrome are the recommended browsers. Use a desktop or laptop for all quizzes, tests, and exams. If you're using an iPad, contact your instructor for specific settings. Exams using Respondus Lockdown Browser Download and update Respondus completely before the exam. Review How do I take a test using Respondus LockDown Browser and Monitor? for more information. Complete the the Respondus Tech Check Quiz to troubleshoot any issues before taking your exam. Exam troubleshooting For issues with Canvas Quizzes: Reload the page or restart the browser. Email your instructor as soon as possible if you have additional trouble and/or have lost time. For issues with Respondus: You cannot reload or restart the page. You must close the browser and type a reason when prompted upon exit. Email your instructor if you're locked out of the exam or ask about an extension. If your exam, test, or quiz freezes, try restarting Canvas or re-entering Respondus to fix the issue. If this doesn't help, reach out to your instructor. Refer to FAQ: Solutions for students experiencing technical problems during online exams.",
+  "body_html": "<article id=\"364\">This article will help you prepare for your finals with these tips for <a id=\"366\">Canvas</a> exams, tests, or quizzes. Read the article <a id=\"370\">How do I get help with questions about Canvas functionality?</a> for details.<hr id=\"373\"><h2 id=\"375\">Prepare for the exam</h2><ul><li>Check your computer for all system and software updates at least one day before the exam.</li><li>Plug into Ethernet or move close to your Wi-Fi router for the most stable internet connection.</li><li>Plug your computer into a power source rather than relying on your battery.</li><li>Disable all pop-up blockers, close background applications, and upgrade your browser. Firefox and Google Chrome are the recommended browsers.</li><li>Use a desktop or laptop for all quizzes, tests, and exams. If you're using an iPad, contact your instructor for specific settings.</li></ul><hr id=\"399\"><h2 id=\"400\">Exams using Respondus Lockdown Browser</h2><ul><li>Download and update Respondus completely before the exam. <a id=\"406\">Download</a> and <a id=\"410\">update</a></li><li>Review <a id=\"416\">How do I take a test using Respondus LockDown Browser and Monitor?</a> for more information.</li><li>Complete the the <a id=\"422\">Respondus Tech Check Quiz</a> to troubleshoot any issues before taking your exam.</li></ul><hr id=\"425\"><h2 id=\"426\">Exam troubleshooting</h2><ul><li>For issues with Canvas Quizzes: Reload the page or restart the browser. Email your instructor as soon as possible if you have additional trouble and/or have lost time.</li><li>For issues with Respondus: You cannot reload or restart the page. You must close the browser and type a reason when prompted upon exit. Email your instructor if you're locked out of the exam or ask about an extension.</li><li>If your exam, test, or quiz freezes, try restarting Canvas or re-entering Respondus to fix the issue. If this doesn't help, reach out to your instructor.</li><li>Refer to <a id=\"440\">FAQ: Solutions for students experiencing technical problems during online exams</a>.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "This article will help you prepare for your finals with these tips for Canvas exams, tests, or quizzes. Read the article How do I get help with questions about Canvas functionality? for details.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Prepare for the exam",
+      "text": "Check your computer for all system and software updates at least one day before the exam. Plug into Ethernet or move close to your Wi-Fi router for the most stable internet connection. Plug your computer into a power source rather than relying on your battery. Disable all pop-up blockers, close background applications, and upgrade your browser. Firefox and Google Chrome are the recommended browsers. Use a desktop or laptop for all quizzes, tests, and exams. If you're using an iPad, contact your instructor for specific settings.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Exams using Respondus Lockdown Browser",
+      "text": "Download and update Respondus completely before the exam. Review How do I take a test using Respondus LockDown Browser and Monitor? for more information. Complete the the Respondus Tech Check Quiz to troubleshoot any issues before taking your exam.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Exam troubleshooting",
+      "text": "For issues with Canvas Quizzes: Reload the page or restart the browser. Email your instructor as soon as possible if you have additional trouble and/or have lost time. For issues with Respondus: You cannot reload or restart the page. You must close the browser and type a reason when prompted upon exit. Email your instructor if you're locked out of the exam or ask about an extension. If your exam, test, or quiz freezes, try restarting Canvas or re-entering Respondus to fix the issue. If this doesn't help, reach out to your instructor. Refer to FAQ: Solutions for students experiencing technical problems during online exams.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://canvas.northeastern.edu/"
+    },
+    {
+      "text": "How do I get help with questions about Canvas functionality?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014615"
+    },
+    {
+      "text": "Download",
+      "url": "https://download.respondus.com/lockdown/download.php?id=538439877"
+    },
+    {
+      "text": "update",
+      "url": "https://support.respondus.com/hc/en-us/articles/4409607243035-How-to-update-LockDown-Browser"
+    },
+    {
+      "text": "How do I take a test using Respondus LockDown Browser and Monitor?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477"
+    },
+    {
+      "text": "Respondus Tech Check Quiz",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014477"
+    },
+    {
+      "text": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017937"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

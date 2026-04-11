@@ -57,6 +57,10 @@ def _cors_origins() -> list[str]:
     return [origin.strip() for origin in configured.split(",") if origin.strip()]
 
 
+def _allow_credentials(origins: list[str]) -> bool:
+    return not (len(origins) == 1 and origins[0] == "*")
+
+
 load_dotenv(_project_root() / ".env")
 
 app = FastAPI(title="IKAP API", version="0.1.0")
@@ -64,7 +68,7 @@ app = FastAPI(title="IKAP API", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_cors_origins(),
-    allow_credentials=True,
+    allow_credentials=_allow_credentials(_cors_origins()),
     allow_methods=["*"],
     allow_headers=["*"],
 )

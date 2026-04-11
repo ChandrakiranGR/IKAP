@@ -1,0 +1,180 @@
+{
+  "article_id": "KB0014305",
+  "title": "How do I use Duo when traveling internationally?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014305",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014305",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014305",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "mfa_kb.json",
+  "updated_at": "2mo ago",
+  "plain_text": "Learn how to use Duo multi-factor authentication while traveling abroad. Access your accounts internationally with passcodes, push notifications, and more. Duo supports functionality without cellular service and/or a Wi-Fi connection. If you have questions about the following authentication options, please consult the Duo FAQs and contact Northeastern IT Services. Table of Contents Use your current phone/device abroad Passcodes on the Duo Mobile app Duo Mobile verified push Call Passcodes via text Leave your current phone/device Register a new device Remember the 30-day option Email clients Security key Hardware token Use your current phone/device abroad If you bring your current cellphone or device with you abroad, you have options for authenticating with Duo. Make sure you have enrolled your current cellphone or device with the Duo Mobile app or have access to cellular networks while traveling. If possible, have a second device configured before traveling as well. Note: It is best to use the passcode on the Duo Mobile app as it is the most reliable option for traveling abroad. It will work without Wi-Fi or cell reception. Be sure you have downloaded the app on your device and linked it to your account before you travel overseas. Passcodes on the Duo Mobile app Note: Passcodes on the Duo Mobile app can only be used when you have installed the Duo Mobile app. It can be used without internet connections or cellular networks. 1. Select Enter a passcode when sending out an authentication request. 2. Open the Duo Mobile app on your device. 3. If you see dots in the Passcode field, select Show. 4. You will see the six-digit passcode. Enter this passcode for authentication. 5. You can select 'Refresh Passcode' to get a new passcode. Duo Mobile verified push Note: Duo Mobile verified push can be used only when you have installed the Duo app and have internet access. If you have limited access to the internet, please use Duo Passcode. 1. Select 'Send Me a Push' on the Duo verification screen in your web browser. Once selected, the Duo mobile app on your smartphone or tablet will indicate a pending verification request. 2. Read the Duo verification code displayed on the site. 3. Tap the notification on your trusted device. 4. Enter the code to confirm verification. Call Note: This option will only work if you have both an international plan AND cellular service. Also, the reliability and cost vary in different countries and regions. Check the Telephony Credits page on the Duo website for more information. 1. Select Call me when sending out an authentication request. 2. You will receive a phone call from Duo on your device. Follow the directions given to you during the call. Passcodes via text 1. Select 'Text message passcode' when sending out an authentication request. 2. Enter the one-time passcode sent to your registered number. Leave your current phone/device There are a few options if you do not have access to your current phone or device once you are abroad. Register a new device You can add an international phone number as one of your authentication options. Be sure to register the new device before you travel abroad. 1. Follow the steps in How do I enroll in Duo multi-factor authentication (MFA)? to enroll a new device. 2. Make sure to add the correct extension in the drop-down menu when registering an international number. 3. Once you have registered, you can receive phone calls or passcodes in text messages. Read the Call and Text sections above for more information. If you can access the Duo Mobile app, you can also use passcodes on the Duo Mobile app and Duo Mobile app push. 4. If you are already abroad and need to register a new device, call IT Services at 617.373.4357 so they can add it to your account. Remember the 30-day option Another option is to elect to have Duo remember you for 30 days. This option should only be considered for those who are traveling abroad for less than one month and who plan on using the same devices for the entirety of their time abroad. Read the article How can I configure Duo to remember me for 30 days? to learn more. Note: If you clear cookies after you log off of the browser, the device will not be remembered, and you will have to confirm your identity again when logging in. Email clients If you do not have access to your Duo-authenticated device and need access to your email, using an email client will bypass the Duo authentication. Log in to the mail client and authenticate with Duo before you travel overseas. After logging in once successfully, you will not need to use Duo to access email on the mail client again. Examples of email clients are Outlook (Windows, Android, macOS, iOS), Mail app (iOS, macOS), and the Gmail app (Android, iOS). Security key Another option is to use a security key for two-factor authentication. A security key plugs into your USB port, and when tapped or when the button is pressed, it sends a signed response back to Duo to validate your login. You can purchase a security key from authorized vendors. Learn more about obtaining and setting up a security key. Hardware token If you do not have a device that can authenticate with Duo and you travel internationally often, you may want to get a hardware token. Hardware tokens can be made by DUO or by supported third parties. Once your token is set up, simply choose the Enter a Passcode option when you get the Duo authentication prompt, and then enter the passcode that shows on the hardware token. Note: This option is not recommended, and it must be stressed that this should be used as a last resort option. Visit the IT Service Desk on the second floor of Snell Library for more information about obtaining and setting up a Duo token, or contact IT Services at 617.373.4357.",
+  "body_html": "<div id=\"364\">Learn how to use Duo multi-factor authentication while traveling abroad. Access your accounts internationally with passcodes, push notifications, and more. Duo supports functionality without cellular service and/or a Wi-Fi connection. If you have questions about the following authentication options, please consult the <a id=\"369\">Duo FAQs</a> and contact <a id=\"372\">Northeastern IT Services.</a><hr id=\"374\"><h2 id=\"375\">Table of Contents</h2><ul id=\"376\"><li id=\"377\"><a id=\"381\">Use your current phone/device abroad</a><ul id=\"382\"><li id=\"383\"><a id=\"385\">Passcodes on the Duo Mobile app</a></li><li id=\"386\"><a id=\"388\">Duo Mobile verified push</a></li><li id=\"389\"><a id=\"391\">Call</a></li><li id=\"392\"><a id=\"394\">Passcodes via text</a></li></ul></li><li id=\"395\"><a id=\"397\">Leave your current phone/device</a><ul id=\"398\"><li id=\"399\"><a id=\"401\">Register a new device</a></li><li id=\"402\"><a id=\"404\">Remember the 30-day option</a></li><li id=\"405\"><a id=\"407\">Email clients</a></li><li id=\"408\"><a id=\"410\">Security key</a></li><li id=\"411\"><a id=\"413\">Hardware token</a></li></ul></li></ul><hr id=\"415\">...</div>",
+  "sections": [
+    {
+      "heading": "Use your current phone/device abroad",
+      "text": "If you bring your current cellphone or device with you abroad, you have options for authenticating with Duo. Make sure you have enrolled your current cellphone or device with the Duo Mobile app or have access to cellular networks while traveling. If possible, have a second device configured before traveling as well. Note: It is best to use the passcode on the Duo Mobile app as it is the most reliable option for traveling abroad. It will work without Wi-Fi or cell reception. Be sure you have downloaded the app on your device and linked it to your account before you travel overseas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Passcodes on the Duo Mobile app",
+      "text": "Note: Passcodes on the Duo Mobile app can only be used when you have installed the Duo Mobile app. It can be used without internet connections or cellular networks.",
+      "steps": [
+        "Select Enter a passcode when sending out an authentication request.",
+        "Open the Duo Mobile app on your device.",
+        "If you see dots in the Passcode field, select Show.",
+        "You will see the six-digit passcode. Enter this passcode for authentication.",
+        "You can select 'Refresh Passcode' to get a new passcode."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Duo Mobile verified push",
+      "text": "Note: Duo Mobile verified push can be used only when you have installed the Duo app and have internet access. If you have limited access to the internet, please use Duo Passcode.",
+      "steps": [
+        "Select 'Send Me a Push' on the Duo verification screen in your web browser. Once selected, the Duo mobile app on your smartphone or tablet will indicate a pending verification request.",
+        "Read the Duo verification code displayed on the site.",
+        "Tap the notification on your trusted device.",
+        "Enter the code to confirm verification."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Call",
+      "text": "Note: This option will only work if you have both an international plan AND cellular service. Also, the reliability and cost vary in different countries and regions.",
+      "steps": [
+        "Select Call me when sending out an authentication request.",
+        "You will receive a phone call from Duo on your device. Follow the directions given to you during the call."
+      ],
+      "links": [
+        {
+          "text": "Telephony Credits",
+          "url": "https://duo.com/docs/telephony-credits"
+        }
+      ]
+    },
+    {
+      "heading": "Passcodes via text",
+      "text": "",
+      "steps": [
+        "Select 'Text message passcode' when sending out an authentication request.",
+        "Enter the one-time passcode sent to your registered number."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Register a new device",
+      "text": "You can add an international phone number as one of your authentication options. Be sure to register the new device before you travel abroad.",
+      "steps": [
+        "Follow the steps in How do I enroll in Duo multi-factor authentication (MFA)? to enroll a new device.",
+        "Make sure to add the correct extension in the drop-down menu when registering an international number.",
+        "Once you have registered, you can receive phone calls or passcodes in text messages.",
+        "If you are already abroad and need to register a new device, call IT Services at 617.373.4357 so they can add it to your account."
+      ],
+      "links": [
+        {
+          "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+        }
+      ]
+    },
+    {
+      "heading": "Remember the 30-day option",
+      "text": "Another option is to elect to have Duo remember you for 30 days. This option should only be considered for those who are traveling abroad for less than one month and who plan on using the same devices for the entirety of their time abroad. Note: If you clear cookies after you log off of the browser, the device will not be remembered, and you will have to confirm your identity again when logging in.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How can I configure Duo to remember me for 30 days?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014282"
+        }
+      ]
+    },
+    {
+      "heading": "Email clients",
+      "text": "If you do not have access to your Duo-authenticated device and need access to your email, using an email client will bypass the Duo authentication. Log in to the mail client and authenticate with Duo before you travel overseas. After logging in once successfully, you will not need to use Duo to access email on the mail client again. Examples of email clients are Outlook (Windows, Android, macOS, iOS), Mail app (iOS, macOS), and the Gmail app (Android, iOS).",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Security key",
+      "text": "Another option is to use a security key for two-factor authentication. A security key plugs into your USB port, and when tapped or when the button is pressed, it sends a signed response back to Duo to validate your login. You can purchase a security key from authorized vendors.",
+      "steps": [],
+      "links": [
+        {
+          "text": "Learn more about obtaining and setting up a security key.",
+          "url": "https://guide.duo.com/security-keys"
+        }
+      ]
+    },
+    {
+      "heading": "Hardware token",
+      "text": "If you do not have a device that can authenticate with Duo and you travel internationally often, you may want to get a hardware token. Hardware tokens can be made by DUO or by supported third parties. Once your token is set up, simply choose the Enter a Passcode option when you get the Duo authentication prompt, and then enter the passcode that shows on the hardware token. Note: This option is not recommended, and it must be stressed that this should be used as a last resort option. Visit the IT Service Desk on the second floor of Snell Library for more information about obtaining and setting up a Duo token, or contact IT Services at 617.373.4357.",
+      "steps": [],
+      "links": [
+        {
+          "text": "617.373.4357",
+          "url": "https://service.northeastern.edu/617.373.4357"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Duo FAQs",
+      "url": "https://security.its.northeastern.edu/mfa/"
+    },
+    {
+      "text": "Northeastern IT Services.",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012658"
+    },
+    {
+      "text": "Telephony Credits",
+      "url": "https://duo.com/docs/telephony-credits"
+    },
+    {
+      "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "text": "How can I configure Duo to remember me for 30 days?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014282"
+    },
+    {
+      "text": "Learn more about obtaining and setting up a security key.",
+      "url": "https://guide.duo.com/security-keys"
+    },
+    {
+      "text": "617.373.4357",
+      "url": "https://service.northeastern.edu/617.373.4357"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access",
+    "Northeastern Account Access",
+    "Multi-Factor Authentication (MFA)"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "title": "How do I manage my Duo account and trusted devices?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162"
+    },
+    {
+      "title": "How do I update my Duo enrollment when I get a new phone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209"
+    },
+    {
+      "title": "How do I set up passwordless authentication using Authenticator?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021992"
+    },
+    {
+      "title": "FAQ: Multi-factor authentication for retirees",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022997"
+    }
+  ]
+}

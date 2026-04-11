@@ -1,0 +1,48 @@
+{
+  "article_id": "KB0014239",
+  "title": "How do I view a rubric or rubric scorecard in Turnitin?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014239",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014239",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014239",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026-01-01",
+  "plain_text": "Instructors may use the Turnitin rubric feature to provide feedback on student assignments. Students can learn the criteria used to grade assignments by reading the rubric or rubric scorecard. Before assignment submission Rubric scorecards and grading forms can be used to evaluate student work based on defined criteria and scales. If your instructor has attached a rubric or grading form to the assignment, ahead of submission, you can view the criteria they will use as a guideline to grade your paper. - Select the rubric/grading form icon from the specific class assignment task. Note: If your instructor has not attached a rubric or grading form to the assignment, the rubric icon will be unavailable in the assignment inbox. - The rubric/grading form will open in a new window. Note: If your browser has a pop-up blocker active, you may need to add Turnitin to its exceptions list to view the scoring card or form. After assignment submission Rubric scorecards can be used to evaluate student work based on defined criteria and scales. If your instructor has used a rubric scorecard to grade your paper, you can view the criteria and scale that they have used to grade. - To access the rubric for your assignment, select the speech bubble icon from the product toolbar. - Select 'View Rubric' from the Instructor Feedback side panel to open the scorecard. - A new window will open where you can view the rubric scorecard that was used to grade your paper. Each blue-highlighted box shows where you have been graded in each of the criteria of the assignment. You may need to scroll up and down or left and right to see all boxes, depending on the size of your browser's window. Note: If your browser has a pop-up blocker active, you may need to add Turnitin to its exceptions list to view the rubric scoring card. - Select 'Close' to exit the expanded rubric window.",
+  "body_html": "<div id=\"364\"><p>Instructors may use the Turnitin rubric feature to provide feedback on student assignments. Students can learn the criteria used to grade assignments by reading the rubric or rubric scorecard.</p><hr id=\"366\"><h2 id=\"368\">Before assignment submission</h2><p>Rubric scorecards and grading forms can be used to evaluate student work based on defined criteria and scales. If your instructor has attached a rubric or grading form to the assignment, ahead of submission, you can view the criteria they will use as a guideline to grade your paper.</p><ul><li>Select the rubric/grading form icon from the specific class assignment task. Note: If your instructor has not attached a rubric or grading form to the assignment, the rubric icon will be unavailable in the assignment inbox.</li><li>The rubric/grading form will open in a new window. Note: If your browser has a pop-up blocker active, you may need to add Turnitin to its exceptions list to view the scoring card or form.</li></ul><hr id=\"383\"><h2 id=\"384\">After assignment submission</h2><p>Rubric scorecards can be used to evaluate student work based on defined criteria and scales. If your instructor has used a rubric scorecard to grade your paper, you can view the criteria and scale that they have used to grade.</p><ul><li>To access the rubric for your assignment, select the speech bubble icon from the product toolbar.</li><li>Select 'View Rubric' from the Instructor Feedback side panel to open the scorecard.</li><li>A new window will open where you can view the rubric scorecard that was used to grade your paper. Each blue-highlighted box shows where you have been graded in each of the criteria of the assignment. You may need to scroll up and down or left and right to see all boxes, depending on the size of your browser's window. Note: If your browser has a pop-up blocker active, you may need to add Turnitin to its exceptions list to view the rubric scoring card.</li><li>Select 'Close' to exit the expanded rubric window.</li></ul><a id=\"404\">Back to top</a></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Instructors may use the Turnitin rubric feature to provide feedback on student assignments. Students can learn the criteria used to grade assignments by reading the rubric or rubric scorecard.; Before assignment submission: Rubric scorecards and grading forms can be used to evaluate student work based on defined criteria and scales. If your instructor has attached a rubric or grading form to the assignment, ahead of submission, you can view the criteria they will use as a guideline to grade your paper.; After assignment submission: Rubric scorecards can be used to evaluate student work based on defined criteria and scales. If your instructor has used a rubric scorecard to grade your paper, you can view the criteria and scale that they have used to grade.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Turnitin"
+  ],
+  "related_articles": [
+    {
+      "title": "What is Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I use Turnitin's quick submit as a faculty?",
+      "url": null
+    },
+    {
+      "title": "How do students access the Turnitin Similarity Report panel in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I allow students or staff to complete a self-check using Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I add a Turnitin assignment to my Canvas course?",
+      "url": null
+    }
+  ]
+}

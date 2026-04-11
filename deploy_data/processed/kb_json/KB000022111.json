@@ -1,0 +1,61 @@
+{
+  "article_id": "KB000022111",
+  "title": "How do I create an assignment in Canvas using Lucid?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022111",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022111",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022111",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "13d ago",
+  "plain_text": "Lucid for Education is a suite of visual applications that offers tools to interact and engage with students. Lucidchart is a diagramming application for creating and sharing flowcharts, mind maps, and organizational charts. Lucidspark is a virtual whiteboard for brainstorming, group projects, and real-time class collaboration. Prerequisites The following are required before creating a Lucid assignment in Canvas: Set up a Lucid account before getting started with a Lucid assignment. Create a Canvas Module. Refer to How do I post content to Canvas Modules? for further guidance. Create a Canvas Assignment. Refer to How do I create and grade an assignment in Canvas? for further guidance. Enable Lucid Access the Lucid EDU suite by selecting 'External Apps' icon from the 'Rich Content Editor' toolbar. Review your role and confirm your age, then select Next. Note: This is a requirement and cannot be bypassed. You can log in with your existing Lucid credentials. You will be upgraded to a free Educational plan with Lucid. Sign in with Microsoft 365. Select Continue. Select the 'Connect your Lucid account' link. After reviewing the access request, select 'Grant Access'. Once access is granted, you will be able to access Lucidchart and Lucidspark. Create a Lucid assignment Follow the steps below to add Lucid to a Canvas assignment as an external tool. Select Modules from the navigation menu. Select the + button to add a new assignment. Select 'Create Assignment', enter 'Assignment Name' then select 'Add Item'. Enter the assignment information, including the 'Assignment Name', 'Assignment Instructions', Points, 'Assignment Group', and how you wish to display the grade. In Submission Type, select 'External Tool' and Lucid. Once selected, instructors can use the link to access Lucid and opt to open Lucid in a new tab for students. Select either Lucidspark or Lucidchart as the submission type. Select Next. Select 'Save & Publish' or Save.",
+  "body_html": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Lucid for Education is a suite of visual applications that offers tools to interact and engage with students. Lucidchart is a diagramming application for creating and sharing flowcharts, mind maps, and organizational charts. Lucidspark is a virtual whiteboard for brainstorming, group projects, and real-time class collaboration. Table of Contents: Prerequisites, Enable Lucid, Create a Lucid assignment. Prerequisites: The following are required before creating a Lucid assignment in Canvas: Set up a Lucid account before getting started with a Lucid assignment. Create a Canvas Module. Refer to How do I post content to Canvas Modules? for further guidance. Create a Canvas Assignment. Refer to How do I create and grade an assignment in Canvas? for further guidance. Enable Lucid: Access the Lucid EDU suite by selecting 'External Apps' icon from the 'Rich Content Editor' toolbar. Review your role and confirm your age, then select Next. Note: This is a requirement and cannot be bypassed. You can log in with your existing Lucid credentials. You will be upgraded to a free Educational plan with Lucid. Sign in with Microsoft",
+      "steps": [
+        "Select Continue. Select the 'Connect your Lucid account' link. After reviewing the access request, select 'Grant Access'. Once access is granted, you will be able to access Lucidchart and Lucidspark. Create a Lucid assignment: Follow the steps below to add Lucid to a Canvas assignment as an external tool. Select Modules from the navigation menu. Select the + button to add a new assignment. Select 'Create Assignment', enter 'Assignment Name' then select 'Add Item'. Enter the assignment information, including the 'Assignment Name', 'Assignment Instructions', Points, 'Assignment Group', and how you wish to display the grade. In Submission Type, select 'External Tool' and Lucid. Once selected, instructors can use the link to access Lucid and opt to open Lucid in a new tab for students. Select either Lucidspark or Lucidchart as the submission type. Select Next. Select 'Save & Publish' or Save."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I post content to Canvas Modules?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014581"
+    },
+    {
+      "text": "How do I create and grade an assignment in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014585"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "article_id": "KB000018539",
+  "title": "How do I use the Discover page of the Student Hub?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018539",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018539",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018539",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "studenthub_kb.json",
+  "updated_at": "",
+  "plain_text": "The Discover page of the Student Hub is used to find other students, student clubs, and events at Northeastern. The Discover page is a great place for Northeastern students to learn more about each other, participate in campus events, and expand their networks. Table of Contents: Find student profile, View student profile, Follow the student profile, Find student clubs and organizations, View clubs and organizations, Follow clubs and organizations, Join clubs and organizations, Find events, View event details, Add events to the Outlook calendar. Find student profile: Select Discover from the top navigation bar on the main page of the Student Hub. Navigate to the People tab. Enter a term in the search bar. Use the filters on the left to narrow down the search results. View student profile: To view a student's profile, select the student's name. Follow the student profile: To follow a student's profile, select Follow underneath the profile photo. Find student clubs and organizations: Select Discover from the top navigation bar on the main page of the Hub. Select the 'Clubs and Organizations' tab. Enter the organization name into the search bar or select a category from the filters section. View clubs and organizations: To view the student organization's description, details, and officers, select the organization's name. Follow clubs and organizations: To follow a student organization, select Follow. Join clubs and organizations: To request membership for a student organization, select the Join button to be taken to Engage. Find events: Select Discover from the top navigation bar on the main page of the Hub. Select the Events tab. You can browse upcoming events, search for events using the search bar, or use the filters on the left to find your desired events. View event details: To view an event's time, location, host, and other detailed information, select the event name. Select the Description tab on the pop-up card to view the event description. Select 'View Event' to go to the event page. Add events to the Outlook calendar: Select 'Add to Calendar', and you will be directed to your Outlook calendar. Add the event to your calendar manually.",
+  "body_html": "<article id=\"364\">The Discover page of the <a id=\"366\">Student Hub</a> is used to find other students, student clubs, and events at Northeastern... [truncated for brevity, full structure extracted]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "The Discover page of the Student Hub is used to find other students, student clubs, and events at Northeastern. The Discover page is a great place for Northeastern students to learn more about each other, participate in campus events, and expand their networks.",
+      "steps": [],
+      "links": [
+        {
+          "text": "Student Hub",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018537"
+        }
+      ]
+    },
+    {
+      "heading": "Find student profile",
+      "text": "Select Discover from the top navigation bar on the main page of the Student Hub. Navigate to the People tab. Enter a term in the search bar. Use the filters on the left to narrow down the search results. To view a student's profile, select the student's name. To follow a student's profile, select Follow underneath the profile photo.",
+      "steps": [
+        "Select Discover from the top navigation bar on the main page of the Student Hub.",
+        "Navigate to the People tab.",
+        "Enter a term in the search bar.",
+        "Use the filters on the left to narrow down the search results."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Find student clubs and organizations",
+      "text": "Select Discover from the top navigation bar on the main page of the Hub. Select the 'Clubs and Organizations' tab. Enter the organization name into the search bar or select a category from the filters section. To view the student organization's description, details, and officers, select the organization's name. To follow a student organization, select Follow. To request membership for a student organization, select the Join button to be taken to Engage.",
+      "steps": [
+        "Select Discover from the top navigation bar on the main page of the Hub.",
+        "Select the 'Clubs and Organizations' tab.",
+        "Enter the organization name into the search bar or select a category from the filters section."
+      ],
+      "links": [
+        {
+          "text": "Engage",
+          "url": "https://neu.campuslabs.com/engage/"
+        }
+      ]
+    },
+    {
+      "heading": "Find events",
+      "text": "Select Discover from the top navigation bar on the main page of the Hub. Select the Events tab. You can browse upcoming events, search for events using the search bar, or use the filters on the left to find your desired events. To view an event's time, location, host, and other detailed information, select the event name. Select the Description tab on the pop-up card to view the event description. Select 'View Event' to go to the event page. Select 'Add to Calendar', and you will be directed to your Outlook calendar. Add the event to your calendar manually.",
+      "steps": [
+        "Select Discover from the top navigation bar on the main page of the Hub.",
+        "Select the Events tab.",
+        "Browse upcoming events or search for events."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Student Hub",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018537"
+    },
+    {
+      "text": "Engage",
+      "url": "https://neu.campuslabs.com/engage/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Administrative and Business",
+    "Student Information Systems",
+    "Student Hub"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access the Student Hub?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Student Hub",
+      "url": null
+    },
+    {
+      "title": "How do I customize my applications on the Student/Employee Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I view and resolve holds and blocks on Student Hub?",
+      "url": null
+    },
+    {
+      "title": "How do I update my personal email address and cell phone number in the Student Hub?",
+      "url": null
+    }
+  ]
+}

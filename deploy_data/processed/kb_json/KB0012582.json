@@ -1,0 +1,65 @@
+{
+  "article_id": "KB0012582",
+  "title": "How do I update my MATLAB license?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012582",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012582",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012582",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "2026-03-08",
+  "plain_text": "MATLAB is a high-level language and interactive environment that lets you focus on your coursework and applications, rather than on programming details. It enables you to solve many numerical problems in a fraction of the time it takes to write a program in a lower-level language such as Java, C, C++, or Fortran. You can also use MATLAB to analyze and visualize data using automation capabilities, thereby avoiding manual repetition. Note: If you need to access the MATLAB software, refer to How do I access MATLAB? for instructions. Update a MATLAB license If your Northeastern MATLAB license has expired and is renewed, you must update your license file to continue using MATLAB. 1. Open MATLAB (If the license has expired, the activation client will launch and you can skip the next step). 2. License MATLAB. For Windows: Navigate to Help Menu > Select the down arrow button > Select 'Licensing'. For Linux and Mac: Select 'Resources' > Help Menu > Select the down arrow button > Select 'Licensing'. 3. Select 'Activate Software'. 4. Choose 'Activate using the internet'. 5. Once reactivated, you must restart MATLAB before the new license file is recognized.",
+  "body_html": "<article><p><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018654\">MATLAB</a> is a high-level language and interactive environment that lets you focus on your coursework and applications, rather than on programming details. It enables you to solve many numerical problems in a fraction of the time it takes to write a program in a lower-level language such as Java, C, C++, or Fortran. You can also use MATLAB to analyze and visualize data using automation capabilities, thereby avoiding manual repetition. Note: If you need to access the MATLAB software, refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014060\">How do I access MATLAB?</a> for instructions.</p><h2>Update a MATLAB license</h2><p>If your Northeastern MATLAB license has expired and is renewed, you must update your license file to continue using MATLAB.</p><ul><li>Open MATLAB (If the license has expired, the activation client will launch and you can skip the next step).</li><li>License MATLAB.<ul><li>For Windows: Navigate to Help Menu > Select the down arrow button > Select 'Licensing'.</li><li>For Linux and Mac: Select 'Resources' > Help Menu > Select the down arrow button > Select 'Licensing'.</li></ul></li><li>Select 'Activate Software'.</li><li>Choose 'Activate using the internet'.</li><li>Once reactivated, you must restart MATLAB before the new license file is recognized.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "MATLAB is a high-level language and interactive environment that lets you focus on your coursework and applications, rather than on programming details. It enables you to solve many numerical problems in a fraction of the time it takes to write a program in a lower-level language such as Java, C, C++, or Fortran. You can also use MATLAB to analyze and visualize data using automation capabilities, thereby avoiding manual repetition. Note: If you need to access the MATLAB software, refer to How do I access MATLAB? for instructions. | Update a MATLAB license: If your Northeastern MATLAB license has expired and is renewed, you must update your license file to continue using MATLAB. 1. Open MATLAB (If the license has expired, the activation client will launch and you can skip the next step). 2. License MATLAB. For Windows: Navigate to Help Menu > Select the down arrow button > Select 'Licensing'. For Linux and Mac: Select 'Resources' > Help Menu > Select the down arrow button > Select 'Licensing'. 3. Select 'Activate Software'. 4. Choose 'Activate using the internet'. 5. Once reactivated, you must restart MATLAB before the new license file is recognized.",
+      "steps": [
+        "Open MATLAB (If the license has expired, the activation client will launch and you can skip the next step).",
+        "License MATLAB. For Windows: Navigate to Help Menu > Select the down arrow button > Select 'Licensing'. For Linux and Mac: Select 'Resources' > Help Menu > Select the down arrow button > Select 'Licensing'.",
+        "Select 'Activate Software'.",
+        "Choose 'Activate using the internet'.",
+        "Once reactivated, you must restart MATLAB before the new license file is recognized."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "MATLAB",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018654"
+    },
+    {
+      "text": "How do I access MATLAB?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014060"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing",
+    "Software and Application Distribution",
+    "Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

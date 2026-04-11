@@ -1,0 +1,57 @@
+{
+  "article_id": "KB0014602",
+  "title": "How do I send an announcement to students through Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014602",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014602",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014602",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2 months ago",
+  "plain_text": "As an instructor in a course, you can send an announcement to the entire course or specific sections using the Announcements tool in Canvas. Note: Notifications will not be sent retroactively for announcements created before publishing your course or before the course start date. You may consider using the 'Available from' option and set it to publish on a future date. To communicate with students before a course is published, review the article How do I use Qwickly Course Tools to email students before publishing my Canvas course? for more information. Create announcements Select 'Announcements' from the Course Navigation menu. Select '+ Announcement'. Type the subject and body of your announcement. Select the options in the Rich Content Editor to add images, files, and integrated tools. Select the audience for the announcement using the dropdown under 'Post to'. You can choose to post to all sections or select specific sections if you have several sections cross-listed into the same course. Optionally, select 'Attach' to attach a file to the announcement. Announcements in Canvas allow students to comment on your announcement by default. If you would like to disable this feature, uncheck 'Allow users to comment'. Choose when to post the announcement: Select 'Publish' to post your announcement immediately. Select a date and time to schedule your announcement. Then, select 'Publish'. Announcements are sent immediately to students via email unless they have changed their notification settings. Students will also be notified by the notification badge on the course card on Canvas.",
+  "body_html": "<article id=\"364\">As an instructor in a course, you can send an announcement to the entire course or specific sections using the Announcements tool in <a href=\"#\">Canvas</a>. Note: Notifications will not be sent retroactively for announcements created before publishing your course or before the course start date. You may consider using the 'Available from' option and set it to publish on a future date. To communicate with students before a course is published, review the article <a href=\"#\">How do I use Qwickly Course Tools to email students before publishing my Canvas course?</a> for more information. <hr> <h2>Create announcements</h2> <ul><li>Select 'Announcements' from the Course Navigation menu.</li> <li>Select '+ Announcement'.</li> <li>Type the subject and body of your announcement.</li> <li>Select the options in the Rich Content Editor to add images, files, and integrated tools.</li> <li>Select the audience for the announcement using the dropdown under 'Post to'. <ul><li>You can choose to post to all sections or select specific sections if you have several sections cross-listed into the same course.</li> <li>Optionally, select 'Attach' to attach a file to the announcement.</li></ul></li> <li>Announcements in Canvas allow students to comment on your announcement by default. If you would like to disable this feature, uncheck 'Allow users to comment'.</li> <li>Choose when to post the announcement: <ul><li>Select 'Publish' to post your announcement immediately.</li> <li>Select a date and time to schedule your announcement. Then, select 'Publish'.</li></ul></li> <li>Announcements are sent immediately to students via email unless they have changed their notification settings. Students will also be notified by the notification badge on the course card on Canvas.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "As an instructor in a course, you can send an announcement to the entire course or specific sections using the Announcements tool in Canvas. Note: Notifications will not be sent retroactively for announcements created before publishing your course or before the course start date. You may consider using the 'Available from' option and set it to publish on a future date. To communicate with students before a course is published, review the article How do I use Qwickly Course Tools to email students before publishing my Canvas course? for more information.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create announcements",
+      "text": "Select 'Announcements' from the Course Navigation menu. Select '+ Announcement'. Type the subject and body of your announcement. Select the options in the Rich Content Editor to add images, files, and integrated tools. Select the audience for the announcement using the dropdown under 'Post to'. You can choose to post to all sections or select specific sections if you have several sections cross-listed into the same course. Optionally, select 'Attach' to attach a file to the announcement. Announcements in Canvas allow students to comment on your announcement by default. If you would like to disable this feature, uncheck 'Allow users to comment'. Choose when to post the announcement: Select 'Publish' to post your announcement immediately. Select a date and time to schedule your announcement. Then, select 'Publish'. Announcements are sent immediately to students via email unless they have changed their notification settings. Students will also be notified by the notification badge on the course card on Canvas.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "How do I use Qwickly Course Tools to email students before publishing my Canvas course?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018461"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Course Communication"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Qwickly Course Tools to email students before publishing my Canvas course?",
+      "url": null
+    },
+    {
+      "title": "How do I send messages to students on Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I send messages through the Canvas mobile app?",
+      "url": null
+    }
+  ]
+}

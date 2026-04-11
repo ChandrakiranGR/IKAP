@@ -1,0 +1,53 @@
+{
+  "article_id": "KB000022341",
+  "title": "How do I enable an external tool in a Canvas assignment?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022341",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022341",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022341",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "Creating assignments in Canvas allows instructors to customize how students submit their work. By using external tools, you can enhance the assignment experience, providing additional resources and functionality that align with your course objectives. Configure external tool submissions 1. Navigate to the course where you will create the assignment. 2. Select Assignments from the course navigation menu. 3. Select the '+ Assignment' button to create a new assignment. 4. Enter the assignment information, including the 'Assignment Name', 'Assignment Instructions', Points, 'Assignment Group', and how you wish to display the grade. 5. Select 'External Tool' from the drop-down menu for 'Submission Type'. Note: If you use a rubric with an external tool, select 'No Submission' as the 'Assignment Type', save the assignment, and add your rubric. Then, edit the assignment 'Submission Type' to 'External Tool' and follow the steps below. 6. Use the Find feature to select your 'External Tool'. Note: You may want to select the checkbox to 'Load This Tool In A New Tab' for many external tool options. 7. Choose the name of the external tool you are configuring for the assignment, then choose Select. 8. Fill out the 'Number of Attempts' and due date information. 9. When you have completed these details, select Save.",
+  "body_html": "<article id=\"364\">Creating assignments in <a id=\"366\">Canvas</a> allows instructors to customize how students submit their work. By using external tools, you can enhance the assignment experience, providing additional resources and functionality that align with your course objectives.<hr id=\"370\"><h2 id=\"371\">Configure external tool submissions</h2><ul><li>Navigate to the course where you will create the assignment.</li><li>Select Assignments from the course navigation menu.</li><li>Select the '+ Assignment' button to create a new assignment.</li><li>Enter the assignment information, including the 'Assignment Name', 'Assignment Instructions', Points, 'Assignment Group', and how you wish to display the grade.</li><li>Select 'External Tool' from the drop-down menu for 'Submission Type'. Note: If you use a rubric with an external tool, select 'No Submission' as the 'Assignment Type', save the assignment, and add your rubric. Then, edit the assignment 'Submission Type' to 'External Tool' and follow the steps below.</li><li>Use the Find feature to select your 'External Tool'. Note: You may want to select the checkbox to 'Load This Tool In A New Tab' for many external tool options.</li><li>Choose the name of the external tool you are configuring for the assignment, then choose Select.</li><li>Fill out the 'Number of Attempts' and due date information.</li><li>When you have completed these details, select Save.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Configure external tool submissions",
+      "text": "Creating assignments in Canvas allows instructors to customize how students submit their work. By using external tools, you can enhance the assignment experience, providing additional resources and functionality that align with your course objectives.; Step 1: Navigate to the course where you will create the assignment.; Step 2: Select Assignments from the course navigation menu.; Step 3: Select the '+ Assignment' button to create a new assignment.; Step 4: Enter the assignment information, including the 'Assignment Name', 'Assignment Instructions', Points, 'Assignment Group', and how you wish to display the grade.; Step 5: Select 'External Tool' from the drop-down menu for 'Submission Type'. Note: If you use a rubric with an external tool, select 'No Submission' as the 'Assignment Type', save the assignment, and add your rubric. Then, edit the assignment 'Submission Type' to 'External Tool' and follow the steps below.; Step 6: Use the Find feature to select your 'External Tool'. Note: You may want to select the checkbox to 'Load This Tool In A New Tab' for many external tool options.; Step 7: Choose the name of the external tool you are configuring for the assignment, then choose Select.; Step 8: Fill out the 'Number of Attempts' and due date information.; Step 9: When you have completed these details, select Save.; Link: Canvas (https://canvas.northeastern.edu/)",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "canvas.northeastern.edu",
+      "url": "https://canvas.northeastern.edu/"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "What are the different course types in Canvas?",
+      "url": null
+    }
+  ]
+}

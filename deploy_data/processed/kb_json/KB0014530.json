@@ -1,0 +1,73 @@
+{
+  "article_id": "KB0014530",
+  "title": "How do I give students more time on a Canvas quiz?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014530",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014530",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014530",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3mo ago",
+  "plain_text": "In your Canvas course, instructors may need to set a time limit for completing an assessment, such as a test or quiz. However, allowing a single student more time than their classmates to complete the assessment may be appropriate. Considerations for using the Moderated Quiz feature: A quiz must be published before you can moderate it. If you would like to manage the quiz moderation options before allowing students to access it, set the quiz 'Available from' date to a future date and publish it. Your students will not receive a notification for an unavailable quiz. Once you've made timing moderations, you can unpublish the quiz to save your moderations. You can continue to edit the quiz before publishing it for your students to access. Quiz availability dates still apply when moderating a quiz. If the 'Until' date passes when students are taking the quiz with extended time, the quiz auto-submits even if the student's time extension has not expired. The maximum time you can extend a current attempt is 1,440 minutes (24 hours). Award extra time: In Course Navigation, select 'Quizzes'. Select the name of the quiz. Select 'Moderate this Quiz'. Note: You must publish the quiz before you see this option. You can unpublish immediately after, as long as there aren't any students who have started the quiz. To moderate a quiz for one student, locate the student's name and select the pencil icon. You can also filter student names in your course using the 'Search People' field. If you want to select multiple students, tick the check box next to each of their names. If you want to select all students, tick the top checkbox. Select the 'Change Extensions for [#] Selected Students' button. Type the number of extra minutes in the 'Extra time on every attempt' field. Extra time can only be added in full-minute increments. If you add time for multiple students, the student extension box will apply the extra time for all selected students. If the student hasn't taken the quiz, the extra time will be added to the student's initial attempt and additional attempts. Learn more about managing extra attempts. Note: Quiz availability dates still apply when moderating a quiz. If the 'Until' date passes when students are taking the quiz with extended time, the quiz auto-submits even if the student's time extension has not expired. If you need to ensure that students with accommodations have adequate time, you can grant them different availability dates/times that would allow for this accommodation. Vary extra time for students/groups: If you need to provide extra time for a student to take an exam, you will need to set up the assignment for the individual student or group of students to ensure that they have the necessary time to complete the exam. If you have already created the quiz, select the quiz title and then select 'Edit'. Scroll to the 'Assign' section and select the '+ Add' button to change the assignment section for a specific student(s). Enter the name(s) of the student(s) who need additional time, and make sure to change the 'Available from' and 'Until' date (if used) to allow for accommodations. You can have the same due date or different due dates as needed. If you need to have additional accommodations, you can select the '+ Add' button again. You will see that once you add accommodation, the first option will change from 'Everyone' to 'Everyone Else'. Once you have entered all the accommodations, select 'Save'. The student(s) with the accommodation will see the assignment with the due date, 'Available from', and 'Until' the time that you set it up, while all other students will see the assignment displayed with the original settings. Note: You do not have to publish the quiz first to set up the differentiated assignment times, like you have to do to use the moderated quizzes feature.",
+  "body_html": "<article>In your <a href=\"#\">Canvas</a> course... [HTML content truncated for brevity]</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "In your Canvas course, instructors may need to set a time limit for completing an assessment, such as a test or quiz. However, allowing a single student more time than their classmates to complete the assessment may be appropriate. Considerations for using the Moderated Quiz feature: A quiz must be published before you can moderate it. Quiz availability dates still apply when moderating a quiz. The maximum time you can extend a current attempt is 1,440 minutes (24 hours).",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Award extra time",
+      "text": "In Course Navigation, select 'Quizzes'. Select the name of the quiz. Select 'Moderate this Quiz'. To moderate a quiz for one student, locate the student's name and select the pencil icon. Type the number of extra minutes in the 'Extra time on every attempt' field.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Vary extra time for students/groups",
+      "text": "If you need to provide extra time for a student to take an exam, you will need to set up the assignment for the individual student or group of students to ensure that they have the necessary time to complete the exam. Select 'Edit' on the quiz. Scroll to 'Assign' and select '+ Add'. Enter student names and change availability dates.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "Course Navigation",
+      "url": "https://northeastern.instructure.com/"
+    },
+    {
+      "text": "managing extra attempts",
+      "url": "https://community.canvaslms.com/docs/DOC-13076-415250753"
+    },
+    {
+      "text": "different availability",
+      "url": "https://community.canvaslms.com/docs/DOC-9973-4152101242"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create and grade a quiz in Canvas?",
+      "url": null
+    }
+  ]
+}

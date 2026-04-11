@@ -1,0 +1,53 @@
+{
+  "article_id": "KB000018051",
+  "title": "How do students access the Turnitin Similarity Report panel in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018051",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018051",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018051",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2026-03-18",
+  "plain_text": "Turnitin compares papers against an ever-expanding database of internet pages, archived pages that may no longer be available, subscription repositories of periodicals, journals, publications, and previously submitted papers. The similarity score within a Similarity Report represents the percentage of your writing that is similar to something found on the internet. It is not an assessment of whether the paper includes plagiarized material. Student access for Turnitin Similarity Report in Canvas 1. Log in to Canvas and select the desired course. 2. Select the Grades link from the course menu. 3. Locate the Turnitin assignment from the Grades list. 4. Select the Turnitin warning icon to open the 'Similarity Report.' 5. The 'Similarity Report' will open in a separate tab in your browser. Note: The first time that you access Turnitin, you will be prompted to agree to Turnitin's Terms and Conditions and give a brief tour of the Similarity Report tool. 6. Once the 'Similarity Report' opens, you can view 'All Sources' by selecting the Similarity tools icon to display the menu. 7. To view similar source content, select the linked source title. This will reveal a similar source's text as an in-text annotation for review and comparison. 8. To configure the settings, select the 'Filters and Settings' icon. In this area, you can exclude quotes, Bibliographies, and more. After you configure the settings, select 'Apply Changes'. Note: As a student, any exclusions you make to your Similarity Report will not be reflected in your official similarity score. Student changes are only temporary. If you believe your instructor should make exclusions to officially adjust your score, please contact them.",
+  "body_html": "<article><a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172\">Turnitin</a> compares papers against an ever-expanding database of internet pages, archived pages that may no longer be available, subscription repositories of periodicals, journals, publications, and previously submitted papers. The similarity score within a Similarity Report represents the percentage of your writing that is similar to something found on the internet. It is not an assessment of whether the paper includes plagiarized material. <hr> <h2>Student access for Turnitin Similarity Report in Canvas</h2> <ul> <li>Log in to Canvas and select the desired course.</li> <li>Select the Grades link from the course menu.</li> <li>Locate the Turnitin assignment from the Grades list.</li> <li>Select the Turnitin warning icon to open the 'Similarity Report.' <button>Canvas Student Grades Page with Turnitin Similarity report flag highlighted.</button></li> <li>The 'Similarity Report' will open in a separate tab in your browser. <button>Screenshot of TurnItIn's Similarity Report tab</button> Note: The first time that you access Turnitin, you will be prompted to agree to Turnitin's Terms and Conditions and give a brief tour of the Similarity Report tool.</li> <li>Once the 'Similarity Report' opens, you can view 'All Sources' by selecting the Similarity tools icon to display the menu. <button>Select the similarity tool icon</button></li> <li>To view similar source content, select the linked source title. This will reveal a similar source's text as an in-text annotation for review and comparison. <button>Linked source title</button></li> <li>To configure the settings, select the 'Filters and Settings' icon. In this area, you can exclude quotes, Bibliographies, and more. After you configure the settings, select 'Apply Changes'. Note: As a student, any exclusions you make to your Similarity Report will not be reflected in your official similarity score. Student changes are only temporary. If you believe your instructor should make exclusions to officially adjust your score, please contact them. <button>Filter settings</button></li> </ul> <a href=\"https://service.northeastern.edu/tech#Back%20to%20top\">Back to top</a></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Turnitin compares papers against an ever-expanding database of internet pages, archived pages that may no longer be available, subscription repositories of periodicals, journals, publications, and previously submitted papers. The similarity score within a Similarity Report represents the percentage of your writing that is similar to something found on the internet. It is not an assessment of whether the paper includes plagiarized material.; Student access for Turnitin Similarity Report in Canvas: Log in to Canvas and select the desired course. Select the Grades link from the course menu. Locate the Turnitin assignment from the Grades list. Select the Turnitin warning icon to open the 'Similarity Report.' The 'Similarity Report' will open in a separate tab in your browser. Note: The first time that you access Turnitin, you will be prompted to agree to Turnitin's Terms and Conditions and give a brief tour of the Similarity Report tool. Once the 'Similarity Report' opens, you can view 'All Sources' by selecting the Similarity tools icon to display the menu. To view similar source content, select the linked source title. This will reveal a similar source's text as an in-text annotation for review and comparison. To configure the settings, select the 'Filters and Settings' icon. In this area, you can exclude quotes, Bibliographies, and more. After you configure the settings, select 'Apply Changes'. Note: As a student, any exclusions you make to your Similarity Report will not be reflected in your official similarity score.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Turnitin",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Turnitin"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I view my group as a student in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I create a discussion in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Digital flexibility",
+      "url": null
+    },
+    {
+      "title": "What is Adobe Express?",
+      "url": null
+    },
+    {
+      "title": "What video tools are available for teaching and learning?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "article_id": "KB000018204",
+  "title": "How do I get access to Ansys?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018204",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018204",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018204",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "Ansys Mechanical finite element analysis software is used to simulate computer models of structures, electronics, or machine components for analyzing the strength, toughness, elasticity, temperature distribution, electromagnetism, fluid flow, and other attributes. Ansys is available for free to students. Download Ansys: Visit the the vendor's website. Select 'FREE DOWNLOAD NOW' under one of the following: Ansys Student, Ansys LS-DYNA Student, Ansys Discovery Student, Ansys SCADE Student. Select DOWNLOAD. Note: System requirements and installation instructions are available on the download page.",
+  "body_html": "<article id=\"364\">Ansys Mechanical finite element analysis software is used to simulate computer models of structures, electronics, or machine components for analyzing the strength, toughness, elasticity, temperature distribution, electromagnetism, fluid flow, and other attributes. Ansys is available for free to students.<hr id=\"366\"><h2 id=\"367\">Download Ansys</h2><ul><li>Visit the the <a id=\"374\">vendor's website.</a></li><li>Select 'FREE DOWNLOAD NOW' under one of the following:<ul><li>Ansys Student.</li><li>Ansys LS-DYNA Student.</li><li>Ansys Discovery Student.</li><li>Ansys SCADE Student.</li></ul></li><li>Select DOWNLOAD.</li></ul>Note: System requirements and installation instructions are available on the download page.</article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Ansys Mechanical finite element analysis software is used to simulate computer models of structures, electronics, or machine components for analyzing the strength, toughness, elasticity, temperature distribution, electromagnetism, fluid flow, and other attributes. Ansys is available for free to students.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Download Ansys",
+      "text": "Note: System requirements and installation instructions are available on the download page.",
+      "steps": [
+        "Visit the the vendor's website.",
+        "Select 'FREE DOWNLOAD NOW' under one of the following: Ansys Student, Ansys LS-DYNA Student, Ansys Discovery Student, Ansys SCADE Student.",
+        "Select DOWNLOAD."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "vendor's website",
+      "url": "https://www.ansys.com/academic/students"
+    }
+  ],
+  "categories": [
+    "College of Engineering",
+    "Software"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I download SOLIDWORKS as a COE student?",
+      "url": null
+    },
+    {
+      "title": "How do I access Abaqus?",
+      "url": null
+    },
+    {
+      "title": "FAQ: SOLIDWORKS installation",
+      "url": null
+    },
+    {
+      "title": "What Linux software is available on College of Engineering (COE) systems?",
+      "url": null
+    }
+  ]
+}

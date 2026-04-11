@@ -1,0 +1,67 @@
+{
+  "article_id": "KB0013940",
+  "title": "How do I connect to NUwave-guest with a conference code?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013940",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013940",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013940",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "about a month ago",
+  "plain_text": "NUwave-guest, the open-access (unsecured) wireless network, is available in administrative and academic buildings, as well as libraries. It is not available in the residence halls and is intended for those visiting Northeastern University to have limited internet access to most browser-based applications, email, and their own VPN. To access NUwave-guest, you will need to register through a guest wireless portal page. Note: If you are an instructor or staff member, or a student with a Northeastern username and password, you must use NUwave, the secure wireless network. Connect to NUwave-guest 1. Connect to NUwave-guest from your device's Wi-Fi options, and you will be presented with a login page. 2. Select the 'Click here' link next to 'One Day Conference Login'. 3. You will be presented with the 'Conference Login' page. 4. Select the name of your conference from the drop-down menu, and enter the access code provided by the conference staff. 5. Check the box for 'I have read and accepted Northeastern's Appropriate Use Policy', and select 'Log In'. 6. You are now connected to NUwave-guest.",
+  "body_html": "<div><p>NUwave-guest, the open-access (unsecured) wireless network, is available in administrative and academic buildings, as well as libraries. It is not available in the residence halls and is intended for those visiting Northeastern University to have limited internet access to most browser-based applications, email, and their own VPN. To access NUwave-guest, you will need to register through a guest wireless portal page. Note: If you are an instructor or staff member, or a student with a Northeastern username and password, you must use <a href=\"#\">NUwave</a>, the secure wireless network.</p><h2>Connect to NUwave-guest</h2><ol><li>Connect to NUwave-guest from your device's Wi-Fi options, and you will be presented with a login page.</li><li>Select the 'Click here' link next to 'One Day Conference Login'.</li><li>You will be presented with the 'Conference Login' page.</li><li>Select the name of your conference from the drop-down menu, and enter the access code provided by the conference staff.</li><li>Check the box for 'I have read and accepted Northeastern's Appropriate Use Policy', and select 'Log In'.</li><li>You are now connected to NUwave-guest.</li></ol></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NUwave-guest, the open-access (unsecured) wireless network, is available in administrative and academic buildings, as well as libraries. It is not available in the residence halls and is intended for those visiting Northeastern University to have limited internet access to most browser-based applications, email, and their own VPN. To access NUwave-guest, you will need to register through a guest wireless portal page. Note: If you are an instructor or staff member, or a student with a Northeastern username and password, you must use NUwave, the secure wireless network.",
+      "steps": [],
+      "links": [
+        {
+          "text": "NUwave",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+        }
+      ]
+    },
+    {
+      "heading": "Connect to NUwave-guest",
+      "text": "",
+      "steps": [
+        "Connect to NUwave-guest from your device's Wi-Fi options, and you will be presented with a login page.",
+        "Select the 'Click here' link next to 'One Day Conference Login'.",
+        "You will be presented with the 'Conference Login' page.",
+        "Select the name of your conference from the drop-down menu, and enter the access code provided by the conference staff.",
+        "Check the box for 'I have read and accepted Northeastern's Appropriate Use Policy', and select 'Log In'.",
+        "You are now connected to NUwave-guest."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "NUwave",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks - Guest"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I register for individual NUwave-guest access?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012760"
+    },
+    {
+      "title": "FAQ: NUwave-guest access",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013939"
+    },
+    {
+      "title": "How do I connect to NUwave-guest with a username and password?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013941"
+    },
+    {
+      "title": "How do I provide Wi-Fi to conference and event guests?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018442"
+    }
+  ]
+}

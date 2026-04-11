@@ -1,0 +1,77 @@
+{
+  "article_id": "KB000018079",
+  "title": "What is the NURes-device wireless network?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "12d ago",
+  "plain_text": "NURes-device is Northeastern's wireless network for gaming consoles, streaming devices, and smart speakers in residence halls that can't connect to NUwave. Devices such as Google Home or Roku do not support 802.1x authentication, which is required for NUwave. Read the article What devices are compatible with the Northeastern networks? for a complete list of supported devices. Limitations - For security reasons, some network restrictions are in place that may impact gaming. - Devices cannot communicate with each other on this network, but can directly communicate with the internet. - Devices can only be registered for a year before needing to be registered again. Access NURes-device - Registration is done via self-service. Read the article How do I register a device on NURes-device? for instructions. Support - If you have trouble registering your device or need basic support, contact the IT Service Desk. See How do I report a technology problem to the IT Service Desk? for the various contact methods.",
+  "body_html": "<div><p>NURes-device is Northeastern's wireless network for gaming consoles, streaming devices, and smart speakers in residence halls that can't connect to NUwave. Devices such as Google Home or Roku do not support 802.1x authentication, which is required for NUwave. Read the article <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014017\">What devices are compatible with the Northeastern networks?</a> for a complete list of supported devices.</p><h2>Limitations</h2><ul><li>For security reasons, some network restrictions are in place that may impact gaming.</li><li>Devices cannot communicate with each other on this network, but can directly communicate with the internet.</li><li>Devices can only be registered for a year before needing to be registered again.</li></ul><h2>Access NURes-device</h2><ul><li>Registration is done via self-service. Read the article <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126\">How do I register a device on NURes-device?</a> for instructions.</li></ul><h2>Support</h2><ul><li>If you have trouble registering your device or need basic support, contact the IT Service Desk. See <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012658\">How do I report a technology problem to the IT Service Desk?</a> for the various contact methods.</li></ul></div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NURes-device is Northeastern's wireless network for gaming consoles, streaming devices, and smart speakers in residence halls that can't connect to NUwave. Devices such as Google Home or Roku do not support 802.1x authentication, which is required for NUwave. Read the article for a complete list of supported devices.",
+      "steps": [],
+      "links": [
+        {
+          "text": "What devices are compatible with the Northeastern networks?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014017"
+        }
+      ]
+    },
+    {
+      "heading": "Limitations",
+      "text": "",
+      "steps": [
+        "For security reasons, some network restrictions are in place that may impact gaming.",
+        "Devices cannot communicate with each other on this network, but can directly communicate with the internet.",
+        "Devices can only be registered for a year before needing to be registered again."
+      ],
+      "links": []
+    },
+    {
+      "heading": "Access NURes-device",
+      "text": "Registration is done via self-service. Read the article for instructions.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I register a device on NURes-device?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+        }
+      ]
+    },
+    {
+      "heading": "Support",
+      "text": "If you have trouble registering your device or need basic support, contact the IT Service Desk. See for the various contact methods.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I report a technology problem to the IT Service Desk?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012658"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "What devices are compatible with the Northeastern networks?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014017"
+    },
+    {
+      "text": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "text": "How do I report a technology problem to the IT Service Desk?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012658"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": []
+}

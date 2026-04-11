@@ -1,0 +1,87 @@
+{
+  "article_id": "KB0015181",
+  "title": "How do I teach a virtual lesson if I lose access to Canvas, Microsoft Teams, or Zoom?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015181",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015181",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015181",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "8d ago",
+  "plain_text": "If you are unable to access Canvas, Microsoft Teams, or Zoom, there are steps you can take to stay connected to your students. It's recommended that you note the following information at the beginning of the semester in the event you have to access it quickly: The URL or Meeting ID for your course's Teams or Zoom meeting. The URL of your course's Canvas site. A copy of the course roster with student email addresses. Refer to How do I retrieve a summary class list with email addresses in Banner? for more information. If you are unable to access Canvas, you will be able to access Teams or Zoom to host your virtual lesson because you can launch and host a Teams or Zoom meeting directly from the app or your browser. Note: You must be the host of the Zoom meeting to find this information directly from Zoom. If your TA or Faculty Assistant set up the Zoom meeting for you, you must ask them to take these steps. Launch a Teams meeting outside of Canvas: Open the Teams application. Go to your calendar on the left side of the app. Find the meeting on your calendar. Select the meeting and select Join. Launch a Zoom meeting outside of Canvas: Go to to northeastern.zoom.us and select 'SIGN IN'. Select Meetings from the left-hand menu. In the 'Upcoming Meetings' tab, locate the course's Zoom meeting and select Start to launch the meeting. Note: It is important to note that students will not be able to find the Zoom URL using the same method. They will be able to access the Zoom meeting information if they have synced their Canvas calendar with their Outlook calendar, but it is recommended that you email your students the Zoom URL in advance of the class session so they can access the meeting. Asynchronous alternatives: If you are unable to connect synchronously with your class, you may be able to connect asynchronously with your students. Use Teams Class to communicate with your students. Refer to How do I make a Microsoft Teams for my class using the Canvas integration? for more details. Use Canvas Discussions. Use Canvas Announcements to keep your students informed of any changes to the course schedule or plan.",
+  "body_html": "<article><div>If you are unable to access Canvas, Microsoft Teams, or Zoom, there are steps you can take to stay connected to your students...<ul><li>The URL or Meeting ID for your course's Teams or Zoom meeting.</li><li>The URL of your course's Canvas site.</li><li>A copy of the course roster with student email addresses. Refer to <a href=\"#\">How do I retrieve a summary class list with email addresses in Banner?</a> for more information.</li></ul>...<h2>Table of Contents</h2><ul><li><a href=\"#\">Launch a Teams meeting outside of Canvas</a></li>...</ul><h2>Launch a Teams meeting outside of Canvas</h2><ul><li>Open the Teams application.</li>...</ul><h2>Launch a Zoom meeting outside of Canvas</h2><ul><li>Go to <a href=\"#\">northeastern.zoom.us</a> and select 'SIGN IN'.</li>...</ul><h2>Asynchronous alternatives</h2><ul><li>Use Teams Class... Refer to <a href=\"#\">How do I make a Microsoft Teams for my class using the Canvas integration?</a></li><li>Use <a href=\"#\">Canvas Discussions</a></li><li>Use <a href=\"#\">Canvas Announcements</a></li></ul></div></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "If you are unable to access Canvas, Microsoft Teams, or Zoom...",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Launch a Teams meeting outside of Canvas",
+      "text": "Steps to open Teams application and join meeting",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Launch a Zoom meeting outside of Canvas",
+      "text": "Steps to sign in to northeastern.zoom.us and start meeting",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Asynchronous alternatives",
+      "text": "Use Teams Class, Canvas Discussions, and Canvas Announcements.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015192"
+    },
+    {
+      "text": "northeastern.zoom.us",
+      "url": "https://northeastern.zoom.us/"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018790"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-discussion-as-an-instructor/ta-p/1029"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-announcement-in-a-course/ta-p/1194"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Differentiation Tags in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I organize Canvas content using Northeastern's Standard Template?",
+      "url": null
+    },
+    {
+      "title": "How do I access and share my NU digital badge?",
+      "url": null
+    },
+    {
+      "title": "How do I add or remove courses on my Canvas dashboard?",
+      "url": null
+    },
+    {
+      "title": "How do I begin using Canvas as a student?",
+      "url": null
+    }
+  ]
+}

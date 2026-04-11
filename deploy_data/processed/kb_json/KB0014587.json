@@ -1,0 +1,105 @@
+{
+  "article_id": "KB0014587",
+  "title": "How do I create and grade a quiz in Canvas?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014587",
+  "doc_type": "kb_article",
+  "source_system": "Northeastern Tech Service Portal",
+  "source_export": "canvas_kb.json",
+  "updated_at": "14d ago",
+  "plain_text": "You can create quizzes in Canvas for students to complete online. As with other items and activities in Canvas, adding quizzes to a weekly or topic-based module is recommended to help students understand the flow of the course. Table of contents Create a quiz Add questions to a quiz Manage quiz settings Add a quiz to a module Manually grade a quiz Create a quiz Select 'Quizzes' from the course navigation menu. Select the '+ Quiz' button. Enter the quiz name. Add questions to a quiz The steps below demonstrate how to add multiple-choice questions to a quiz. To add different question types, check out the following articles: Fill-in-the-blank, True/False, Essay (long answer), and Multiple answers. Select the 'Questions' tab. Select '+ New Question' to add a question to your quiz. Select the question type. Type the question into the text box. Use the Rich Content Editor to add files, bullets, tables, etc. Type answer choices into the 'Possible Answer' fields. Select the green 'Correct Answer' arrow next to the correct answer. Select 'Update Question' to save the question. Repeat the steps until all questions have been added to the quiz and select 'Save'. Manage quiz settings Select 'Edit'. Scroll to the 'Options' section. The default setting allows students to see their quiz responses and which questions were answered incorrectly. Uncheck the box for this setting if you do not want students to see their responses. Select 'Manage Due Dates and Assign To' for due dates. If you would like to prevent students from accessing a quiz before or after a specific date, update the 'Available from' and 'Until' fields. Select 'Save'. Publish your course and any modules or items you would like students to have access to. Refer to How do I publish courses and modules in Canvas? for more information on how to publish a course or module in Canvas. Add a quiz to a module Select the + to add an item to your empty module. Select 'Quiz' as the item type. Select the quiz you want to add. Select 'Add Item'. The quiz will be added to the module. Manually grade a quiz All question types except file upload and essay questions will be graded automatically, so the grades will appear in the Gradebook. File uploads and essay questions will need to be manually graded. Before you grade a quiz, consider whether you want your grades for quizzes and assignments to post automatically or whether you will manually post them after you have graded all assignments. By default, Canvas posts all grades immediately after you update individual submission grades. If you would like to change this, please review the article How do I temporarily hide grades from students while I am grading? for more information. Open a quiz and select 'SpeedGrader'. Review the questions. The SpeedGrader will display: A list of questions that require you to manually review and grade. Questions that have been automatically graded based on the settings you have configured. Manually update the following elements: Score, Additional Comments, Assignment Comments. Once you have finalized the quiz score and comments, select 'Submit' to save the information in the Gradebook. Select the right arrow to grade the next quiz. Navigate to the 'Grades' page to view all grades and adjust if necessary.",
+  "body_html": "<div id=\"364\">You can create quizzes in Canvas for students to complete online... [HTML content continues]</div>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "You can create quizzes in Canvas for students to complete online. As with other items and activities in Canvas, adding quizzes to a weekly or topic-based module is recommended to help students understand the flow of the course.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Create a quiz",
+      "text": "Select 'Quizzes' from the course navigation menu. Select the '+ Quiz' button. Enter the quiz name.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add questions to a quiz",
+      "text": "The steps below demonstrate how to add multiple-choice questions to a quiz. To add different question types, check out the following articles: Fill-in-the-blank, True/False, Essay (long answer), and Multiple answers. Select the 'Questions' tab. Select '+ New Question' to add a question to your quiz. Select the question type. Type the question into the text box. Use the Rich Content Editor to add files, bullets, tables, etc. Type answer choices into the 'Possible Answer' fields. Select the green 'Correct Answer' arrow next to the correct answer. Select 'Update Question' to save the question. Repeat the steps until all questions have been added to the quiz and select 'Save'.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Manage quiz settings",
+      "text": "Select 'Edit'. Scroll to the 'Options' section. The default setting allows students to see their quiz responses and which questions were answered incorrectly. Uncheck the box for this setting if you do not want students to see their responses. Select 'Manage Due Dates and Assign To' for due dates. If you would like to prevent students from accessing a quiz before or after a specific date, update the 'Available from' and 'Until' fields. Select 'Save'. Publish your course and any modules or items you would like students to have access to. Refer to How do I publish courses and modules in Canvas? for more information on how to publish a course or module in Canvas.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Add a quiz to a module",
+      "text": "Select the + to add an item to your empty module. Select 'Quiz' as the item type. Select the quiz you want to add. Select 'Add Item'. The quiz will be added to the module.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Manually grade a quiz",
+      "text": "All question types except file upload and essay questions will be graded automatically, so the grades will appear in the Gradebook. File uploads and essay questions will need to be manually graded. Before you grade a quiz, consider whether you want your grades for quizzes and assignments to post automatically or whether you will manually post them after you have graded all assignments. By default, Canvas posts all grades immediately after you update individual submission grades. If you would like to change this, please review the article How do I temporarily hide grades from students while I am grading? for more information. Open a quiz and select 'SpeedGrader'. Review the questions. The SpeedGrader will display: A list of questions that require you to manually review and grade. Questions that have been automatically graded based on the settings you have configured. Manually update the following elements: Score, Additional Comments, Assignment Comments. Once you have finalized the quiz score and comments, select 'Submit' to save the information in the Gradebook. Select the right arrow to grade the next quiz. Navigate to the 'Grades' page to view all grades and adjust if necessary.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Canvas",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565"
+    },
+    {
+      "text": "Fill-in-the-blank",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Fill-in-the-Blank-quiz-question/ta-p/889"
+    },
+    {
+      "text": "True/False",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-True-False-quiz-question/ta-p/927"
+    },
+    {
+      "text": ")",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-Essay-quiz-question/ta-p/909"
+    },
+    {
+      "text": "Multiple answers",
+      "url": "https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Multiple-Answers-quiz-question/ta-p/924"
+    },
+    {
+      "text": "How do I publish courses and modules in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    },
+    {
+      "text": "How do I temporarily hide grades from students while I am grading?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014586"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Assessments and Assignments"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I create and grade an assignment in Canvas?",
+      "url": null
+    },
+    {
+      "title": "FAQ: Solutions for students experiencing technical problems during online exams",
+      "url": null
+    },
+    {
+      "title": "How do I give students more time on a Canvas quiz?",
+      "url": null
+    },
+    {
+      "title": "How do I set a quiz time limit and availability window in Canvas?",
+      "url": null
+    }
+  ]
+}

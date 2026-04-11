@@ -1,0 +1,89 @@
+{
+  "article_id": "KB000018773",
+  "title": "How do I create a Turnitin graded assignment that allows multiple submissions?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018773",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018773",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018773",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Turnitin maintains a single copy of a student's assignment submission per assignment. This means that if a Canvas assignment affords multiple submissions, Turnitin will overwrite the prior submission with the student's latest version. Therefore, the Canvas assignment settings configuration must be set appropriately to accommodate use cases such as enabling students to submit both a rough draft and a final version of a paper to Turnitin, using Turnitin on assignments requiring Peer Reviews, and creating a non-graded self-submission assignment for students and/or staff to use as a resource independently. Table of Contents Graded rough and final draft assignments Create a graded rough draft assignment Create a graded final draft assignment Additional resources Help Graded rough and final draft assignments Instructors must create two separate assignments to utilize Turnitin for students' graded rough drafts and graded final submissions. This will ensure that two grade columns are provided for each submission type (rough draft and final) and allow you to establish different settings for how Turnitin is used to support and evaluate student submissions. Create a graded rough draft assignment Select an existing assignment or add a new assignment to your course. Add or edit the assignment title and instructions in the 'Rich Content Editor'. Review and set the following fields below as needed: Points, Assignment Group, Display Grade as. Select 'Online as the Submission Type'. Choose 'File Upload' as the 'Online Entry Option'. Enable the option to 'Restrict Upload File Types' and enter the acceptable file type for the rough draft submission. Supported file types: .doc, .docx, .txt, .rtf, .pdf, .odt, .ppt, .pptx. Set the 'Submission Attempts' setting as desired. Selecting unlimited will allow students to use the provided Turnitin Similarity report to refine and enhance their rough draft submission. Select Turnitin from the drop-down field provided for the 'Plagiarism Review' option. To prevent Turnitin from flagging a final paper submission in another assignment similar to the rough draft submission, set 'Store Submission' to 'Do not store the submitted papers' option. Configure the remaining 'Turnitin Plagiarism Review' settings as needed. Customize the remaining fields: Group Assignment, Peer Reviews, and Assign. Select 'Save and Publish'. Create a graded final draft assignment Follow steps 1 to 8 in the Create a graded rough draft assignment section, then follow the instructions below. Set the 'Store Submission' in the field to the 'Institution Paper Repository' option. Configure the remaining 'Turnitin Plagiarism Review' settings as needed. Customize the remaining fields: Group Assignment, Peer Reviews, and Assign. Select 'Save and Publish'. Additional resources What is Turnitin? How do I access the Turnitin Similarity Report panel in Canvas? How do I allow students or staff to complete a self-check using Turnitin? Help Our license grants us support via email with Turnitin experts. The Canvas Plagiarism Framework and LTI integration are used at Northeastern. Turnitin Support Center. Turnitin's System Requirements. Turnitin's System Status. Note: Safari is not well-supported for student file submissions. For questions about account or access errors, please email athelp@northeastern.edu.",
+  "body_html": "<article><div><a id=\"367\">Turnitin</a> maintains a single copy of a student's assignment submission per assignment... [Content continues with structured lists and headings as described in plain_text]</div></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Turnitin maintains a single copy of a student's assignment submission per assignment. This means that if a Canvas assignment affords multiple submissions, Turnitin will overwrite the prior submission with the student's latest version.; Table of Contents: Graded rough and final draft assignments, Additional resources, Help; Graded rough and final draft assignments: Instructors must create two separate assignments to utilize Turnitin for students' graded rough drafts and graded final submissions.; Create a graded rough draft assignment: Instructions for setting up a rough draft assignment including Plagiarism Review and Store Submission settings.; Create a graded final draft assignment: Instructions for setting up a final draft assignment, specifically using the Institution Paper Repository setting.; Additional resources: Links to What is Turnitin and Canvas integration guides.; Help: Contact information for Turnitin experts and internal support via athelp@northeastern.edu.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Turnitin",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172"
+    },
+    {
+      "text": "Turnitin submission storage options",
+      "url": "https://help.turnitin.com/integrity/instructor/canvas/assignment-setup/submission-storage-options.htm"
+    },
+    {
+      "text": "What is Turnitin?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172"
+    },
+    {
+      "text": "How do I access the Turnitin Similarity Report panel in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018051"
+    },
+    {
+      "text": "How do I allow students or staff to complete a self-check using Turnitin?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018772"
+    },
+    {
+      "text": "support via email",
+      "url": "https://helpcenter.turnitin.com/hc/en-us"
+    },
+    {
+      "text": "Turnitin Support Center.",
+      "url": "https://helpcenter.turnitin.com/hc/en-us"
+    },
+    {
+      "text": "Turnitin's System Requirements.",
+      "url": "https://www.turnitin.com/self-service/system-requirements.html"
+    },
+    {
+      "text": "Turnitin's System Status.",
+      "url": "https://turnitin.statuspage.io/"
+    },
+    {
+      "text": "athelp@northeastern.edu",
+      "url": "mailto:athelp@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Turnitin"
+  ],
+  "related_articles": [
+    {
+      "title": "What is Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I use Turnitin's quick submit as a faculty?",
+      "url": null
+    },
+    {
+      "title": "How do students access the Turnitin Similarity Report panel in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I allow students or staff to complete a self-check using Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I add a Turnitin assignment to my Canvas course?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "article_id": "KB000018970",
+  "title": "What are the best practices for recording videos for teaching?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018970",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018970",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018970",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "2mo ago",
+  "plain_text": "Incorporating video into your online materials can be a very effective teaching tool. Northeastern provides the following video tools integrated with Canvas and available at no cost to faculty, staff, and students: Canvas Studio, Panopto, VoiceThread, Zoom. Refer to What video tools are available for teaching and learning? for more information. Audio: Clear audio is one of the most important pieces of quality videos. It is nearly impossible to fix bad audio in post-production. Instead of using your computer's built-in microphone, use an external microphone or headset with a microphone when possible. Don't place the microphone too close to your mouth. Confirm audio clarity by making a quick test recording. Find a quiet space with minimal background noise. Speak clearly and avoid rushing. Narrated lecture: Chunk videos into smaller topics. Keep videos shorter than six minutes or divide them into chapters or sections. For videos longer than three minutes, consider including opportunities for interactivity, reflection, or knowledge checks. Write a script and practice before recording. Narrations should bring in human components and not sound too scripted. Record a run-through of one presentation and listen to it with headphones. Screen capture: Use the PowerPoint Slide Show view when presenting in PowerPoint. If you use animations, perform a run-through before recording. Close all applications and tabs except the one you are using. Turn off computer notifications. Consider using a browser without bookmarks. Expand the browser for a full view. Zoom in when helpful. Video: Choose a well-lit space. Ensure the speaker's face is visible and well-lit. Choose a background with minimal distractions. Frame the shot. Stage the area. Visual content: Include visuals throughout to engage learners. When narrating, describe visuals. On-screen text should be clearly discernible and large enough to be read.",
+  "body_html": "<article id=\"364\">Incorporating video into your online materials can be a very effective teaching tool. Northeastern provides the following video tools integrated with Canvas and available at no cost to faculty, staff, and students:<ul><li>Canvas Studio</li><li>Panopto</li><li>VoiceThread</li><li>Zoom</li></ul>Refer to <a href=\"#\">What video tools are available for teaching and learning?</a> for more information.<h2>Table of Contents</h2><ul><li>Audio</li><li>Narrated lecture</li><li>Screen capture</li><li>Video</li><li>Visual content</li><li>Resources</li></ul><h2>Audio</h2>Clear audio is one of the most important pieces of quality videos. It is nearly impossible to fix bad audio in post-production.<ul><li>Instead of using your computer's built-in microphone, use an external microphone or headset with a microphone when possible.</li><li>Don't place the microphone too close to your mouth.</li><li>Confirm audio clarity by making a quick test recording.</li><li>Find a quiet space with minimal background noise.</li><li>Speak clearly and avoid rushing.</li></ul><h2>Narrated lecture</h2><ul><li>Chunk videos into smaller topics. Take advantage of Smart Chapters.</li><li>Keep videos shorter than six minutes. Use a Panopto playlist.</li><li>Include opportunities for interactivity (Quizzes).</li><li>Write a script and practice.</li><li>Use a conversational tone.</li><li>Record a run-through.</li></ul><h2>Screen capture</h2><ul><li>Use PowerPoint Slide Show view.</li><li>Perform a run-through of animations.</li><li>Close other applications.</li><li>Turn off notifications.</li><li>When sharing screen: use browser without bookmarks, expand browser, zoom in.</li></ul><h2>Video</h2><ul><li>Choose a well-lit space.</li><li>Ensure face is visible.</li><li>Minimize background distractions.</li><li>Frame the shot.</li><li>Stage the area.</li></ul><h2>Visual content</h2><ul><li>Include visuals throughout.</li><li>Describe visuals while narrating.</li><li>Ensure text is large and discernible.</li></ul><h2>Resources</h2><ul><li>Learn About Recording Best Practices for Panopto</li><li>FAQ: Panopto lecture capture tool</li><li>What is Canvas Studio?</li><li>Putting Your Best Self Forward: 6 Keys for Filming Quality Videos</li></ul></article>",
+  "sections": [
+    {
+      "heading": "What are the best practices for recording videos for teaching?",
+      "text": "Incorporating video into your online materials can be a very effective teaching tool. Northeastern provides the following video tools integrated with Canvas: Canvas Studio, Panopto, VoiceThread, Zoom.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Audio",
+      "text": "Clear audio is one of the most important pieces of quality videos. Tips: use external mic, don't place too close to mouth, test recording, find quiet space, speak clearly.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Narrated lecture",
+      "text": "Chunk videos, keep under 6 mins, add interactivity (quizzes), write script, use conversational tone, record run-through.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Screen capture",
+      "text": "Use Slide Show view, check animations, close other apps, turn off notifications, expand browser window.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Video",
+      "text": "Use well-lit space, ensure face is visible, minimize distractions, frame shot, stage area.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Visual content",
+      "text": "Include visuals, describe them, ensure text is readable.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Resources; Links",
+      "text": "Learn About Recording Best Practices for Panopto, FAQ: Panopto lecture capture tool, What is Canvas Studio?, Putting Your Best Self Forward: 6 Keys for Filming Quality Videos.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0016334"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014179"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014194"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014486"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000017657"
+    },
+    {
+      "text": "support.panopto.com",
+      "url": "https://support.panopto.com/s/article/How-to-Use-Smart-Chapters"
+    },
+    {
+      "text": "support.panopto.com",
+      "url": "https://support.panopto.com/s/article/Create-and-Share-a-Playlist"
+    },
+    {
+      "text": "support.panopto.com",
+      "url": "https://support.panopto.com/s/article/How-to-Add-a-Quiz-to-a-Video"
+    },
+    {
+      "text": "community.canvaslms.com",
+      "url": "https://community.canvaslms.com/t5/Studio/How-do-I-create-a-Canvas-Studio-video-quiz/ta-p/1682"
+    },
+    {
+      "text": "support.panopto.com",
+      "url": "https://support.panopto.com/s/article/Create-High-Quality-Recordings"
+    },
+    {
+      "text": "service.northeastern.edu",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014170"
+    },
+    {
+      "text": "er.educause.edu",
+      "url": "https://er.educause.edu/blogs/2021/2/putting-your-best-self-forward-6-keys-for-filming-quality-videos"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Canvas - Getting Started"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I sync Canvas calendar to Outlook?",
+      "url": null
+    },
+    {
+      "title": "How do I log in to Canvas on a mobile device?",
+      "url": null
+    },
+    {
+      "title": "How do I import Canvas course content into another Canvas shell?",
+      "url": null
+    },
+    {
+      "title": "What is Canvas Learning Management System?",
+      "url": null
+    },
+    {
+      "title": "How do I set account time zones in Canvas?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "article_id": "KB0013814",
+  "title": "How do I connect to NUwave on an Android?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013814",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013814",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013814",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "wifi_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "NUwave is Northeastern University's secure wireless network. It is available at all Northeastern campuses in academic and administrative buildings, the library, and Northeastern-owned residences on Boston's main campus. Instructors, staff, and students should use NUwave whenever connecting wirelessly on campus. Connect to NUwave on Android 1. Open the Settings app. 2. Select 'Network & Internet'. 3. Select Wi-Fi. 4. Select NUwave. 5. Ensure that the correct authentication methods are selected. 6. Select PEAP under 'EAP method'. 7. Select MSCHAPV2 under 'Phase 2 authentication'. 8. Configure the CA certificate setting based on your Android version: - Android 10 (Pie) or earlier: Select Unspecified or 'Do not validate' under 'CA certificate'. Choose the option that indicates no system certificate validation ('Do not use system certificates'). - Android 11 (Pixel 3 and newer with the December 2020 security update): Select 'Use system certificates' or a valid CA certificate. These devices require a real certificate or will use 'Trust on First Use' and cannot use the 'Do not validate' setting. - Android 12 and newer: Certificate validation is mandatory. Select 'Use system certificates' or 'Require Certificate Status' under 'CA certificate'. Android 12 and later versions will show a 'Trust on First Use (TOFU)' prompt instead. 9. Enter wireless.northeastern.edu in the Domain field. 10. Leave the anonymous identity field blank. 11. Type your Northeastern username under Identity. 12. Type your Northeastern password under Password. 13. Once connected to NUwave, select the gear icon > Advanced > Privacy > 'Use Device MAC'.",
+  "body_html": "<article><div><a href=\"#\">NUwave</a> is Northeastern University's secure wireless network. It is available at all Northeastern campuses in academic and administrative buildings, the library, and Northeastern-owned residences on Boston's main campus. Instructors, staff, and students should use NUwave whenever connecting wirelessly on campus.</div><hr><h2>Connect to NUwave on Android</h2><ul><li>Open the Settings app.</li><li>Select 'Network & Internet'.</li><li>Select Wi-Fi.</li><li>Select NUwave.</li><li>Ensure that the correct authentication methods are selected.</li><li>Select PEAP under 'EAP method'.</li><li>Select MSCHAPV2 under 'Phase 2 authentication'.</li><li>Configure the CA certificate setting based on your Android version:<ul><li>Android 10 (Pie) or earlier:<ul><li>Select Unspecified or 'Do not validate' under 'CA certificate'.</li><li>Choose the option that indicates no system certificate validation ('Do not use system certificates').</li></ul></li><li>Android 11:<ul><li>Select 'Use system certificates' or a valid CA certificate.</li></ul></li><li>Android 12 and newer:<ul><li>Certificate validation is mandatory. Select 'Use system certificates'.</li></ul></li></ul></li><li>Enter <code>wireless.northeastern.edu</code> in the Domain field.</li><li>Leave the anonymous identity field blank.</li><li>Type your Northeastern username under Identity.</li><li>Type your Northeastern password under Password.</li><li>Once connected to NUwave, select the gear icon > Advanced > Privacy > 'Use Device MAC'.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "NUwave is Northeastern University's secure wireless network. It is available at all Northeastern campuses in academic and administrative buildings, the library, and Northeastern-owned residences on Boston's main campus.",
+      "steps": [],
+      "links": [
+        {
+          "text": "NUwave",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+        }
+      ]
+    },
+    {
+      "heading": "Connect to NUwave on Android",
+      "text": "Follow these steps to configure your Android device for NUwave.",
+      "steps": [
+        "Open the Settings app.",
+        "Select 'Network & Internet'.",
+        "Select Wi-Fi.",
+        "Select NUwave.",
+        "Ensure that the correct authentication methods are selected.",
+        "Select PEAP under 'EAP method'.",
+        "Select MSCHAPV2 under 'Phase 2 authentication'.",
+        "Configure the CA certificate setting based on your Android version (Android 10, 11, or 12+).",
+        "Enter wireless.northeastern.edu in the Domain field.",
+        "Leave the anonymous identity field blank.",
+        "Type your Northeastern username under Identity.",
+        "Type your Northeastern password under Password.",
+        "Once connected to NUwave, select the gear icon > Advanced > Privacy > 'Use Device MAC'."
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "NUwave",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Infrastructure - Network and Connectivity Management - Wireless Networks"
+  ],
+  "related_articles": [
+    {
+      "title": "What is the NURes-device wireless network?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018079"
+    },
+    {
+      "title": "How do I connect to eduroam?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018114"
+    },
+    {
+      "title": "How do I register a device on NURes-device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013126"
+    },
+    {
+      "title": "What is NUwave?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018093"
+    },
+    {
+      "title": "How do I connect to NUwave on Windows?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012505"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "article_id": "KB0015162",
+  "title": "How do I manage my Duo account and trusted devices?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015162",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "mfa_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Duo multi-factor authentication (MFA) is intended to protect you and your personal information better. With MFA, you are required to confirm your identity with a previously registered device to gain access to your account. MFA uses a text, phone call, or mobile application to verify your identity before logging into your account. Register a mobile device. On the Northeastern Duo MFA device management site, you can add a mobile device for Duo authentication. Duo Mobile support information. The Duo Mobile application is currently supported on Android and iOS devices. You can download the Duo Mobile app directly from Google Play or the App Store. Please check if your device meets the requirements before registering your mobile device. Register a landline. On the Northeastern Duo MFA device management site, you can also add a landline for Duo authentication. Use Touch ID for MFA on macOS. On macOS, MFA is compatible with Touch ID for authentication. Register a token for MFA. Duo tokens can also be used for multi-factor authentication.",
+  "body_html": "<article id=\"364\">Duo multi-factor authentication (MFA) is intended to protect you and your personal information better. With MFA, you are required to confirm your identity with a previously registered device to gain access to your account. MFA uses a text, phone call, or mobile application to verify your identity before logging into your account. ...</article>",
+  "sections": [
+    {
+      "heading": "Register a mobile device",
+      "text": "On the Northeastern Duo MFA device management site, you can add a mobile device for Duo authentication.",
+      "steps": [
+        "Choose your type of device and select Continue.",
+        "Choose your mobile device's operating system.",
+        "Follow the platform-specific instructions provided to download the Duo Mobile App.",
+        "After installing the app, return to the enrollment window and select 'I have Duo Mobile.'",
+        "Open the Duo Mobile app and select 'Use a QR code' when adding your account.",
+        "Scan the QR code with your mobile device.",
+        "Enter and confirm your preferred account name on your mobile device.",
+        "Select Continue in the enrollment window.",
+        "You will see a new device added.",
+        "Choose your default device and the type of contact method."
+      ],
+      "links": [
+        {
+          "text": "Northeastern Duo MFA device management site",
+          "url": "https://2fa.northeastern.edu/"
+        }
+      ]
+    },
+    {
+      "heading": "Register a landline",
+      "text": "On the Northeastern Duo MFA device management site, you can also add a landline for Duo authentication.",
+      "steps": [
+        "Choose Landline when prompted for the device type.",
+        "Enter your phone number.",
+        "Verify your phone number through a verification code.",
+        "Select Continue. You will see that a new landline has been added.",
+        "Choose your default device and the type of contact method."
+      ],
+      "links": [
+        {
+          "text": "Northeastern Duo MFA device management site",
+          "url": "https://2fa.northeastern.edu/"
+        }
+      ]
+    },
+    {
+      "heading": "Use Touch ID for MFA on macOS",
+      "text": "On macOS, MFA is compatible with Touch ID for authentication.",
+      "steps": [],
+      "links": [
+        {
+          "text": "How do I set up Touch ID with Duo multi-factor authentication (MFA) on a Mac?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015163"
+        }
+      ]
+    },
+    {
+      "heading": "Register a token for MFA",
+      "text": "Duo tokens can also be used for multi-factor authentication.",
+      "steps": [],
+      "links": [
+        {
+          "text": "Token and passcodes",
+          "url": "https://duo.com/product/multi-factor-authentication-mfa/authentication-methods/tokens-and-passcodes"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "text": "How do I use Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012648"
+    },
+    {
+      "text": "Northeastern Duo MFA device management site",
+      "url": "https://2fa.northeastern.edu/"
+    },
+    {
+      "text": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en"
+    },
+    {
+      "text": "the App Store",
+      "url": "https://itunes.apple.com/us/app/duo-mobile/id422663827?mt=8"
+    },
+    {
+      "text": "Which versions of iOS does Duo Mobile support?",
+      "url": "https://help.duo.com/s/article/1871?language=en_US"
+    },
+    {
+      "text": "Duo Mobile on iOS guide",
+      "url": "https://guide.duo.com/iphone"
+    },
+    {
+      "text": "Which versions of Android does Duo Mobile support?",
+      "url": "https://help.duo.com/s/article/1872?language=en_US"
+    },
+    {
+      "text": "Duo Mobile on Android guide",
+      "url": "https://guide.duo.com/android"
+    },
+    {
+      "text": "How do I set up Touch ID with Duo multi-factor authentication (MFA) on a Mac?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015163"
+    },
+    {
+      "text": "Token and passcodes",
+      "url": "https://duo.com/product/multi-factor-authentication-mfa/authentication-methods/tokens-and-passcodes"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access",
+    "Northeastern Account Access",
+    "Multi-Factor Authentication (MFA)"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I enroll in Duo multi-factor authentication (MFA)?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012649"
+    },
+    {
+      "title": "How do I update my Duo enrollment when I get a new phone?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015209"
+    },
+    {
+      "title": "How do I set up passwordless authentication using Authenticator?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021992"
+    },
+    {
+      "title": "FAQ: Multi-factor authentication for retirees",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000022997"
+    }
+  ]
+}

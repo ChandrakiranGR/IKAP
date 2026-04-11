@@ -1,0 +1,61 @@
+{
+  "article_id": "KB0014244",
+  "title": "How do I add a Turnitin assignment to my Canvas course?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014244",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014244",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014244",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "Assignments created in Turnitin can be added to a Canvas course in two ways: Through the Canvas Plagiarism Framework. As an external tool. Since the Canvas Plagiarism Framework option is better integrated into the course in Canvas, it is recommended to use the Plagiarism Framework process unless you need to use Turnitin Rubrics or Peer Mark within Canvas (Canvas has a rubric feature and Peer Review feature). The Turnitin Plagiarism Framework includes support for group assignments and multiple submissions. Use the External Tool integration in the following scenarios: If you're planning to use the PeerMark feature. If you prefer to grade using a Turnitin Rubric instead of a Canvas Rubric. If you want to exclude an assignment template automatically from being matched against student submissions. Note: Turnitin cannot be used with discussions or quizzes. After five (5) years, courses with Turnitin assignments must be re-created.",
+  "body_html": "<article id=\"364\"><div id=\"365\">Assignments created in <a href=\"#\">Turnitin</a> can be added to a Canvas course in two ways:<ul><li>Through the Canvas Plagiarism Framework.</li><li>As an external tool.</li></ul>Since the Canvas Plagiarism Framework option is better integrated into the course in Canvas, it is recommended to use the Plagiarism Framework process unless you need to use Turnitin Rubrics or Peer Mark within Canvas (Canvas has a rubric feature and Peer Review feature). The Turnitin Plagiarism Framework includes support for group assignments and multiple submissions. Use the External Tool integration in the following scenarios:<ul><li>If you're planning to use the PeerMark feature.</li><li>If you prefer to grade using a Turnitin Rubric instead of a Canvas Rubric.</li><li>If you want to exclude an assignment template automatically from being matched against student submissions.</li></ul>Note: Turnitin cannot be used with discussions or quizzes. After five (5) years, courses with Turnitin assignments must be re-created.</div></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Assignments created in Turnitin can be added to a Canvas course in two ways: Through the Canvas Plagiarism Framework or as an external tool. It is recommended to use the Plagiarism Framework unless specific Turnitin features like PeerMark or Turnitin Rubrics are required.; Table of Contents: Create a Plagiarism Framework assignment, Grade a Canvas assignment with Plagiarism Review enabled, Create an External Tool Turnitin assignment, Instructor access for Turnitin Similarity Report via Canvas, Troubleshoot the Turnitin error message.; Create a Plagiarism Framework assignment: Instructions on selecting Modules, adding an Assignment item, naming it, and configuring the Submission Type to Online with File Uploads and Plagiarism Review set to Turnitin.; Grade a Canvas assignment with Plagiarism Review enabled: Instructions on using SpeedGrader to view Turnitin results and similarity scores, including notes for mobile app users.; Create an External Tool Turnitin assignment: Guidance on using the External Tool submission type to access features like Turnitin QuickMarks or Rubrics.; Instructor access for Turnitin Similarity Report via Canvas: Steps for instructors to access and review Similarity Reports via SpeedGrader, including how to view and exclude sources.; Troubleshoot the Turnitin error message: Advice for handling class expiration errors by booking a consultation with Academic Technologies.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Turnitin",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172"
+    },
+    {
+      "text": "Rich Content Editor",
+      "url": "https://community.canvaslms.com/docs/DOC-10460-canvas-instructor-guide-table-of-contents"
+    },
+    {
+      "text": "How do I publish courses and modules in Canvas?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014584"
+    },
+    {
+      "text": "book a consultation with Academic Technologies",
+      "url": "https://outlook.office365.com/book/AcademicTechnologies1@northeastern.onmicrosoft.com/?login_hint"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology - Turnitin"
+  ],
+  "related_articles": [
+    {
+      "title": "What is Turnitin?",
+      "url": null
+    },
+    {
+      "title": "How do I use Turnitin's quick submit as a faculty?",
+      "url": null
+    },
+    {
+      "title": "How do students access the Turnitin Similarity Report panel in Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I allow students or staff to complete a self-check using Turnitin?",
+      "url": null
+    }
+  ]
+}

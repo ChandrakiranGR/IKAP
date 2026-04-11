@@ -1,0 +1,55 @@
+{
+  "article_id": "KB0012457",
+  "title": "How do I reset my forgotten Northeastern account password?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012457",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0012457",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&table=kb_knowledge&sys_kb_id=9558b6df47307e50c1c8874c346d4346&recordUrl=kb_view.do%3Fsysparm_article%3DKB0012457",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "account_and_access_kb.json",
+  "updated_at": "",
+  "plain_text": "Reset a forgotten Northeastern account password using Password Management. Go to Password Management, enter your Northeastern username, find your email addresses, send a reset email, open the reset link, complete MFA if prompted, enter a new password that meets Northeastern password requirements, and save the change. Password updates may take a few minutes to sync.",
+  "body_html": "",
+  "sections": [
+    {
+      "heading": "Reset your forgotten Northeastern password",
+      "text": "Use Password Management to send yourself a reset email, open the reset link, complete authentication if prompted, and choose a new password.",
+      "steps": [
+        "Navigate to Password Management.",
+        "Enter your Northeastern username, for example doe.j.",
+        "Select 'Find Email Addresses.'",
+        "Select 'Send Reset Email' for the email address you want to use to receive the password reset link.",
+        "Check the inbox of the email account you selected.",
+        "Select the password reset link received via email.",
+        "Authenticate using multi-factor authentication (MFA). If you have lost access to Duo MFA, contact the IT Service Desk at 617.373.4357.",
+        "Enter a new password that meets the Northeastern account password requirements.",
+        "Select Save. You will see a confirmation message that the request has been processed. Password changes may take a few minutes to sync, so wait about 5 minutes before trying to log in again if needed."
+      ],
+      "links": [
+        {
+          "text": "Password Management",
+          "url": "https://nu.outsystemsenterprise.com/PasswordManagement/"
+        },
+        {
+          "text": "What are the Northeastern account password requirements?",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013131"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Password Management",
+      "url": "https://nu.outsystemsenterprise.com/PasswordManagement/"
+    },
+    {
+      "text": "What are the Northeastern account password requirements?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013131"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access - Northeastern Account Settings"
+  ],
+  "related_articles": []
+}

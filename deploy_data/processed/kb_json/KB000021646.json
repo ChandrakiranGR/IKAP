@@ -1,0 +1,64 @@
+{
+  "article_id": "KB000021646",
+  "title": "How do I fix installation error for NVIVO 14 on Mac?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021646",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021646",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000021646",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "software_kb.json",
+  "updated_at": "2026-03-08",
+  "plain_text": "This article describes steps to resolve an NVIVO 14 installation error on a Mac. Resolve installation error Enable full disk access 1. Quit NVIVO 14. 2. Open 'System Preferences' > 'Privacy & Security' > 'Full Disk Access' and enable for NVIVO 14. Note: If you do not see NVIVO 14, you can add it manually by clicking +, selecting 'Applications', and then selecting NVIVO 14. 3. Launch NVIVO 14 and test if the error is resolved. Additional troubleshooting (if needed) If NVIVO 14 still displays an error after enabling Full Disk Access, try the following: 1. Launch Terminal. 2. Copy and paste the following command: sudo touch ~$USER/Library/Safari/CloudTabs.db 3. Press Enter and enter your administrator password if prompted. 4. Launch NVIVO 14. Note: If you cannot install NVIVO 14 or continue to experience errors, contact the IT Service Desk for assistance. Additional resources For further assistance, contact the Northeastern University IT Service Desk: * Phone: 617.373.4357 * Email: IT Service Desk",
+  "body_html": "<article id=\"364\"><p>This article describes steps to resolve an NVIVO 14 installation error on a Mac.</p><h2>Resolve installation error</h2><h3>Enable full disk access</h3><ul><li>Quit NVIVO 14.</li><li>Open 'System Preferences' > 'Privacy & Security' > 'Full Disk Access' and enable for NVIVO 14. Note: If you do not see NVIVO 14, you can add it manually by clicking +, selecting 'Applications', and then selecting NVIVO 14.</li><li>Launch NVIVO 14 and test if the error is resolved.</li></ul><h3>Additional troubleshooting (if needed)</h3><p>If NVIVO 14 still displays an error after enabling Full Disk Access, try the following:</p><ul><li>Launch Terminal.</li><li>Copy and paste the following command: <code>sudo touch ~$USER/Library/Safari/CloudTabs.db</code></li><li>Press Enter and enter your administrator password if prompted.</li><li>Launch NVIVO 14.</li></ul><p>Note: If you cannot install NVIVO 14 or continue to experience errors, contact the IT Service Desk for assistance.</p><h2>Additional resources</h2><p>For further assistance, contact the Northeastern University IT Service Desk:</p><ul><li>Phone: 617.373.4357</li><li>Email: <a href=\"mailto:help@northeastern.edu\">IT Service Desk</a></li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "This article describes steps to resolve an NVIVO 14 installation error on a Mac.; Resolve installation error: Enable full disk access. 1. Quit NVIVO 14. 2. Open 'System Preferences' > 'Privacy & Security' > 'Full Disk Access' and enable for NVIVO 14. Note: If you do not see NVIVO 14, you can add it manually by clicking +, selecting 'Applications', and then selecting NVIVO 14. 3. Launch NVIVO 14 and test if the error is resolved.; Enable full disk access: 1. Quit NVIVO 14. 2. Open 'System Preferences' > 'Privacy & Security' > 'Full Disk Access' and enable for NVIVO 14. Note: If you do not see NVIVO 14, you can add it manually by clicking +, selecting 'Applications', and then selecting NVIVO 14. 3. Launch NVIVO 14 and test if the error is resolved.; Additional troubleshooting (if needed): If NVIVO 14 still displays an error after enabling Full Disk Access, try the following: 1. Launch Terminal. 2. Copy and paste the following command: sudo touch ~$USER/Library/Safari/CloudTabs.db 3. Press Enter and enter your administrator password if prompted. 4. Launch NVIVO 14. Note: If you cannot install NVIVO 14 or continue to experience errors, contact the IT Service Desk for assistance.; Additional resources: For further assistance, contact the Northeastern University IT Service Desk: Phone: 617.373.4357 Email: IT Service Desk",
+      "steps": [
+        "Quit NVIVO",
+        "Open 'System Preferences' > 'Privacy & Security' > 'Full Disk Access' and enable for NVIVO",
+        "Note: If you do not see NVIVO 14, you can add it manually by clicking +, selecting 'Applications', and then selecting NVIVO",
+        "Launch NVIVO 14 and test if the error is resolved.; Enable full disk access:",
+        "Launch NVIVO 14 and test if the error is resolved.; Additional troubleshooting (if needed): If NVIVO 14 still displays an error after enabling Full Disk Access, try the following:",
+        "Launch Terminal.",
+        "Copy and paste the following command: sudo touch ~$USER/Library/Safari/CloudTabs.db",
+        "Press Enter and enter your administrator password if prompted.",
+        "Launch NVIVO",
+        "Note: If you cannot install NVIVO 14 or continue to experience errors, contact the IT Service Desk for assistance.; Additional resources: For further assistance, contact the Northeastern University IT Service Desk: Phone: 617.373.4357 Email: IT Service Desk"
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "IT Service Desk",
+      "url": "mailto:help@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Desktop and Mobile Computing - Software and Application Distribution - Statistical and Computational"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I access SPSS Statistics and Modeler?",
+      "url": null
+    },
+    {
+      "title": "How do I access MATLAB?",
+      "url": null
+    },
+    {
+      "title": "How do I access Tableau?",
+      "url": null
+    },
+    {
+      "title": "How do I access Microsoft Azure Dev Tools for Teaching?",
+      "url": null
+    },
+    {
+      "title": "How do I access Mathematica, Mathematica Online, and Wolfram Alpha Pro software?",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "article_id": "KB0013789",
+  "title": "How do I change my faculty/staff username?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013789",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013789",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013789",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "account_and_access_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "All Northeastern University faculty/staff account usernames are generated from the official name provided by Human Resources (HR). Your username can only be changed in a limited number of circumstances. If you have requested a name change through Workday and would like your username to reflect that change. If your assigned username resulted in a vulgar or offensive term. Note: Some faculty/staff, such as students on co-op, don't have access to change their name in Workday. Refer to Updating Personal Information for more information. Change legal, preferred, or chosen name Submit a request to change your legal, preferred, and/or chosen name on Workday by following the instructions provided by the HR Service Center. Wait 48 hours after your records have been updated by HR to contact the IT Service Desk at 617.373.4357 or help@northeastern.edu .",
+  "body_html": "<article id=\"364\">All Northeastern University faculty/staff account usernames are generated from the official name provided by Human Resources (HR). Your username can only be changed in a limited number of circumstances.<ul><li>If you have requested a name change through Workday and would like your username to reflect that change.</li><li>If your assigned username resulted in a vulgar or offensive term. Note: Some faculty/staff, such as students on co-op, don't have access to change their name in Workday. Refer to <a id=\"374\">Updating Personal Information</a> for more information.</li></ul><hr id=\"378\"><h2>Change legal, preferred, or chosen name</h2><ul><li>Submit a request to change your legal, preferred, and/or chosen name on <a id=\"385\">Workday</a> by following the <a id=\"388\">instructions</a> provided by the HR Service Center.</li><li>Wait 48 hours after your records have been updated by HR to contact the IT Service Desk at 617.373.4357 or <a id=\"394\">help@northeastern.edu</a>.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "All Northeastern University faculty/staff account usernames are generated from the official name provided by Human Resources (HR). Your username can only be changed in a limited number of circumstances.",
+      "steps": [
+        "If you have requested a name change through Workday and would like your username to reflect that change.",
+        "If your assigned username resulted in a vulgar or offensive term. Note: Some faculty/staff, such as students on co-op, don't have access to change their name in Workday. Refer to Updating Personal Information for more information."
+      ],
+      "links": [
+        {
+          "text": "Updating Personal Information",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019966"
+        }
+      ]
+    },
+    {
+      "heading": "Change legal, preferred, or chosen name",
+      "text": "",
+      "steps": [
+        "Submit a request to change your legal, preferred, and/or chosen name on Workday by following the instructions provided by the HR Service Center.",
+        "Wait 48 hours after your records have been updated by HR to contact the IT Service Desk at 617.373.4357 or help@northeastern.edu ."
+      ],
+      "links": [
+        {
+          "text": "Workday",
+          "url": "https://www.myworkday.com/northeastern"
+        },
+        {
+          "text": "instructions",
+          "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018677"
+        },
+        {
+          "text": "help@northeastern.edu",
+          "url": "mailto:help@northeastern.edu"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Updating Personal Information",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000019966"
+    },
+    {
+      "text": "Workday",
+      "url": "https://www.myworkday.com/northeastern"
+    },
+    {
+      "text": "instructions",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018677"
+    },
+    {
+      "text": "help@northeastern.edu",
+      "url": "mailto:help@northeastern.edu"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Accounts and Access - Northeastern Account Settings"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I set up my email and calendar on iOS?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013875"
+    },
+    {
+      "title": "How do I set up my email and calendar on Android?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0013342"
+    },
+    {
+      "title": "How do I add an email signature on a mobile device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB000018032"
+    }
+  ]
+}

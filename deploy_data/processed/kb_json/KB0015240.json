@@ -1,0 +1,53 @@
+{
+  "article_id": "KB0015240",
+  "title": "How do I send messages through the Canvas mobile app?",
+  "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015240",
+  "article_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015240",
+  "source_url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0015240",
+  "doc_type": "kb_article",
+  "source_system": "ServiceNow",
+  "source_export": "canvas_kb.json",
+  "updated_at": "3 months ago",
+  "plain_text": "At Northeastern, the use of personal or non-Northeastern email addresses is prohibited in Canvas due to FERPA. While you can forward your Northeastern email to an external address, you will not be able to reply to messages sent from Canvas using this address. You can refer to How do I log in to Canvas on a mobile device? for more information about the Canvas Mobile app. Send an email in the mobile app 1. Open the Canvas Teacher app if you are an instructor or the Canvas Student app if you are a student. 2. Select the Inbox icon at the bottom of the app. 3. Select the + button to create a new email, or you can select one of your received messages to reply directly to that message. 4. Select the name of the course to which you want to send your email. The top course displayed will be your 'Favorite Courses'. The Courses that don't currently appear on your dashboard can be found in the Courses section. 5. Type the name of the individual in the search bar who you would like to email. You can also choose to send a message to 'All in Class', which includes Teachers, Students, Observers, and Student Groups. Note: Consider using the Announcement feature in Canvas to send a message to the entire class. You can also use Canvas messaging to send messages to a specific individual or a specific subset of individuals within the course. 6. Once you have selected the recipients, add your subject and compose your message.",
+  "body_html": "<article id=\"364\"><p>At Northeastern, the use of personal or non-Northeastern email addresses is prohibited in Canvas due to FERPA. While you can forward your Northeastern email to an external address, you will not be able to reply to messages sent from Canvas using this address. You can refer to <a href=\"https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014376\">How do I log in to Canvas on a mobile device?</a> for more information about the Canvas Mobile app.</p><hr><h2>Send an email in the mobile app</h2><ul><li>Open the Canvas Teacher app if you are an instructor or the Canvas Student app if you are a student.</li><li>Select the Inbox icon at the bottom of the app.</li><li>Select the + button to create a new email, or you can select one of your received messages to reply directly to that message.</li><li>Select the name of the course to which you want to send your email. The top course displayed will be your 'Favorite Courses'. The Courses that don't currently appear on your dashboard can be found in the Courses section.</li><li>Type the name of the individual in the search bar who you would like to email. You can also choose to send a message to 'All in Class', which includes Teachers, Students, Observers, and Student Groups. Note: Consider using the Announcement feature in Canvas to send a message to the entire class. You can also use Canvas messaging to send messages to a specific individual or a specific subset of individuals within the course.</li><li>Once you have selected the recipients, add your subject and compose your message.</li></ul></article>",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "At Northeastern, the use of personal or non-Northeastern email addresses is prohibited in Canvas due to FERPA. While you can forward your Northeastern email to an external address, you will not be able to reply to messages sent from Canvas using this address. You can refer to How do I log in to Canvas on a mobile device? for more information about the Canvas Mobile app.",
+      "steps": [],
+      "links": []
+    },
+    {
+      "heading": "Send an email in the mobile app",
+      "text": "Open the Canvas Teacher app if you are an instructor or the Canvas Student app if you are a student. Select the Inbox icon at the bottom of the app. Select the + button to create a new email, or you can select one of your received messages to reply directly to that message. Select the name of the course to which you want to send your email. The top course displayed will be your 'Favorite Courses'. The Courses that don't currently appear on your dashboard can be found in the Courses section. Type the name of the individual in the search bar who you would like to email. You can also choose to send a message to 'All in Class', which includes Teachers, Students, Observers, and Student Groups. Note: Consider using the Announcement feature in Canvas to send a message to the entire class. You can also use Canvas messaging to send messages to a specific individual or a specific subset of individuals within the course. Once you have selected the recipients, add your subject and compose your message.",
+      "steps": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "How do I log in to Canvas on a mobile device?",
+      "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014376"
+    }
+  ],
+  "categories": [
+    "IT Services",
+    "Teaching and Learning Technology",
+    "Canvas",
+    "Course Communication"
+  ],
+  "related_articles": [
+    {
+      "title": "How do I use Qwickly Course Tools to email students before publishing my Canvas course?",
+      "url": null
+    },
+    {
+      "title": "How do I send an announcement to students through Canvas?",
+      "url": null
+    },
+    {
+      "title": "How do I send messages to students on Canvas?",
+      "url": null
+    }
+  ]
+}

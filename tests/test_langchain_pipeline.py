@@ -2,8 +2,10 @@ import unittest
 
 from backend.orchestration.langchain_pipeline import (
     _build_unsafe_payload,
+    _linkify_step_text,
     _ensure_link_request_references,
     _ensure_link_request_steps,
+    _enrich_structured_links,
     _is_privacy_request,
     _is_secret_request,
     _is_weak_retrieval,
@@ -284,6 +286,14 @@ class LangChainPipelineUnitTests(unittest.TestCase):
         result = classify_request("hi whats the boston weather today like")
         self.assertEqual(result["route"], "unsupported")
 
+    def test_classify_request_marks_dining_question_as_unsupported(self) -> None:
+        result = classify_request("What is Northeastern dining menu today?")
+        self.assertEqual(result["route"], "unsupported")
+
+    def test_classify_request_keeps_login_question_in_it_scope(self) -> None:
+        result = classify_request("How do I log in to Northeastern services?")
+        self.assertEqual(result["route"], "grounded")
+
     def test_nonsense_detection_catches_low_signal_text(self) -> None:
         self.assertTrue(_looks_like_nonsense("aaaaaaaaaaaabbbbbbbccccccccc"))
 
@@ -466,6 +476,61 @@ class LangChainPipelineUnitTests(unittest.TestCase):
         self.assertEqual(structured["category"], "VPN access")
         self.assertEqual(structured["steps"], ["Install GlobalProtect."])
         self.assertEqual(len(structured["references"]), 1)
+
+    def test_enrich_structured_links_adds_inline_markdown_links_to_steps(self) -> None:
+        structured = {
+            "category": "Password Reset",
+            "clarifying_question": None,
+            "steps": ["Navigate to Password Management."],
+            "references": [],
+            "support_message": "Support footer",
+        }
+        enriched = _enrich_structured_links(
+            structured,
+            [
+                {
+                    "links": [
+                        {
+                            "text": "Password Management",
+                            "url": "https://nu.outsystemsenterprise.com/PasswordManagement/",
+                        }
+                    ]
+                }
+            ],
+        )
+
+        self.assertIn(
+            "[Password Management](https://nu.outsystemsenterprise.com/PasswordManagement/)",
+            enriched["steps"][0],
+        )
+
+    def test_linkify_step_text_skips_generic_canvas_link(self) -> None:
+        updated = _linkify_step_text(
+            "Log in to your Canvas account and navigate to Qwickly Course Tools.",
+            [
+                {
+                    "text": "Canvas",
+                    "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014565",
+                }
+            ],
+        )
+
+        self.assertEqual(updated, "Log in to your Canvas account and navigate to Qwickly Course Tools.")
+
+    def test_linkify_step_text_skips_nested_turnitin_fragments(self) -> None:
+        updated = _linkify_step_text(
+            "Follow the detailed instructions in How do I use Turnitin's quick submit as a faculty? for the exact steps and requirements.",
+            [
+                {"text": "Turnitin's", "url": "https://service.northeastern.edu/tech?id=kb_article_view&sysparm_article=KB0014172"},
+                {"text": "quick submit", "url": "https://guides.turnitin.com/hc/en-us/articles/22046016193165-Quick-submit"},
+            ],
+        )
+
+        self.assertNotIn("[[", updated)
+        self.assertEqual(
+            updated,
+            "Follow the detailed instructions in How do I use Turnitin's quick submit as a faculty? for the exact steps and requirements.",
+        )
 
     def test_link_request_removes_inline_urls_from_steps(self) -> None:
         response = (

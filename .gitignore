@@ -214,7 +214,9 @@ __marimo__/
 data/raw/
 data/processed/
 data/rag/
-data/benchmarks/results/
+data/benchmarks/results/*
+!data/benchmarks/results/
+!data/benchmarks/results/security_attack_results.json
 data/finetune/
 data/dataset/
 

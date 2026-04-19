@@ -328,6 +328,17 @@ class LangChainPipelineUnitTests(unittest.TestCase):
         result = classify_request("How do I reset my Northeastern password?")
         self.assertEqual(result["route"], "grounded")
 
+    def test_classify_request_marks_bank_password_reset_out_of_scope(self) -> None:
+        result = classify_request("How do I reset my bank password?")
+        self.assertEqual(result["route"], "unsupported")
+        self.assertEqual(result["reason"], "off_topic")
+
+    def test_unsupported_bank_password_response_does_not_point_to_northeastern_reset(self) -> None:
+        payload = build_unsupported_response("How do I reset my bank password?", "off_topic")
+        self.assertIn("bank password sounds interesting", payload["answer"])
+        self.assertNotIn("Password Management", payload["answer"])
+        self.assertEqual(payload["structured"]["references"], [])
+
     def test_classify_request_marks_other_person_password_request_unsafe(self) -> None:
         result = classify_request("can I get password of tayyab")
         self.assertEqual(result["route"], "unsafe")
@@ -354,6 +365,18 @@ class LangChainPipelineUnitTests(unittest.TestCase):
         self.assertEqual(result["route"], "grounded")
         self.assertIn("VPN", result["effective_question"])
         self.assertIn("Windows", result["effective_question"])
+
+    def test_classify_request_marks_cisco_anyconnect_vpn_as_unsupported_tool(self) -> None:
+        result = classify_request("how to do i connecto cisco anyconnect VPN")
+        self.assertEqual(result["route"], "unsupported")
+        self.assertEqual(result["reason"], "unsupported_tool")
+
+    def test_unsupported_tool_response_points_to_globalprotect_not_anyconnect_steps(self) -> None:
+        payload = build_unsupported_response("how to do i connecto cisco anyconnect VPN", "unsupported_tool")
+        self.assertIn("Cisco AnyConnect VPN", payload["answer"])
+        self.assertIn("GlobalProtect", payload["answer"])
+        self.assertNotIn("Download the Cisco AnyConnect VPN client", payload["answer"])
+        self.assertEqual(payload["structured"]["references"], [])
 
     def test_classify_request_does_not_let_random_follow_up_inherit_it_context(self) -> None:
         result = classify_request(

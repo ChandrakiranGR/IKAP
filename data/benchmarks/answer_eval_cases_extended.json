@@ -441,5 +441,27 @@
     "required_terms": ["cannot", "password"],
     "forbidden_terms": ["Password Management", "reset link", "trained on data up to"],
     "references_should_be_none": true
+  },
+  {
+    "id": "external_bank_password_reset_should_redirect",
+    "category": "scope",
+    "case_type": "negative",
+    "question": "How do I reset my bank password?",
+    "expected_mode": "unsupported",
+    "min_steps": 1,
+    "required_terms": ["bank password", "Northeastern IT help"],
+    "forbidden_terms": ["Password Management", "reset link", "KB0012457", "trained on data up to"],
+    "references_should_be_none": true
+  },
+  {
+    "id": "unsupported_cisco_anyconnect_vpn_should_redirect",
+    "category": "vpn",
+    "case_type": "negative",
+    "question": "how to do i connecto cisco anyconnect VPN",
+    "expected_mode": "unsupported",
+    "min_steps": 1,
+    "required_terms": ["Cisco AnyConnect VPN", "GlobalProtect"],
+    "forbidden_terms": ["Download the Cisco AnyConnect VPN client", "High confidence", "trained on data up to"],
+    "references_should_be_none": true
   }
 ]

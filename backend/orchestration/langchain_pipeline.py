@@ -73,6 +73,30 @@ OUT_OF_SCOPE_QUERY_RE = re.compile(
     r"capital of|stock price|sports score|horoscope|joke|poem|translate"
     r")\b"
 )
+ACCOUNT_HELP_QUERY_RE = re.compile(
+    r"(?i)\b(?:account|password|passcode|credentials?|login|log\s+in|sign\s+in)\b"
+)
+NORTHEASTERN_CONTEXT_RE = re.compile(
+    r"(?i)\b("
+    r"northeastern|myneu|neu|husky|student\s+hub|studenthub|canvas|duo|mfa|"
+    r"nuwave|eduroam|vpn|globalprotect|qwickly|turnitin|respondus|matlab|"
+    r"mathematica|software"
+    r")\b"
+)
+EXTERNAL_ACCOUNT_CONTEXT_RE = re.compile(
+    r"(?i)\b("
+    r"bank(?:ing)?|credit\s+card|loan|mortgage|paypal|venmo|cash\s+app|"
+    r"gmail|google|facebook|instagram|linkedin|netflix|amazon|apple\s+id|icloud|"
+    r"yahoo|outlook|hotmail|microsoft|github|discord|slack|twitter|x\s+account"
+    r")\b"
+)
+UNSUPPORTED_VPN_CLIENT_RE = re.compile(
+    r"(?i)(?:"
+    r"\b(?:cisco\s+)?anyconnect\b|"
+    r"\bcisco\b.{0,40}\bvpn\b|"
+    r"\bvpn\b.{0,40}\bcisco\b"
+    r")"
+)
 CREATIVE_QUERY_RE = re.compile(
     r"(?i)(?:"
     r"\b(?:write|compose|draft|create|generate|make)\b.{0,120}\b"
@@ -139,6 +163,8 @@ TOPIC_ACTION_WORDS = {
     "answer",
     "bake",
     "compose",
+    "connect",
+    "connecto",
     "cook",
     "create",
     "describe",
@@ -150,6 +176,7 @@ TOPIC_ACTION_WORDS = {
     "get",
     "give",
     "help",
+    "install",
     "list",
     "make",
     "prepare",
@@ -157,13 +184,20 @@ TOPIC_ACTION_WORDS = {
     "receipe",
     "recipe",
     "recipie",
+    "recover",
+    "reset",
     "roleplay",
     "send",
     "share",
     "show",
+    "set",
+    "setup",
     "summarize",
     "tell",
     "translate",
+    "use",
+    "using",
+    "update",
     "write",
 }
 TOPIC_FILLER_WORDS = {
@@ -327,6 +361,10 @@ def _contains_it_scope_signal(text: str) -> bool:
     return any(term in lowered for term in IT_SCOPE_TERMS)
 
 
+def _has_northeastern_context(text: str) -> bool:
+    return bool(NORTHEASTERN_CONTEXT_RE.search(text or ""))
+
+
 def _tokenize_words(text: str) -> List[str]:
     return re.findall(r"[a-z0-9]+", (text or "").lower())
 
@@ -381,6 +419,22 @@ def _is_secret_request(question: str) -> bool:
     return bool(SECRET_QUERY_RE.search(lowered)) and any(
         term in lowered for term in ["ikap", "backend", "openai", "api", "credential", "secret"]
     )
+
+
+def _is_external_account_request(question: str) -> bool:
+    lowered = (question or "").lower()
+    if not ACCOUNT_HELP_QUERY_RE.search(lowered):
+        return False
+    if _has_northeastern_context(lowered):
+        return False
+    return bool(EXTERNAL_ACCOUNT_CONTEXT_RE.search(lowered))
+
+
+def _is_unsupported_named_it_tool(question: str) -> bool:
+    lowered = (question or "").lower()
+    if "globalprotect" in lowered:
+        return False
+    return bool(UNSUPPORTED_VPN_CLIENT_RE.search(lowered))
 
 
 def _is_out_of_scope(question: str) -> bool:
@@ -449,6 +503,10 @@ def _extract_unsupported_topic(question: str) -> str:
 
     topic = re.sub(r"\s+", " ", " ".join(content_words)).strip(" -/.,")
     topic = re.sub(r"(?i)\bmyneu\b", "MyNEU", topic)
+    topic = re.sub(r"(?i)\bcisco\b", "Cisco", topic)
+    topic = re.sub(r"(?i)\banyconnect\b", "AnyConnect", topic)
+    topic = re.sub(r"(?i)\bglobalprotect\b", "GlobalProtect", topic)
+    topic = re.sub(r"(?i)\bvpn\b", "VPN", topic)
 
     if len(topic) > 80:
         topic = topic[:77].rstrip() + "..."
@@ -520,6 +578,8 @@ def _is_self_contained_question(question: str) -> bool:
         return False
     if (
         _is_creative_request(lowered)
+        or _is_external_account_request(lowered)
+        or _is_unsupported_named_it_tool(lowered)
         or _is_out_of_scope(lowered)
         or _is_off_topic_request(lowered)
         or _looks_like_nonsense(lowered)
@@ -595,6 +655,10 @@ def classify_request(question: str, history: List[Dict[str, str]] | None = None)
         return {"route": "unsupported", "reason": "nonsense", "effective_question": effective_question}
     if _is_creative_request(current):
         return {"route": "unsupported", "reason": "creative", "effective_question": effective_question}
+    if _is_external_account_request(current):
+        return {"route": "unsupported", "reason": "off_topic", "effective_question": effective_question}
+    if _is_unsupported_named_it_tool(current):
+        return {"route": "unsupported", "reason": "unsupported_tool", "effective_question": effective_question}
     if _is_out_of_scope(current) or _is_off_topic_request(current):
         return {"route": "unsupported", "reason": "off_topic", "effective_question": effective_question}
     if _looks_like_greeting(current):
@@ -1146,6 +1210,22 @@ def build_unsupported_response(question: str, reason: str = "unsupported") -> Di
             first_step = (
                 f"Hey there, {topic} sounds interesting, but IKAP is built for Northeastern IT help."
             )
+    elif reason == "unsupported_tool":
+        topic = _extract_unsupported_topic(question)
+        first_step = (
+            f"{topic} is not a supported Northeastern IT topic in IKAP's current knowledge base."
+            if topic != "that topic"
+            else "That tool is not a supported Northeastern IT topic in IKAP's current knowledge base."
+        )
+        return _build_structured_response(
+            category="General Northeastern IT support",
+            clarifying_question="Are you trying to connect to Northeastern VPN using GlobalProtect?",
+            steps=[
+                first_step,
+                "For Northeastern VPN help, ask about GlobalProtect and include your device type, such as Mac, Windows, iOS, or Android.",
+                "Example questions: 'How do I connect to VPN on my Mac?' or 'How do I install GlobalProtect VPN on Windows?'",
+            ],
+        )
 
     return _build_structured_response(
         category="General Northeastern IT support",

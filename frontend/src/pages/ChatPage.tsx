@@ -9,6 +9,8 @@ import {
   Send,
   Sparkles,
   Square,
+  ThumbsDown,
+  ThumbsUp,
 } from "lucide-react";
 import { useSearchParams } from "react-router-dom";
 import { toast } from "sonner";
@@ -32,6 +34,15 @@ interface ChatMessage {
   confidence?: "low" | "medium" | "high";
   mode?: "grounded" | "clarify" | "unsupported" | "unsafe";
   structured?: StructuredAnswer;
+}
+
+type FeedbackChoice = "up" | "down";
+
+interface MessageFeedback {
+  choice: FeedbackChoice;
+  draft: string;
+  comment?: string;
+  submitted: boolean;
 }
 
 const SAMPLE_PROMPTS = [
@@ -136,6 +147,7 @@ export default function ChatPage() {
   const [editingMsgId, setEditingMsgId] = useState<string | null>(null);
   const [editText, setEditText] = useState("");
   const [lastError, setLastError] = useState<string | null>(null);
+  const [feedbackByMessageId, setFeedbackByMessageId] = useState<Record<string, MessageFeedback>>({});
   const abortControllerRef = useRef<AbortController | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
@@ -254,6 +266,160 @@ export default function ChatPage() {
   const handleEditCancel = () => {
     setEditingMsgId(null);
     setEditText("");
+  };
+
+  const handleFeedbackChoice = (messageId: string, choice: FeedbackChoice) => {
+    setFeedbackByMessageId((prev) => {
+      const existing = prev[messageId];
+      if (choice === "up") {
+        return {
+          ...prev,
+          [messageId]: {
+            choice,
+            draft: "",
+            submitted: true,
+          },
+        };
+      }
+
+      return {
+        ...prev,
+        [messageId]: {
+          choice,
+          draft: existing?.draft || existing?.comment || "",
+          comment: existing?.comment,
+          submitted: false,
+        },
+      };
+    });
+  };
+
+  const handleFeedbackDraftChange = (messageId: string, draft: string) => {
+    setFeedbackByMessageId((prev) => ({
+      ...prev,
+      [messageId]: {
+        choice: prev[messageId]?.choice || "down",
+        draft,
+        comment: prev[messageId]?.comment,
+        submitted: false,
+      },
+    }));
+  };
+
+  const handleFeedbackSubmit = (messageId: string) => {
+    setFeedbackByMessageId((prev) => {
+      const existing = prev[messageId];
+      if (!existing?.draft.trim()) return prev;
+
+      return {
+        ...prev,
+        [messageId]: {
+          choice: "down",
+          draft: existing.draft,
+          comment: existing.draft.trim(),
+          submitted: true,
+        },
+      };
+    });
+    toast.success("Thanks for the feedback.");
+  };
+
+  const handleFeedbackCancel = (messageId: string) => {
+    setFeedbackByMessageId((prev) => {
+      const next = { ...prev };
+      delete next[messageId];
+      return next;
+    });
+  };
+
+  const renderFeedbackControls = (message: ChatMessage) => {
+    if (message.role !== "assistant") return null;
+
+    const feedback = feedbackByMessageId[message.id];
+    const isPositive = feedback?.choice === "up";
+    const isNegative = feedback?.choice === "down";
+
+    return (
+      <div className="mt-3 border-t border-border/60 pt-3">
+        <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+          <span>Was this helpful?</span>
+          <button
+            type="button"
+            onClick={() => handleFeedbackChoice(message.id, "up")}
+            className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 transition ${
+              isPositive
+                ? "border-emerald-200 bg-emerald-50 text-emerald-700"
+                : "border-border bg-background hover:border-emerald-200 hover:text-emerald-700"
+            }`}
+            aria-pressed={isPositive}
+            aria-label="Mark response as helpful"
+          >
+            <ThumbsUp className="h-3.5 w-3.5" />
+            Yes
+          </button>
+          <button
+            type="button"
+            onClick={() => handleFeedbackChoice(message.id, "down")}
+            className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 transition ${
+              isNegative
+                ? "border-rose-200 bg-rose-50 text-rose-700"
+                : "border-border bg-background hover:border-rose-200 hover:text-rose-700"
+            }`}
+            aria-pressed={isNegative}
+            aria-label="Mark response as not helpful"
+          >
+            <ThumbsDown className="h-3.5 w-3.5" />
+            No
+          </button>
+          {isPositive && (
+            <span className="pl-1 text-emerald-700">Thanks for confirming.</span>
+          )}
+        </div>
+
+        {isNegative && !feedback?.submitted && (
+          <div className="mt-3 rounded-xl border border-rose-100 bg-rose-50/60 p-3">
+            <label
+              htmlFor={`feedback-${message.id}`}
+              className="text-xs font-semibold uppercase tracking-[0.12em] text-rose-700"
+            >
+              What should IKAP improve?
+            </label>
+            <textarea
+              id={`feedback-${message.id}`}
+              value={feedback?.draft || ""}
+              onChange={(event) => handleFeedbackDraftChange(message.id, event.target.value)}
+              placeholder="Tell us what was missing, incorrect, or confusing..."
+              rows={3}
+              className="mt-2 w-full resize-none rounded-lg border border-rose-100 bg-white px-3 py-2 text-sm text-foreground outline-none transition focus:border-rose-300 focus:ring-2 focus:ring-rose-100"
+            />
+            <div className="mt-2 flex justify-end gap-2">
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                onClick={() => handleFeedbackCancel(message.id)}
+              >
+                Cancel
+              </Button>
+              <Button
+                type="button"
+                size="sm"
+                onClick={() => handleFeedbackSubmit(message.id)}
+                disabled={!feedback?.draft.trim()}
+              >
+                Submit feedback
+              </Button>
+            </div>
+          </div>
+        )}
+
+        {isNegative && feedback?.submitted && (
+          <div className="mt-2 text-xs text-rose-700">
+            Thanks for the feedback.
+          </div>
+        )}
+      </div>
+    );
   };
 
   const renderSources = (sources?: Source[]) => {
@@ -516,6 +682,7 @@ export default function ChatPage() {
             >
               <div className="rounded-2xl border bg-chat-assistant px-4 py-4 shadow-sm sm:px-5">
                 {renderStructuredContent(msg)}
+                {renderFeedbackControls(msg)}
               </div>
               {msg.mode === "grounded" && msg.sources?.length ? (
                 <div className="lg:pt-0">

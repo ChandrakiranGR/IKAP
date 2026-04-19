@@ -51,6 +51,21 @@ PRIVACY_QUERY_RE = re.compile(
     r"email|e-mail|email address|phone(?: number)?|contact(?: info| information)?|address"
     r")\b"
 )
+CREDENTIAL_DISCLOSURE_QUERY_RE = re.compile(
+    r"(?i)\b(?:get|give|provide|share|tell|show|find|reveal|send|see|know|what(?:'s| is))\b"
+    r".{0,80}\b(?:password|passcode|credentials?|login)\b"
+)
+OTHER_PERSON_CREDENTIAL_RE = re.compile(
+    r"(?i)(?:"
+    r"\b(?:password|passcode|credentials?|login)\b\s+(?:of|for|to|belonging\s+to)\s+"
+    r"(?!me\b|my\b|myself\b|my\s+account\b)([a-z][a-z' -]{1,40})"
+    r"|"
+    r"\b([a-z][a-z' -]{1,40})'s\s+(?:password|passcode|credentials?|login)\b"
+    r")"
+)
+PASSWORD_HELP_ALLOWLIST_RE = re.compile(
+    r"(?i)\b(?:reset|change|update|forgot|recover|recovery|management|requirements?|link)\b"
+)
 OUT_OF_SCOPE_QUERY_RE = re.compile(
     r"(?i)\b("
     r"weather|forecast|temperature|rain|snow|boston weather|news|restaurant|movie|recipe|"
@@ -234,7 +249,11 @@ def is_unsafe_request(question: str) -> bool:
     """
     Combined check: operational unsafe patterns OR injection patterns.
     """
-    return bool(UNSAFE_QUERY_RE.search(question or "")) or detect_injection(question)
+    return (
+        bool(UNSAFE_QUERY_RE.search(question or ""))
+        or _is_credential_disclosure_request(question)
+        or detect_injection(question)
+    )
 
 def validate_input(question: str) -> tuple[bool, str]:
     if not question or not question.strip():
@@ -342,6 +361,19 @@ def _is_privacy_request(question: str) -> bool:
             "northeastern email address",
         ]
     )
+
+
+def _is_credential_disclosure_request(question: str) -> bool:
+    lowered = (question or "").lower()
+    if not any(term in lowered for term in ["password", "passcode", "credential", "login"]):
+        return False
+    if OTHER_PERSON_CREDENTIAL_RE.search(lowered):
+        return True
+    if not CREDENTIAL_DISCLOSURE_QUERY_RE.search(lowered):
+        return False
+    if PASSWORD_HELP_ALLOWLIST_RE.search(lowered):
+        return False
+    return True
 
 
 def _is_secret_request(question: str) -> bool:
@@ -551,7 +583,11 @@ def classify_request(question: str, history: List[Dict[str, str]] | None = None)
     current = (question or "").strip()
     effective_question = build_effective_question(current, history)
 
-    if _is_secret_request(current) or is_unsafe_request(current):
+    if _is_secret_request(current):
+        return {"route": "unsafe", "reason": "unsafe", "effective_question": effective_question}
+    if _is_credential_disclosure_request(current):
+        return {"route": "unsafe", "reason": "credential", "effective_question": effective_question}
+    if is_unsafe_request(current):
         return {"route": "unsafe", "reason": "unsafe", "effective_question": effective_question}
     if _is_privacy_request(current):
         return {"route": "unsafe", "reason": "privacy", "effective_question": effective_question}
@@ -1133,6 +1169,12 @@ def _build_unsafe_payload(question: str, reason: str) -> Dict[str, Any]:
             "I cannot provide another person's Northeastern email address or contact details.",
             "Use approved university directories or official contact channels if you have a legitimate need to reach that person.",
             "If you need help with your own Northeastern account or contact information, tell me that specific IT issue and I can help.",
+        ]
+    elif reason == "credential":
+        steps = [
+            "I cannot provide or help obtain anyone's password, passcode, credentials, or login secrets.",
+            "If this is your own Northeastern account, I can help you reset or recover access through the approved password reset process.",
+            "If you are trying to help someone else, ask them to reset their own password or contact Northeastern IT Support through official channels.",
         ]
     else:
         steps = [

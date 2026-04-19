@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import {
   AlertCircle,
   BookOpen,
+  RotateCcw,
   ExternalLink,
   Loader2,
   Pencil,
@@ -244,6 +245,19 @@ export default function ChatPage() {
     abortControllerRef.current?.abort();
     abortControllerRef.current = null;
     setLoading(false);
+  };
+
+  const handleClearChat = () => {
+    abortControllerRef.current?.abort();
+    abortControllerRef.current = null;
+    setMessages([]);
+    setInput("");
+    setLoading(false);
+    setEditingMsgId(null);
+    setEditText("");
+    setFeedbackByMessageId({});
+    setLastError(null);
+    textareaRef.current?.focus();
   };
 
   const handleEditStart = (msg: ChatMessage) => {
@@ -753,6 +767,20 @@ export default function ChatPage() {
             )}
 
             <div className="mx-auto max-w-6xl space-y-5">
+              {messages.length > 0 && (
+                <div className="sticky top-2 z-10 flex justify-end">
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    onClick={handleClearChat}
+                    className="rounded-full border-border/80 bg-background/90 text-xs shadow-sm backdrop-blur hover:bg-background"
+                  >
+                    <RotateCcw className="mr-1.5 h-3.5 w-3.5" />
+                    Clear chat
+                  </Button>
+                </div>
+              )}
               {messages.map((msg) => renderMessage(msg))}
               {loading && (
                 <div className="flex justify-start">

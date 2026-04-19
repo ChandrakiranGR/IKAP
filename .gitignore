@@ -237,3 +237,5 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 node_modules/
+.vite/
+frontend/.vite/

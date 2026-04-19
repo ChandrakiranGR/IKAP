@@ -42,6 +42,14 @@ const SAMPLE_PROMPTS = [
   "How do I connect to eduroam on Android?",
   "How do I send messages with Qwickly before I publish my Canvas course?",
 ];
+const IT_TOPIC_SUGGESTIONS = [
+  { label: "Password reset", prompt: "How do I reset my Northeastern password?" },
+  { label: "Duo MFA", prompt: "How do I update Duo when I get a new phone?" },
+  { label: "VPN", prompt: "How do I connect to VPN on Windows?" },
+  { label: "Wi-Fi", prompt: "How do I connect to eduroam on Android?" },
+  { label: "Canvas", prompt: "How do I publish courses and modules in Canvas?" },
+  { label: "Software", prompt: "How do I get access to software at Northeastern?" },
+];
 const API_HISTORY_CONTENT_LIMIT = 4000;
 
 function stripLegacySourceTags(answer: string): string {
@@ -304,6 +312,17 @@ export default function ChatPage() {
       );
     }
 
+    const shouldRenderAsProcedure = message.mode === "grounded";
+    const guidanceTitle =
+      message.mode === "unsafe"
+        ? "Safe guidance"
+        : message.mode === "unsupported"
+          ? "How IKAP can help"
+          : "Guidance";
+    const shouldShowSupport = message.mode === "grounded" || message.mode === "unsafe";
+    const shouldShowClarifyingQuestion = Boolean(
+      structured?.clarifying_question && message.mode !== "unsupported",
+    );
     const supportLines = (structured?.support_message || "")
       .split("\n")
       .map((line) => line.trim())
@@ -317,7 +336,7 @@ export default function ChatPage() {
           </div>
         )}
 
-        {structured?.clarifying_question && (
+        {shouldShowClarifyingQuestion && (
           <div className="rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sky-900">
             <div className="mb-1 text-xs font-semibold uppercase tracking-[0.12em] text-sky-700">
               Clarifying question
@@ -329,15 +348,50 @@ export default function ChatPage() {
         {!!structured?.steps?.length && (
           <div>
             <div className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-              Steps
+              {shouldRenderAsProcedure ? "Steps" : guidanceTitle}
             </div>
-            <ol className="space-y-2 pl-5">
-              {structured.steps.map((step, idx) => (
-                <li key={`${message.id}-step-${idx}`} className="list-decimal">
-                  <MarkdownInline content={step} />
-                </li>
-              ))}
-            </ol>
+            {shouldRenderAsProcedure ? (
+              <ol className="space-y-2 pl-5">
+                {structured.steps.map((step, idx) => (
+                  <li key={`${message.id}-step-${idx}`} className="list-decimal">
+                    <MarkdownInline content={step} />
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <div className="rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-slate-800">
+                <div className="space-y-2">
+                  {structured.steps.map((step, idx) => (
+                    <p
+                      key={`${message.id}-guidance-${idx}`}
+                      className={idx === 0 ? "font-medium leading-6" : "leading-6 text-slate-600"}
+                    >
+                      <MarkdownInline content={step} />
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {message.mode === "unsupported" && (
+              <div className="mt-3">
+                <div className="mb-2 text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">
+                  Try an IT topic
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {IT_TOPIC_SUGGESTIONS.map((suggestion) => (
+                    <button
+                      key={suggestion.label}
+                      type="button"
+                      onClick={() => primePrompt(suggestion.prompt)}
+                      className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 transition hover:border-primary/40 hover:bg-primary/5 hover:text-primary"
+                    >
+                      {suggestion.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
 
@@ -363,7 +417,7 @@ export default function ChatPage() {
           </div>
         )}
 
-        {!!supportLines.length && (
+        {shouldShowSupport && !!supportLines.length && (
           <div className="rounded-xl border border-border/70 bg-secondary/30 px-4 py-3">
             <div className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
               Need more help?
@@ -539,11 +593,11 @@ export default function ChatPage() {
                     <div className="flex items-center gap-2">
                       <Loader2 className="h-4 w-4 animate-spin text-primary" />
                       <span className="text-sm font-medium text-foreground">
-                        IKAP is searching the KB
+                        IKAP is checking your request
                       </span>
                     </div>
                     <p className="mt-2 text-sm text-muted-foreground">
-                      Grounding this answer in Northeastern IT articles and links.
+                      If it is a Northeastern IT question, IKAP will ground the answer in KB articles and links.
                     </p>
                   </div>
                 </div>

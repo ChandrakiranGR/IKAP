@@ -58,6 +58,14 @@ OUT_OF_SCOPE_QUERY_RE = re.compile(
     r"capital of|stock price|sports score|horoscope|joke|poem|translate"
     r")\b"
 )
+CREATIVE_QUERY_RE = re.compile(
+    r"(?i)(?:"
+    r"\b(?:write|compose|draft|create|generate|make)\b.{0,120}\b"
+    r"(?:story|poem|sonnet|joke|haiku|lyrics|song|rap|essay|roleplay|shakespearean|dramatic|funny)\b"
+    r"|"
+    r"\b(?:story|poem|sonnet|joke|haiku|lyrics|song|rap|roleplay|shakespearean)\b"
+    r")"
+)
 GREETING_QUERY_RE = re.compile(
     r"(?i)^\s*(hi|hello|hey|help|good\s+(?:morning|afternoon|evening))\b"
 )
@@ -112,6 +120,104 @@ AMBIGUOUS_SHORT_TERMS = {
     "staff",
     "help",
 }
+TOPIC_ACTION_WORDS = {
+    "answer",
+    "bake",
+    "compose",
+    "cook",
+    "create",
+    "describe",
+    "draft",
+    "draw",
+    "explain",
+    "find",
+    "generate",
+    "get",
+    "give",
+    "help",
+    "list",
+    "make",
+    "prepare",
+    "provide",
+    "receipe",
+    "recipe",
+    "recipie",
+    "roleplay",
+    "send",
+    "share",
+    "show",
+    "summarize",
+    "tell",
+    "translate",
+    "write",
+}
+TOPIC_FILLER_WORDS = {
+    "a",
+    "about",
+    "an",
+    "and",
+    "anything",
+    "are",
+    "as",
+    "at",
+    "be",
+    "been",
+    "being",
+    "before",
+    "but",
+    "can",
+    "could",
+    "did",
+    "do",
+    "does",
+    "everything",
+    "for",
+    "from",
+    "how",
+    "i",
+    "in",
+    "is",
+    "it",
+    "like",
+    "me",
+    "my",
+    "now",
+    "of",
+    "on",
+    "or",
+    "please",
+    "right",
+    "should",
+    "something",
+    "that",
+    "the",
+    "these",
+    "this",
+    "those",
+    "to",
+    "today",
+    "was",
+    "were",
+    "what",
+    "when",
+    "where",
+    "who",
+    "why",
+    "with",
+    "would",
+    "your",
+}
+TOPIC_LEADING_PATTERNS = [
+    r"^(?:hi|hello|hey)[\s,]+",
+    r"^(?:please\s+)?(?:can|could|would|will)\s+you\s+",
+    r"^(?:please\s+)?i\s+(?:want|need|would\s+like)\s+(?:you\s+)?to\s+",
+    r"^(?:please\s+)?how\s+(?:do|can|should|would)\s+i\s+",
+    r"^(?:please\s+)?how\s+(?:to|is|are|was|were)\s+",
+    r"^(?:please\s+)?what\s+(?:is|are|about)\s+",
+    r"^(?:please\s+)?(?:who|where|when|why)\s+(?:is|are|was|were)\s+",
+    r"^(?:please\s+)?(?:tell|show|give|explain|describe|provide|send|share)\s+(?:me\s+)?(?:about\s+|the\s+)?",
+    r"^(?:please\s+)?(?:write|compose|draft|create|generate|make|roleplay)\s+(?:me\s+)?",
+]
 
 def detect_injection(question: str) -> bool:
     """
@@ -250,6 +356,91 @@ def _is_out_of_scope(question: str) -> bool:
     return bool(OUT_OF_SCOPE_QUERY_RE.search(lowered)) and not _contains_it_scope_signal(lowered)
 
 
+def _is_creative_request(question: str) -> bool:
+    return bool(CREATIVE_QUERY_RE.search(question or ""))
+
+
+def _extract_creative_topic(question: str) -> str | None:
+    if not _is_creative_request(question):
+        return None
+
+    lowered = (question or "").lower()
+    format_terms = ["sonnet", "poem", "story", "joke", "haiku", "lyrics", "song", "rap", "essay", "roleplay"]
+    style_terms = ["shakespearean", "dramatic", "funny", "short", "formal", "casual"]
+    format_term = next((term for term in format_terms if re.search(rf"\b{re.escape(term)}\b", lowered)), None)
+    if not format_term:
+        return None
+
+    style_matches = []
+    for term in style_terms:
+        match = re.search(rf"\b{re.escape(term)}\b", lowered)
+        if match and term != format_term:
+            style_matches.append((match.start(), term))
+
+    styles = [term for _, term in sorted(style_matches)[:2]]
+    topic = " ".join(styles + [format_term]).strip()
+    return re.sub(r"(?i)\bshakespearean\b", "Shakespearean", topic) or None
+
+
+def _extract_unsupported_topic(question: str) -> str:
+    creative_topic = _extract_creative_topic(question)
+    if creative_topic:
+        return creative_topic
+
+    cleaned = (question or "").strip()
+    if not cleaned:
+        return "that topic"
+
+    cleaned = re.sub(r"https?://\S+", " ", cleaned)
+    cleaned = re.sub(r"(?i)\bwhat(?:'s|s)\b", "what is", cleaned)
+    cleaned = re.sub(r"[`*_#<>{}\[\]()\"“”]", " ", cleaned)
+    cleaned = re.sub(r"[?!.,;:]+", " ", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+
+    for pattern in TOPIC_LEADING_PATTERNS:
+        cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE).strip()
+
+    cleaned = re.sub(r"(?i)\bmake\s+it\s+[a-z0-9'/-]+\b", " ", cleaned)
+    tokens = re.findall(r"[A-Za-z0-9][A-Za-z0-9'/-]*", cleaned)
+    content_words: List[str] = []
+    for token in tokens:
+        normalized = token.lower().strip("'/-")
+        if (
+            not normalized
+            or normalized in TOPIC_ACTION_WORDS
+            or normalized in TOPIC_FILLER_WORDS
+        ):
+            continue
+        content_words.append(token)
+        if len(content_words) >= 6:
+            break
+
+    topic = re.sub(r"\s+", " ", " ".join(content_words)).strip(" -/.,")
+    topic = re.sub(r"(?i)\bmyneu\b", "MyNEU", topic)
+
+    if len(topic) > 80:
+        topic = topic[:77].rstrip() + "..."
+
+    return topic or "that topic"
+
+
+def _is_off_topic_request(question: str) -> bool:
+    lowered = (question or "").strip().lower()
+    tokens = _tokenize_words(lowered)
+    if not lowered or _contains_it_scope_signal(lowered) or _looks_like_nonsense(lowered):
+        return False
+    if _extract_intro_name(question):
+        return False
+    if lowered in AMBIGUOUS_SHORT_TERMS:
+        return False
+    if len(tokens) <= 8 and FOLLOW_UP_QUERY_RE.search(lowered):
+        return False
+    if _looks_like_greeting(lowered) and len(tokens) <= 3:
+        return False
+
+    return _extract_unsupported_topic(question) != "that topic"
+
+
 def _looks_like_greeting(question: str) -> bool:
     lowered = (question or "").strip().lower()
     return bool(GREETING_QUERY_RE.match(lowered)) and not _contains_it_scope_signal(lowered)
@@ -295,7 +486,13 @@ def _is_self_contained_question(question: str) -> bool:
     tokens = _tokenize_words(lowered)
     if not lowered:
         return False
-    if _is_out_of_scope(lowered) or _looks_like_nonsense(lowered) or _is_privacy_request(lowered):
+    if (
+        _is_creative_request(lowered)
+        or _is_out_of_scope(lowered)
+        or _is_off_topic_request(lowered)
+        or _looks_like_nonsense(lowered)
+        or _is_privacy_request(lowered)
+    ):
         return True
     if _contains_it_scope_signal(lowered) and len(tokens) >= 4 and not _is_context_dependent_follow_up(lowered):
         return True
@@ -360,8 +557,10 @@ def classify_request(question: str, history: List[Dict[str, str]] | None = None)
         return {"route": "unsafe", "reason": "privacy", "effective_question": effective_question}
     if _looks_like_nonsense(current):
         return {"route": "unsupported", "reason": "nonsense", "effective_question": effective_question}
-    if _is_out_of_scope(current):
-        return {"route": "unsupported", "reason": "unsupported", "effective_question": effective_question}
+    if _is_creative_request(current):
+        return {"route": "unsupported", "reason": "creative", "effective_question": effective_question}
+    if _is_out_of_scope(current) or _is_off_topic_request(current):
+        return {"route": "unsupported", "reason": "off_topic", "effective_question": effective_question}
     if _looks_like_greeting(current):
         return {"route": "clarify", "reason": "greeting", "effective_question": effective_question}
     if not _contains_it_scope_signal(effective_question) and _is_context_dependent_follow_up(current):
@@ -901,6 +1100,16 @@ def build_unsupported_response(question: str, reason: str = "unsupported") -> Di
         first_step = (
             "I could not understand that request well enough to match it to a Northeastern IT help topic."
         )
+    elif reason in {"off_topic", "creative"}:
+        topic = _extract_unsupported_topic(question)
+        if topic == "that topic":
+            first_step = (
+                "Hey there, that sounds interesting, but IKAP is here for Northeastern IT help."
+            )
+        else:
+            first_step = (
+                f"Hey there, {topic} sounds interesting, but IKAP is built for Northeastern IT help."
+            )
 
     return _build_structured_response(
         category="General Northeastern IT support",
